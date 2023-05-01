@@ -78,7 +78,7 @@ const Header: FC = () => {
             </div>
             <div className="hidden md:block md:w-1/2 py-8">
               <img
-                class="h-80 w-100 object-cover min-w-[400px] min-h-[560px] rounded-xl ml-auto"
+                className="h-80 w-100 object-cover min-w-[400px] min-h-[560px] rounded-xl ml-auto"
                 src="/header.png"
                 alt=""
               />
