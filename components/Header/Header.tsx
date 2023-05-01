@@ -54,7 +54,7 @@ const Header: FC = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap items-center bg-main-blue p-8">
+        <div className="flex flex-wrap items-center bg-main-blue p-8 py-16">
           <div className="container mx-auto flex items-center justify-between">
             <div className="w-full md:w-1/2 pr-12">
               <p className="text-lg text-white mb-3">
@@ -78,7 +78,7 @@ const Header: FC = () => {
             </div>
             <div className="hidden md:block md:w-1/2 py-8">
               <img
-                class="h-80 w-80 object-cover md:w-[500px] lg:h-[500px] rounded-xl"
+                class="h-80 w-100 object-cover min-w-[400px] min-h-[560px] rounded-xl ml-auto"
                 src="/header.png"
                 alt=""
               />
