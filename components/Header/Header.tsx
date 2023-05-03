@@ -54,7 +54,7 @@ const Header: FC = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap items-center bg-main-blue p-8 py-16">
+        <div className="pb-16 flex flex-wrap items-center bg-main-blue p-8 md:py-16">
           <div className="container mx-auto flex items-center justify-between">
             <div className="w-full md:w-1/2 pr-12">
               <p className="text-lg text-white mb-3">
@@ -70,7 +70,7 @@ const Header: FC = () => {
                 ullamco laboris nisi.
               </p>
               <a
-                href="#"
+                href="#footer-section"
                 className="inline-block bg-main-red text-white text-lg font-semibold py-4 px-16 rounded-full hover:bg-blue-500"
               >
                 Liity mukaan!
