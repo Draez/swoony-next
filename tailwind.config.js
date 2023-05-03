@@ -11,6 +11,7 @@ module.exports = {
         "main-blue": "#1C2746",
         "light-blue": "#3B4A75",
         "main-red": "#F42C52",
+        "main-red-hover": "#D30F34",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -62,7 +62,7 @@ const Footer: FC = () => {
                 className="w-full placeholder-white bg-transparent p-3 border border-white rounded-xl focus:outline-none focus:border-blue-300 mb-4"
               />
             </div>
-            <button className="bg-main-red text-white font-semibold text-lg font-semibold py-4 max-w-sm rounded-full w-full">
+            <button className="bg-main-red text-white font-semibold text-lg font-semibold py-4 max-w-sm rounded-full w-full hover:bg-main-red-hover">
               Liity joukkoon!
             </button>
           </form>

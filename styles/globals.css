@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+a,
+button {
+  transition: 0.3s all;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

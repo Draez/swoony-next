@@ -71,7 +71,7 @@ const Header: FC = () => {
               </p>
               <a
                 href="#footer-section"
-                className="inline-block bg-main-red text-white text-lg font-semibold py-4 px-16 rounded-full hover:bg-blue-500"
+                className="inline-block bg-main-red text-white text-lg font-semibold py-4 px-16 rounded-full hover:bg-main-red-hover"
               >
                 Liity mukaan!
               </a>
