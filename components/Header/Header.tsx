@@ -21,8 +21,8 @@ const Header: FC = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
+                src="/swoony.svg"
+                alt="Swoony: Dating app"
                 width={32}
                 height={24}
                 priority
@@ -35,22 +35,27 @@ const Header: FC = () => {
             </a>
 
             <div className="flex justify-center items-center">
-              <Image
-                src="/instagram.svg"
-                alt="Instagram Icon"
-                className="mr-4"
-                width={32}
-                height={24}
-                priority
-              />
-              <Image
-                src="/instagram.svg"
-                alt="Instagram Icon"
-                className="dark:invert"
-                width={32}
-                height={24}
-                priority
-              />
+              <a href="https://www.instagram.com/swoonyapp/" target="_blank">
+                <Image
+                  src="/instagram.svg"
+                  alt="Instagram Icon"
+                  className="mr-4"
+                  width={32}
+                  height={24}
+                  priority
+                />
+              </a>
+              <a href="https://www.facebook.com/Swoonyapp" target="_blank">
+
+                <Image
+                  src="/facebook.svg"
+                  alt="Instagram Icon"
+                  className="dark:invert"
+                  width={36}
+                  height={24}
+                  priority
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -61,13 +66,10 @@ const Header: FC = () => {
                 Väsynyt loputtomaan swaippailuun deitti-sovelluksissa?
               </p>
               <h1 className="text-4xl lg:text-6xl font-bold text-white mb-8">
-                Etsi rakkaus ammattilaisten avulla
+                Etsi rakkaus asiantuntevien mätsääjien avulla
               </h1>
               <p className="text-lg text-white mb-10">
-                Swoony Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi.
+                Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla.
               </p>
               <a
                 href="#footer-section"
@@ -80,7 +82,7 @@ const Header: FC = () => {
               <img
                 className="h-80 w-100 object-cover min-w-[400px] min-h-[560px] rounded-xl ml-auto"
                 src="/header.png"
-                alt=""
+                alt="Swoony: rakkaus asiantuntevien mätsääjien avulla"
               />
             </div>
           </div>
