@@ -115,8 +115,8 @@ const Footer: FC = () => {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src="/vercel.svg"
-                  alt="Vercel Logo"
+                  src="/swoony.svg"
+                  alt="Swoony: Dating app"
                   width={32}
                   height={24}
                   priority
