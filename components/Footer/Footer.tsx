@@ -70,11 +70,11 @@ const Footer: FC = () => {
 
         <hr className="border-light-blue border-opacity-50 mb-16" />
 
-        <section className="bottom-footer leading-7">
+        <section className="bottom-footer  leading-7">
           <h4 className="col-span-1 text-left text-2xl font-bold mb-6">
             Yhteystiedot
           </h4>
-          <div className="grid sm:grid-cols-1 md:grid-cols-4 text-md">
+          <div className="grid sm:grid-cols-1 md:grid-cols-4 space-y-6 md:space-y-0 text-md">
             <p className="col-span-1">
 
               <a href="mailto:info@swoony.io">info@swoony.io</a>

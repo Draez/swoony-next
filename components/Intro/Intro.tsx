@@ -10,7 +10,7 @@ const Intro: FC = () => {
                 <div className="w-full md:w-1/2 relative">
                     <div className="p-8 rounded-xl bg-main-red relative z-10 max-w-2xl">
                         <h2 className="text-white text-2xl font-semibold mb-4 max-w-md">Swoony on innovatiivinen deittisovellus, joka on suunniteltu löytämään juuri sinulle täydellinen kumppani</h2>
-                        <p className="text-lg text-white mb-6">Haluatko löytää sen oikean, joka arvostaa hyviä keskustelua ja jonka kanssa voit viettää unohtumattomia hetkiä?</p>
+
                         <ul className="space-y-2">
                             <li className="flex items-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
