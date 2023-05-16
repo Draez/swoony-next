@@ -27,8 +27,7 @@ const Footer: FC = () => {
         <div className="text-center mb-16 max-w-xl mx-auto">
           {!success && (
             <h3 className="text-2xl font-semibold mb-10">
-              Nyt voit olla edelläkävijä ja liittyä ensimmäisten joukossa uuden
-              deitti-sovelluksen pariin!
+              Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla!
             </h3>
           )}
           {success && (
