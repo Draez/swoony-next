@@ -46,11 +46,9 @@ const Header: FC = () => {
                 />
               </a>
               <a href="https://www.facebook.com/Swoonyapp" target="_blank">
-
                 <Image
                   src="/facebook.svg"
                   alt="Instagram Icon"
-                  className="dark:invert"
                   width={36}
                   height={24}
                   priority
@@ -69,7 +67,9 @@ const Header: FC = () => {
                 Etsi rakkaus asiantuntevien mätsääjien avulla
               </h1>
               <p className="text-lg text-white mb-10">
-                Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla.
+                Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! Jätä
+                yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on
+                saatavilla.
               </p>
               <a
                 href="#footer-section"
