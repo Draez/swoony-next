@@ -56,6 +56,7 @@ export default function App({ Component, pageProps }: AppProps) {
           property="og:description"
           content="Haluatko löytää sen oikean, joka arvostaa hyviä keskustelua ja jonka kanssa voit viettää unohtumattomia hetkiä?"
         />
+        <meta name="facebook-domain-verification" content="jtzhxaou62g5muxg5h4d8uj1lfrx54" />
       </Head>
       <main className={jakartaSans.className}>
         <Component {...pageProps} />
