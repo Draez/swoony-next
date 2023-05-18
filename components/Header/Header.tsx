@@ -62,7 +62,7 @@ const Header: FC = () => {
                 Etsi rakkaus asiantuntevien mätsääjien avulla
               </h1>
               <p className="text-lg text-white mb-10">
-                Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! Jätä
+                Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! <br />Jätä
                 yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on
                 saatavilla.
               </p>
@@ -73,11 +73,11 @@ const Header: FC = () => {
                 Liity mukaan!
               </a>
             </div>
-            <div className="hidden md:block md:w-1/2 py-8">
+            <div className="hidden md:block md:w-1/2 py-8 bg-main-blue">
               <img
-                className="h-80 w-100 object-cover min-w-[400px] min-h-[560px] rounded-xl ml-auto"
-                src="/header.png"
-                alt="Swoony: rakkaus asiantuntevien mätsääjien avulla"
+                className="h-80 w-100 object-cover min-w-[400px] min-h-[560px] rounded-xl ml-auto opacity-80"
+                src="/date.jpg"
+                alt="Swoony: Etsi rakkaus asiantuntevien mätsääjien avulla"
               />
             </div>
           </div>

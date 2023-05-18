@@ -41,7 +41,7 @@ const Footer: FC = () => {
         <div className="text-center mb-16 max-w-xl mx-auto">
           {!success && (
             <h3 className="text-2xl font-semibold mb-10">
-              Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla!
+              <div className="gift text-base my-2 text-main-green">Osallistu 100 € ravintolalahjakortin arvontaan!</div> Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla
             </h3>
           )}
           {success && (
