@@ -1,7 +1,8 @@
-import React, { FC } from "react";
+import React, { FC, FormEvent } from "react";
 import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { trackLead } from "@/lib/fb";
 
 const quickSand = Quicksand({
   weight: ["700"],
@@ -11,12 +12,25 @@ const quickSand = Quicksand({
 
 const Footer: FC = () => {
   const [success, setSuccess] = useState<boolean>(false);
+  const emailRef = React.useRef<HTMLInputElement>(null);
+  const nameRef = React.useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (window.location.search.includes("success=true")) {
       setSuccess(true);
     }
   }, []);
+
+  const trackLeadAction = () => {
+    const email = emailRef.current?.value;
+    const name = nameRef.current?.value;
+
+    if (!email || !name) return;
+    trackLead({
+      email,
+      name,
+    });
+  };
 
   return (
     <footer
@@ -33,7 +47,8 @@ const Footer: FC = () => {
           )}
           {success && (
             <h3 className="text-2xl font-semibold mb-10">
-              Kiitos ilmoittautumisesta! Olemme sinuun yhteydessä sovelluksen etenemisestä.
+              Kiitos ilmoittautumisesta! Olemme sinuun yhteydessä sovelluksen
+              etenemisestä.
             </h3>
           )}
           <form
@@ -41,6 +56,7 @@ const Footer: FC = () => {
             method="POST"
             action="/?success=true#footer-section"
             data-netlify="true"
+            onSubmit={trackLeadAction}
           >
             <input type="hidden" name="form-name" value="contact" />
 
@@ -51,6 +67,7 @@ const Footer: FC = () => {
                 name="name"
                 placeholder="Nimi"
                 className="w-full placeholder-white bg-transparent p-3 border border-white rounded-xl focus:outline-none focus:border-blue-300 mb-4"
+                ref={nameRef}
               />
             </div>
             <div className="mb-8 max-w-sm mx-auto">
@@ -60,9 +77,10 @@ const Footer: FC = () => {
                 name="email"
                 placeholder="Sähköposti"
                 className="w-full placeholder-white bg-transparent p-3 border border-white rounded-xl focus:outline-none focus:border-blue-300 mb-4"
+                ref={emailRef}
               />
             </div>
-            <button className="bg-main-red text-white font-semibold text-lg font-semibold py-4 max-w-sm rounded-full w-full hover:bg-main-red-hover">
+            <button className="bg-main-red text-white text-lg font-semibold py-4 max-w-sm rounded-full w-full hover:bg-main-red-hover">
               Liity mukaan!
             </button>
           </form>
@@ -76,7 +94,6 @@ const Footer: FC = () => {
           </h4>
           <div className="grid sm:grid-cols-1 md:grid-cols-4 space-y-6 md:space-y-0 text-md">
             <p className="col-span-1">
-
               <a href="mailto:info@swoony.io">info@swoony.io</a>
               <br />
               +358 40 833 9204
@@ -101,10 +118,18 @@ const Footer: FC = () => {
                 </svg>
               </a>
               <a href="https://www.facebook.com/Swoonyapp" target="_blank">
-                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M27.5 15C27.5 8.1 21.9 2.5 15 2.5C8.1 2.5 2.5 8.1 2.5 15C2.5 21.05 6.8 26.0875 12.5 27.25V18.75H10V15H12.5V11.875C12.5 9.4625 14.4625 7.5 16.875 7.5H20V11.25H17.5C16.8125 11.25 16.25 11.8125 16.25 12.5V15H20V18.75H16.25V27.4375C22.5625 26.8125 27.5 21.4875 27.5 15Z" fill="white" />
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M27.5 15C27.5 8.1 21.9 2.5 15 2.5C8.1 2.5 2.5 8.1 2.5 15C2.5 21.05 6.8 26.0875 12.5 27.25V18.75H10V15H12.5V11.875C12.5 9.4625 14.4625 7.5 16.875 7.5H20V11.25H17.5C16.8125 11.25 16.25 11.8125 16.25 12.5V15H20V18.75H16.25V27.4375C22.5625 26.8125 27.5 21.4875 27.5 15Z"
+                    fill="white"
+                  />
                 </svg>
-
               </a>
             </div>
             <div className="col-span-1">
