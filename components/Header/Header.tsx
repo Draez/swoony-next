@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Plus_Jakarta_Sans, Quicksand } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import Image from "next/image";
 
 const quickSand = Quicksand({
@@ -14,12 +14,7 @@ const Header: FC = () => {
       <section className="w-full">
         <div className="items-center justify-between bg-main-blue p-8">
           <div className="container mx-auto flex items-center justify-between">
-            <a
-              className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0 m"
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <div className="pointer-events-none select-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0 m">
               <Image
                 src="/swoony.svg"
                 alt="Swoony: Dating app"
@@ -32,7 +27,7 @@ const Header: FC = () => {
               >
                 Swoony
               </div>
-            </a>
+            </div>
 
             <div className="flex justify-center items-center">
               <a href="https://www.instagram.com/swoonyapp/" target="_blank">
