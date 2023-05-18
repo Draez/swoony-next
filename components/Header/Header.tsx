@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Plus_Jakarta_Sans, Quicksand } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import Image from "next/image";
 
 const quickSand = Quicksand({
@@ -14,12 +14,7 @@ const Header: FC = () => {
       <section className="w-full">
         <div className="items-center justify-between bg-main-blue p-8">
           <div className="container mx-auto flex items-center justify-between">
-            <a
-              className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0 m"
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <div className="pointer-events-none select-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0 m">
               <Image
                 src="/swoony.svg"
                 alt="Swoony: Dating app"
@@ -32,7 +27,7 @@ const Header: FC = () => {
               >
                 Swoony
               </div>
-            </a>
+            </div>
 
             <div className="flex justify-center items-center">
               <a href="https://www.instagram.com/swoonyapp/" target="_blank">
@@ -46,11 +41,9 @@ const Header: FC = () => {
                 />
               </a>
               <a href="https://www.facebook.com/Swoonyapp" target="_blank">
-
                 <Image
                   src="/facebook.svg"
                   alt="Instagram Icon"
-                  className="dark:invert"
                   width={36}
                   height={24}
                   priority
@@ -69,7 +62,9 @@ const Header: FC = () => {
                 Etsi rakkaus asiantuntevien mätsääjien avulla
               </h1>
               <p className="text-lg text-white mb-10">
-                Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla.
+                Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! Jätä
+                yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on
+                saatavilla.
               </p>
               <a
                 href="#footer-section"
