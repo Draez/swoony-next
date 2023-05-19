@@ -3,6 +3,7 @@ import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { trackLead } from "@/lib/fb";
+import Link from "next/link";
 
 const quickSand = Quicksand({
   weight: ["700"],
@@ -41,7 +42,7 @@ const Footer: FC = () => {
         <div className="text-center mb-16 max-w-xl mx-auto">
           {!success && (
             <h3 className="text-2xl font-semibold mb-10">
-              <div className="gift text-base my-2 text-main-green">Osallistu 100 € ravintolalahjakortin arvontaan!</div> Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla
+              Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla  <div className="gift text-sm mt-5 text-main-green">Osallistut samalla 100 € ravintolalahjakortin arvontaan! <br /><Link href="gift" className="border-b border-main-green text-sm">Lahjakortin tiedot</Link></div>
             </h3>
           )}
           {success && (
@@ -95,11 +96,14 @@ const Footer: FC = () => {
             <p className="col-span-1">
               <a href="mailto:info@swoony.io">info@swoony.io</a>
               <br />
-              +358 40 833 9204
+              +358 40 833 9204<br />
+
             </p>
             <p className="col-span-1">
               © Swoony Oy <br />
-              Y-09341934
+              Y-09341934 <br />
+              <Link href="terms">Terms of use</Link> <br />
+              <Link href="privacy_policy">Privacy Policy</Link>
             </p>
             <div className="col-span-1 flex justify-start space-x-2">
               <a href="https://www.instagram.com/swoonyapp/" target="_blank">
