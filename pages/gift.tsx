@@ -30,9 +30,12 @@ export default function Gift() {
         </Link>
         <h2 className="py-2 text-2xl font-bold">Lahjakortti</h2>
 
+
         <p className="py-2">Arvomme 100€ lahjakortin yhdelle uutiskirjeen tilaajalle, kun deittisovelluksemme julkaistaan. Arvonta tapahtuu meidän Instagram sivuilla: <Link href="https://www.instagram.com/swoonyapp/" className="underline" target="_blank">
             @swoonyapp
         </Link></p>
+
+        <p className="py-2">Lahjakortti on NoHo:n ravintoloihin käytössä, jotka ovat verkkosivuilla mainittu: <Link href="https://www.noho.fi/lahjakortit/" className="underline" target="_blank">https://www.noho.fi/lahjakortit/</Link></p>
 
         <Link
             href="/#footer-section"
