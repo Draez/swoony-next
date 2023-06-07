@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <script
-          type="text/jsx"
+          type="text/javascript"
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
             __html: `
