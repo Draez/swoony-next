@@ -30,6 +30,9 @@ const Header: FC = () => {
             </div>
 
             <div className="flex justify-center items-center">
+              <a href="#footer-section" className="text-md text-white font-bold mr-8">
+                Liity nyt
+              </a>
               <a href="https://www.instagram.com/swoonyapp/" target="_blank">
                 <Image
                   src="/instagram.svg"

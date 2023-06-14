@@ -42,7 +42,7 @@ const Footer: FC = () => {
         <div className="text-center mb-16 max-w-xl mx-auto">
           {!success && (
             <h3 className="text-2xl font-semibold mb-10">
-              Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla  <div className="gift text-sm mt-5 text-main-green">Osallistut samalla 100 € ravintolalahjakortin arvontaan! <br /><Link href="gift" className="border-b border-main-green text-sm">Lahjakortin tiedot</Link></div>
+              Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla
             </h3>
           )}
           {success && (
@@ -159,7 +159,7 @@ const Footer: FC = () => {
           </div>
         </section>
       </div>
-    </footer>
+    </footer >
   );
 };
 
