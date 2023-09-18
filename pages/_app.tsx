@@ -42,10 +42,10 @@ export default function App({ Component, pageProps }: AppProps) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Swoony: Etsi rakkaus asiantuntevien mätsääjien avulla</title>
+        <title>Swoony: Järjestämme sinulle elämäsi parhaat sokkotreffit</title>
         <meta
           name="description"
-          content="Haluatko löytää sen oikean, joka arvostaa hyviä keskustelua ja jonka kanssa voit viettää unohtumattomia hetkiä?"
+          content="Oletko kyllästynyt henkisesti kuluttaviin ja pinnallisiin deittisovelluksiin? Niin mekin!"
           key="desc"
         />
         <meta
@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:description"
-          content="Haluatko löytää sen oikean, joka arvostaa hyviä keskustelua ja jonka kanssa voit viettää unohtumattomia hetkiä?"
+          content="Oletko kyllästynyt henkisesti kuluttaviin ja pinnallisiin deittisovelluksiin? Niin mekin!"
         />
         <meta name="facebook-domain-verification" content="jtzhxaou62g5muxg5h4d8uj1lfrx54" />
       </Head>
