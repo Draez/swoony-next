@@ -82,7 +82,7 @@ const Process = () => {
           </defs>
         </svg>
       ),
-      text: "Treffit odottavat! Oletko valmis?",
+      text: "Treffit odottavat! Kuinka jännittävää?",
     },
   ];
 

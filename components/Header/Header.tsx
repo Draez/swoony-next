@@ -30,23 +30,23 @@ const Header: FC = () => {
             </div>
 
             <div className="flex justify-center items-center">
-              <a href="#footer-section" className="text-md text-white font-bold mr-8">
+              <a href="#footer-section" className="hidden md:block text-md text-white font-bold mr-8">
                 Liity nyt
               </a>
-              <a href="https://www.instagram.com/swoonyapp/" target="_blank">
+              <a href="https://www.instagram.com/swoonyofficial/" target="_blank">
                 <Image
                   src="/instagram.svg"
-                  alt="Instagram Icon"
+                  alt="Swoony instagram link"
                   className="mr-4"
                   width={32}
                   height={24}
                   priority
                 />
               </a>
-              <a href="https://www.facebook.com/Swoonyapp" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=100095309208001" target="_blank">
                 <Image
                   src="/facebook.svg"
-                  alt="Instagram Icon"
+                  alt="Swoony facebook link"
                   width={36}
                   height={24}
                   priority
@@ -56,13 +56,13 @@ const Header: FC = () => {
           </div>
         </div>
         <div className="pb-16 flex flex-wrap items-center bg-main-blue p-8 md:py-16">
-          <div className="container mx-auto flex items-center justify-between">
-            <div className="w-full md:w-1/2 pr-12">
+          <div className="lg:w-full xl:w-5/6 2xl:w-4/6 container mx-auto flex items-center justify-between">
+            <div className="w-full md:w-1/2">
               <p className="text-lg text-white mb-3">
-                Väsynyt loputtomaan swaippailuun deitti-sovelluksissa?
+                Väsynyt perinteisiin pinnallisiin deitti-sovelluksiin?
               </p>
-              <h1 className="text-4xl lg:text-6xl font-bold text-white mb-8">
-                Etsi rakkaus asiantuntevien mätsääjien avulla
+              <h1 className="text-4xl lg:text-5xl 2xl:text-6xl lg:leading-extra-loose 2xl:leading-extra-loose font-bold text-white mb-8">
+                Järjestämme sinulle elämäsi parhaat sokkotreffit
               </h1>
               <p className="text-lg text-white mb-10">
                 Älä jää paitsi uuden Swoony-deittisovelluksen julkaisusta! <br />Jätä
@@ -78,8 +78,8 @@ const Header: FC = () => {
             </div>
             <div className="hidden md:block md:w-1/2 py-8 bg-main-blue">
               <img
-                className="h-80 w-100 object-cover min-w-[400px] min-h-[560px] rounded-xl ml-auto opacity-80"
-                src="/date.jpg"
+                className="h-auto w-100 object-contain min-w-[400px] max-h-[680px] rounded-xl ml-auto"
+                src="/iphone.svg"
                 alt="Swoony: Etsi rakkaus asiantuntevien mätsääjien avulla"
               />
             </div>

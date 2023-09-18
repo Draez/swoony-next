@@ -106,7 +106,7 @@ const Footer: FC = () => {
               <Link href="privacy_policy">Privacy Policy</Link>
             </p>
             <div className="col-span-1 flex justify-start space-x-2">
-              <a href="https://www.instagram.com/swoonyapp/" target="_blank">
+              <a href="https://www.instagram.com/swoonyofficial/" target="_blank">
                 <svg
                   width="30"
                   height="30"
@@ -120,7 +120,7 @@ const Footer: FC = () => {
                   />
                 </svg>
               </a>
-              <a href="https://www.facebook.com/Swoonyapp" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=100095309208001" target="_blank">
                 <svg
                   width="30"
                   height="30"
