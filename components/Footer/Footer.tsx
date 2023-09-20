@@ -96,12 +96,12 @@ const Footer: FC = () => {
             <p className="col-span-1">
               <a href="mailto:info@swoony.io">info@swoony.io</a>
               <br />
-              +358 40 833 9204<br />
+              045 229 6866<br />
 
             </p>
             <p className="col-span-1">
               © Swoony Oy <br />
-              Y-09341934 <br />
+              Y-tunnus: 3358461-2 <br />
               <Link href="terms">Terms of use</Link> <br />
               <Link href="privacy_policy">Privacy Policy</Link>
             </p>
