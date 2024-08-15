@@ -102,8 +102,8 @@ const Footer: FC = () => {
             <p className="col-span-1">
               © Swoony Oy <br />
               Y-tunnus: 3358461-2 <br />
-              <Link href="terms">Terms of use</Link> <br />
-              <Link href="privacy_policy">Privacy Policy</Link>
+              <Link href="terms">Käyttöehdot</Link> <br />
+              <Link href="privacy_policy">Tietosuojaseloste</Link>
             </p>
             <div className="col-span-1 flex justify-start space-x-2">
               <a href="https://www.instagram.com/swoonyofficial/" target="_blank">

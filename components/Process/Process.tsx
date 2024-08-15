@@ -38,7 +38,7 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "Mätsääjät valitsevat sinulle deitin",
+      text: "Asiantuntijat valitsevat sinulle deitin",
     },
     {
       icon: (
@@ -87,10 +87,10 @@ const Process = () => {
   ];
 
   return (
-    <section className="container mx-auto p-8 pt-0 pb-24">
+    <section className="container mx-auto p-8 pt-24">
       <div className="text-center mb-12">
         <h2 className="text-3xl text-main-blue font-bold mb-4">
-          Kuinka sovellus toimii?
+          Swoony - Koe uudenlainen deittailu
         </h2>
         <p className="text-lg text-main-blue max-w-xl mx-auto">
           Haluamme tuoda deittailun takaisin siihen aikaan, kun kaikki ei ollut

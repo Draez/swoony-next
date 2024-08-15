@@ -77,10 +77,13 @@ const Header: FC = () => {
               </a>
             </div>
             <div className="hidden md:block md:w-1/2 py-8 bg-main-blue">
-              <img
+              <Image
                 className="h-auto w-100 object-contain min-w-[400px] max-h-[680px] rounded-xl ml-auto"
+                width="400"
+                height="400"
                 src="/iphone.svg"
-                alt="Swoony: Etsi rakkaus asiantuntevien mätsääjien avulla"
+                alt="Swoony: Etsi rakkaus asiantuntijoiden avulla"
+                priority
               />
             </div>
           </div>
