@@ -42,7 +42,7 @@ const Footer: FC = () => {
         <div className="text-center mb-16 max-w-xl mx-auto">
           {!success && (
             <h3 className="text-2xl font-semibold mb-10">
-              Jätä yhteystietosi meille ja kuulet ensimmäisenä, kun sovellus on saatavilla
+              Jätä yhteystietosi meille ja kuulet ensimmäisenä sovelluksen uusista ominaisuuksista!
             </h3>
           )}
           {success && (
@@ -81,7 +81,7 @@ const Footer: FC = () => {
               />
             </div>
             <button className="bg-main-red text-white text-lg font-semibold py-4 max-w-sm rounded-full w-full hover:bg-main-red-hover">
-              Liity mukaan!
+              Tilaa uutiskirje
             </button>
           </form>
         </div>

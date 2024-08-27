@@ -58,7 +58,7 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "Sovi deittisi kanssa sopiva ajankohta treffeille",
+      text: "Saat sovelluksen kalenteriin ehdotukset treffien ajankohdasta",
     },
     {
       icon: (
@@ -94,7 +94,7 @@ const Process = () => {
         </h2>
         <p className="text-lg text-main-blue max-w-xl mx-auto">
           Haluamme tuoda deittailun takaisin siihen aikaan, kun kaikki ei ollut
-          pinnallista. Säästä itseltäsi aikaa ja anna asiantuntijoiden määrittää
+          pinnallista. Säästä itseltäsi aikaa ja anna asiantuntijoiden löytää
           sinulle sopiva deitti.
         </p>
       </div>
