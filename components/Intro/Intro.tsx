@@ -6,7 +6,7 @@ const Intro: FC = () => {
         <div className="bg-white p-8 py-12 w-full">
             <div className="container mx-auto flex flex-wrap items-center justify-between">
                 <div className="w-full md:w-1/2">
-                    <Image src="/questionnaire.png" alt="Swoony: Kattava hakemus" className="h-auto w-100 object-contain min-w-[400px] max-h-[680px] rounded-xl mx-auto"
+                    <Image src="/questionnaire.png" alt="Swoony: Kattava hakemus" className="h-auto w-100 object-contain min-w-[300px] max-h-[680px] rounded-xl mx-auto"
                         width="400"
                         height="400" />
                 </div>
