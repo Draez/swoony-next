@@ -17,7 +17,9 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "Täytä kattava profiili asiantuntijoita varten",
+      text: "1. Kerro itsestäsi",
+      lowerText:
+        "Vastaa kattavaan kyselyymme. Haluamme ymmärtää sinut ja toiveesi syvällisesti.",
     },
     {
       icon: (
@@ -38,7 +40,9 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "Asiantuntijat valitsevat sinulle deitin",
+      text: "2. Asiantuntija-analyysi",
+      lowerText:
+        "Koulutetut asiantuntijamme sekä AI käyvät läpi potentiaaliset kumppanit varmistaen täydellisen yhteensopivuuden.",
     },
     {
       icon: (
@@ -58,7 +62,9 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "Saat sovelluksen kalenteriin ehdotukset treffien ajankohdasta",
+      text: "3. Match löytyi",
+      lowerText:
+        "Saat sovelluksen kalenteriin ehdotukset treffien ajankohdasta sekä paikasta. Treffinne tullaan järjestämään yhteistyökumppaniemme lokaatioissa kuten todella tunnelmallisissa kahviloissa.",
     },
     {
       icon: (
@@ -82,7 +88,9 @@ const Process = () => {
           </defs>
         </svg>
       ),
-      text: "Treffit odottavat! Kuinka jännittävää?",
+      text: "4. Treffit odottavat! Kuinka jännittävää?",
+      lowerText:
+        "Swoony toivoo, että teilä sujuu treffit upeasti. Jos ei, käytämme palautettasi seuraavan täydellisen mätsin löytämiseen.",
     },
   ];
 
@@ -93,9 +101,7 @@ const Process = () => {
           Swoony - Koe uudenlainen deittailu
         </h2>
         <p className="text-lg text-main-blue max-w-xl mx-auto">
-          Haluamme tuoda deittailun takaisin siihen aikaan, kun kaikki ei ollut
-          pinnallista. Säästä itseltäsi aikaa ja anna asiantuntijoiden löytää
-          sinulle sopiva deitti.
+          Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -106,7 +112,8 @@ const Process = () => {
                 {feature.icon}
               </i>
             </div>
-            <p className="text-main-blue">{feature.text}</p>
+            <p className="text-main-blue font-bold">{feature.text}</p>
+            <p className="text-main-blue">{feature.lowerText}</p>
           </div>
         ))}
       </div>
