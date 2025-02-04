@@ -22,8 +22,8 @@ export default function Experts() {
                         <li>Tekoäly auttamassa</li>
                     </ul>
                     <p className="text-lg text-main-blue">
-                        Jokainen mätsi tehdään huolella, koska uskomme että täydellisen kumppanin löytäminen
-                        vaatii sekä ammattitaitoa että intuitiota.
+                        Jokainen mätsi tehdään huolella, koska uskomme täydellisen kumppanin löytämisen
+                        vaativan sekä ammattitaitoa että intuitiota.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center">

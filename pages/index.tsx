@@ -5,15 +5,17 @@ import Intro from "@/components/Intro/Intro";
 import Footer from "@/components/Footer/Footer";
 import Process from "@/components/Process/Process";
 import Experts from "@/components/Experts/Experts";
+import Pricing from "@/components/Pricing/Pricing";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Header />
       <Process />
-
       <Intro />
+      <Pricing />
       <Experts />
+
       <Footer />
     </main>
   );

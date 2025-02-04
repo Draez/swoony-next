@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Swoony: Suomen paras Matchmaking -sovellus - Lataa nyt!</title>
         <meta
           name="description"
-          content="Oletko kyllästynyt henkisesti kuluttaviin ja pinnallisiin deittisovelluksiin? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."
+          content="Oletko kyllästynyt nykyajan pinnalliseen deittailukulttuuriin?? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."
           key="desc"
         />
         <meta
@@ -54,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:description"
-          content="Oletko kyllästynyt henkisesti kuluttaviin ja pinnallisiin deittisovelluksiin? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."
+          content="Oletko kyllästynyt nykyajan pinnalliseen deittailukulttuuriin?? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."
         />
         <meta name="facebook-domain-verification" content="jtzhxaou62g5muxg5h4d8uj1lfrx54" />
       </Head>
