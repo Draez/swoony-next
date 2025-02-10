@@ -78,26 +78,24 @@ const Header: FC = () => {
                 <p className="text-lg text-white mb-3">
                   Väsynyt perinteisiin pinnallisiin deitti-sovelluksiin?
                 </p>
-                <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-white mb-8" style={{ lineHeight: '1.25' }}>
+                <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-white" style={{ lineHeight: '1.25' }}>
                   Suomen paras Matchmaking -sovellus
                 </h1>
 
-                <div className="flex flex-col sm:flex-row">
+                <div className="flex flex-row gap-2">
                   <a
                     href="https://apps.apple.com/app/swoony/id6499217523"
                     target="_blank"
-                    className="inline-flex items-center bg-black text-white text-lg font-semibold py-4 px-8 rounded-full hover:bg-black/80"
                   >
-                    <Image src="/apple.png" alt="Apple" width={24} height={24} />
-                    <span className="ml-3">Lataa sovellus</span>
+                    <Image src="/applestore.svg" alt="Apple" width={180} height={180} />
                   </a>
 
-                  <button disabled className="inline-flex items-center bg-gray-400 sm:ml-4 mt-4 sm:mt-0 text-white text-lg font-semibold py-4 px-8 rounded-full cursor-not-allowed opacity-50">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M17.523 15.341c-.554 0-1.023.444-1.023 1.023 0 .554.444 1.023 1.023 1.023.554 0 1.023-.444 1.023-1.023 0-.554-.444-1.023-1.023-1.023m-11.046 0c-.554 0-1.023.444-1.023 1.023 0 .554.444 1.023 1.023 1.023.554 0 1.023-.444 1.023-1.023 0-.554-.444-1.023-1.023-1.023m11.338-6.831l2.256-3.89a.523.523 0 00-.184-.716.523.523 0 00-.716.184l-2.28 3.938c-1.36-.615-2.988-.984-4.891-.984-1.903 0-3.531.369-4.891.984L4.829 4.088a.523.523 0 00-.716-.184.523.523 0 00-.184.716l2.256 3.89C2.77 10.452.5 13.756.5 17.523h23c0-3.767-2.27-7.071-5.685-9.013z" fill="white" />
-                    </svg>
-                    <span className="ml-3">Android -tulossa</span>
-                  </button>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=fi.swoonymatchmaking.app"
+                    target="_blank"
+                  >
+                    <Image src="/google-play.svg" alt="Google" width={180} height={180} />
+                  </a>
                 </div>
 
               </div>

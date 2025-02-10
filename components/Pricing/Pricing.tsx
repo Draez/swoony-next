@@ -45,13 +45,6 @@ export default function Pricing() {
                                 </li>
                             </ul>
 
-                            <a
-                                href="https://apps.apple.com/app/swoony/id6499217523"
-                                target="_blank"
-                                className="block w-full bg-main-red text-white text-center text-lg font-semibold py-4 rounded-full hover:bg-main-red-hover transition-colors"
-                            >
-                                Lataa sovellus
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -106,9 +99,9 @@ export default function Pricing() {
                             <a
                                 href="https://apps.apple.com/app/swoony/id6499217523"
                                 target="_blank"
-                                className="block w-full bg-main-red text-white text-center text-lg font-semibold py-4 rounded-full hover:bg-main-red-hover transition-colors"
+                                className="block w-full bg-gray-400 text-white text-center text-lg font-semibold py-4 rounded-full cursor-not-allowed"
                             >
-                                Lataa sovellus
+                                Tulossa pian
                             </a>
                         </div>
                     </div>
