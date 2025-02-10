@@ -96,13 +96,11 @@ export default function Pricing() {
 
                             </ul>
 
-                            <a
-                                href="https://apps.apple.com/app/swoony/id6499217523"
-                                target="_blank"
+                            <button
                                 className="block w-full bg-gray-400 text-white text-center text-lg font-semibold py-4 rounded-full cursor-not-allowed"
                             >
                                 Tulossa pian
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
