@@ -46,6 +46,9 @@ const Header: FC = () => {
                 </div>
               </Link>
               <div className="flex justify-center items-center">
+                <a href="#faq" className="hidden md:block text-md text-white font-bold mr-8">
+                  FAQ
+                </a>
                 <a href="#footer-section" className="hidden md:block text-md text-white font-bold mr-8">
                   Tilaa uutiskirje
                 </a>

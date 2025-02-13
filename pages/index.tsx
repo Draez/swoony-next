@@ -6,6 +6,7 @@ import Footer from "@/components/Footer/Footer";
 import Process from "@/components/Process/Process";
 import Experts from "@/components/Experts/Experts";
 import Pricing from "@/components/Pricing/Pricing";
+import { FAQ } from '@/components/FAQ/FAQ';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Intro />
       <Pricing />
       <Experts />
+      <FAQ />
 
       <Footer />
     </main>

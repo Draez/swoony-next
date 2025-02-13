@@ -58,7 +58,7 @@ export default function Pricing() {
                             </div>
 
                             <div className="text-center mb-8">
-                                <span className="text-4xl font-bold text-white">19,90€</span>
+                                <span className="text-4xl font-bold text-white">19,99€</span>
                                 <span className="text-white ml-2">/kk</span>
                             </div>
 
