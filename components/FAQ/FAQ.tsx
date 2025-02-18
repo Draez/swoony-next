@@ -26,7 +26,11 @@ const faqData = [
         answer: "Swoonyn asiantuntijat ovat korkeakoulutettuja psykologian ja ihmissuhteiden ammattilaisia, joilla on vankka kokemus matchmakingista ja parisuhdeneuvonnasta. Jokainen mätsi tehdään huolella, koska uskomme täydellisen kumppanin löytämisen vaativan sekä ammattitaitoa että intuitiota."
     },
     {
-        question: "7. Asiakaspalvelu",
+        question: "7. Miten tietojani käsitellään ja kenelle ne näkyvät?",
+        answer: "Antamasi tiedot, kuvat ja videot näkyvät ainoastaan Swoonyn asiantuntijoille. Kun mätsi syntyy, mahdollinen kumppanisi näkee vain ensimmäisen profiilikuvasi pienennettynä sekä asiantuntijamme laatiman kuvauksen siitä, miksi olisitte hyvä mätsi."
+    },
+    {
+        question: "8. Asiakaspalvelu",
         answer: "Olemme täällä sinua varten! Ota yhteyttä sähköpostitse: info@swoony.io"
     }
 ];

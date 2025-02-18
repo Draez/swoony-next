@@ -96,7 +96,7 @@ const Footer: FC = () => {
             <p className="col-span-1">
               <a href="mailto:info@swoony.io">info@swoony.io</a>
               <br />
-              045 229 6866<br />
+              +358505443089<br />
 
             </p>
             <p className="col-span-1">
