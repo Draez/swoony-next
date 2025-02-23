@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "@/components/Footer/Footer";
 
 const quickSand = Quicksand({
     weight: ["700"],
@@ -10,169 +11,155 @@ const quickSand = Quicksand({
 });
 
 export default function Terms() {
-    return <div className="p-8">
+    return (
+        <>
+            <div className="p-8 max-w-4xl mx-auto">
+                <Link href="/">
+                    <div className="pointer-events-none select-none flex place-items-center gap-2 lg:pointer-events-auto py-4">
+                        <Image
+                            src="/swoony.svg"
+                            alt="Swoony: Dating app"
+                            width={32}
+                            height={24}
+                            priority
+                        />
+                        <div className={`${quickSand.className} text-xl font-semibold text-main-blue uppercase tracking-wide`}>
+                            Swoony
+                        </div>
+                    </div>
+                </Link>
 
-        <Link href="/">
-            <div className="pointer-events-none select-none flex place-items-center gap-2 lg:pointer-events-auto py-4 m">
-                <Image
-                    src="/swoony.svg"
-                    alt="Swoony: Dating app"
-                    width={32}
-                    height={24}
-                    priority
-                />
-                <div
-                    className={`${quickSand.className} text-xl font-semibold text-main-blue uppercase tracking-wide`}
+                <Link
+                    href="/"
+                    className="inline-block my-4 py-2 bg-main-blue text-white text-md font-semibold px-8 rounded-full hover:bg-main-red-hover"
                 >
-                    Swoony
+                    Takaisin
+                </Link>
+
+                <div className="prose prose-lg max-w-none mt-8">
+                    <h1 className="text-3xl font-bold mb-8">Swoony Oy käyttöehdot</h1>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Asiakkaana sitoutuminen</h2>
+                        <p className="mb-4">
+                            Sinulla ei ole oikeutta luoda tiliä tai käyttää palveluita, elleivät kaikki seuraavat seikat pidä paikkaansa kohdallasi,
+                            ja käyttämällä palveluitamme vakuutat ja takaat, että:
+                        </p>
+                        <ul className="list-decimal pl-6 mb-6">
+                            <li className="mb-2">Olet vähintään 18-vuotias yksityishenkilö (eli et ole oikeushenkilö, kumppanuus- tai muu liiketoimintayksikkö)</li>
+                            <li className="mb-2">Et ole tehnyt syytteeseen asetettavaa rikosta (tai vastaavan vakavaa rikosta), seksuaalirikosta tai mitään väkivaltaa tai väkivallan uhkaa sisältävää rikosta</li>
+                            <li className="mb-2">Vakuutat kaikki antamasi tiedot oikeiksi, etkä jätä kertomatta olennaisia asioita</li>
+                            <li className="mb-2">Lupaat vastata kaikkiin kyselylomakkeen kysymyksiin rehellisesti ja vilpittömästi</li>
+                            <li className="mb-2">Sinulla ei ole enempää kuin yksi tili palveluissamme</li>
+                            <li className="mb-2">Me emme ole aiemmin poistaneet sinua palveluistamme</li>
+                            <li className="mb-2">Et ole parisuhteessa asiakkuuden alkamisajankohtana</li>
+                            <li className="mb-2">Profiilikuvasi ovat aitoja</li>
+                        </ul>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Suostumukset</h2>
+                        <p>Suostut:</p>
+                        <ul className="list-decimal pl-6 mb-6">
+                            <li className="mb-2">Noudattamaan näitä ehtoja ja tarkistamaan tämän sivun aika ajoin varmistaaksesi, että olet tietoinen muutoksista</li>
+                            <li className="mb-2">Noudattamaan kaikkia sovellettavia lakeja, mukaan lukien rajoituksetta tietosuojalait, immateriaalioikeuslait, roskapostin vastaiset lait ja sääntelyvaatimukset</li>
+                            <li className="mb-2">Ryhtymään kohtuullisiin toimenpiteisiin kirjautumistietojesi suojaamiseksi</li>
+                        </ul>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Rajoitukset</h2>
+                        <p className="mb-4">Suostut siihen, että et:</p>
+                        <ul className="list-decimal pl-6 mb-6">
+                            <li className="mb-2">Anna väärää tietoa henkilöllisyydestäsi, iästäsi tai yhteyksistäsi johonkin tiettyyn henkilöön tai yhteisöön</li>
+                            <li className="mb-2">Käytä palveluita tavalla, joka vahingoittaa palveluita tai estää muita käyttäjiä käyttämästä niitä</li>
+                            <li className="mb-2">Käytä palveluitamme tavalla, joka häiritsee tai vaikuttaa negatiivisesti alustaan, palvelimiin tai palveluidemme verkkoihin</li>
+                            <li className="mb-2">Käytä palveluitamme mihinkään haitalliseen, laittomaan tai rikolliseen tarkoitukseen</li>
+                            <li className="mb-2">Häiritse, kiusaa, vainoa, pelottele, pahoinpitele, halvenna, vahingoita tai muuten käyttäydy väärin</li>
+                            <li className="mb-2">Kalastele salasanoja tai kerää henkilötietoja muilta käyttäjiltä</li>
+                            <li className="mb-2">Pyydä rahaa tai muuta arvokasta toiselta käyttäjältä</li>
+                            <li className="mb-2">Käytä toisen käyttäjän tiliä</li>
+                            <li className="mb-2">Käytä palveluitamme petokseen tai pyramidihuijaukseen</li>
+                            <li className="mb-2">Lähetä viruksia tai muuta haitallista koodia</li>
+                            <li className="mb-2">Käytä tai kehitä kolmannen osapuolen sovelluksia ilman lupaa</li>
+                            <li className="mb-2">Luo uutta tiliä sen jälkeen, kun olemme keskeyttäneet tilisi</li>
+                            <li className="mb-2">Lähetä valheellisia ilmoituksia muista käyttäjistä</li>
+                        </ul>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Maksuehdot</h2>
+                        <div className="space-y-4">
+                            <p>Käyttäjä on henkilökohtaisesti vastuussa sopimuksen mukaisten maksujen maksamisesta Swoony Oy:lle. Tämä soveltuu myös tilanteissa, jossa maksajaksi on merkitty toinen henkilö.</p>
+                            <p>Uuden sopimuksen solmimisen yhteydessä asiakas maksaa voimassa olevan hinnaston mukaisen hinnan.</p>
+                            <p>Maksamalla kuukausitilauksen asiakas sitoutuu sopimukseen kuukauden ajaksi. Kun sopimus solmitaan toistaiseksi voimassa olevana, maksu maksetaa kuukausittain etukäteen automaattisella korttiveloituksella.</p>
+                            <p>Automaattisessa korttiveloituksessa, asiakas vastaa siitä, että maksukortti on aktivoitu ja, että sopimuksen mukaiset maksut voidaan veloittaa automaattisesti maksukortilta sopimuksen voimassaoloajan.</p>
+                            <p>Maksun velotus tapahtuu automaattisesti sovittuna eräpäivän ilman erilistä ilmoitusta. Mikäli veloitus epäonnistuu, sopimusta ei jatketa seuraavalle kuukaudelle.</p>
+                        </div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Muutokset ehtoihin ja palveluntarjontaan</h2>
+                        <div className="space-y-4">
+                            <p>Swoony Oy:lla on oikeus tehdä muutoksia sopimusten kuukausimaksuihin, muihin maksuihin ja näihin ehtoihin.</p>
+                            <p>Jos kuukausimaksu tehdään asiakkaalle haitallisia muutoksia, niistä ilmoitetaan asiakkaalle sähköpostitse tai tekstiviestillä vähintään (1) kuukausi ennen muutoksen voimaantuloa.</p>
+                        </div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Peruuttamisoikeus</h2>
+                        <div className="space-y-4">
+                            <p>Tilaus ja jäsenyys uusiutuvat automaattisesti, paitsi jos perut sen. Swoony-apin tai Swoony-tilin poistaminen ei peru tilausta tai jäsenyyttä.</p>
+                            <p>Kun perut tilauksesi tai jäsenyytesi, voit käyttää sitä kuukauden loppuun asti, mistä olet maksanut. Tilauksen peruminen ei oikeuta jälkikäteiseen maksunpalautukseen tilauksen tai jäsenyyden maksuista, eikä aiemmin maksettuja maksuja voida palauttaa peruutuspäivän perusteella.</p>
+                        </div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Vastuuehdot</h2>
+                        <div className="space-y-4">
+                            <p>Asiakas on itse vastuussa Swoony-treffikokemuksestaan, ja Swoony ei ole vastuussa mistään vahingoista tai haitoista, jotka saattavat ilmetä treffien aikana tai niiden jälkeen.</p>
+                            <p>Ilmoita meille välittömästi, jos treffikumppanisi käyttäytyy epäasiallisesti treffeillä niin ryhdymme toimenpiteisiin.</p>
+                        </div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Asiakasviestintä ja markkinointiviestit</h2>
+                        <div className="space-y-4">
+                            <p>Asiakassuhteen ylläpitämiseksi viestimme sinulle asioista, jotka liittyvät kiinteästi niihin tuotteisiin tai palveluihin, jotka olet meiltä tilannut. Tällaisia viestejä ovat esimerkiksi tiedotteet hintojen ja palvelusisältöjen muutoksesta, sekä sellaiset viestit, jotka liittyvät palvelun toimittamiseen ja toimintaan. Asiakasviestit voidaan lähettää sähköisesti tai kirjeitse, eivätkä ne sisällä markkinointia.</p>
+                            <p>Näiden asiakasviestien lisäksi voimme lähettää markkinointia sisältäviä viestejä sähköisesti. Markkinointiviesteistä saat kattavammin tietoa Swoonyn palveluista ja eduista.</p>
+                            <p>Swoonyn asiakaseduista kerrotaan pääsääntöisesti sähköisten kanavien kautta.</p>
+                            <p>Sähköistä suoramarkkinointia voidaan lähettää, mikäli olet antanut siihen luvan (markkinointilupa). Voit saada meiltä myös sähköistä suoramarkkinointia tilauksen aktivointiin tai profiilin täyttämiseen liittyen myös ilman erillistä markkinointilupaa. Mikäli kiellät sähköisen markkinoinnin, emme lähetä sinulle minkäänlaista markkinointia sisältäviä sähköisiä viestejä. Voit asettaa sähköisen markkinointikiellon itsepalvelussa tai asiakaspalvelumme kautta.</p>
+                        </div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Yleiset turvallisuusmuistutukset</h2>
+                        <div className="space-y-4">
+                            <p>Tiedät huumeiden ja alkoholin käytön rajasi paremmin kuin kukaan muu. Älä anna mätsisi painostaa sinua mihinkään, mikä sinusta tuntuu epämukavalta. Jos mätsisi yrittää painostaa sinua käyttämään huumeita tai juomaan enemmän kuin haluat, lopeta treffit.</p>
+                            <p>Älä koskaan anna kenellekään arkaluontoisia henkilökohtaisia tietoja, kuten sosiaaliturvatunnusta, luottokortin numeroa tai pankkitietoja, riippumatta siitä, miksi treffikumppani sanoo tarvitsevansa sitä.</p>
+                            <p>Älä koskaan lähetä rahaa tai henkilötietoja verkossa. Jos toinen Swoony-käyttäjä pyytää sinulta rahaa, ilmoita siitä meille välittömästi.</p>
+                            <p>On järkevää ja oikeutesi mukaista keskustella rehellisesti deittisi kanssa seksuaalisesta kontaktista ennen sen aloittamista, mukaan lukien kysyminen, milloin joku on viimeksi testattu sukupuolitautitestin varalta.</p>
+                            <p>Oikein ja johdonmukaisesti käytettynä kondomit ja muut suojat voivat vähentää sukupuolitautien, kuten HIV:n, tartunnan tai leviämisen riskiä. On kuitenkin mahdollista saada tietyt sukupuolitaudit joutuessaan kosketuksiin kumppanisi ihon kanssa, vaikka käytät suojaa.</p>
+                            <p>Kaiken seksuaalisen toiminnan on aloitettava suostumuksella. Suullinen viestintä voi auttaa sinua ja kumppaniasi varmistamaan, että kunnioitatte toistenne rajoja. Muista, että suostumus voidaan peruuttaa milloin tahansa. Älä koskaan jatka, jos kumppanisi on epävarma tai jos hän ei pysty suostumaan alkoholin tai huumeiden takia.</p>
+                        </div>
+                    </section>
+
+                    <section className="mb-8">
+                        <h2 className="text-2xl font-semibold mb-4">Yhteystiedot</h2>
+                        <p className="mb-2">Asiakaspalvelu: info@swoony.io</p>
+                        <p className="mb-2">Puhelin: 045 229 6866</p>
+                        <p className="mb-2">Aukioloajat: Ma-Pe 10:00 - 17:00</p>
+                    </section>
                 </div>
+
+                <Link
+                    href="/"
+                    className="inline-block mt-8 py-2 bg-main-blue text-white text-md font-semibold px-8 rounded-full hover:bg-main-red-hover"
+                >
+                    Takaisin
+                </Link>
             </div>
-        </Link>
-        <h2 className="py-2 text-2xl font-bold">Asiakkaana sitoutuminen</h2>
-
-        <p className="py-2">
-            Sinulla ei ole oikeutta luoda tiliä tai käyttää palveluita, elleivät kaikki seuraavat seikat pidä
-            paikkaansa kohdallasi, ja käyttämällä palveluitamme vakuutat ja takaat, että:
-        </p>
-        <ul className="py-2">
-            <li>1. Olet vähintään 18-vuotias yksityishenkilö (eli et ole oikeushenkilö, kumppanuus- tai muu liiketoimintayksikkö)</li>
-            <li>2. Et ole tehnyt syytteeseen asetettavaa rikosta (tai vastaavan vakavaa rikosta), seksuaalirikosta tai mitään väkivaltaa tai väkivallan uhkaa sisältävää rikosta, eikä sinua ole tuomittu sellaisesta, ellet ole saanut armahdusta väkivallattomasta rikoksesta ja olemme päättäneet, että et todennäköisesti aiheuta uhkaa muille palveluidemme käyttäjille</li>
-            <li>3. Vakuutat kaikki antamasi tiedot oikeiksi, etkä jätä kertomatta olennaisia asioita.</li>
-            <li>4. Lupaat vastata kaikkiin kyselylomakkeen kysymyksiin rehellisesti ja vilpittömästi.</li>
-            <li>5. Sinulla ei ole enempää kuin yksi tili palveluissamme.</li>
-            <li>6. Me emme ole aiemmin poistaneet sinua palveluistamme tai tytäryhtiöidemme palveluista, ellei sinulla ole nimenomaista kirjallista lupaa uuden tilin luomiseen.</li>
-            <li>7. Et ole parisuhteessa asiakkuuden alkamisajankohtana.</li>
-            <li>8. Profiilikuvasi ovat aitoja ja enintään 12kk vanhoja.</li>
-        </ul>
-        <p className="py-2">
-            Jos et enää täytä näitä vaatimuksia, kaikki oikeutesi käyttää palveluitamme tai
-            järjestelmiämme peruutetaan automaattisesti, sinun on välittömästi poistettava tilisi, ja
-            pidätämme oikeuden poistaa pääsysi palveluihimme ilman varoitusta.
-        </p>
-
-        <h2 className="py-2 text-2xl font-bold">Suostumukset</h2>
-        <p className="py-2">Suostut:</p>
-        <ul className="py-2">
-            <li>1. Noudattamaan näitä ehtoja ja tarkistamaan tämän sivun aika ajoin varmistaaksesi, että olet tietoinen muutoksista</li>
-            <li>2. Noudattamaan kaikkia sovellettavia lakeja, mukaan lukien rajoituksetta tietosuojalait, immateriaalioikeuslait, roskapostin vastaiset lait ja sääntelyvaatimukset</li>
-            <li>3. Ryhtymään kohtuullisiin toimenpiteisiin kirjautumistietojesi suojaamiseksi.</li>
-        </ul>
-
-        <h2 className="py-2 text-2xl font-bold">Rajoitukset</h2>
-        <p className="py-2">Suostut siihen, että et:</p>
-        <ul className="py-2">
-            <li>1. Anna väärää tietoa henkilöllisyydestäsi, iästäsi tai yhteyksistäsi johonkin tiettyyn henkilöön tai yhteisöön</li>
-            <li>2. Käytä palveluita tavalla, joka vahingoittaa palveluita tai estää muita käyttäjiä käyttämästä niitä</li>
-            <li>3. Käytä palveluitamme tavalla, joka häiritsee tai vaikuttaa negatiivisesti alustaan, palvelimiin tai palveluidemme verkkoihin</li>
-            <li>4. Käytä palveluitamme mihinkään haitalliseen, laittomaan tai rikolliseen tarkoitukseen, mukaan lukien, mutta ei rajoittuen, virtuaalituotteiden käyttö rahanpesuun tai muihin talousrikoksiin</li>
-            <li>5. Häiritse, kiusaa, vainoa, pelottele, pahoinpitele, halvenna, vahingoita tai muuten käyttäydy väärin tai aiheuta psykologista vahinkoa</li>
-            <li>6. Kalastele salasanoja mihinkään tarkoituksiin tai kerää henkilötietoja muilta käyttäjiltä kaupalliseen tai laittomaan tarkoitukseen tai levitä toisen henkilön henkilökohtaisia tietoja ilman hänen lupaansa</li>
-            <li>7. Pyydä rahaa tai muuta arvokasta toiselta käyttäjältä joko lahjana, lainana tai korvauksena</li>
-            <li>8. Käytä toisen käyttäjän tiliä</li>
-            <li>9. Käytä palveluitamme petokseen, pyramidihuijaukseen tai muuhun vastaavaan käytäntöön</li>
-            <li>10. Lähetä viruksia tai muuta haitallista koodia tai muuten vaaranna palvelun turvallisuutta</li>
-            <li>11. Käytä tai kehitä mitään kolmannen osapuolen sovelluksia, jotka ovat vuorovaikutuksessa palveluidemme tai jäsensisältömme tai tietojen kanssa ilman kirjallista suostumustamme, mukaan lukien, mutta ei rajoittuen, tekoäly tai koneoppimisjärjestelmät</li>
-            <li>12. Luo uutta tiliä sen jälkeen, kun olemme keskeyttäneet tai lopettaneet tilisi, ellet saa siihen nimenomaista lupaamme</li>
-            <li>13. Lähetä ilmoitusta jäsenen käytöksestä tai sisällöstä valheellisin, harhaanjohtavin tai muutoin ilmeisen perusteettomin perustein, tai väärinkäytä mitään saatavilla olevaa ilmoitus- tai valitusjärjestelmää.</li>
-        </ul>
-
-        <h2 className="py-2 text-2xl font-bold">Treffien turvallisuus</h2>
-        <p className="py-2">
-            Asiantuntijamme ei koskaan järjestä treffejä ei-julkisessa paikassa. Jos treffikumppanisi painostaa sinua vaihtamaan paikkaa yksityiseen paikkaan tai siirtämään treffipaikkaa ennenaikaisesti heidän kotiinsa, lopeta treffi ja lähde. Kerro meille välittömästi asiasta.
-        </p>
-        <p className="py-2">
-            Asiantuntijamme todentaa käyttäjän oikeellisuuden videoesittelyn sekä profiilikuvien perusteella. Jos epäilemme epärehellisyyttä, kontaktoimme käyttäjää asiasta henkilökohtaisesti.
-        </p>
-        <p className="py-2">
-            Asiakas on itse vastuussa Swoony-treffikokemuksestaan, ja Swoony ei ole vastuussa mistään vahingoista tai haitoista, jotka saattavat ilmetä treffien aikana tai niiden jälkeen.
-        </p>
-
-        <h2 className="py-2 text-2xl font-bold">Treffipalvelun Käyttöehdot ja Maksukäytännöt</h2>
-        <p className="py-2">
-            Treffipalvelumme tarjoaa mahdollisuuden löytää sopivia treffikumppaneita maksamalla kertaluonteisen maksun ennen prosessin aloittamista. Maksu suoritetaan ennen kuin asiantuntijamme alkavat etsiä sinulle sopivaa treffikumppania.
-        </p>
-
-        <h2 className="py-2 text-2xl font-bold">Peruutukset ja Ilmoitukset</h2>
-        <p className="py-2">
-            Jos et pääse osallistumaan sovituille treffeille, ilmoita asiasta mahdollisimman pian. Näin voimme siirtää treffien ajankohtaa ja varmistaa, että molemmille osapuolille löytyy sopiva uusi aika. Ilmoituksen tulee tapahtua vähintään 24 tuntia ennen sovittua ajankohtaa.
-        </p>
-        <p className="py-2">
-            Jos emme löydä sopivaa treffikumppania 3 kuukauden sisällä maksamisesta, sinulla on oikeus saada treffimaksu kokonaan takaisin ja keskeyttää treffikumppanin etsintä.
-        </p>
-
-        <h2 className="py-2 text-2xl font-bold">Maksukäytännöt</h2>
-        <p className="py-2">Seuraavissa tilanteissa käyttäjä maksaa treffimaksun, vaikka treffit eivät toteutuisi:</p>
-        <ul className="py-2">
-            <li>Käyttäjä ei saavu sovitusti treffipaikalle:</li>
-            <ul>
-                <li>Jos käyttäjä jättää saapumatta sovittuun paikkaan ilman etukäteisilmoitusta, treffimaksua ei palauteta.</li>
-            </ul>
-            <li>Käyttäjä peruuttaa treffit:</li>
-            <ul>
-                <li>Jos käyttäjä peruuttaa treffit, treffimaksua ei palauteta.</li>
-            </ul>
-        </ul>
-
-        <h2 className="py-2 text-2xl font-bold">Poikkeustilanteet ja Maksuttomuus</h2>
-        <p className="py-2">
-            Seuraavissa tilanteissa käyttäjälle ei koidu treffimaksua:
-        </p>
-        <ul className="py-2">
-            <li>Vastapuoli ei saavu sovitusti treffipaikalle:</li>
-            <ul>
-                <li>Jos vastapuoli jättää saapumatta sovittuun paikkaan, käyttäjälle ei aiheudu kustannuksia.</li>
-            </ul>
-            <li>Vastapuoli peruuttaa treffit:</li>
-            <ul>
-                <li>Jos vastapuoli peruuttaa treffit, käyttäjälle ei koidu treffimaksua.</li>
-            </ul>
-            <li>Treffikumppani ei vastaa odotuksia tai on antanut virheellisiä tietoja:</li>
-            <ul>
-                <li>Jos treffikumppani ei vastaa ollenkaan odotuksia tai on ilmoittanut selvästi virheellistä tietoa profiilia täyttäessään, käyttäjälle ei aiheudu kustannuksia.</li>
-            </ul>
-        </ul>
-
-        <h2 className="py-2 text-2xl font-bold">Lisäehdot ja Yleiset Käytännöt</h2>
-        <ul className="py-2">
-            <li>Maksutapa: Treffimaksu suoritetaan ennakkoon palvelun tilauksen yhteydessä. Hyväksytyt maksutavat ilmoitetaan tilausvaiheessa.</li>
-            <li>Tietosuoja: Käyttäjien tiedot käsitellään luottamuksellisesti ja tietosuojalainsäädännön mukaisesti.</li>
-            <li>Vastuu: Treffipalvelu ei ole vastuussa kolmansien osapuolten toiminnasta tai treffien onnistumisesta, mutta pyrkii varmistamaan kaikkien osapuolten tyytyväisyyden ja turvallisuuden.</li>
-        </ul>
-
-        <p className="py-2">
-            Olemme sitoutuneet tarjoamaan laadukasta ja luotettavaa palvelua. Mikäli sinulla on
-            kysyttävää tai tarvitset lisätietoja, asiakaspalvelumme auttaa mielellään.
-        </p>
-
-        <p className="py-2">
-            Tervetuloa käyttämään treffipalveluamme!
-        </p>
-
-        <h2 className="py-2 text-2xl font-bold">Yhteystiedot</h2>
-        <ul className="py-2">
-            <li>Asiakaspalvelu: info@swoony.io</li>
-            <li>Puhelin: 045 229 6866</li>
-            <li>Aukioloajat: Ma-Pe 10:00 - 17:00</li>
-        </ul>
-
-        <h2 className="py-2 text-2xl font-bold">Yleiset turvallisuusmuistutukset</h2>
-        <ul className="py-2">
-            <li>Tiedät huumeiden ja alkoholin käytön rajasi paremmin kuin kukaan muu. Älä anna mätsisi painostaa sinua mihinkään, mikä sinusta tuntuu epämukavalta. Jos mätsisi yrittää painostaa sinua käyttämään huumeita tai juomaan enemmän kuin haluat, lopeta treffit.</li>
-            <li>Älä koskaan jätä juomia tai henkilökohtaisia tavaroita valvomatta.</li>
-            <li>Kerro ystävälle tai perheenjäsenelle treffisuunnitelmistasi, mukaan lukien milloin ja minne olet menossa. Jos jokin muuttuu illan aikana, ilmoita siitä heti.</li>
-            <li>Varmista, että matkapuhelimesi on ladattu täyteen ja pidä se aina mukanasi.</li>
-            <li>Älä jätä huomioimatta omia vaistojasi. Jos tilanne tekee sinut epämukavaksi, on ok jättää treffit kesken.</li>
-            <li>Älä koskaan anna kenellekään arkaluontoisia henkilökohtaisia tietoja, kuten sosiaaliturvatunnusta, luottokortin numeroa tai pankkitietoja, riippumatta siitä, miksi treffikumppani sanoo tarvitsevansa sitä.</li>
-            <li>Älä koskaan lähetä rahaa tai henkilötietoja verkossa. Jos toinen Swoony-käyttäjä pyytää sinulta rahaa, ilmoita siitä meille välittömästi.</li>
-            <li>On järkevää ja oikeutesi mukaista keskustella rehellisesti kumppanisi kanssa seksuaalisesta kontaktista ennen sen aloittamista, mukaan lukien kysyminen, milloin joku on viimeksi testattu sukupuolitautitestin varalta.</li>
-            <li>Oikein ja johdonmukaisesti käytettynä kondomit ja muut suojat voivat vähentää sukupuolitautien, kuten HIV:n, tartunnan tai leviämisen riskiä. On kuitenkin mahdollista saada tietyt sukupuolitaudit joutuessaan kosketuksiin kumppanisi ihon kanssa, vaikka käytät suojaa.</li>
-            <li>Kaiken seksuaalisen toiminnan on aloitettava suostumuksella. Suullinen viestintä voi auttaa sinua ja kumppaniasi varmistamaan, että kunnioitatte toistenne rajoja. Muista, että suostumus voidaan peruuttaa milloin tahansa. Älä koskaan jatka, jos kumppanisi on epävarma tai jos hän ei pysty suostumaan alkoholin tai huumeiden takia.</li>
-        </ul>
-        <Link
-            href="/"
-            className="inline-block my-4 py-2 bg-main-blue text-white text-md font-semibold px-8 rounded-full hover:bg-main-red-hover"
-        >
-            Takaisin
-        </Link>
-    </div>
+            <Footer />
+        </>
+    );
 }

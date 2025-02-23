@@ -7,6 +7,7 @@ import Process from "@/components/Process/Process";
 import Experts from "@/components/Experts/Experts";
 import Pricing from "@/components/Pricing/Pricing";
 import { FAQ } from '@/components/FAQ/FAQ';
+import Blog from "@/components/Blog/Blog";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Intro />
       <Pricing />
       <Experts />
+      <Blog />
       <FAQ />
 
       <Footer />

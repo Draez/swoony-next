@@ -32,3 +32,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.article-content h2 {
+  @apply text-2xl font-bold text-main-blue mt-8 mb-4;
+}
+
+.article-content p {
+  @apply text-lg leading-relaxed mb-6;
+}
+
+.article-content a {
+  @apply text-main-red hover:text-main-red-hover;
+}
