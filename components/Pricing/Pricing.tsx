@@ -35,16 +35,15 @@ export default function Pricing() {
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    Mätsi mahdollinen vain maksaneiden käyttäjien kanssa
-                                </li>
-                                <li className="flex items-center text-main-blue">
-                                    <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    Max 1 mätsi
+                                    Mahdollisuus tulla mätsätyksi vain Pro-käyttäjien kanssa
                                 </li>
                             </ul>
 
+                            <button
+                                className="block w-full bg-gray-400 text-white text-center text-lg font-semibold py-4 rounded-full cursor-not-allowed"
+                            >
+                                Tulossa pian
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -54,12 +53,13 @@ export default function Pricing() {
                         <div className="p-8">
                             <div className="text-center mb-8">
                                 <h3 className="text-2xl font-bold text-white mb-2">Swoony Pro</h3>
-                                <p className="text-white">Henkilökohtainen matchmaking-palvelu</p>
+                                <p className="text-white">Henkilökohtainen matchmaking-palvelu / Ohituskaista rakkauteen</p>
                             </div>
 
                             <div className="text-center mb-8">
                                 <span className="text-4xl font-bold text-white">19,99€</span>
                                 <span className="text-white ml-2">/kk</span>
+                                <span className="text-white ml-2 line-through text-opacity-70">29,99€</span>
                             </div>
 
                             <ul className="space-y-4 mb-8">
@@ -73,26 +73,21 @@ export default function Pricing() {
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    Top prioriteetti
+                                    Mahdollisuus tulla mätsätyksi kaikkien käyttäjien kanssa
                                 </li>
                                 <li className="flex items-center text-white">
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    Mätsi mahdollinen kaikkien käyttäjien kanssa
+                                    Profiilisi saa etusijan mätsäyksessä
                                 </li>
                                 <li className="flex items-center text-white">
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    Rajaton määrä mätsejä
+                                    Priorisoitu etsintä kerran kuukaudessa
                                 </li>
-                                {/* <li className="flex items-center text-white">
-                                    <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    Mahdollisuus konsultointituntiin asiantuntijoiden kanssa
-                                </li> */}
+                    
 
                             </ul>
 

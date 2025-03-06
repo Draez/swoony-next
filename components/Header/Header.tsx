@@ -30,17 +30,21 @@ const Header: FC = () => {
               <Link href="/">
                 <div className="pointer-events-none select-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0 m">
 
-                  <Image
-                    src="/swoony.svg"
-                    alt="Swoony: Dating app"
-                    width={32}
-                    height={24}
-                    priority
-                  />
-                  <div
-                    className={`${quickSand.className} text-xl font-semibold text-zinc-50 uppercase tracking-wide`}
-                  >
-                    Swoony
+                  <div className="relative">
+                    <Image
+                      src="/swoony.svg"
+                      alt="Swoony: Dating app"
+                      width={32}
+                      height={24}
+                      priority
+                    />
+                  </div>
+                  <div className="relative">
+                    <div
+                      className={`${quickSand.className} text-xl font-semibold text-zinc-50 uppercase tracking-wide`}
+                    >
+                      Swoony
+                    </div>
                   </div>
 
                 </div>
@@ -81,12 +85,19 @@ const Header: FC = () => {
           <div className="pb-16 flex flex-wrap items-center p-8 md:py-16">
             <div className="lg:w-full xl:w-5/6 2xl:w-4/6 container mx-auto flex flex-col md:flex-row items-center justify-between">
               <div className="w-full md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
-                <p className="text-lg text-white mb-3">
-                  Väsynyt perinteisiin pinnallisiin deitti-sovelluksiin?
-                </p>
+                <div className="relative mb-4">
+                  <span className="inline-block bg-main-red text-white text-sm font-bold px-3 py-1 rounded-md">
+                    Mätsäys alkaa maaliskuun aikana!
+                  </span>
+                </div>
+             
                 <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-white" style={{ lineHeight: '1.25' }}>
                   Suomen paras Matchmaking -sovellus
                 </h1>
+
+                 <p className="text-lg text-white mt-3">
+                  Kyllästynyt perinteisiin pinnallisiin deitti-sovelluksiin? Swoony yhdistää asiantuntijat ja tekoälyn löytääkseen sinulle sopivan kumppanin.
+                </p>
 
                 <div className="flex flex-row gap-2">
                   <a
