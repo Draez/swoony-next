@@ -37,13 +37,14 @@ export default function Pricing() {
                                     </svg>
                                     Mahdollisuus tulla mätsätyksi vain Pro-käyttäjien kanssa
                                 </li>
+                                <li className="flex items-center text-main-blue">
+                                    <svg className="w-5 h-5 text-swoony-red mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" stroke="red" />
+                                    </svg>
+                                    Ei aktiivista mätsin etsintää
+                                </li>
                             </ul>
 
-                            <button
-                                className="block w-full bg-gray-400 text-white text-center text-lg font-semibold py-4 rounded-full cursor-not-allowed"
-                            >
-                                Tulossa pian
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -53,7 +54,7 @@ export default function Pricing() {
                         <div className="p-8">
                             <div className="text-center mb-8">
                                 <h3 className="text-2xl font-bold text-white mb-2">Swoony Pro</h3>
-                                <p className="text-white">Henkilökohtainen matchmaking-palvelu / Ohituskaista rakkauteen</p>
+                                <p className="text-white">Henkilökohtainen matchmaking-palvelu / Avajaistarjous voimassa 1.4.2025 saakka</p>
                             </div>
 
                             <div className="text-center mb-8">
@@ -87,15 +88,9 @@ export default function Pricing() {
                                     </svg>
                                     Priorisoitu etsintä kerran kuukaudessa
                                 </li>
-                    
+
 
                             </ul>
-
-                            <button
-                                className="block w-full bg-gray-400 text-white text-center text-lg font-semibold py-4 rounded-full cursor-not-allowed"
-                            >
-                                Tulossa pian
-                            </button>
                         </div>
                     </div>
                 </div>
