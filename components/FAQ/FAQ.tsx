@@ -19,7 +19,7 @@ const faqData = [
     },
     {
         question: "5. Kuinka paljon Swoony maksaa?",
-        answer: "Swoony tarjoaa kaksi erilaista pakettia: Swoony Free ja Swoony Pro. Swoony Free on ilmainen ja sisältää henkilökohtaisen matchmaking-palvelun, asiantuntijoiden valitseman mätsin ja mahdollisuuden mätsätä maksaneiden käyttäjien kanssa. Free-versiossa saat maksimissaan yhden mätsin. Swoony Pro maksaa 19,99€/kk ja sisältää henkilökohtaisen matchmaking-palvelun, asiantuntijoiden valitsemat mätsit top prioriteetilla, mahdollisuuden mätsätä kaikkien käyttäjien kanssa sekä rajattoman määrän mätsejä."
+        answer: "Swoony tarjoaa kaksi erilaista pakettia: Swoony Free ja Swoony Pro. Swoony Free on ilmainen ja sisältää asiantuntijoiden valitseman mätsin sekä mahdollisuuden tulla mätsätyksi vain Pro-käyttäjien kanssa. Swoony Pro maksaa 29,99€/kk (avajaistarjous hintaan 19,99€/kk) ja sisältää asiantuntijoiden valitsemat mätsit, mahdollisuuden tulla mätsätyksi kaikkien käyttäjien kanssa, etusijan mätsäyksessä sekä priorisoidun etsinnän kerran kuukaudessa."
     },
     {
         question: "6. Swoonyn asiantuntijat",
