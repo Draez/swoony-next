@@ -23,6 +23,16 @@ interface BlogPosts {
 
 // This would typically come from a CMS or API
 const blogPosts: BlogPosts = {
+    "swoony-matsays-kaynnistynyt": {
+        title: "Swoonyn kautta ensimmäiset mätsit ovat nyt tehty!",
+        content: `
+            <p>Menneellä viikolla Swoonyn mätsäysprosessi aloitettiin sekä olemme löytäneet ensimmäiset mätsit käyttäjillemme!</p>
+
+            <p>Haluamme kiittää kaikkia käyttäjiämme kärsivällisyydestä ja luottamuksesta palveluumme. Tämä on vasta alkua Swoonyn matkalla muuttaa deittailukulttuuria parempaan suuntaan! ❤️</p>
+
+            <p>Jos et ole vielä saanut mätsiä, älä huoli - prosessimme jatkuu ja pyrimme löytämään jokaiselle sopivan kumppanin. Varmistathan, että profiilisi on ajan tasalla ja kaikki tarvittavat tiedot on täytetty.</p>`,
+        date: "24.3.2025",
+    },
     "matsays-kaynnistyy-maaliskuun-aikana": {
         title: "Mätsäys käynnistyy maaliskuun aikana!",
         content: `

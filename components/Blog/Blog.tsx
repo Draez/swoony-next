@@ -11,6 +11,12 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
     {
+        title: "Swoonyn kautta ensimmäiset mätsit ovat nyt tehty!",
+        description: "Menneellä viikolla Swoonyn mätsäysprosessi aloitettiin sekä olemme löytäneet ensimmäiset mätsit...",
+        date: "24.3.2025",
+        slug: "swoony-matsays-kaynnistynyt"
+    },
+    {
         title: "Mätsäys käynnistyy maaliskuun aikana!",
         description: "Suuren suosion ja käyttäjämäärän kasvun myötä voimme iloisena ilmoittaa...",
         date: "23.2.2025",
@@ -27,7 +33,7 @@ export default function Blog() {
                 </h2>
 
             </div>
-            <div className="grid grid-cols-1 gap-8 max-w-xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-xxl mx-auto">
                 {blogPosts.map((post, index) => (
                     <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">
 

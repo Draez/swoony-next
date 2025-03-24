@@ -87,15 +87,15 @@ const Header: FC = () => {
               <div className="w-full md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
                 <div className="relative mb-4">
                   <span className="inline-block bg-main-red text-white text-sm font-bold px-3 py-1 rounded-md">
-                    Mätsäys alkaa maaliskuun aikana!
+                    Mätsäys on alkanut!
                   </span>
                 </div>
-             
+
                 <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-white" style={{ lineHeight: '1.25' }}>
                   Suomen paras Matchmaking -sovellus
                 </h1>
 
-                 <p className="text-lg text-white mt-3">
+                <p className="text-lg text-white mt-3">
                   Kyllästynyt perinteisiin pinnallisiin deitti-sovelluksiin? Swoony yhdistää asiantuntijat ja tekoälyn löytääkseen sinulle sopivan kumppanin.
                 </p>
 
