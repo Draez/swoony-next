@@ -87,7 +87,7 @@ const Header: FC = () => {
               <div className="w-full md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
                 <div className="relative mb-4">
                   <span className="inline-block bg-main-red text-white text-sm font-bold px-3 py-1 rounded-md">
-                    Mätsäys on alkanut!
+                    1600+ rekisteröitynyttä käyttäjää
                   </span>
                 </div>
 

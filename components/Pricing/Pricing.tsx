@@ -54,13 +54,12 @@ export default function Pricing() {
                         <div className="p-8">
                             <div className="text-center mb-8">
                                 <h3 className="text-2xl font-bold text-white mb-2">Swoony Pro</h3>
-                                <p className="text-white">Henkilökohtainen matchmaking-palvelu / Avajaistarjous voimassa 1.4.2025 saakka</p>
+                                <p className="text-white">Henkilökohtainen matchmaking-palvelu</p>
                             </div>
 
                             <div className="text-center mb-8">
-                                <span className="text-4xl font-bold text-white">19,99€</span>
+                                <span className="text-4xl font-bold text-white">29,99€</span>
                                 <span className="text-white ml-2">/kk</span>
-                                <span className="text-white ml-2 line-through text-opacity-70">29,99€</span>
                             </div>
 
                             <ul className="space-y-4 mb-8">
@@ -88,8 +87,6 @@ export default function Pricing() {
                                     </svg>
                                     Priorisoitu etsintä kerran kuukaudessa
                                 </li>
-
-
                             </ul>
                         </div>
                     </div>
