@@ -84,6 +84,22 @@ const Footer: FC = () => {
               Tilaa uutiskirje
             </button>
           </form>
+          <div className="flex flex-row gap-2 justify-center">
+            <a
+              href="https://apps.apple.com/app/swoony/id6499217523"
+              target="_blank"
+            >
+              <Image src="/applestore.svg" alt="Apple" width={180} height={180} />
+            </a>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=fi.swoonymatchmaking.app"
+              target="_blank"
+            >
+              <Image src="/google-play.svg" alt="Google" width={180} height={180} />
+            </a>
+          </div>
+
         </div>
 
         <hr className="border-light-blue border-opacity-50 mb-16" />
