@@ -53,6 +53,9 @@ const Header: FC = () => {
                 <a href="#ajankohtaista" className="hidden md:block text-md text-white font-bold mr-8">
                   Ajankohtaista
                 </a>
+                {/* <Link href="/opas" className="hidden md:block text-md text-white font-bold mr-8">
+                  Oppaat
+                </Link> */}
                 <a href="#faq" className="hidden md:block text-md text-white font-bold mr-8">
                   FAQ
                 </a>
