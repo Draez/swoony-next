@@ -50,6 +50,9 @@ const Header: FC = () => {
                 </div>
               </Link>
               <div className="flex justify-center items-center">
+                <a href="#pricing" className="hidden md:block text-md text-white font-bold mr-8">
+                  Hinnasto
+                </a>
                 <a href="#ajankohtaista" className="hidden md:block text-md text-white font-bold mr-8">
                   Ajankohtaista
                 </a>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Pricing() {
     return (
-        <section className="container mx-auto px-4 py-12 md:py-24">
+        <section className="container mx-auto px-4 py-12 md:py-24" id="pricing">
             <div className="text-center max-w-3xl mx-auto mb-16">
                 <h2 className="text-4xl font-bold text-main-blue mb-4">Valitse sinulle sopiva paketti</h2>
                 <p className="text-light-blue text-lg">
@@ -29,7 +29,7 @@ export default function Pricing() {
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    Asiantuntijoiden valitsema mätsi
+                                    Asiantuntijan valitsema mahdollinen mätsi
                                 </li>
                                 <li className="flex items-center text-main-blue">
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@ export default function Pricing() {
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    Asiantuntijoiden valitsema mätsi
+                                    Asiantuntijan valitsema mahdollinen mätsi
                                 </li>
                                 <li className="flex items-center text-white">
                                     <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,7 +87,18 @@ export default function Pricing() {
                                     </svg>
                                     Priorisoitu etsintä kerran kuukaudessa
                                 </li>
+
+                                <li className="flex items-center text-white">
+                                    <svg className="w-5 h-5 text-main-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                    <p className="text-sm">Huomioithan: Mätsin löytymistä ei voida taata joka kuukausi. Haluamme varmistaa, että teemme vain aidosti sopivia mätsejä</p>
+                                </li>
+
+
+
                             </ul>
+
                         </div>
                     </div>
                 </div>
