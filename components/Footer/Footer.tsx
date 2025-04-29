@@ -110,7 +110,7 @@ const Footer: FC = () => {
           </h4>
           <div className="grid sm:grid-cols-1 md:grid-cols-4 space-y-6 md:space-y-0 text-md">
             <p className="col-span-1">
-              <a href="mailto:info@swoony.io">info@swoony.io</a>
+              <Link href="mailto:info@swoony.io">info@swoony.io</Link>
               <br />
               +358505443089<br /><br />
 
@@ -125,7 +125,7 @@ const Footer: FC = () => {
 
             </p>
             <div className="col-span-1 flex justify-start space-x-2">
-              <a href="https://www.instagram.com/swoonyofficial/" target="_blank">
+              <Link href="https://www.instagram.com/swoonyofficial/" target="_blank">
                 <svg
                   width="30"
                   height="30"
@@ -138,8 +138,8 @@ const Footer: FC = () => {
                     fill="white"
                   />
                 </svg>
-              </a>
-              <a href="https://www.facebook.com/profile.php?id=100095309208001" target="_blank">
+              </Link>
+              <Link href="https://www.facebook.com/profile.php?id=100095309208001" target="_blank">
                 <svg
                   width="30"
                   height="30"
@@ -152,10 +152,10 @@ const Footer: FC = () => {
                     fill="white"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="col-span-1">
-              <a
+              <Link
                 className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0 m"
                 href="/"
                 rel="noopener noreferrer"
@@ -172,7 +172,7 @@ const Footer: FC = () => {
                 >
                   Swoony
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </section>

@@ -206,9 +206,9 @@ export default function PrivacyPolicy() {
                         <h2 className="text-2xl font-semibold mb-4">Kehen voin ottaa yhteyttä?</h2>
                         <p>
                             Yhteyttä tietosuojaa koskevissa asioissa voit ottaa asiakaspalveluumme{' '}
-                            <a href="mailto:info@swoony.io" className="text-main-blue hover:underline">
+                            <Link href="mailto:info@swoony.io" className="text-main-blue hover:underline">
                                 info@swoony.io
-                            </a>
+                            </Link>
                         </p>
                     </section>
 

@@ -50,19 +50,19 @@ const Header: FC = () => {
                 </div>
               </Link>
               <div className="flex justify-center items-center">
-                <a href="#pricing" className="hidden md:block text-md text-white font-bold mr-8">
+                <Link href="#pricing" className="hidden md:block text-md text-white font-bold mr-8">
                   Hinnasto
-                </a>
-                <a href="#ajankohtaista" className="hidden md:block text-md text-white font-bold mr-8">
+                </Link>
+                <Link href="#ajankohtaista" className="hidden md:block text-md text-white font-bold mr-8">
                   Ajankohtaista
-                </a>
-                <a href="#faq" className="hidden md:block text-md text-white font-bold mr-8">
+                </Link>
+                <Link href="#faq" className="hidden md:block text-md text-white font-bold mr-8">
                   FAQ
-                </a>
-                <a href="#footer-section" className="hidden md:block text-md text-white font-bold mr-8">
+                </Link>
+                <Link href="#footer-section" className="hidden md:block text-md text-white font-bold mr-8">
                   Tilaa uutiskirje
-                </a>
-                <a href="https://www.instagram.com/swoonyofficial/" target="_blank">
+                </Link>
+                <Link href="https://www.instagram.com/swoonyofficial/" target="_blank">
                   <Image
                     src="/instagram.svg"
                     alt="Swoony instagram link"
@@ -71,8 +71,8 @@ const Header: FC = () => {
                     height={24}
                     priority
                   />
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100095309208001" target="_blank">
+                </Link>
+                <Link href="https://www.facebook.com/profile.php?id=100095309208001" target="_blank">
                   <Image
                     src="/facebook.svg"
                     alt="Swoony facebook link"
@@ -80,7 +80,7 @@ const Header: FC = () => {
                     height={24}
                     priority
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -103,19 +103,19 @@ const Header: FC = () => {
                 </p>
 
                 <div className="flex flex-row gap-2">
-                  <a
+                  <Link
                     href="https://apps.apple.com/app/swoony/id6499217523"
                     target="_blank"
                   >
                     <Image src="/applestore.svg" alt="Apple" width={180} height={180} />
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="https://play.google.com/store/apps/details?id=fi.swoonymatchmaking.app"
                     target="_blank"
                   >
                     <Image src="/google-play.svg" alt="Google" width={180} height={180} />
-                  </a>
+                  </Link>
                 </div>
 
               </div>
