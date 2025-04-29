@@ -112,14 +112,17 @@ const Footer: FC = () => {
             <p className="col-span-1">
               <a href="mailto:info@swoony.io">info@swoony.io</a>
               <br />
-              +358505443089<br />
+              +358505443089<br /><br />
+
+              © Swoony Oy <br />
+              Y-tunnus: 3358461-2 <br />
 
             </p>
             <p className="col-span-1">
-              © Swoony Oy <br />
-              Y-tunnus: 3358461-2 <br />
+              <Link href="/swoony_guide.pdf" target="_blank">Sovelluksen käyttöopas</Link> <br />
               <Link href="terms">Käyttöehdot</Link> <br />
-              <Link href="privacy_policy">Tietosuojaseloste</Link>
+              <Link href="privacy_policy">Tietosuojaseloste</Link> <br />
+
             </p>
             <div className="col-span-1 flex justify-start space-x-2">
               <a href="https://www.instagram.com/swoonyofficial/" target="_blank">
@@ -154,8 +157,7 @@ const Footer: FC = () => {
             <div className="col-span-1">
               <a
                 className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0 m"
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-                target="_blank"
+                href="/"
                 rel="noopener noreferrer"
               >
                 <Image
@@ -174,7 +176,7 @@ const Footer: FC = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div >
     </footer >
   );
 };

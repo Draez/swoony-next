@@ -1,4 +1,5 @@
 import { FAQItem } from './FAQItem';
+import Link from 'next/link';
 
 const faqData = [
     {
@@ -27,12 +28,16 @@ const faqData = [
     },
     {
         question: "7. Miten tietojani käsitellään ja kenelle ne näkyvät?",
-        answer: "Antamasi tiedot, kuvat ja videot näkyvät ainoastaan Swoonyn asiantuntijoille. Kun mätsi syntyy, mahdollinen kumppanisi näkee vain ensimmäisen profiilikuvasi pienennettynä sekä asiantuntijamme laatiman kuvauksen siitä, miksi olisitte hyvä mätsi."
+        answer: "Antamasi tiedot, kuvat ja videot näkyvät ainoastaan Swoonyn asiantuntijoille. Kun mätsi syntyy, mahdollinen kumppanisi näkee vain kuvasi sekä asiantuntijamme laatiman kuvauksen siitä, miksi olisitte hyvä mätsi."
     },
     {
-        question: "8. Asiakaspalvelu",
+        question: "8. Sovelluksen käyttöopas",
+        answer: <Link href="/swoony_guide.pdf" target="_blank">Avaa käyttöopas (PDF)</Link>
+    },
+    {
+        question: "9. Asiakaspalvelu",
         answer: "Olemme täällä sinua varten! Ota yhteyttä sähköpostitse: info@swoony.io"
-    }
+    },
 ];
 
 export function FAQ() {

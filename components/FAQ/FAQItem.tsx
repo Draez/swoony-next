@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, ReactNode } from 'react';
 
 interface FAQItemProps {
     question: string;
-    answer: string;
+    answer: string | ReactNode;
 }
 
 export function FAQItem({ question, answer }: FAQItemProps) {
@@ -34,7 +34,7 @@ export function FAQItem({ question, answer }: FAQItemProps) {
                 className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96 mb-4' : 'max-h-0'
                     }`}
             >
-                <p className="text-light-blue">{answer}</p>
+                <div className="text-light-blue">{answer}</div>
             </div>
         </div>
     );
