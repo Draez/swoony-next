@@ -2,6 +2,8 @@ import React, { FC } from "react";
 import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 
 const quickSand = Quicksand({
   weight: ["700"],
@@ -10,6 +12,14 @@ const quickSand = Quicksand({
 });
 
 const Header: FC = () => {
+  const { t } = useTranslation('common');
+  const router = useRouter();
+  const { locale } = router;
+
+  const changeLanguage = (newLocale: string) => {
+    router.push(router.pathname, router.asPath, { locale: newLocale });
+  };
+
   return (
     <>
       <section className="w-full relative">
@@ -51,16 +61,18 @@ const Header: FC = () => {
               </Link>
               <div className="flex justify-center items-center">
                 <Link href="#pricing" className="hidden md:block text-md text-white font-bold mr-8">
-                  Hinnasto
+                  {t('header.pricing')}
                 </Link>
-                <Link href="#ajankohtaista" className="hidden md:block text-md text-white font-bold mr-8">
-                  Ajankohtaista
-                </Link>
+                {locale !== 'sv' && (
+                  <Link href="#ajankohtaista" className="hidden md:block text-md text-white font-bold mr-8">
+                    {t('header.news')}
+                  </Link>
+                )}
                 <Link href="#faq" className="hidden md:block text-md text-white font-bold mr-8">
                   FAQ
                 </Link>
                 <Link href="#footer-section" className="hidden md:block text-md text-white font-bold mr-8">
-                  Tilaa uutiskirje
+                  {t('header.newsletter')}
                 </Link>
                 <Link href="https://www.instagram.com/swoonyofficial/" target="_blank">
                   <Image
@@ -81,6 +93,20 @@ const Header: FC = () => {
                     priority
                   />
                 </Link>
+                <div className="ml-4 flex items-center">
+                  <button
+                    onClick={() => changeLanguage('fi')}
+                    className={`px-2 py-1 mr-2 ${locale === 'fi' ? 'font-bold text-white underline' : 'text-gray-300'}`}
+                  >
+                    FI
+                  </button>
+                  <button
+                    onClick={() => changeLanguage('sv')}
+                    className={`px-2 py-1 ${locale === 'sv' ? 'font-bold text-white underline' : 'text-gray-300'}`}
+                  >
+                    SV
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -90,19 +116,25 @@ const Header: FC = () => {
               <div className="w-full md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
                 <div className="relative mb-4">
                   <span className="inline-block bg-main-red text-white text-sm font-bold px-3 py-1 rounded-md">
-                    1600+ rekisteröitynyttä käyttäjää
+                    {t('header.users')}
                   </span>
                 </div>
 
                 <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-white" style={{ lineHeight: '1.25' }}>
-                  Suomen paras Matchmaking -sovellus
+                  {t('header.title')}
                 </h1>
 
                 <p className="text-lg text-white mt-3">
-                  Kyllästynyt perinteisiin pinnallisiin deitti-sovelluksiin? Swoony yhdistää asiantuntijat ja tekoälyn löytääkseen sinulle sopivan kumppanin.
+                  {t('header.description')}
                 </p>
+                {locale === 'sv' && (
+                  <p className="text-lg text-white mt-3">
+                    Hämta Swoony på App Store och Google Play – svenska kommer snart!
+                  </p>
+                )}
 
                 <div className="flex flex-row gap-2">
+
                   <Link
                     href="https://apps.apple.com/app/swoony/id6499217523"
                     target="_blank"
@@ -116,7 +148,9 @@ const Header: FC = () => {
                   >
                     <Image src="/google-play.svg" alt="Google" width={180} height={180} />
                   </Link>
+
                 </div>
+
 
               </div>
               <div className="w-full md:w-1/2 py-8 order-1 md:order-2">
@@ -125,7 +159,7 @@ const Header: FC = () => {
                   width="1080"
                   height="1080"
                   src="/swoonytest.svg"
-                  alt="Swoony: Etsi rakkaus asiantuntijoiden avulla"
+                  alt={t('header.appAlt')}
                   priority
                 />
               </div>

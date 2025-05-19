@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { trackLead } from "@/lib/fb";
 import Link from "next/link";
+import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 
 const quickSand = Quicksand({
   weight: ["700"],
@@ -12,6 +14,10 @@ const quickSand = Quicksand({
 });
 
 const Footer: FC = () => {
+  const { t } = useTranslation('common');
+  const router = useRouter();
+  const { locale } = router;
+
   const [success, setSuccess] = useState<boolean>(false);
   const emailRef = React.useRef<HTMLInputElement>(null);
   const nameRef = React.useRef<HTMLInputElement>(null);
@@ -42,13 +48,16 @@ const Footer: FC = () => {
         <div className="text-center mb-16 max-w-xl mx-auto">
           {!success && (
             <h3 className="text-2xl font-semibold mb-10">
-              Jätä yhteystietosi meille ja kuulet ensimmäisenä sovelluksen uusista ominaisuuksista!
+              {locale === 'sv'
+                ? 'Lämna dina kontaktuppgifter till oss och du blir den första att höra om appens nya funktioner!'
+                : 'Jätä yhteystietosi meille ja kuulet ensimmäisenä sovelluksen uusista ominaisuuksista!'}
             </h3>
           )}
           {success && (
             <h3 className="text-2xl font-semibold mb-10">
-              Kiitos ilmoittautumisesta! Olemme sinuun yhteydessä sovelluksen
-              etenemisestä.
+              {locale === 'sv'
+                ? 'Tack för din anmälan! Vi kommer att kontakta dig om appens utveckling.'
+                : 'Kiitos ilmoittautumisesta! Olemme sinuun yhteydessä sovelluksen etenemisestä.'}
             </h3>
           )}
           <form
@@ -65,7 +74,7 @@ const Footer: FC = () => {
                 required
                 type="text"
                 name="name"
-                placeholder="Nimi"
+                placeholder={locale === 'sv' ? 'Namn' : 'Nimi'}
                 className="w-full placeholder-white bg-transparent p-3 border border-white rounded-xl focus:outline-none focus:border-blue-300 mb-4"
                 ref={nameRef}
               />
@@ -75,13 +84,13 @@ const Footer: FC = () => {
                 required
                 type="text"
                 name="email"
-                placeholder="Sähköposti"
+                placeholder={t('footer.email')}
                 className="w-full placeholder-white bg-transparent p-3 border border-white rounded-xl focus:outline-none focus:border-blue-300 mb-4"
                 ref={emailRef}
               />
             </div>
             <button className="bg-main-red text-white text-lg font-semibold py-4 max-w-sm rounded-full w-full hover:bg-main-red-hover">
-              Tilaa uutiskirje
+              {t('footer.subscribe')}
             </button>
           </form>
           <div className="flex flex-row gap-2 justify-center">
@@ -106,7 +115,7 @@ const Footer: FC = () => {
 
         <section className="bottom-footer  leading-7">
           <h4 className="col-span-1 text-left text-2xl font-bold mb-6">
-            Yhteystiedot
+            {locale === 'sv' ? 'Kontaktuppgifter' : 'Yhteystiedot'}
           </h4>
           <div className="grid sm:grid-cols-1 md:grid-cols-4 space-y-6 md:space-y-0 text-md">
             <p className="col-span-1">
@@ -115,13 +124,15 @@ const Footer: FC = () => {
               +358505443089<br /><br />
 
               © Swoony Oy <br />
-              Y-tunnus: 3358461-2 <br />
+              {locale === 'sv' ? 'FO-nummer' : 'Y-tunnus'}: 3358461-2 <br />
 
             </p>
             <p className="col-span-1">
-              <Link href="/swoony_guide.pdf" target="_blank">Sovelluksen käyttöopas</Link> <br />
-              <Link href="terms">Käyttöehdot</Link> <br />
-              <Link href="privacy_policy">Tietosuojaseloste</Link> <br />
+              <Link href="/swoony_guide.pdf" target="_blank">
+                {locale === 'sv' ? 'Appens användarguide' : 'Sovelluksen käyttöopas'}
+              </Link> <br />
+              <Link href="terms">{t('footer.terms')}</Link> <br />
+              <Link href="privacy_policy">{t('footer.privacy')}</Link> <br />
 
             </p>
             <div className="col-span-1 flex justify-start space-x-2">

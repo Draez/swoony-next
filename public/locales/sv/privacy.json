@@ -1,0 +1,115 @@
+{
+  "title": "Swoony Oy dataskyddspolicy",
+  "backButton": "Tillbaka",
+  "intro": {
+    "title": "Inledning",
+    "paragraph1": "Dataskydd betyder att rättigheterna för den person vars uppgifter behandlas förverkligas vid behandlingen av personuppgifter. Syftet med dataskydd är att visa när och under vilka förutsättningar personuppgifter kan behandlas. Med personuppgifter avses information som hänför sig till en identifierad eller identifierbar fysisk person.",
+    "paragraph2": "Det är nödvändigt för Swoonys verksamhet att behandla personuppgifter. Vi följer rutiner och processer som skyddar personuppgifter i enlighet med kraven i dataskyddslagstiftningen.",
+    "paragraph3": "Swoony Oy fungerar som personuppgiftsansvarig."
+  },
+  "why": {
+    "title": "Varför behandlar vi personuppgifter och på vilken grund?",
+    "purposeTitle": "Syften med behandlingen av personuppgifter",
+    "purposeIntro": "Vi samlar in och behandlar personuppgifter för att:",
+    "purposes": [
+      "kunna marknadsföra och kommunicera om våra eller utvalda tredje parters tjänster till potentiella och nuvarande kunder",
+      "kunna fullgöra våra avtalsenliga förpliktelser",
+      "kunna utveckla våra tjänster och förbättra användarupplevelsen av våra tjänster",
+      "kunna administrera våra tjänster",
+      "kunna förebygga och utreda eventuella missbruk"
+    ],
+    "legalBasisTitle": "Rättslig grund för behandling av personuppgifter",
+    "legalBasis1": "I vissa situationer ber vi om ditt samtycke till behandling av dina personuppgifter. Dessa situationer inkluderar till exempel samtycke till elektronisk direktmarknadsföring eller behandling av vissa uppgifter som tillhör särskilda kategorier.",
+    "legalBasis2": "När vi marknadsför våra tjänster eller produkter till personer som tillhör marknadsföringsmålgrupper, behandlar vi personuppgifter på grundval av berättigat intresse.",
+    "legalBasis3": "Vi har också ett berättigat intresse av att utveckla våra produkter och tjänster.",
+    "legalBasis4": "När vi fullgör våra avtalsenliga förpliktelser behandlar vi personuppgifter på grundval av avtal, såsom service-, arbets- eller uppdragsavtal. Vi behandlar också personuppgifter för att uppfylla våra skyldigheter enligt lag."
+  },
+  "whatData": {
+    "title": "Vilken information samlar vi in?",
+    "intro": "Vi samlar in information som är nödvändig för de syften som anges i denna dataskyddspolicy:",
+    "points": [
+      "A: Information du ger oss: På våra webbplatser och i vår tjänst frågar vi exempelvis efter dina kontaktuppgifter när du prenumererar på nyhetsbrevet, anmäler dig till ett evenemang, lämnar feedback eller en kontaktförfrågan.",
+      "B: Information vi får från andra: Vi kan få information om dig från våra partners, som information om framgången för vår reklamkampanj.",
+      "C: Teknisk information som observerats och härletts från användningen av tjänster: Vi använder olika teknologier (inklusive cookies) för att samla in och lagra information.",
+      "D: Information insamlad från andra källor: Vi samlar in personuppgifter från offentligt tillgängliga källor."
+    ]
+  },
+  "retention": {
+    "title": "Hur länge sparas användarnas uppgifter?",
+    "content": "Vi behåller användarnas personuppgifter endast så länge som det är nödvändigt för att tillhandahålla tjänsten eller den maximala tid som tillåts enligt lag."
+  },
+  "sharing": {
+    "title": "Vem kan vi dela din information med?",
+    "points": [
+      "Andra användare: När du är användare av vår tjänst, delar du information med andra användare.",
+      "Tjänsteleverantörer: Vi överför personuppgifter endast i den utsträckning som tredje parter behöver tillgång till de personuppgifter vi behandlar.",
+      "Av juridiska skäl: Dina personuppgifter kan lämnas ut i enlighet med krav från behörig myndighet och på laglig grund."
+    ]
+  },
+  "automated": {
+    "title": "Automatiserat beslutsfattande och profilering",
+    "paragraph1": "Med automatiserat beslutsfattande avses ett beslut som grundar sig på automatisk behandling och som har rättsliga följder för en person eller som i betydande grad påverkar honom eller henne.",
+    "paragraph2": "Med profilering avses automatisk behandling av personuppgifter som innefattar till exempel bedömning eller förutsägelse av en persons intressen eller beteende."
+  },
+  "international": {
+    "title": "Internationella dataöverföringar",
+    "paragraph1": "Vi strävar efter att implementera tjänster och behandla personuppgifter med hjälp av aktörer och tjänster belägna inom EU- eller EES-området.",
+    "paragraph2": "Tjänster kan dock i vissa fall också implementeras med hjälp av aktörer belägna på andra platser."
+  },
+  "security": {
+    "title": "Dataskydd",
+    "content": "Datasäkerhet säkerställs genom lämpliga administrativa, tekniska och fysiska skyddsåtgärder."
+  },
+  "minors": {
+    "title": "Minderåriga",
+    "content": "Vår tjänst är inte riktad till minderåriga och vi samlar inte in personuppgifter från minderåriga."
+  },
+  "thirdParty": {
+    "title": "Tredje parts tjänster",
+    "content": "Denna dataskyddspolicy gäller endast för vår tjänst och vi är inte ansvariga för andra tjänsters dataskyddspraxis."
+  },
+  "changes": {
+    "title": "Ändringar i dataskyddspolicyn",
+    "content": "Vi kan ändra denna dataskyddspolicy. Om det görs ändringar i dataskyddspolicyn, kommer vi alltid att meddela om dessa ändringar i denna dataskyddspolicy."
+  },
+  "rights": {
+    "title": "Dina rättigheter",
+    "access": {
+      "title": "Rätt till tillgång",
+      "content": "Du har rätt att kontrollera vilken information om dig som har lagrats i kontaktuppgiftsregistret."
+    },
+    "correction": {
+      "title": "Rätt att kräva korrigering av uppgifter",
+      "content": "Du har rätt att kräva korrigering eller komplettering av felaktig, inexakt, ofullständig, föråldrad eller onödig information."
+    },
+    "deletion": {
+      "title": "Rätt att kräva radering av uppgifter",
+      "content": "Du kan be oss att radera dina personuppgifter från våra system. Vi utför åtgärder enligt din begäran, om vi inte har en berättigad anledning att inte radera informationen."
+    },
+    "restriction": {
+      "title": "Rätt att begränsa behandlingen av uppgifter",
+      "content": "Du kan be oss att begränsa behandlingen av vissa av dina personuppgifter. En begäran om att begränsa behandlingen av uppgifter kan leda till mer begränsade möjligheter att använda våra webbsidor och tjänster."
+    },
+    "objection": {
+      "title": "Rätt att invända mot behandling av uppgifter",
+      "content": "Du kan också begära begränsningar för behandlingen av dina personuppgifter om dina uppgifter behandlas för andra ändamål än för att utföra vår tjänst eller för att fullgöra en skyldighet enligt lag."
+    },
+    "portability": {
+      "title": "Rätt att överföra uppgifter från ett system till ett annat",
+      "content": "Du har rätt att få dina personuppgifter från oss i ett strukturerat och allmänt använt format, så att du kan överföra uppgifterna till en annan personuppgiftsansvarig."
+    },
+    "consent": {
+      "title": "Rätt att återkalla samtycke",
+      "content": "Om behandlingen av dina uppgifter är baserad på samtycke, har du rätt att återkalla ditt samtycke när som helst."
+    },
+    "exercising": {
+      "title": "Utövande av dina rättigheter",
+      "paragraph1": "Du kan utöva dina rättigheter genom att kontakta kundtjänst. Vi kan begära ytterligare information som är nödvändig för att verifiera din identitet.",
+      "paragraph2": "Om du upplever att behandlingen av dina personuppgifter strider mot gällande lagstiftning, kan du lämna ett klagomål till den lokala dataskyddsmyndigheten."
+    }
+  },
+  "contact": {
+    "title": "Vem kan jag kontakta?",
+    "content": "Du kan kontakta vår kundtjänst i dataskyddsfrågor"
+  }
+} 

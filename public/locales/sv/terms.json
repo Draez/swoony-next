@@ -1,0 +1,103 @@
+{
+  "title": "Swoony Oy användarvillkor",
+  "backButton": "Tillbaka",
+  "commitment": {
+    "title": "Åtagande som kund",
+    "intro": "Du har inte rätt att skapa ett konto eller använda tjänsterna om inte alla följande förhållanden gäller för dig, och genom att använda våra tjänster försäkrar och garanterar du att:",
+    "points": [
+      "Du är minst 18 år gammal och en privatperson (dvs. inte en juridisk person, partnerskap eller annan affärsenhet)",
+      "Du har inte begått något åtalbart brott (eller motsvarande allvarligt brott), sexualbrott eller något brott som involverar våld eller hot om våld",
+      "Du försäkrar att all information du lämnar är korrekt och att du inte utelämnar väsentlig information",
+      "Du lovar att svara ärligt och uppriktigt på alla frågor i frågeformuläret",
+      "Du inte har mer än ett konto i våra tjänster",
+      "Vi har inte tidigare tagit bort dig från våra tjänster",
+      "Du inte är i ett förhållande när kundrelationen inleds",
+      "Dina profilbilder är äkta"
+    ]
+  },
+  "consents": {
+    "title": "Samtycke",
+    "intro": "Du samtycker till att:",
+    "points": [
+      "Följa dessa villkor och kontrollera denna sida då och då för att säkerställa att du är medveten om ändringar",
+      "Följa alla tillämpliga lagar, inklusive men inte begränsat till dataskyddslagar, immaterialrättslagar, antispam-lagar och regleringskrav",
+      "Vidta rimliga åtgärder för att skydda dina inloggningsuppgifter"
+    ]
+  },
+  "restrictions": {
+    "title": "Begränsningar",
+    "intro": "Du samtycker till att inte:",
+    "points": [
+      "Ge falsk information om din identitet, ålder eller kopplingar till en viss person eller grupp",
+      "Använda tjänsterna på ett sätt som skadar tjänsterna eller hindrar andra användare från att använda dem",
+      "Använda våra tjänster på ett sätt som stör eller negativt påverkar plattformen, servrar eller våra tjänsters nätverk",
+      "Använda våra tjänster för något skadligt, olagligt eller brottsligt syfte",
+      "Störa, trakassera, förfölja, skrämma, misshandla, förnedra, skada eller på annat sätt bete dig illa",
+      "Fiska lösenord eller samla in personuppgifter från andra användare",
+      "Be om pengar eller något annat värdefullt från en annan användare",
+      "Använda en annan användares konto",
+      "Använda våra tjänster för bedrägeri eller pyramidspel",
+      "Skicka virus eller annan skadlig kod",
+      "Använda eller utveckla tredjepartsapplikationer utan tillstånd",
+      "Skapa ett nytt konto efter att vi har stängt av ditt konto",
+      "Skicka falska rapporter om andra användare"
+    ]
+  },
+  "payment": {
+    "title": "Betalningsvillkor",
+    "paragraphs": [
+      "Användaren är personligen ansvarig för att betala avgifterna enligt avtalet till Swoony Oy. Detta gäller även i situationer där en annan person anges som betalare.",
+      "När ett nytt avtal ingås betalar kunden priset enligt den gällande prislistan.",
+      "Genom att betala för en månadsprenumeration förbinder sig kunden till avtalet för en period av en månad. När avtalet ingås tills vidare, betalas avgiften månadsvis i förskott genom automatisk kortdebitering.",
+      "Vid automatisk kortdebitering ansvarar kunden för att betalkortet är aktiverat och att avtalsbetalningar automatiskt kan debiteras från betalkortet under avtalets giltighetstid.",
+      "Betalningen debiteras automatiskt på den överenskomna förfallodagen utan separat meddelande. Om debiteringen misslyckas, kommer avtalet inte att förlängas för nästa månad."
+    ]
+  },
+  "changes": {
+    "title": "Ändringar i villkor och tjänsteutbud",
+    "paragraphs": [
+      "Swoony Oy har rätt att göra ändringar i månatliga avgifter, andra avgifter och dessa villkor.",
+      "Om skadliga ändringar görs i månadsavgiften kommer kunden att meddelas via e-post eller textmeddelande minst en (1) månad före ändringen träder i kraft."
+    ]
+  },
+  "cancellation": {
+    "title": "Avbokningsrätt",
+    "paragraphs": [
+      "Prenumerationen och medlemskapet förnyas automatiskt om du inte avbokar det. Att ta bort Swoony-appen eller Swoony-kontot avbokar inte prenumerationen eller medlemskapet.",
+      "När du avbokar din prenumeration eller ditt medlemskap kan du använda det till slutet av månaden som du har betalat för. Avbokning av prenumerationen berättigar inte till retroaktiv återbetalning av prenumerations- eller medlemsavgifter, och tidigare betalda avgifter kan inte återbetalas baserat på avbokningsdatumet."
+    ]
+  },
+  "liability": {
+    "title": "Ansvarsvillkor",
+    "paragraphs": [
+      "Kunden är själv ansvarig för sin Swoony-dejting upplevelse, och Swoony är inte ansvarig för några skador eller olägenheter som kan uppstå under eller efter dejten.",
+      "Informera oss omedelbart om din dejt beter sig olämpligt på dejten så att vi kan vidta åtgärder."
+    ]
+  },
+  "communication": {
+    "title": "Kundkommunikation och marknadsföringsmeddelanden",
+    "paragraphs": [
+      "För att upprätthålla kundrelationen kommunicerar vi med dig om frågor som är nära kopplade till de produkter eller tjänster du har beställt från oss. Sådana meddelanden inkluderar till exempel meddelanden om ändringar i priser och tjänsteinnehåll, samt meddelanden som rör leverans och drift av tjänsten. Kundmeddelanden kan skickas elektroniskt eller per brev och innehåller inte marknadsföring.",
+      "Utöver dessa kundmeddelanden kan vi skicka meddelanden med marknadsföringsinnehåll elektroniskt. Från marknadsföringsmeddelanden får du mer omfattande information om Swoonys tjänster och förmåner.",
+      "Swoony-kundförmåner kommuniceras i huvudsak via elektroniska kanaler.",
+      "Elektronisk direktmarknadsföring kan skickas om du har gett tillstånd till det (marknadsföringstillstånd). Du kan också få elektronisk direktmarknadsföring från oss i samband med aktivering av prenumeration eller profilkomplettering utan separat marknadsföringstillstånd. Om du förbjuder elektronisk marknadsföring skickar vi inga elektroniska meddelanden som innehåller någon form av marknadsföring. Du kan ställa in ett elektroniskt marknadsföringsförbud via självbetjäning eller via vår kundtjänst."
+    ]
+  },
+  "safety": {
+    "title": "Allmänna säkerhetspåminnelser",
+    "paragraphs": [
+      "Du känner dina gränser för droger och alkohol bättre än någon annan. Låt inte din match pressa dig till något som känns obekvämt. Om din match försöker pressa dig att använda droger eller dricka mer än du vill, avsluta dejten.",
+      "Ge aldrig känslig personlig information till någon, såsom personnummer, kreditkortsnummer eller bankinformation, oavsett varför din dejt säger att de behöver det.",
+      "Skicka aldrig pengar eller personlig information online. Om en annan Swoony-användare ber dig om pengar, rapportera det till oss omedelbart.",
+      "Det är klokt och din rätt att ärligt diskutera sexuell kontakt med din dejt innan du inleder den, inklusive att fråga när någon senast testade sig för sexuellt överförbara sjukdomar.",
+      "Korrekt och konsekvent användning av kondomer och andra skydd kan minska risken för att få eller sprida sexuellt överförbara sjukdomar, inklusive HIV. Det är dock möjligt att få vissa sexuellt överförbara sjukdomar genom kontakt med din partners hud, även om du använder skydd.",
+      "All sexuell aktivitet måste börja med samtycke. Muntlig kommunikation kan hjälpa dig och din partner att säkerställa att ni respekterar varandras gränser. Kom ihåg att samtycke kan återkallas när som helst. Fortsätt aldrig om din partner är osäker eller om de inte kan samtycka på grund av alkohol eller droger."
+    ]
+  },
+  "contact": {
+    "title": "Kontaktuppgifter",
+    "email": "Kundtjänst: info@swoony.io",
+    "phone": "Telefon: 045 229 6866",
+    "hours": "Öppettider: Mån-Fre 10:00 - 17:00"
+  }
+} 

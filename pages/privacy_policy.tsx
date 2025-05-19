@@ -3,6 +3,10 @@ import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "@/components/Footer/Footer";
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { GetStaticProps } from 'next';
+import { useRouter } from "next/router";
 
 const quickSand = Quicksand({
     weight: ["700"],
@@ -11,6 +15,20 @@ const quickSand = Quicksand({
 });
 
 export default function PrivacyPolicy() {
+    const { t } = useTranslation('privacy');
+    const router = useRouter();
+    const { locale } = router;
+
+    const changeLanguage = (newLocale: string) => {
+        router.push(router.pathname, router.asPath, { locale: newLocale });
+    };
+
+    // Helper function to safely handle array translations
+    const getTranslationArray = (key: string): string[] => {
+        const value = t(key, { returnObjects: true });
+        return Array.isArray(value) ? value : [];
+    };
+
     return (
         <>
             <div className="p-8 text-black max-w-4xl mx-auto">
@@ -29,183 +47,196 @@ export default function PrivacyPolicy() {
                     </div>
                 </Link>
 
-                <Link
-                    href="/"
-                    className="inline-block my-4 py-2 bg-main-blue text-white text-md font-semibold px-8 rounded-full hover:bg-main-red-hover"
-                >
-                    Takaisin
-                </Link>
+                <div className="flex justify-between items-center">
+                    <Link
+                        href="/"
+                        className="inline-block my-4 py-2 bg-main-blue text-white text-md font-semibold px-8 rounded-full hover:bg-main-red-hover"
+                    >
+                        {t('backButton')}
+                    </Link>
+                    <div className="flex items-center">
+                        <button
+                            onClick={() => changeLanguage('fi')}
+                            className={`px-2 py-1 mr-2 ${locale === 'fi' ? 'font-bold text-main-blue underline' : 'text-gray-500'}`}
+                        >
+                            FI
+                        </button>
+                        <button
+                            onClick={() => changeLanguage('sv')}
+                            className={`px-2 py-1 ${locale === 'sv' ? 'font-bold text-main-blue underline' : 'text-gray-500'}`}
+                        >
+                            SV
+                        </button>
+                    </div>
+                </div>
+
                 <div className="space-y-6 mt-8">
-                    <h1 className="text-3xl font-bold mb-8">Swoony Oy tietosuojaseloste</h1>
+                    <h1 className="text-3xl font-bold mb-8">{t('title')}</h1>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Johdanto</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('intro.title')}</h2>
                         <p className="mb-4">
-                            Tietosuoja tarkoittaa henkilön, jonka tietoja käsitellään, oikeuksien toteutumista henkilötietojen käsittelyssä.
-                            Tietosuojan tarkoituksena on osoittaa, milloin ja millä edellytyksillä henkilötietoja voidaan käsitellä.
-                            Henkilötieto puolestaan tarkoittaa tietoja, jotka liittyvät tunnistettuun tai tunnistettavissa olevaan luonnolliseen henkilöön.
+                            {t('intro.paragraph1')}
                         </p>
                         <p className="mb-4">
-                            Swoonyn toiminnan kannalta on välttämätöntä käsitellä henkilötietoja. Noudatamme menettelytapoja ja prosesseja,
-                            joilla suojataan henkilötietoja tietosuojalainsäädännön vaatimusten mukaisesti.
+                            {t('intro.paragraph2')}
                         </p>
-                        <p>Rekisterinpitäjänä toimii Swoony Oy.</p>
+                        <p>
+                            {t('intro.paragraph3')}
+                        </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Miksi käsittelemme henkilötietoja ja millä perusteella?</h2>
-                        <h3 className="text-xl font-medium mb-2">Henkilötietojen käsittelyn tarkoitukset</h3>
-                        <p className="mb-2">Keräämme ja käsittelemme henkilötietoja, jotta:</p>
+                        <h2 className="text-2xl font-semibold mb-4">{t('why.title')}</h2>
+                        <h3 className="text-xl font-medium mb-2">{t('why.purposeTitle')}</h3>
+                        <p className="mb-2">{t('why.purposeIntro')}</p>
                         <ul className="list-disc pl-6 mb-4 space-y-2">
-                            <li>potentiaalisille asiakkaille ja nykyisille asiakkaille voidaan markkinoida ja viestiä meidän tai valitsemiemme kolmansien osapuolten palveluista</li>
-                            <li>voimme hoitaa sopimuksista johtuvat velvoitteemme</li>
-                            <li>voimme kehittää palveluitamme ja parantaa palveluidemme käyttökokemusta</li>
-                            <li>palveluitamme voidaan hallinnoida</li>
-                            <li>voimme ennaltaehkäistä ja selvittää mahdollisia väärinkäytöksiä</li>
+                            {getTranslationArray('why.purposes').map((purpose, index) => (
+                                <li key={index}>{purpose}</li>
+                            ))}
                         </ul>
                     </section>
 
                     <section>
-                        <h3 className="text-xl font-medium mb-2">Henkilötietojen käsittelyn oikeusperuste</h3>
+                        <h3 className="text-xl font-medium mb-2">{t('why.legalBasisTitle')}</h3>
                         <p className="mb-4">
-                            Pyydämme sinulta tietyissä tilanteissa suostumusta henkilötietojesi käsittelyyn. Näitä tilanteita ovat esimerkiksi suostumus sähköiseen suoramarkkinointiin tai joidenkin erityisryhmiin kuuluvien tietojen käsittely.
+                            {t('why.legalBasis1')}
                         </p>
                         <p className="mb-4">
-                            Kun markkinoimme palveluitamme tai tuotteitamme markkinointikohderyhmiin kuuluville henkilöille, käsittelemme henkilötietoja oikeutetun edun perusteella.
+                            {t('why.legalBasis2')}
                         </p>
                         <p className="mb-4">
-                            Meillä on myös oikeutettu etu kehittää tuotteitamme ja palveluitamme.
+                            {t('why.legalBasis3')}
                         </p>
                         <p>
-                            Hoitaessamme sopimuksista johtuvat velvoitteemme käsittelemme henkilötietoja sopimuksen, kuten palvelu-, työ- tai toimeksiantosopimuksen perusteella. Lisäksi käsittelemme henkilötietoja täyttääksemme lainsäädännöstä johtuvat velvoitteemme.
+                            {t('why.legalBasis4')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Mitä tietoja keräämme?</h2>
-                        <p className="mb-4">Keräämme tässä tietosuojaselosteessa määriteltyjen käyttötarkoitusten kannalta tarpeellisia tietoja:</p>
+                        <h2 className="text-2xl font-semibold mb-4">{t('whatData.title')}</h2>
+                        <p className="mb-4">{t('whatData.intro')}</p>
                         <ul className="list-disc pl-6 mb-4 space-y-2">
-                            <li>A: Meille antamasi tiedot: Sivustoilla ja palvelussamme kysytään esimerkiksi yhteystietojasi tilatessasi uutiskirjeen, ilmoittautuessasi tapahtumaan, jättäessäsi palautetta tai yhteydenottopyynnön.</li>
-                            <li>B: Tiedot, joita saamme muilta: Saatamme saada tietoja sinusta kumppaneiltamme, kuten tiedon mainoskampanjamme onnistumisesta.</li>
-                            <li>C: Palveluiden käytöstä havainnoidut ja johdetut tekniset tiedot: Käytämme erilaisia teknologioita (mukaan lukien evästeitä) kerätäksemme ja säilyttääksemme tietoa.</li>
-                            <li>D: Muista lähteistä kerätyt tiedot: Keräämme henkilötietoja julkisesti saatavilla olevista lähteistä.</li>
+                            {getTranslationArray('whatData.points').map((point, index) => (
+                                <li key={index}>{point}</li>
+                            ))}
                         </ul>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Kuinka kauan käyttäjien tietoja säilytetään?</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('retention.title')}</h2>
                         <p>
-                            Säilytämme käyttäjien henkilötietoja vain niin kauan kuin niitä tarvitaan palvelun tarjoamista varten tai lain salliman enimmäisajan.
+                            {t('retention.content')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Kenelle voimme jakaa tietojasi?</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('sharing.title')}</h2>
                         <ul className="list-disc pl-6 mb-4 space-y-2">
-                            <li>Muut käyttäjät: Kun olet tarjoamamme palvelun käyttäjä, luovutat tietoja muille käyttäjille.</li>
-                            <li>Palveluntarjoajat: Siirrämme henkilötietoja ainoastaan siinä laajuudessa kuin kolmannet osapuolet tarvitsevat pääsyn käsittelemiimme henkilötietoihin.</li>
-                            <li>Oikeudellisista syistä: Henkilötietojasi voidaan luovuttaa toimivaltaisen viranomaisen esittämien vaatimusten ja lakiin perustuvien edellytysten mukaisesti.</li>
+                            {getTranslationArray('sharing.points').map((point, index) => (
+                                <li key={index}>{point}</li>
+                            ))}
                         </ul>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Automatisoitu päätöksenteko ja profilointi</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('automated.title')}</h2>
                         <p className="mb-4">
-                            Automatisoidulla päätöksenteolla tarkoitetaan päätöstä, joka perustuu automaattiseen käsittelyyn ja jolla on henkilöä koskevia oikeusvaikutuksia tai joka vaikuttaa häneen merkittävästi.
+                            {t('automated.paragraph1')}
                         </p>
                         <p>
-                            Profiloinnilla puolestaan tarkoitetaan automaattisesti tapahtuvaa henkilötietojen käsittelyä, johon liittyy esimerkiksi henkilön kiinnostuksen kohteiden tai käyttäytymisen arviointia tai ennakointia.
+                            {t('automated.paragraph2')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Kansainväliset tietojen siirrot</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('international.title')}</h2>
                         <p className="mb-4">
-                            Pyrimme toteuttamaan palvelut ja käsittelemään henkilötietoja EU- tai ETA-alueella sijaitsevia toimijoita ja palveluita hyödyntäen.
+                            {t('international.paragraph1')}
                         </p>
                         <p>
-                            Palveluita saatetaan kuitenkin joissakin tapauksissa toteuttaa myös muualla sijaitsevia toimijoita käyttäen.
+                            {t('international.paragraph2')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Tietojen suojaus</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('security.title')}</h2>
                         <p>
-                            Tietoturva varmistetaan asianmukaisilla hallinnollisilla, teknisillä ja fyysisillä suojaustoimilla.
+                            {t('security.content')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Alaikäiset</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('minors.title')}</h2>
                         <p>
-                            Tarjoamamme palvelu ei ole suunnattu alaikäisille emmekä kerää alaikäisten henkilötietoja.
+                            {t('minors.content')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Kolmansien palvelut</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('thirdParty.title')}</h2>
                         <p>
-                            Tämä tietosuojaseloste soveltuu vain meidän tarjoamaamme palveluun emmekä ole vastuussa muiden palveluiden tietosuojakäytännöistä.
+                            {t('thirdParty.content')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Tietosuojaselosteen muuttaminen</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('changes.title')}</h2>
                         <p>
-                            Voimme muuttaa tätä tietosuojaselostetta. Jos tietosuojaselosteeseen tulee muutoksia, ilmoitamme näistä muutoksista aina tässä tietosuojaselosteessa.
+                            {t('changes.content')}
                         </p>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold mb-4">Sinun oikeutesi</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('rights.title')}</h2>
                         <div className="space-y-4">
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Tarkastusoikeus</h3>
-                                <p>Sinulla on oikeus tarkastaa, mitä sinua koskevia tietoja yhteystietorekisteriin on talletettu.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.access.title')}</h3>
+                                <p>{t('rights.access.content')}</p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Oikeus vaatia tiedon oikaisemista</h3>
-                                <p>Sinulla on oikeus vaatia väärän, epätarkan, epätäydellisen, vanhentuneen tai tarpeettoman tiedon korjaamista tai täydentämistä.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.correction.title')}</h3>
+                                <p>{t('rights.correction.content')}</p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Oikeus vaatia tiedon poistamista</h3>
-                                <p>Voit pyytää meitä poistamaan henkilötietosi järjestelmistämme. Suoritamme pyyntösi mukaiset toimenpiteet, mikäli meillä ei ole oikeutettua syytä olla poistamatta tietoa.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.deletion.title')}</h3>
+                                <p>{t('rights.deletion.content')}</p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Oikeus rajoittaa tiedon käsittelyä</h3>
-                                <p>Voit pyytää meitä rajoittamaan tiettyjen henkilötietojesi käsittelyjä. Tietojen käsittelyn rajoittamista koskeva pyyntö saattaa johtaa rajoitetumpiin mahdollisuuksiin käyttää internetsivujamme sekä palveluitamme.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.restriction.title')}</h3>
+                                <p>{t('rights.restriction.content')}</p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Oikeus vastustaa tiedon käsittelyä</h3>
-                                <p>Voit myös pyytää rajoituksia henkilötietojesi käsittelyyn, mikäli tietojasi käsitellään muihin tarkoituksiin kuin palvelumme suorittamiseksi tai laista aiheutuvan velvollisuuden täyttämiseksi.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.objection.title')}</h3>
+                                <p>{t('rights.objection.content')}</p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Oikeus siirtää tiedot järjestelmästä toiseen</h3>
-                                <p>Sinulla on oikeus saada henkilötietosi meiltä jäsennellyssä ja yleisesti käytetyssä muodossa, jotta voit välittää tiedot toiselle rekisterinpitäjälle.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.portability.title')}</h3>
+                                <p>{t('rights.portability.content')}</p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Oikeus peruuttaa suostumus</h3>
-                                <p>Mikäli tietojesi käsittely perustuu suostumukseen, sinulla on oikeus peruuttaa suostumus milloin tahansa.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.consent.title')}</h3>
+                                <p>{t('rights.consent.content')}</p>
                             </div>
 
                             <div>
-                                <h3 className="text-xl font-medium mb-2">Oikeuksiesi käyttäminen</h3>
-                                <p className="mb-4">Voit käyttää oikeuksiasi ottamalla yhteyttä asiakaspalveluun. Voimme pyytää lisätietoja, jotka ovat tarpeen henkilöllisyytesi varmentamiseksi.</p>
-                                <p>Mikäli koet henkilötietojesi käsittelyn olevan ristiriidassa voimassa olevan lainsäädännön kanssa, voit tehdä valituksen paikalliselle tietosuojavalvontaviranomaiselle.</p>
+                                <h3 className="text-xl font-medium mb-2">{t('rights.exercising.title')}</h3>
+                                <p className="mb-4">{t('rights.exercising.paragraph1')}</p>
+                                <p>{t('rights.exercising.paragraph2')}</p>
                             </div>
                         </div>
                     </section>
 
                     <section className="mt-8">
-                        <h2 className="text-2xl font-semibold mb-4">Kehen voin ottaa yhteyttä?</h2>
+                        <h2 className="text-2xl font-semibold mb-4">{t('contact.title')}</h2>
                         <p>
-                            Yhteyttä tietosuojaa koskevissa asioissa voit ottaa asiakaspalveluumme{' '}
+                            {t('contact.content')}{' '}
                             <Link href="mailto:info@swoony.io" className="text-main-blue hover:underline">
                                 info@swoony.io
                             </Link>
@@ -216,7 +247,7 @@ export default function PrivacyPolicy() {
                         href="/"
                         className="inline-block mt-8 py-2 bg-main-blue text-white text-md font-semibold px-8 rounded-full hover:bg-main-red-hover"
                     >
-                        Takaisin
+                        {t('backButton')}
                     </Link>
                 </div>
             </div>
@@ -225,3 +256,11 @@ export default function PrivacyPolicy() {
         </>
     );
 }
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+    return {
+        props: {
+            ...(await serverSideTranslations(locale || 'fi', ['common', 'privacy'])),
+        },
+    };
+};

@@ -1,0 +1,115 @@
+{
+  "title": "Swoony Oy tietosuojaseloste",
+  "backButton": "Takaisin",
+  "intro": {
+    "title": "Johdanto",
+    "paragraph1": "Tietosuoja tarkoittaa henkilön, jonka tietoja käsitellään, oikeuksien toteutumista henkilötietojen käsittelyssä. Tietosuojan tarkoituksena on osoittaa, milloin ja millä edellytyksillä henkilötietoja voidaan käsitellä. Henkilötieto puolestaan tarkoittaa tietoja, jotka liittyvät tunnistettuun tai tunnistettavissa olevaan luonnolliseen henkilöön.",
+    "paragraph2": "Swoonyn toiminnan kannalta on välttämätöntä käsitellä henkilötietoja. Noudatamme menettelytapoja ja prosesseja, joilla suojataan henkilötietoja tietosuojalainsäädännön vaatimusten mukaisesti.",
+    "paragraph3": "Rekisterinpitäjänä toimii Swoony Oy."
+  },
+  "why": {
+    "title": "Miksi käsittelemme henkilötietoja ja millä perusteella?",
+    "purposeTitle": "Henkilötietojen käsittelyn tarkoitukset",
+    "purposeIntro": "Keräämme ja käsittelemme henkilötietoja, jotta:",
+    "purposes": [
+      "potentiaalisille asiakkaille ja nykyisille asiakkaille voidaan markkinoida ja viestiä meidän tai valitsemiemme kolmansien osapuolten palveluista",
+      "voimme hoitaa sopimuksista johtuvat velvoitteemme",
+      "voimme kehittää palveluitamme ja parantaa palveluidemme käyttökokemusta",
+      "palveluitamme voidaan hallinnoida",
+      "voimme ennaltaehkäistä ja selvittää mahdollisia väärinkäytöksiä"
+    ],
+    "legalBasisTitle": "Henkilötietojen käsittelyn oikeusperuste",
+    "legalBasis1": "Pyydämme sinulta tietyissä tilanteissa suostumusta henkilötietojesi käsittelyyn. Näitä tilanteita ovat esimerkiksi suostumus sähköiseen suoramarkkinointiin tai joidenkin erityisryhmiin kuuluvien tietojen käsittely.",
+    "legalBasis2": "Kun markkinoimme palveluitamme tai tuotteitamme markkinointikohderyhmiin kuuluville henkilöille, käsittelemme henkilötietoja oikeutetun edun perusteella.",
+    "legalBasis3": "Meillä on myös oikeutettu etu kehittää tuotteitamme ja palveluitamme.",
+    "legalBasis4": "Hoitaessamme sopimuksista johtuvat velvoitteemme käsittelemme henkilötietoja sopimuksen, kuten palvelu-, työ- tai toimeksiantosopimuksen perusteella. Lisäksi käsittelemme henkilötietoja täyttääksemme lainsäädännöstä johtuvat velvoitteemme."
+  },
+  "whatData": {
+    "title": "Mitä tietoja keräämme?",
+    "intro": "Keräämme tässä tietosuojaselosteessa määriteltyjen käyttötarkoitusten kannalta tarpeellisia tietoja:",
+    "points": [
+      "A: Meille antamasi tiedot: Sivustoilla ja palvelussamme kysytään esimerkiksi yhteystietojasi tilatessasi uutiskirjeen, ilmoittautuessasi tapahtumaan, jättäessäsi palautetta tai yhteydenottopyynnön.",
+      "B: Tiedot, joita saamme muilta: Saatamme saada tietoja sinusta kumppaneiltamme, kuten tiedon mainoskampanjamme onnistumisesta.",
+      "C: Palveluiden käytöstä havainnoidut ja johdetut tekniset tiedot: Käytämme erilaisia teknologioita (mukaan lukien evästeitä) kerätäksemme ja säilyttääksemme tietoa.",
+      "D: Muista lähteistä kerätyt tiedot: Keräämme henkilötietoja julkisesti saatavilla olevista lähteistä."
+    ]
+  },
+  "retention": {
+    "title": "Kuinka kauan käyttäjien tietoja säilytetään?",
+    "content": "Säilytämme käyttäjien henkilötietoja vain niin kauan kuin niitä tarvitaan palvelun tarjoamista varten tai lain salliman enimmäisajan."
+  },
+  "sharing": {
+    "title": "Kenelle voimme jakaa tietojasi?",
+    "points": [
+      "Muut käyttäjät: Kun olet tarjoamamme palvelun käyttäjä, luovutat tietoja muille käyttäjille.",
+      "Palveluntarjoajat: Siirrämme henkilötietoja ainoastaan siinä laajuudessa kuin kolmannet osapuolet tarvitsevat pääsyn käsittelemiimme henkilötietoihin.",
+      "Oikeudellisista syistä: Henkilötietojasi voidaan luovuttaa toimivaltaisen viranomaisen esittämien vaatimusten ja lakiin perustuvien edellytysten mukaisesti."
+    ]
+  },
+  "automated": {
+    "title": "Automatisoitu päätöksenteko ja profilointi",
+    "paragraph1": "Automatisoidulla päätöksenteolla tarkoitetaan päätöstä, joka perustuu automaattiseen käsittelyyn ja jolla on henkilöä koskevia oikeusvaikutuksia tai joka vaikuttaa häneen merkittävästi.",
+    "paragraph2": "Profiloinnilla puolestaan tarkoitetaan automaattisesti tapahtuvaa henkilötietojen käsittelyä, johon liittyy esimerkiksi henkilön kiinnostuksen kohteiden tai käyttäytymisen arviointia tai ennakointia."
+  },
+  "international": {
+    "title": "Kansainväliset tietojen siirrot",
+    "paragraph1": "Pyrimme toteuttamaan palvelut ja käsittelemään henkilötietoja EU- tai ETA-alueella sijaitsevia toimijoita ja palveluita hyödyntäen.",
+    "paragraph2": "Palveluita saatetaan kuitenkin joissakin tapauksissa toteuttaa myös muualla sijaitsevia toimijoita käyttäen."
+  },
+  "security": {
+    "title": "Tietojen suojaus",
+    "content": "Tietoturva varmistetaan asianmukaisilla hallinnollisilla, teknisillä ja fyysisillä suojaustoimilla."
+  },
+  "minors": {
+    "title": "Alaikäiset",
+    "content": "Tarjoamamme palvelu ei ole suunnattu alaikäisille emmekä kerää alaikäisten henkilötietoja."
+  },
+  "thirdParty": {
+    "title": "Kolmansien palvelut",
+    "content": "Tämä tietosuojaseloste soveltuu vain meidän tarjoamaamme palveluun emmekä ole vastuussa muiden palveluiden tietosuojakäytännöistä."
+  },
+  "changes": {
+    "title": "Tietosuojaselosteen muuttaminen",
+    "content": "Voimme muuttaa tätä tietosuojaselostetta. Jos tietosuojaselosteeseen tulee muutoksia, ilmoitamme näistä muutoksista aina tässä tietosuojaselosteessa."
+  },
+  "rights": {
+    "title": "Sinun oikeutesi",
+    "access": {
+      "title": "Tarkastusoikeus",
+      "content": "Sinulla on oikeus tarkastaa, mitä sinua koskevia tietoja yhteystietorekisteriin on talletettu."
+    },
+    "correction": {
+      "title": "Oikeus vaatia tiedon oikaisemista",
+      "content": "Sinulla on oikeus vaatia väärän, epätarkan, epätäydellisen, vanhentuneen tai tarpeettoman tiedon korjaamista tai täydentämistä."
+    },
+    "deletion": {
+      "title": "Oikeus vaatia tiedon poistamista",
+      "content": "Voit pyytää meitä poistamaan henkilötietosi järjestelmistämme. Suoritamme pyyntösi mukaiset toimenpiteet, mikäli meillä ei ole oikeutettua syytä olla poistamatta tietoa."
+    },
+    "restriction": {
+      "title": "Oikeus rajoittaa tiedon käsittelyä",
+      "content": "Voit pyytää meitä rajoittamaan tiettyjen henkilötietojesi käsittelyjä. Tietojen käsittelyn rajoittamista koskeva pyyntö saattaa johtaa rajoitetumpiin mahdollisuuksiin käyttää internetsivujamme sekä palveluitamme."
+    },
+    "objection": {
+      "title": "Oikeus vastustaa tiedon käsittelyä",
+      "content": "Voit myös pyytää rajoituksia henkilötietojesi käsittelyyn, mikäli tietojasi käsitellään muihin tarkoituksiin kuin palvelumme suorittamiseksi tai laista aiheutuvan velvollisuuden täyttämiseksi."
+    },
+    "portability": {
+      "title": "Oikeus siirtää tiedot järjestelmästä toiseen",
+      "content": "Sinulla on oikeus saada henkilötietosi meiltä jäsennellyssä ja yleisesti käytetyssä muodossa, jotta voit välittää tiedot toiselle rekisterinpitäjälle."
+    },
+    "consent": {
+      "title": "Oikeus peruuttaa suostumus",
+      "content": "Mikäli tietojesi käsittely perustuu suostumukseen, sinulla on oikeus peruuttaa suostumus milloin tahansa."
+    },
+    "exercising": {
+      "title": "Oikeuksiesi käyttäminen",
+      "paragraph1": "Voit käyttää oikeuksiasi ottamalla yhteyttä asiakaspalveluun. Voimme pyytää lisätietoja, jotka ovat tarpeen henkilöllisyytesi varmentamiseksi.",
+      "paragraph2": "Mikäli koet henkilötietojesi käsittelyn olevan ristiriidassa voimassa olevan lainsäädännön kanssa, voit tehdä valituksen paikalliselle tietosuojavalvontaviranomaiselle."
+    }
+  },
+  "contact": {
+    "title": "Kehen voin ottaa yhteyttä?",
+    "content": "Yhteyttä tietosuojaa koskevissa asioissa voit ottaa asiakaspalveluumme"
+  }
+} 

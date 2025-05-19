@@ -1,0 +1,64 @@
+{
+  "header": {
+    "pricing": "Hinnasto",
+    "news": "Ajankohtaista",
+    "newsletter": "Tilaa uutiskirje",
+    "users": "1900+ rekisteröitynyttä käyttäjää",
+    "title": "Suomen paras Matchmaking -sovellus",
+    "description": "Kyllästynyt perinteisiin pinnallisiin deitti-sovelluksiin? Swoony yhdistää asiantuntijat ja tekoälyn löytääkseen sinulle sopivan kumppanin.",
+    "appAlt": "Etsi rakkaus asiantuntijoiden avulla"
+  },
+  "intro": {
+    "title": "Miksi Swoony?",
+    "description": "Täytä kattava profiili ja anna asiantuntijoidemme löytää sinulle sopiva kumppani",
+    "description2": "Keskitymme syvällisten yhteyksien luomiseen pinnallisuuden sijaan.",
+    "description3": "Panostamme mätsien laatuun, emme määrään."
+  },
+  "process": {
+    "title": "Swoony - Koe uudenlainen deittailu",
+    "step1": "Lataa sovellus",
+    "step2": "Täytä profiili",
+    "step3": "Asiantuntijahaku",
+    "step4": "Keskustelkaa"
+  },
+  "pricing": {
+    "title": "Valitse sinulle sopivin vaihtoehto",
+    "free": "Free",
+    "freePayment": "Ilmainen",
+    "premium": "Pro",
+    "vip": "VIP",
+    "month": "kuukausi",
+    "signup": "Rekisteröidy",
+    "subscribe": "Tilaa"
+  },
+  "experts": {
+    "title": "Asiantuntijamme ymmärtävät rakkautta",
+    "description": "Swoony yhdistää matchmakerit ja tekoälyn löytääkseen sinulle sopivan kumppanin."
+  },
+  "featuredIn": {
+    "title": "Nähty mediassa"
+  },
+  "blog": {
+    "title": "Ajankohtaista",
+    "readMore": "Lue lisää"
+  },
+  "faq": {
+    "title": "Usein kysytyt kysymykset",
+    "question1": "Mikä on Swoony?",
+    "answer1": "Swoony on deittisovellus, joka yhdistää asiantuntijat ja tekoälyn löytääkseen sinulle sopivan kumppanin.",
+    "question2": "Miten Swoony eroaa muista deittisovelluksista?",
+    "answer2": "Swoonyssa liikutaan omilla kasvoilla ja asiantuntijat auttavat sopivan kumppanin löytämisessä.",
+    "question3": "Onko sovelluksen käyttö maksullista?",
+    "answer3": "Sovelluksen perusversio on ilmainen, mutta tarjoamme myös Premium ja VIP -jäsenyyksiä lisäominaisuuksilla.",
+    "question4": "Miten voin saada parhaat tulokset sovelluksesta?",
+    "answer4": "Täytä profiilisi huolellisesti ja lisää laadukkaita kuvia itsestäsi."
+  },
+  "footer": {
+    "newsletter": "Tilaa uutiskirje",
+    "subscribe": "Tilaa",
+    "email": "Sähköposti",
+    "privacy": "Tietosuojaseloste",
+    "terms": "Käyttöehdot",
+    "copyright": "© 2023 Swoony. Kaikki oikeudet pidätetään."
+  }
+} 

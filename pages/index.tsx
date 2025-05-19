@@ -8,7 +8,22 @@ import Experts from "@/components/Experts/Experts";
 import Pricing from "@/components/Pricing/Pricing";
 import { FAQ } from '@/components/FAQ/FAQ';
 import Blog from "@/components/Blog/Blog";
+import FeaturedIn from "@/components/FeaturedIn/FeaturedIn";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { GetStaticProps } from 'next';
+import { useRouter } from "next/router";
 
+/**
+ * Swoony Homepage with i18n support
+ * 
+ * This page includes all main components of the Swoony website
+ * with translations for Finnish (fi) and Swedish (sv).
+ * 
+ * Language switching is handled in the Header component.
+ * Translations are stored in /public/locales/{locale}/common.json
+ * 
+ * @returns Homepage Component
+ */
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
@@ -17,10 +32,20 @@ export default function Home() {
       <Intro />
       <Pricing />
       <Experts />
-      <Blog />
+      {/* TODO: Add FeaturedIn component */}
+      {/* <FeaturedIn /> */}
+      {useRouter().locale !== 'sv' && <Blog />}
       <FAQ />
 
       <Footer />
     </main>
   );
 }
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale || 'fi', ['common'])),
+    },
+  };
+};

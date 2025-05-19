@@ -1,0 +1,64 @@
+{
+  "header": {
+    "pricing": "Priser",
+    "news": "Aktuellt",
+    "newsletter": "Prenumerera på nyhetsbrev",
+    "users": "1900+ registrerade användare",
+    "title": "Sveriges bästa Matchmaking-app",
+    "description": "Trött på traditionella ytliga dejting-appar? Swoony kombinerar experter och AI för att hitta en lämplig partner åt dig.",
+    "appAlt": "Hitta kärlek med hjälp av experter"
+  },
+  "intro": {
+    "title": "Varför Swoony?",
+    "description": "Fyll i en omfattande profil och låt våra experter hitta en passande partner för dig",
+    "description2": "Vi fokuserar på att skapa djupare relationer istället för att bara se på ytlighet.",
+    "description3": "Vi litar på mätsens kvalitet, inte antalet."
+  },
+  "process": {
+    "title": "Swoony - En ny typ av dejting",
+    "step1": "Ladda ner appen",
+    "step2": "Fyll i din profil",
+    "step3": "Expert­sökning",
+    "step4": "Chatta"
+  },
+  "pricing": {
+    "title": "Välj det alternativ som passar dig bäst",
+    "free": "Free",
+    "freePayment": "Gratis",
+    "premium": "Premium",
+    "vip": "VIP",
+    "month": "månad",
+    "signup": "Registrera dig",
+    "subscribe": "Prenumerera"
+  },
+  "experts": {
+    "title": "Våra experter står till ditt förfogande",
+    "description": "Swoony kombinerar matchmakers och AI för att hitta en lämplig partner åt dig."
+  },
+  "featuredIn": {
+    "title": "Sett i media"
+  },
+  "blog": {
+    "title": "Aktuellt",
+    "readMore": "Läs mer"
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "question1": "Vad är Swoony?",
+    "answer1": "Swoony är en dejting-app som kombinerar experter och AI för att hitta en lämplig partner åt dig.",
+    "question2": "Hur skiljer sig Swoony från andra dejting-appar?",
+    "answer2": "I Swoony använder man sitt eget ansikte och experter hjälper till att hitta en lämplig partner.",
+    "question3": "Är det avgiftsbelagt att använda appen?",
+    "answer3": "Basversionen av appen är gratis, men vi erbjuder också Premium och VIP-medlemskap med ytterligare funktioner.",
+    "question4": "Hur får jag bästa resultat från appen?",
+    "answer4": "Fyll i din profil noggrant och lägg till högkvalitativa bilder av dig själv."
+  },
+  "footer": {
+    "newsletter": "Prenumerera på nyhetsbrev",
+    "subscribe": "Prenumerera",
+    "email": "E-post",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "copyright": "© 2023 Swoony. Alla rättigheter förbehållna."
+  }
+} 

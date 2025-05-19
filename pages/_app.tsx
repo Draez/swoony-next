@@ -5,6 +5,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { appWithTranslation } from 'next-i18next';
 
 const jakartaSans = Plus_Jakarta_Sans({
   weight: ["400", "600", "700"],
@@ -12,8 +13,9 @@ const jakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
 });
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
+  const { locale } = router;
 
   useEffect(() => {
     router.events.on("routeChangeComplete", () => {
@@ -42,19 +44,29 @@ export default function App({ Component, pageProps }: AppProps) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Swoony: Suomen paras Matchmaking -sovellus - Lataa nyt!</title>
+        <title>
+          {locale === 'sv'
+            ? 'Swoony: Finlands bästa Matchmaking-app - Ladda ner nu!'
+            : 'Swoony: Suomen paras Matchmaking -sovellus - Lataa nyt!'}
+        </title>
         <meta
           name="description"
-          content="Oletko kyllästynyt nykyajan pinnalliseen deittailukulttuuriin?? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."
+          content={locale === 'sv'
+            ? 'Är du trött på dagens ytliga dejtingkultur? Med kombinationen av våra experter och AI kommer du att hitta den rätta.'
+            : 'Oletko kyllästynyt nykyajan pinnalliseen deittailukulttuuriin? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean.'}
           key="desc"
         />
         <meta
           property="og:title"
-          content="Swoony: Suomen paras Matchmaking -sovellus - Lataa nyt!"
+          content={locale === 'sv'
+            ? 'Swoony: Finlands bästa Matchmaking-app - Ladda ner nu!'
+            : 'Swoony: Suomen paras Matchmaking -sovellus - Lataa nyt!'}
         />
         <meta
           property="og:description"
-          content="Oletko kyllästynyt nykyajan pinnalliseen deittailukulttuuriin?? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."
+          content={locale === 'sv'
+            ? 'Är du trött på dagens ytliga dejtingkultur? Med kombinationen av våra experter och AI kommer du att hitta den rätta.'
+            : 'Oletko kyllästynyt nykyajan pinnalliseen deittailukulttuuriin? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean.'}
         />
         <meta name="facebook-domain-verification" content="jtzhxaou62g5muxg5h4d8uj1lfrx54" />
       </Head>
@@ -65,6 +77,8 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+export default appWithTranslation(App);
 
 // <div className="flex min-h-screen flex-col items-center justify-center bg-main-blue text-white">
 //   <input

@@ -1,6 +1,12 @@
 import React from "react";
+import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 
 const Process = () => {
+  const { t } = useTranslation('common');
+  const router = useRouter();
+  const { locale } = router;
+
   const features = [
     {
       icon: (
@@ -17,9 +23,11 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "1. Täytä profiilisi",
+      text: t('process.step2'),
       lowerText:
-        "Kerro meille itsestäsi ja toiveistasi mahdollisimman rehellisesti. Profiilisi avulla asiantuntijamme ja tekoälymme ymmärtävät, millainen kumppani sopii juuri sinulle.",
+        locale === 'sv'
+          ? "Berätta för oss om dig själv och dina önskemål så ärligt som möjligt. Genom din profil förstår våra experter och vår AI vilken typ av partner som passar just dig."
+          : "Kerro meille itsestäsi ja toiveistasi mahdollisimman rehellisesti. Profiilisi avulla asiantuntijamme ja tekoälymme ymmärtävät, millainen kumppani sopii juuri sinulle.",
     },
     {
       icon: (
@@ -40,9 +48,11 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "2. Asiantuntijahaku",
+      text: t('process.step3'),
       lowerText:
-        "Koulutetut asiantuntijamme yhdistävät sinut sopivaan kumppaniin tieteen, psykologian ja intuitiivisen ymmärryksen avulla.",
+        locale === 'sv'
+          ? "Våra utbildade experter parar ihop dig med en lämplig partner med hjälp av vetenskap, psykologi och intuitiv förståelse."
+          : "Koulutetut asiantuntijamme yhdistävät sinut sopivaan kumppaniin tieteen, psykologian ja intuitiivisen ymmärryksen avulla.",
     },
     {
       icon: (
@@ -59,9 +69,11 @@ const Process = () => {
           />
         </svg>
       ),
-      text: "3. Keskustelkaa",
+      text: t('process.step4'),
       lowerText:
-        "Kun täydellinen mätsi löytyy, pääsette tutustumaan toisiinne sovelluksen sisäisen chatin kautta.",
+        locale === 'sv'
+          ? "När den perfekta matchen hittas kan ni lära känna varandra via appens interna chatt."
+          : "Kun täydellinen mätsi löytyy, pääsette tutustumaan toisiinne sovelluksen sisäisen chatin kautta.",
     },
 
   ];
@@ -70,10 +82,12 @@ const Process = () => {
     <section className="container mx-auto p-8 pt-24">
       <div className="text-center mb-12">
         <h2 className="text-3xl text-main-blue font-bold mb-4">
-          Swoony - Koe uudenlainen deittailu
+          {t('process.title')}
         </h2>
         <p className="text-lg text-main-blue max-w-xl mx-auto">
-          Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean.
+          {locale === 'sv'
+            ? "Med kombinationen av våra experter och AI kommer du att hitta den rätta."
+            : "Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."}
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
