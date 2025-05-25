@@ -33,7 +33,7 @@ export default function Home() {
       <Pricing />
       <Experts />
       {/* TODO: Add FeaturedIn component */}
-      {/* <FeaturedIn /> */}
+      <FeaturedIn />
       {useRouter().locale !== 'sv' && <Blog />}
       <FAQ />
 

@@ -23,6 +23,16 @@ interface BlogPosts {
 
 // This would typically come from a CMS or API
 const blogPosts: BlogPosts = {
+    "swoony-miesten-mielesta-podcast": {
+        title: "Swoony vieraana \"Miesten mielestä\" -podcastissa 🎙️",
+        content: `
+            <p>Meillä oli ilo ja kunnia olla vieraana "Miesten mielestä" -podcastissa, jossa pääsimme kertomaan tarkemmin siitä, miten Swoony toimii, miksi se on syntynyt – ja millä tavalla me uudistamme suomalaista deittikulttuuria.</p>
+
+            <p>Jos haluat kurkistaa deittailun kulissien taakse, kannattaa kuunnella tämä jakso!</p>
+
+            <p>🎧 <a href="https://open.spotify.com/episode/3oe1HBQMt6r350FsGJ5Kac?si=GXuhjEDDQsu81SiddZ8kbw" target="_blank" rel="noopener noreferrer" class="text-main-red hover:text-main-red-hover underline">Kuuntele jakso täältä</a></p>`,
+        date: "25.5.2025",
+    },
     "swoony-matsays-kaynnistynyt": {
         title: "Swoonyn kautta ensimmäiset mätsit ovat nyt tehty!",
         content: `
