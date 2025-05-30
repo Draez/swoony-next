@@ -51,6 +51,63 @@
     "paragraph1": "Med automatiserat beslutsfattande avses ett beslut som grundar sig på automatisk behandling och som har rättsliga följder för en person eller som i betydande grad påverkar honom eller henne.",
     "paragraph2": "Med profilering avses automatisk behandling av personuppgifter som innefattar till exempel bedömning eller förutsägelse av en persons intressen eller beteende."
   },
+  "aiUsage": {
+    "title": "AI-användning och dataskydd på Swoony",
+    "intro": "På Swoony kombinerar vi mänskligt omdöme och teknikens effektivitet på ett ansvarsfullt sätt. Ditt dataskydd är av största vikt för oss, och vi vill öppet berätta hur AI används i vår tjänst.",
+    "whatAiUsedFor": {
+      "title": "Vad används AI till?",
+      "intro": "AI används för att stödja våra experter i följande områden:",
+      "points": [
+        "Preliminär strukturering och analys av formulärsvar – AI hjälper till att organisera och kategorisera de svar du ger",
+        "Identifiering av kompatibilitet – Vi identifierar potentiella kopplingar baserat på vissa personlighets- eller livsstilsfaktorer",
+        "Filtrering av möjliga träffar – AI gör en preliminär screening innan en expert manuellt går igenom informationen"
+      ],
+      "important": "Viktigt: AI fungerar som ett hjälpmedel, inte som en självständig beslutsfattare — de slutliga matchningarna görs alltid av en människa."
+    },
+    "whatDataAiProcesses": {
+      "title": "Vilken information behandlar AI?",
+      "intro": "Endast anonym eller pseudonymiserad information matas in i AI:",
+      "example": "Exempel på behandlad information: \"Anna, 34-årig kvinna, söker en seriös relation, nämner att hon ägnar sig åt naturaktiviteter och längtar efter familjeliv\"",
+      "notIncluded": "Vad AI INTE får veta:",
+      "notIncludedPoints": [
+        "Ditt efternamn",
+        "Din e-post",
+        "Ditt telefonnummer",
+        "Din IP-adress",
+        "Något annat som skulle kunna identifiera dig"
+      ]
+    },
+    "dataSharing": {
+      "title": "Kan min information hamna någon annanstans?",
+      "answer": "Nej. Vi delar aldrig din information med tredje parter utan ditt uttryckliga tillstånd.",
+      "howWeUseAi": "Hur vi använder AI:",
+      "aiUsagePoints": [
+        "Vi använder ChatGPT 4.0 mini-modellen via OpenRouter-tjänsten för profilanalys",
+        "Vi skickar endast anonymiserad information till modellen (förnamn + demografiska data)",
+        "Vi sparar inte konversationer med AI-modellen",
+        "AI:n lär sig inte eller sparar din information för framtida användning"
+      ],
+      "whatWeDontDo": "Vad vi inte gör:",
+      "dontDoPoints": [
+        "Vi använder inte din information för automatisk profilering",
+        "Vi använder inte din information för marknadsföring",
+        "Vi matar inte in din information i externa AI-modeller utan lämpliga skyddsåtgärder"
+      ]
+    },
+    "security": {
+      "title": "Datasäkerhet:",
+      "content": "All data lagras säkert i enlighet med EU:s dataskyddslagstiftning (GDPR) och servrarna finns inom EU-området eller i annat GDPR-godkänt land."
+    },
+    "dataRights": {
+      "title": "Kan jag kontrollera eller ta bort min information?",
+      "answer": "Ja. Du kan när som helst:",
+      "rights": [
+        "✅ Begära att se din lagrade information",
+        "✅ Begära korrigering eller radering av information",
+        "✅ Förbjuda behandling av din information (t.ex. dra dig ur tjänsten)"
+      ]
+    }
+  },
   "international": {
     "title": "Internationella dataöverföringar",
     "paragraph1": "Vi strävar efter att implementera tjänster och behandla personuppgifter med hjälp av aktörer och tjänster belägna inom EU- eller EES-området.",

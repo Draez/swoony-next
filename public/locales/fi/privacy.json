@@ -51,6 +51,63 @@
     "paragraph1": "Automatisoidulla päätöksenteolla tarkoitetaan päätöstä, joka perustuu automaattiseen käsittelyyn ja jolla on henkilöä koskevia oikeusvaikutuksia tai joka vaikuttaa häneen merkittävästi.",
     "paragraph2": "Profiloinnilla puolestaan tarkoitetaan automaattisesti tapahtuvaa henkilötietojen käsittelyä, johon liittyy esimerkiksi henkilön kiinnostuksen kohteiden tai käyttäytymisen arviointia tai ennakointia."
   },
+  "aiUsage": {
+    "title": "Tekoälyn käyttö ja tietosuoja Swoonyssa",
+    "intro": "Swoonyssa yhdistämme ihmisen harkintakyvyn ja teknologian tehokkuuden vastuullisesti. Tietosuojasi on meille ensiarvoisen tärkeä, ja haluamme kertoa avoimesti, miten tekoälyä käytetään palvelussamme.",
+    "whatAiUsedFor": {
+      "title": "Mihin tekoälyä käytetään?",
+      "intro": "Tekoälyä käytetään tukemaan asiantuntijoitamme seuraavissa asioissa:",
+      "points": [
+        "Lomakevastauksien alustava jäsentely ja analyysi – Tekoäly auttaa järjestämään ja luokittelemaan saamiasi vastauksia",
+        "Yhteensopivuuksien tunnistaminen – Tunnistamme potentiaalisia yhteyksiä tiettyjen luonteen- tai elämäntapatekijöiden perusteella",
+        "Mahdollisten osumien suodatus – Tekoäly tekee alustavan seulonnan ennen kuin asiantuntija käy tiedot manuaalisesti läpi"
+      ],
+      "important": "Tärkeää: Tekoäly toimii apuvälineenä, ei itsenäisenä päättäjänä — lopulliset matchit tekee aina ihminen."
+    },
+    "whatDataAiProcesses": {
+      "title": "Mitä tietoja tekoäly käsittelee?",
+      "intro": "Tekoälylle syötetään vain anonyymia tai pseudonymisoitua tietoa:",
+      "example": "Esimerkki käsiteltävästä tiedosta: \"Anna, 34-vuotias nainen, hakee vakavaa suhdetta, mainitsee harrastavansa luontoaktiviteetteja ja kaipaavansa perhe-elämää\"",
+      "notIncluded": "Mitä tekoäly EI saa tietoonsa:",
+      "notIncludedPoints": [
+        "Sukunimeäsi",
+        "Sähköpostiasi",
+        "Puhelinnumeroasi",
+        "IP-osoitettasi",
+        "Mitään muuta, josta sinut voisi tunnistaa"
+      ]
+    },
+    "dataSharing": {
+      "title": "Voivatko tietoni päätyä jonnekin muualle?",
+      "answer": "Eivät. Emme koskaan luovuta tietojasi kolmansille osapuolille ilman nimenomaista lupaasi.",
+      "howWeUseAi": "Miten käytämme tekoälyä:",
+      "aiUsagePoints": [
+        "Käytämme OpenRouter-palvelun kautta ChatGPT 4.0 mini -mallia profiilien analysointiin",
+        "Välitämme mallille vain anonymisoitua tietoa (etunimi + demografiset tiedot)",
+        "Emme tallenna keskusteluja tekoälymallin kanssa",
+        "Tekoäly ei opi tai tallenna tietojasi tulevaa käyttöä varten"
+      ],
+      "whatWeDontDo": "Mitä emme tee:",
+      "dontDoPoints": [
+        "Emme käytä tietojasi automaattiseen profilointiin",
+        "Emme käytä tietojasi markkinointiin",
+        "Emme syötä tietojasi ulkopuolisiin tekoälymalleihin ilman asianmukaisia suojatoimia"
+      ]
+    },
+    "security": {
+      "title": "Tietoturva:",
+      "content": "Kaikki data säilytetään turvallisesti EU:n tietosuojalainsäädännön (GDPR) mukaisesti ja palvelimet sijaitsevat EU-alueella tai muussa GDPR:n hyväksymässä maassa."
+    },
+    "dataRights": {
+      "title": "Voinko tarkistaa tai poistaa tietoni?",
+      "answer": "Kyllä. Voit milloin tahansa:",
+      "rights": [
+        "✅ Pyytää nähtäväksesi tallennetut tietosi",
+        "✅ Pyytää tietojen oikaisua tai poistamista",
+        "✅ Kieltää tietojesi käsittelyn (esim. vetäytyä palvelusta)"
+      ]
+    }
+  },
   "international": {
     "title": "Kansainväliset tietojen siirrot",
     "paragraph1": "Pyrimme toteuttamaan palvelut ja käsittelemään henkilötietoja EU- tai ETA-alueella sijaitsevia toimijoita ja palveluita hyödyntäen.",

@@ -150,6 +150,78 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
+                        <h2 className="text-2xl font-semibold mb-4">{t('aiUsage.title')}</h2>
+                        <p className="mb-6">
+                            {t('aiUsage.intro')}
+                        </p>
+
+                        <div className="mb-6">
+                            <h3 className="text-xl font-medium mb-3">{t('aiUsage.whatAiUsedFor.title')}</h3>
+                            <p className="mb-3">{t('aiUsage.whatAiUsedFor.intro')}</p>
+                            <ul className="list-disc pl-6 mb-4 space-y-2">
+                                {getTranslationArray('aiUsage.whatAiUsedFor.points').map((point, index) => (
+                                    <li key={index}>{point}</li>
+                                ))}
+                            </ul>
+                            <div className="bg-blue-50 border-l-4 border-main-blue p-4 mb-4">
+                                <p className="font-medium text-main-blue">{t('aiUsage.whatAiUsedFor.important')}</p>
+                            </div>
+                        </div>
+
+                        <div className="mb-6">
+                            <h3 className="text-xl font-medium mb-3">{t('aiUsage.whatDataAiProcesses.title')}</h3>
+                            <p className="mb-3">{t('aiUsage.whatDataAiProcesses.intro')}</p>
+                            <div className="bg-gray-50 p-4 rounded-lg mb-4">
+                                <p className="italic">{t('aiUsage.whatDataAiProcesses.example')}</p>
+                            </div>
+                            <p className="mb-2 font-medium">{t('aiUsage.whatDataAiProcesses.notIncluded')}</p>
+                            <ul className="list-disc pl-6 mb-4 space-y-1">
+                                {getTranslationArray('aiUsage.whatDataAiProcesses.notIncludedPoints').map((point, index) => (
+                                    <li key={index}>{point}</li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className="mb-6">
+                            <h3 className="text-xl font-medium mb-3">{t('aiUsage.dataSharing.title')}</h3>
+                            <p className="mb-3 font-medium">{t('aiUsage.dataSharing.answer')}</p>
+
+                            <div className="mb-4">
+                                <p className="mb-2 font-medium">{t('aiUsage.dataSharing.howWeUseAi')}</p>
+                                <ul className="list-disc pl-6 mb-4 space-y-1">
+                                    {getTranslationArray('aiUsage.dataSharing.aiUsagePoints').map((point, index) => (
+                                        <li key={index}>{point}</li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <p className="mb-2 font-medium">{t('aiUsage.dataSharing.whatWeDontDo')}</p>
+                            <ul className="list-disc pl-6 mb-4 space-y-1">
+                                {getTranslationArray('aiUsage.dataSharing.dontDoPoints').map((point, index) => (
+                                    <li key={index}>{point}</li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className="mb-6">
+                            <h3 className="text-xl font-medium mb-3">{t('aiUsage.security.title')}</h3>
+                            <p>{t('aiUsage.security.content')}</p>
+                        </div>
+
+                        <div className="mb-6">
+                            <h3 className="text-xl font-medium mb-3">{t('aiUsage.dataRights.title')}</h3>
+                            <p className="mb-3">{t('aiUsage.dataRights.answer')}</p>
+                            <ul className="space-y-2">
+                                {getTranslationArray('aiUsage.dataRights.rights').map((right, index) => (
+                                    <li key={index} className="flex items-start">
+                                        <span className="mr-2">{right}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section>
                         <h2 className="text-2xl font-semibold mb-4">{t('international.title')}</h2>
                         <p className="mb-4">
                             {t('international.paragraph1')}
