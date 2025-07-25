@@ -3,9 +3,9 @@
     "pricing": "Hinnasto",
     "news": "Ajankohtaista",
     "newsletter": "Tilaa uutiskirje",
-    "users": "1900+ rekisteröitynyttä käyttäjää",
+    "users": "2800+ rekisteröitynyttä käyttäjää",
     "title": "Suomen paras Matchmaking -sovellus",
-    "description": "Kyllästynyt perinteisiin pinnallisiin deitti-sovelluksiin? Swoony yhdistää asiantuntijat ja tekoälyn löytääkseen sinulle sopivan kumppanin.",
+    "description": "Kyllästynyt perinteisiin pinnallisiin deitti-sovelluksiin? Swoonyn asiantuntijat auttavat sinua löytämään sopivan kumppanin.",
     "appAlt": "Etsi rakkaus asiantuntijoiden avulla"
   },
   "intro": {
@@ -19,7 +19,9 @@
     "step1": "Lataa sovellus",
     "step2": "Täytä profiili",
     "step3": "Asiantuntijahaku",
-    "step4": "Keskustelkaa"
+    "step4": "Tutustuminen",
+    "step5": "Palaute",
+    "step6": "Uusi mahdollisuus"
   },
   "pricing": {
     "title": "Valitse sinulle sopivin vaihtoehto",
@@ -44,14 +46,22 @@
   },
   "faq": {
     "title": "Usein kysytyt kysymykset",
-    "question1": "Mikä on Swoony?",
-    "answer1": "Swoony on deittisovellus, joka yhdistää asiantuntijat ja tekoälyn löytääkseen sinulle sopivan kumppanin.",
-    "question2": "Miten Swoony eroaa muista deittisovelluksista?",
-    "answer2": "Swoonyssa liikutaan omilla kasvoilla ja asiantuntijat auttavat sopivan kumppanin löytämisessä.",
-    "question3": "Onko sovelluksen käyttö maksullista?",
-    "answer3": "Sovelluksen perusversio on ilmainen, mutta tarjoamme myös Premium ja VIP -jäsenyyksiä lisäominaisuuksilla.",
-    "question4": "Miten voin saada parhaat tulokset sovelluksesta?",
-    "answer4": "Täytä profiilisi huolellisesti ja lisää laadukkaita kuvia itsestäsi."
+    "question1": "1. Mikä erottaa Swoonyn muista deittisovelluksista?",
+    "answer1": "Swoony yhdistää asiantuntijuuden ja tekoälyn, jotta löydät aidosti sopivan kumppanin. Jokainen mätsi analysoidaan huolella arvojen, elämäntyylin ja tavoitteiden perusteella. Keskitymme laatuun, emme määrään.",
+    "question2": "2. Matchmaking-prosessi",
+    "answer2": "Profiilisi täytön jälkeen asiantuntijamme analysoivat tekoälyä hyödyntäen profiiliasi ja etsivät sinulle parhaan mahdollisen kumppanin. Kun sopiva mätsi löytyy, pääset tutustumaan häneen sovelluksen sisäisen chatin kautta.",
+    "question3": "3. Kuinka kauan prosessi kestää?",
+    "answer3": "Matchmaking-prosessi voi kestää päivistä kuukauteen riippuen siitä, kuinka nopeasti löydämme sinulle sopivan mätsin. Laadukkaan kumppanin löytäminen vaatii aikaa, eikä prosessia hätiköidä. Koitamme aina parhaamme mutta ikävä kyllä emme voi taata mätsin löytymistä.",
+    "question4": "4. Kenelle Swoony sopii?",
+    "answer4": "Swoony on suunnattu kaikille, jotka etsivät vakavaa suhdetta ja arvostavat ammattilaisten apua kumppanin löytämisessä. Jos haluat merkityksellisen yhteyden, Swoony on sinua varten.",
+    "question5": "5. Kuinka paljon Swoony maksaa?",
+    "answer5": "Swoony tarjoaa kaksi erilaista pakettia: Swoony Free ja Swoony Pro. Swoony Free on ilmainen ja sisältää asiantuntijoiden valitseman mätsin sekä mahdollisuuden tulla mätsätyksi vain Pro-käyttäjien kanssa. Swoony Pro sisältää asiantuntijoiden valitsemat mätsit, mahdollisuuden tulla mätsätyksi kaikkien käyttäjien kanssa, etusijan mätsäyksessä sekä priorisoidun etsinnän kerran kuukaudessa.",
+    "question6": "6. Miten tietojani käsitellään ja kenelle ne näkyvät?",
+    "answer6": "Antamasi tiedot ja video ovat vain Swoonyn asiantuntijoiden nähtävissä. Jos olet näkyvillä potentiaalisena mätsinä toiselle käyttäjälle, hän näkee etunimesi, ikäsi ja profiilikuvasi. Jos mätsi syntyy, asiantuntijamme laatii kuvauksen siitä, miksi olisitte hyvä pari – tämän kuvauksen näette silloin toisistanne.",
+    "question7": "7. Sovelluksen käyttöopas",
+    "answer7": "Avaa käyttöopas (PDF)",
+    "question8": "8. Asiakaspalvelu",
+    "answer8": "Olemme täällä sinua varten! Ota yhteyttä sähköpostitse: info@swoony.io"
   },
   "footer": {
     "newsletter": "Tilaa uutiskirje",

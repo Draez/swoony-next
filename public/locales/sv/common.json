@@ -3,7 +3,7 @@
     "pricing": "Priser",
     "news": "Aktuellt",
     "newsletter": "Prenumerera på nyhetsbrev",
-    "users": "1900+ registrerade användare",
+    "users": "2800+ registrerade användare",
     "title": "Sveriges bästa Matchmaking-app",
     "description": "Trött på traditionella ytliga dejting-appar? Swoony kombinerar experter och AI för att hitta en lämplig partner åt dig.",
     "appAlt": "Hitta kärlek med hjälp av experter"
@@ -19,7 +19,9 @@
     "step1": "Ladda ner appen",
     "step2": "Fyll i din profil",
     "step3": "Expert­sökning",
-    "step4": "Chatta"
+    "step4": "Chatta",
+    "step5": "Feedback",
+    "step6": "Ny möjlighet"
   },
   "pricing": {
     "title": "Välj det alternativ som passar dig bäst",

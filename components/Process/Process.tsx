@@ -13,40 +13,44 @@ const Process = () => {
         <svg
           width="48"
           height="48"
-          viewBox="0 0 48 48"
+          viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M44.3004 47.3872C44.7121 47.7849 45.2635 48.0049 45.8359 47.9999C46.4083 47.9949 46.9558 47.7654 47.3606 47.3606C47.7654 46.9558 47.9949 46.4083 47.9999 45.8359C48.0049 45.2635 47.7849 44.7121 47.3872 44.3004L44.3004 47.3872ZM34.9286 19.6473C34.9286 23.7002 33.3186 27.587 30.4528 30.4528C27.587 33.3186 23.7002 34.9286 19.6473 34.9286V39.2947C24.8581 39.2947 29.8555 37.2247 33.5401 33.5401C37.2247 29.8555 39.2947 24.8581 39.2947 19.6473H34.9286ZM19.6473 34.9286C15.5945 34.9286 11.7076 33.3186 8.84185 30.4528C5.97606 27.587 4.36608 23.7002 4.36608 19.6473H0C0 24.8581 2.06998 29.8555 5.75457 33.5401C9.43916 37.2247 14.4365 39.2947 19.6473 39.2947V34.9286ZM4.36608 19.6473C4.36608 15.5945 5.97606 11.7076 8.84185 8.84185C11.7076 5.97606 15.5945 4.36608 19.6473 4.36608V0C14.4365 0 9.43916 2.06998 5.75457 5.75457C2.06998 9.43916 0 14.4365 0 19.6473H4.36608ZM19.6473 4.36608C23.7002 4.36608 27.587 5.97606 30.4528 8.84185C33.3186 11.7076 34.9286 15.5945 34.9286 19.6473H39.2947C39.2947 14.4365 37.2247 9.43916 33.5401 5.75457C29.8555 2.06998 24.8581 0 19.6473 0V4.36608ZM30.1106 33.1975L44.3004 47.3872L47.3872 44.3004L33.1975 30.1106L30.1106 33.1975Z"
-            fill="white"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            stroke="#00E6D5"
+            d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"
           />
         </svg>
+
       ),
       text: t('process.step2'),
       lowerText:
         locale === 'sv'
           ? "Berätta för oss om dig själv och dina önskemål så ärligt som möjligt. Genom din profil förstår våra experter och vår AI vilken typ av partner som passar just dig."
-          : "Kerro meille itsestäsi ja toiveistasi mahdollisimman rehellisesti. Profiilisi avulla asiantuntijamme ja tekoälymme ymmärtävät, millainen kumppani sopii juuri sinulle.",
+          : "Kerro meille itsestäsi ja toiveistasi mahdollisimman rehellisesti. Profiilisi auttaa asiantuntijoitamme ymmärtämään, millainen kumppani sopii juuri sinulle.",
     },
     {
       icon: (
         <svg
-          width="51"
-          height="45"
-          viewBox="0 0 51 45"
+          width="48"
+          height="48"
+          viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M24.8867 8.21353C16.2653 -4.28247 1.5 0.738858 1.5 13.4882C1.5 26.2349 26.1133 43.6669 26.1133 43.6669C26.1133 43.6669 49.5 25.5335 49.5 13.4882C49.5 1.44019 35.9613 -4.28247 27.3453 8.21353L26.116 9.21086L24.884 8.21353H24.8867Z"
-            fill="#F42C52"
-            stroke="white"
-            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
+            strokeWidth={1.5}
+            stroke="#00E6D5"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
           />
         </svg>
+
       ),
       text: t('process.step3'),
       lowerText:
@@ -59,13 +63,16 @@ const Process = () => {
         <svg
           width="48"
           height="48"
-          viewBox="0 0 48 48"
+          viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M40 8H8C5.8 8 4.02 9.8 4.02 12L4 44L12 36H40C42.2 36 44 34.2 44 32V12C44 9.8 42.2 8 40 8ZM36 28H12V24H36V28ZM36 22H12V18H36V22ZM36 16H12V12H36V16Z"
-            fill="white"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            stroke="#00E6D5"
+            d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
           />
         </svg>
       ),
@@ -73,7 +80,57 @@ const Process = () => {
       lowerText:
         locale === 'sv'
           ? "När den perfekta matchen hittas kan ni lära känna varandra via appens interna chatt."
-          : "Kun täydellinen mätsi löytyy, pääsette tutustumaan toisiinne sovelluksen sisäisen chatin kautta.",
+          : "Kun mätsi löytyy, pääsette tutustumaan toisiinne sovelluksen sisäisen chatin kautta.",
+    },
+    {
+      icon: (
+        <svg
+          width="48"
+          height="48"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            stroke="#00E6D5"
+            d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"
+          />
+        </svg>
+
+      ),
+      text: t('process.step5'),
+      lowerText:
+        locale === 'sv'
+          ? "När den perfekta matchen hittas kan ni lära känna varandra via appens interna chatt."
+          : "Neljä päivää mätsin jälkeen palautelaatikko aukeaa etusivulle. Palautteesi auttaa meitä löytämään entistäkin yhteensopivimpia mätsejä.",
+    },
+    {
+      icon: (
+        <svg
+          width="48"
+          height="48"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            stroke="#00E6D5"
+            d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
+          />
+        </svg>
+
+      ),
+      text: t('process.step6'),
+      lowerText:
+        locale === 'sv'
+          ? "När den perfekta matchen hittas kan ni lära känna varandra via appens interna chatt."
+          : "Jos mätsi ei johtanut toivottuun lopputulokseen, aloitamme mielellämme etsinnän uudelleen – kunnes oikea löytyy.",
     },
 
   ];
@@ -90,15 +147,15 @@ const Process = () => {
             : "Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."}
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
         {features.map((feature, index) => (
           <div key={index} className="text-center">
-            <div className="w-32 h-32 mx-auto mb-5 bg-main-red rounded-full flex items-center justify-center">
+            <div className="w-16 h-16 mx-auto mb-2 rounded-full flex items-center justify-center">
               <i className={`fas text-white font-semibold text-3xl`}>
                 {feature.icon}
               </i>
             </div>
-            <p className="text-main-blue font-bold">{feature.text}</p>
+            <p className="text-main-blue font-bold mb-2">{feature.text}</p>
             <p className="text-main-blue">{feature.lowerText}</p>
           </div>
         ))}

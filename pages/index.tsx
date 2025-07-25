@@ -29,11 +29,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Header />
       <Process />
+      <FeaturedIn />
       <Intro />
       <Pricing />
       <Experts />
-      {/* TODO: Add FeaturedIn component */}
-      <FeaturedIn />
+
       {useRouter().locale !== 'sv' && <Blog />}
       <FAQ />
 

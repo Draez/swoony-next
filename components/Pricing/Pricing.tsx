@@ -30,9 +30,6 @@ export default function Pricing() {
                                 </p>
                             </div>
 
-                            <div className="text-center mb-8">
-                                <span className="text-4xl font-bold text-main-blue">{t('pricing.freePayment')}</span>
-                            </div>
 
                             <ul className="space-y-4 mb-8">
                                 <li className="flex items-center text-main-blue">
@@ -75,10 +72,7 @@ export default function Pricing() {
                                 </p>
                             </div>
 
-                            <div className="text-center mb-8">
-                                <span className="text-4xl font-bold text-white">29,99€</span>
-                                <span className="text-white ml-2">/{t('pricing.month')}</span>
-                            </div>
+
 
                             <ul className="space-y-4 mb-8">
                                 <li className="flex items-center text-white">

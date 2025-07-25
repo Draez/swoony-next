@@ -11,6 +11,11 @@ const FeaturedIn: FC = () => {
             link: "https://www.hs.fi/suomi/art-2000011034865.html",
         },
         {
+            name: "MTV",
+            logo: "/mtv3.png",
+            link: "https://www.mtvuutiset.fi/artikkeli/nettideittaajaa-vaanii-jatkuva-karkkikauppaefekti-nain-toimivat-tinderin-suomalaiset-haastajat/9186260",
+        },
+        {
             name: "Satakunnan Kansa",
             logo: "/sk.png",
             link: "https://www.satakunnankansa.fi/satakunta/art-2000010979586.html",
