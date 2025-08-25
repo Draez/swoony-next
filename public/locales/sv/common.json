@@ -1,6 +1,7 @@
 {
   "header": {
     "pricing": "Priser",
+    "howMatchingWorks": "Hur matchningen fungerar",
     "news": "Aktuellt",
     "newsletter": "Prenumerera på nyhetsbrev",
     "users": "2800+ registrerade användare",
@@ -54,6 +55,34 @@
     "answer3": "Basversionen av appen är gratis, men vi erbjuder också Premium och VIP-medlemskap med ytterligare funktioner.",
     "question4": "Hur får jag bästa resultat från appen?",
     "answer4": "Fyll i din profil noggrant och lägg till högkvalitativa bilder av dig själv."
+  },
+  "matching": {
+    "heroTitle": "Hur matchningen fungerar",
+    "heroDescription": "Upptäck Swoonys unika matchningsprocess som kombinerar expertis och AI för att hitta din perfekta partner.",
+    "processTitle": "Matchningsprocessen",
+    "step1Title": "Profil och värderingar",
+    "step1Description": "Fyll i en omfattande profil som innehåller dina värderingar, livsmål och vad du letar efter i en partner.",
+    "step2Title": "Expertanalys",
+    "step2Description": "Utbildade matchmakers analyserar din profil och letar efter lämpliga partners för dig.",
+    "step3Title": "AI och psykologi",
+    "step3Description": "Vi kombinerar AI och psykologi för att hitta de bästa möjliga matcherna.",
+    "step4Title": "Kvalitativ matchning",
+    "step4Description": "Du får bara kvalitativa matcher som noggrant har valts ut för dig.",
+    "featuresTitle": "Varför Swoonys matchning är annorlunda",
+    "feature1Title": "Expertval",
+    "feature1Description": "Varje match väljs av en utbildad matchmaker, inte av en algoritm.",
+    "feature2Title": "Djup förståelse",
+    "feature2Description": "Vi analyserar värderingar, livsmål och personlighet, inte bara yttre egenskaper.",
+    "feature3Title": "Kvalitet framför kvantitet",
+    "feature3Description": "Vi fokuserar mindre på antalet matcher och mer på deras kvalitet och kompatibilitet.",
+    "whyChooseTitle": "Varför välja Swoonys matchning",
+    "whyChooseDescription": "Traditionella dejting-appar förlitar sig på ytliga algoritmer. Swoony erbjuder personlig expertis.",
+    "benefit1": "Personlig expertis genom hela processen",
+    "benefit2": "Kombination av AI och psykologi för bättre resultat",
+    "benefit3": "Fokus på långsiktiga relationer och kompatibilitet",
+    "ctaTitle": "Börja din resa mot kärlek",
+    "ctaDescription": "Gå med i Swoony och upplev hur expertmatchning kan förändra ditt liv.",
+    "ctaButton": "Ladda ner appen"
   },
   "footer": {
     "newsletter": "Prenumerera på nyhetsbrev",

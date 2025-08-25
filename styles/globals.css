@@ -27,10 +27,15 @@ button {
 
 body {
   color: rgb(var(--foreground-rgb));
-}
+ }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Utility class for content that needs to account for fixed header */
+.content-with-fixed-header {
+  padding-top: 80px; /* Match header height */
 }
 
 .article-content h2 {

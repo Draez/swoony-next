@@ -12,6 +12,7 @@ import FeaturedIn from "@/components/FeaturedIn/FeaturedIn";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticProps } from 'next';
 import { useRouter } from "next/router";
+import UserReviews from "@/components/UserReviews";
 
 /**
  * Swoony Homepage with i18n support
@@ -33,6 +34,7 @@ export default function Home() {
       <Intro />
       <Pricing />
       <Experts />
+      <UserReviews />
 
       {useRouter().locale !== 'sv' && <Blog />}
       <FAQ />

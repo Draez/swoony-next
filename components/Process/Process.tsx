@@ -136,7 +136,7 @@ const Process = () => {
   ];
 
   return (
-    <section className="container mx-auto p-8 pt-24">
+    <section className="container mx-auto p-8 pt-24" id="howMatchingWorks">
       <div className="text-center mb-12">
         <h2 className="text-3xl text-main-blue font-bold mb-4">
           {t('process.title')}

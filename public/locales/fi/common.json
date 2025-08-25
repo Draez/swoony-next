@@ -1,10 +1,11 @@
 {
   "header": {
-    "pricing": "Hinnasto",
+    "pricing": "Paketit",
+    "howMatchingWorks": "Miten Swoony toimii?",
     "news": "Ajankohtaista",
     "newsletter": "Tilaa uutiskirje",
-    "users": "2800+ rekisteröitynyttä käyttäjää",
-    "title": "Suomen paras Matchmaking -sovellus",
+    "users": "3000+ rekisteröitynyttä käyttäjää",
+    "title": "Koe uudenlainen deittailu",
     "description": "Kyllästynyt perinteisiin pinnallisiin deitti-sovelluksiin? Swoonyn asiantuntijat auttavat sinua löytämään sopivan kumppanin.",
     "appAlt": "Etsi rakkaus asiantuntijoiden avulla"
   },
@@ -15,7 +16,7 @@
     "description3": "Panostamme mätsien laatuun, emme määrään."
   },
   "process": {
-    "title": "Swoony - Koe uudenlainen deittailu",
+    "title": "Ei enää loputonta swaippailua",
     "step1": "Lataa sovellus",
     "step2": "Täytä profiili",
     "step3": "Asiantuntijahaku",
@@ -62,6 +63,34 @@
     "answer7": "Avaa käyttöopas (PDF)",
     "question8": "8. Asiakaspalvelu",
     "answer8": "Olemme täällä sinua varten! Ota yhteyttä sähköpostitse: info@swoony.io"
+  },
+  "matching": {
+    "heroTitle": "Miten Swoony toimii?",
+    "heroDescription": "Tutustu Swoonyn ainutlaatuiseen mätsäysprosessiin, joka yhdistää asiantuntijuuden ja tekoälyn löytääksesi aidosti sopivan kumppanin.",
+    "processTitle": "Miten Swoonyn mätsäysprosessi toimii?",
+    "step1Title": "Profiili ja arvot",
+    "step1Description": "Täytä kattava profiili, joka sisältää arvosi, elämäntavoitteesi ja mitä etsit kumppanista.",
+    "step2Title": "Asiantuntija-analyysi",
+    "step2Description": "Koulutetut matchmakerit analysoivat profiilisi ja etsivät sinulle sopivia kumppaneita.",
+    "step3Title": "Tekoäly ja psykologia",
+    "step3Description": "Yhdistämme tekoälyn ja psykologian löytääksemme parhaat mahdolliset mätsit.",
+    "step4Title": "Laadukas mätsäys",
+    "step4Description": "Saat vain laadukkaita mätsiä, joita on huolellisesti valittu sinua varten.",
+    "featuresTitle": "Miksi Swoonyn mätsäys on erilainen",
+    "feature1Title": "Asiantuntijoiden valinta",
+    "feature1Description": "Jokainen mätsi valitaan koulutetun matchmakerin toimesta, ei algoritmin.",
+    "feature2Title": "Syvällinen ymmärrys",
+    "feature2Description": "Analysoimme arvot, elämäntavoitteet ja persoonallisuuden, emme vain ulkoisia ominaisuuksia.",
+    "feature3Title": "Laatu määrän sijaan",
+    "feature3Description": "Keskitymme vähemmän mätsien määrään ja enemmän niiden laatuun ja yhteensopivuuteen.",
+    "whyChooseTitle": "Miksi valita Swoonyn mätsäys",
+    "whyChooseDescription": "Perinteiset deittisovellukset luottavat pinnallisiin algoritmeihin. Swoony tarjoaa henkilökohtaista asiantuntijoiden apua.",
+    "benefit1": "Henkilökohtainen asiantuntijoiden tuki koko prosessin ajan",
+    "benefit2": "Tekoälyn ja psykologian yhdistelmä parempien tulosten saavuttamiseksi",
+    "benefit3": "Keskitys pitkäaikaisiin suhteisiin ja yhteensopivuuteen",
+    "ctaTitle": "Aloita matkasi kohti rakkautta",
+    "ctaDescription": "Liity Swoonyyn ja koe, miten asiantuntijoiden mätsäys voi muuttaa elämäsi.",
+    "ctaButton": "Lataa sovellus"
   },
   "footer": {
     "newsletter": "Tilaa uutiskirje",
