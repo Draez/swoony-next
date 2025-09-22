@@ -131,8 +131,8 @@ const Footer: FC = () => {
               <Link href="/swoony_guide.pdf" target="_blank">
                 {locale === 'sv' ? 'Appens användarguide' : 'Sovelluksen käyttöopas'}
               </Link> <br />
-              <Link href="terms">{t('footer.terms')}</Link> <br />
-              <Link href="privacy_policy">{t('footer.privacy')}</Link> <br />
+              <Link href="/terms">{t('footer.terms')}</Link> <br />
+              <Link href="/privacy_policy">{t('footer.privacy')}</Link> <br />
 
             </p>
             <div className="col-span-1 flex justify-start space-x-2">

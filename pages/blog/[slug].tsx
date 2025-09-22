@@ -4,6 +4,8 @@ import { useRouter } from 'next/router';
 import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Footer from '@/components/Footer/Footer';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import type { GetServerSideProps } from 'next';
 
 const quickSand = Quicksand({
     weight: ["700"],
@@ -155,4 +157,12 @@ export default function BlogPost() {
             <Footer />
         </div>
     );
-} 
+}
+
+export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
+    return {
+        props: {
+            ...(await serverSideTranslations(locale || 'fi', ['common'])),
+        },
+    };
+};
