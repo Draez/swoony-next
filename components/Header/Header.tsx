@@ -31,7 +31,7 @@ const Header: FC = () => {
       {/* Fixed Navigation Bar */}
       <section className="fixed top-0 left-0 w-full h-20 z-50">
         <div className="absolute inset-0 w-full h-full">
-          <div className="absolute inset-0 bg-main-blue/20 backdrop-blur-sm" />
+          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
         </div>
 
         <div className="relative h-full">
@@ -107,7 +107,7 @@ const Header: FC = () => {
           >
             <div className="flex flex-col h-full">
               {/* Menu Header */}
-              <div className="flex items-center justify-between p-6 border-b border-gray-200">
+              <div className="flex items-center justify-between p-6">
                 <div className="flex items-center gap-2">
                   <Image
                     src="/swoony.svg"
@@ -116,7 +116,7 @@ const Header: FC = () => {
                     height={18}
                     priority
                   />
-                  <div className={`${quickSand.className} text-lg font-semibold text-main-blue uppercase tracking-wide`}>
+                  <div className={`${quickSand.className} text-lg font-semibold text-black uppercase tracking-wide`}>
                     Menu
                   </div>
                 </div>
@@ -135,12 +135,12 @@ const Header: FC = () => {
               <NavigationMenu onCloseMenu={closeMenu} />
 
               {/* Social Links */}
-              <div className="p-6 border-t border-gray-200">
+              <div className="p-6 border-t border-gray-light bg-black">
                 <div className="flex items-center justify-center space-x-4 mb-4">
                   <Link
                     href="https://www.instagram.com/swoonyofficial/"
                     target="_blank"
-                    className="text-gray-600 hover:text-main-blue transition-colors"
+                    className="text-gray hover:text-black transition-colors"
                   >
                     <Image
                       src="/instagram.svg"
@@ -153,7 +153,7 @@ const Header: FC = () => {
                   <Link
                     href="https://www.facebook.com/profile.php?id=100095309208001"
                     target="_blank"
-                    className="text-gray-600 hover:text-main-blue transition-colors"
+                    className="text-gray hover:text-black transition-colors"
                   >
                     <Image
                       src="/facebook.svg"
@@ -166,26 +166,7 @@ const Header: FC = () => {
                 </div>
 
                 {/* Language Switcher */}
-                <div className="flex items-center justify-center space-x-2">
-                  <button
-                    onClick={() => {
-                      router.push(router.pathname, router.asPath, { locale: 'fi' });
-                      closeMenu();
-                    }}
-                    className="px-3 py-2 text-sm rounded-md transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200"
-                  >
-                    FI
-                  </button>
-                  <button
-                    onClick={() => {
-                      router.push(router.pathname, router.asPath, { locale: 'sv' });
-                      closeMenu();
-                    }}
-                    className="px-3 py-2 text-sm rounded-md transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200"
-                  >
-                    SV
-                  </button>
-                </div>
+
               </div>
             </div>
           </div>
@@ -193,16 +174,16 @@ const Header: FC = () => {
       </section>
 
       {/* Hero Section with Content */}
-      <section className="w-full relative pt-20">
+      <section className="w-full relative pt-32">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/match.jpg"
+            src="/retro_couple.jpg"
             alt="Background"
             fill
             className="object-cover brightness-50"
             priority
           />
-          <div className="absolute inset-0 bg-main-blue/80" />
+          <div className="absolute inset-0 bg-black/60" />
         </div>
 
         <div className="relative h-full">
@@ -248,12 +229,12 @@ const Header: FC = () => {
 
 
               </div>
-              <div className="w-full md:w-1/2 py-8 order-1 md:order-2">
+              <div className="w-full md:w-1/2 order-1 md:order-2 pb-6">
                 <Image
-                  className="h-auto w-full object-contain max-h-[1080px] rounded-xl mx-auto md:ml-auto"
+                  className="h-auto w-full object-contain max-h-[300px] sm:max-h-[500px] md:max-h-[624px] rounded-xl mx-auto md:ml-auto"
                   width="1080"
                   height="1080"
-                  src="/swoonytest.svg"
+                  src="/mock_trans.svg"
                   alt={t('header.appAlt')}
                   priority
                 />

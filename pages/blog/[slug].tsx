@@ -14,7 +14,6 @@ const quickSand = Quicksand({
 interface BlogPost {
     title: string;
     content: string;
-    date: string;
 }
 
 interface BlogPosts {
@@ -23,6 +22,38 @@ interface BlogPosts {
 
 // This would typically come from a CMS or API
 const blogPosts: BlogPosts = {
+    "sovellus-uudistuu": {
+        title: "Sovellus uudistuu",
+        content: `<p>Haluamme kertoa sinulle tärkeästä muutoksesta Swoonyn toimintaan. Olemme kuunnelleet käyttäjiemme palautetta ja kehitämme palvelua entistä toimivammaksi ja merkityksellisemmäksi.</p>
+
+ <p>🔔 Mikä muuttuu ? </p>
+
+    <p>- Ilmaisversio ja kuukausitilaus poistuvat käytöstä. Jatkossa Swoonya käytetään ostamalla mätsipaketteja – voit valita 1, 3 tai 5 mätsin paketin. Profiilisi näkyy alustallamme asiantuntijoillemme, kun sinulla on aktiivinen mätsipaketti.</p>
+
+    <p>- Uusi ominaisuus: mätsin hyväksyntä. Kun sinulle löytyy ehdokas, näet hänestä nimen, iän ja esittelyvideon.Sinä päätät, hyväksytkö hänet.</p>
+
+    <p>- Mätsi syntyy vain molempien hyväksynnällä.Tällöin pääsette aloittamaan keskustelun. Jos jompikumpi hylkää, asiantuntijamme etsivät uuden ehdokkaan.</p>
+
+    <p>- Vain hyväksytty mätsi vähentää saldoasi. Hylkäykset eivät kuluta ostamiasi mätsipaketteja.</p>
+
+<p>💡 Miksi tämä on hyvä juttu sinulle ?</p>
+
+    <p>Parempia mätsäyksiä: Ilmaisversion poistuminen tarkoittaa, että sovelluksessa ovat vain ne, jotka todella haluavat löytää kumppanin.</p>
+
+    <p>Vähemmän turhaa odottelua: Ilmaiskäyttäjien passiivisuus poistuu – viesteihin vastaamatta jättäminen vähenee merkittävästi.</p>
+
+    <p>Sinulla on viimeinen sana: Saat itse päättää hyväksytkö mätsin nähtyäsi ehdokkaan nimen, iän ja esittelyvideon.</p>
+
+    <p>💡 Mitä tämä tarkoittaa käytännössä ?</p>
+
+    <p>Jos sinulla on aktiivinen kuukausitilaus, muista perua se. Et kuitenkaan menetä arvoa: kaikille käyttäjille, joilla on päivityksen jälkeen käyttämätöntä aikaa jäljellä, tarjoamme hyvityksenä kaksi mätsiä veloituksetta (arvo 40 €).</p>
+
+    <p>Haluamme, että tunnet olosi hyväksi ja luottavaiseksi muutoksen keskellä. Mikäli jokin mietityttää, voit olla yhteydessä asiakaspalveluumme sähköpostitse: info @swoony.io</p>
+
+<p>Kiitos, että olet osa Swoony - yhteisöä ❤️</p>
+
+<p>Swoony - tiimi </p>`
+    },
     "swoony-miesten-mielesta-podcast": {
         title: "Swoony vieraana \"Miesten mielestä\" -podcastissa 🎙️",
         content: `
@@ -31,7 +62,7 @@ const blogPosts: BlogPosts = {
             <p>Jos haluat kurkistaa deittailun kulissien taakse, kannattaa kuunnella tämä jakso!</p>
 
             <p>🎧 <a href="https://open.spotify.com/episode/3oe1HBQMt6r350FsGJ5Kac?si=GXuhjEDDQsu81SiddZ8kbw" target="_blank" rel="noopener noreferrer" class="text-main-red hover:text-main-red-hover underline">Kuuntele jakso täältä</a></p>`,
-        date: "25.5.2025",
+
     },
     "swoony-matsays-kaynnistynyt": {
         title: "Swoonyn kautta ensimmäiset mätsit ovat nyt tehty!",
@@ -41,7 +72,7 @@ const blogPosts: BlogPosts = {
             <p>Haluamme kiittää kaikkia käyttäjiämme kärsivällisyydestä ja luottamuksesta palveluumme. Tämä on vasta alkua Swoonyn matkalla muuttaa deittailukulttuuria parempaan suuntaan! ❤️</p>
 
             <p>Jos et ole vielä saanut mätsiä, älä huoli - prosessimme jatkuu ja pyrimme löytämään jokaiselle sopivan kumppanin. Varmistathan, että profiilisi on ajan tasalla ja kaikki tarvittavat tiedot on täytetty.</p>`,
-        date: "24.3.2025",
+
     },
     "matsays-kaynnistyy-maaliskuun-aikana": {
         title: "Mätsäys käynnistyy maaliskuun aikana!",
@@ -53,7 +84,7 @@ const blogPosts: BlogPosts = {
             <p>Swoonyn matka rakkaudenlähettilääksi on vihdoin alkanut 💌</p>
 
             <p>‼️ Tässä vaiheessa onkin hyvä tarkistaa, että sovelluksesi on päivitetty uusimpaan versioon ja että profiilisi on täydellisesti päivitetty. Mitä kattavammin profiilisi on täytetty, sitä sopivampi mätsi sinulle on mahdollista löytää.</p>`,
-        date: "23.2.2025",
+
     },
 };
 
@@ -66,10 +97,10 @@ export default function BlogPost() {
         return (
             <div className="container mx-auto px-4 py-12">
                 <div className="text-center">
-                    <h1 className="text-2xl text-main-blue">Artikkelia ei löytynyt</h1>
+                    <h1 className="text-2xl text-black">Artikkelia ei löytynyt</h1>
                     <Link
                         href="/#ajankohtaista"
-                        className="inline-block mt-4 text-main-red hover:text-main-red-hover"
+                        className="inline-block mt-4 text-main-green hover:text-main-green-hover"
                     >
                         ← Takaisin
                     </Link>
@@ -92,7 +123,7 @@ export default function BlogPost() {
                             priority
                         />
                         <div
-                            className={`${quickSand.className} text-xl font-semibold text-main-blue uppercase tracking-wide`}
+                            className={`${quickSand.className} text-xl font-semibold text-black uppercase tracking-wide`}
                         >
                             Swoony
                         </div>
@@ -104,22 +135,19 @@ export default function BlogPost() {
                 <article className="max-w-3xl mx-auto">
                     {/* Back button */}
                     <Link
-                        href="/#ajankohtaista"
-                        className="inline-block mb-8 text-main-red hover:text-main-red-hover"
+                        href={`/#ajankohtaista`}
+                        className="bg-main-green text-black px-4 py-2 rounded-full font-semibold hover:text-main-green-hover"
                     >
                         ← Takaisin
                     </Link>
-                    <header className="mb-8">
-                        <h1 className="text-3xl md:text-4xl font-bold text-main-blue mb-4">
+                    <header className="my-12">
+                        <h1 className="text-3xl md:text-4xl font-bold text-black mb-4">
                             {post.title}
                         </h1>
-                        <time className="text-light-blue">
-                            {post.date}
-                        </time>
                     </header>
 
                     <div
-                        className="text-light-blue article-content"
+                        className="text-gray article-content"
                         dangerouslySetInnerHTML={{ __html: post.content }}
                     />
                 </article>

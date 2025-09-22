@@ -41,7 +41,7 @@ const Footer: FC = () => {
 
   return (
     <footer
-      className="bg-main-blue text-white p-8 py-24 w-full"
+      className="bg-black text-white p-8 py-24 w-full"
       id="footer-section"
     >
       <div className="container mx-auto">
@@ -111,9 +111,9 @@ const Footer: FC = () => {
 
         </div>
 
-        <hr className="border-light-blue border-opacity-50 mb-16" />
+        <hr className="border-gray-light border-opacity-50 mb-16" />
 
-        <section className="bottom-footer  leading-7">
+        <section className="bottom-footer leading-7">
           <h4 className="col-span-1 text-left text-2xl font-bold mb-6">
             {locale === 'sv' ? 'Kontaktuppgifter' : 'Yhteystiedot'}
           </h4>

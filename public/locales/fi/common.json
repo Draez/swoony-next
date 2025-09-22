@@ -1,6 +1,7 @@
 {
   "header": {
-    "pricing": "Paketit",
+    "pricing": "Mätsipaketit",
+    "media": "Swoony mediassa",
     "howMatchingWorks": "Miten Swoony toimii?",
     "news": "Ajankohtaista",
     "newsletter": "Tilaa uutiskirje",
@@ -10,10 +11,10 @@
     "appAlt": "Etsi rakkaus asiantuntijoiden avulla"
   },
   "intro": {
-    "title": "Miksi Swoony?",
-    "description": "Täytä kattava profiili ja anna asiantuntijoidemme löytää sinulle sopiva kumppani",
-    "description2": "Keskitymme syvällisten yhteyksien luomiseen pinnallisuuden sijaan.",
-    "description3": "Panostamme mätsien laatuun, emme määrään."
+    "title": "Deittikulttuuria muuttamassa",
+    "description": "Asiantuntija etsii sinulle kumppanin",
+    "description2": "Maksat vain mätseistä, jotka hyväksyt",
+    "description3": "Käyttäjämme ovat tosissaan liikkeellä"
   },
   "process": {
     "title": "Ei enää loputonta swaippailua",
@@ -25,7 +26,7 @@
     "step6": "Uusi mahdollisuus"
   },
   "pricing": {
-    "title": "Valitse sinulle sopivin vaihtoehto",
+    "title": "Mätsipaketit",
     "free": "Free",
     "freePayment": "Ilmainen",
     "premium": "Pro",
@@ -47,22 +48,26 @@
   },
   "faq": {
     "title": "Usein kysytyt kysymykset",
-    "question1": "1. Mikä erottaa Swoonyn muista deittisovelluksista?",
-    "answer1": "Swoony yhdistää asiantuntijuuden ja tekoälyn, jotta löydät aidosti sopivan kumppanin. Jokainen mätsi analysoidaan huolella arvojen, elämäntyylin ja tavoitteiden perusteella. Keskitymme laatuun, emme määrään.",
-    "question2": "2. Matchmaking-prosessi",
-    "answer2": "Profiilisi täytön jälkeen asiantuntijamme analysoivat tekoälyä hyödyntäen profiiliasi ja etsivät sinulle parhaan mahdollisen kumppanin. Kun sopiva mätsi löytyy, pääset tutustumaan häneen sovelluksen sisäisen chatin kautta.",
-    "question3": "3. Kuinka kauan prosessi kestää?",
-    "answer3": "Matchmaking-prosessi voi kestää päivistä kuukauteen riippuen siitä, kuinka nopeasti löydämme sinulle sopivan mätsin. Laadukkaan kumppanin löytäminen vaatii aikaa, eikä prosessia hätiköidä. Koitamme aina parhaamme mutta ikävä kyllä emme voi taata mätsin löytymistä.",
-    "question4": "4. Kenelle Swoony sopii?",
-    "answer4": "Swoony on suunnattu kaikille, jotka etsivät vakavaa suhdetta ja arvostavat ammattilaisten apua kumppanin löytämisessä. Jos haluat merkityksellisen yhteyden, Swoony on sinua varten.",
-    "question5": "5. Kuinka paljon Swoony maksaa?",
-    "answer5": "Swoony tarjoaa kaksi erilaista pakettia: Swoony Free ja Swoony Pro. Swoony Free on ilmainen ja sisältää asiantuntijoiden valitseman mätsin sekä mahdollisuuden tulla mätsätyksi vain Pro-käyttäjien kanssa. Swoony Pro sisältää asiantuntijoiden valitsemat mätsit, mahdollisuuden tulla mätsätyksi kaikkien käyttäjien kanssa, etusijan mätsäyksessä sekä priorisoidun etsinnän kerran kuukaudessa.",
-    "question6": "6. Miten tietojani käsitellään ja kenelle ne näkyvät?",
-    "answer6": "Antamasi tiedot ja video ovat vain Swoonyn asiantuntijoiden nähtävissä. Jos olet näkyvillä potentiaalisena mätsinä toiselle käyttäjälle, hän näkee etunimesi, ikäsi ja profiilikuvasi. Jos mätsi syntyy, asiantuntijamme laatii kuvauksen siitä, miksi olisitte hyvä pari – tämän kuvauksen näette silloin toisistanne.",
-    "question7": "7. Sovelluksen käyttöopas",
-    "answer7": "Avaa käyttöopas (PDF)",
-    "question8": "8. Asiakaspalvelu",
-    "answer8": "Olemme täällä sinua varten! Ota yhteyttä sähköpostitse: info@swoony.io"
+    "questions": {
+      "q1": "Mikä erottaa Swoonyn muista deittisovelluksista?",
+      "q2": "Miten Swoony toimii?",
+      "q3": "Kuinka kauan mätsäämisessä kestää?",
+      "q4": "Kenelle Swoony sopii?",
+      "q5": "Kuinka paljon Swoony maksaa?",
+      "q6": "Onko olemassa ilmaista versiota?",
+      "q7": "Miten tietojani käsitellään ja kuka näkee ne?",
+      "q8": "Asiakaspalvelu"
+    },
+    "answers": {
+      "a1": "Swoony yhdistää asiantuntijoiden osaamisen ja tekoälyn, jotta löydät aidosti sopivan kumppanin. Jokainen mätsi analysoidaan arvojen, elämäntyylin ja tavoitteiden perusteella. Meille laatu on tärkeämpää kuin määrä – sinun ei tarvitse itse selailla profiileja, sillä asiantuntijamme hoitavat työn puolestasi.",
+      "a2": "- Luo profiili ja kuvaa itsestäsi lyhyt esittelyvideo.\n- Osta haluamasi määrä mätsejä.\n- Asiantuntijamme etsivät sinulle sopivan ehdokkaan.\n- Kun mätsi löytyy, saat asiantuntijan laatiman kuvauksen siitä, miksi voisitte sopia yhteen.\n- Voit hyväksyä tai hylätä ehdotuksen. Hylkäystilanteessa kerro meille syy, jotta voimme parantaa seuraavaa hakua (toinen osapuoli ei näe tätä palautetta).\n- Kun molemmat hyväksyvät mätsin, voitte aloittaa keskustelun.",
+      "a3": "Koska etsimme sinulle aidosti yhteensopivia kumppaneita, voi sopivan mätsin löytyminen kestää hetken. Haluamme kuitenkin varmistaa, ettet jää odottamaan turhaan – siksi tarjoamme tyytyväisyystakuun (lisätiedot palvelun ehdoissa).",
+      "a4": "Swoony on suunnattu kaikille, jotka etsivät vakavaa ja merkityksellistä suhdetta sekä arvostavat asiantuntijoiden apua kumppanin löytämisessä.",
+      "a5": "Voit ostaa 1, 3 tai 5 mätsin paketin. Vain mätsin hyväksyntä kuluttaa ostamiasi mätsejä. Huomioithan, että profiilisi näkyy asiantuntijoillemme vain, kun sinulla on aktiivinen mätsipaketti.",
+      "a6": "Ei ole. Haluamme varmistaa, että kaikki käyttäjämme ovat sitoutuneita ja tosissaan liikkeellä. Siksi tarjoamme vain maksullisen version, joka tukee laadukkaita ja merkityksellisiä kohtaamisia.",
+      "a7": "Tietosi ovat vain Swoonyn asiantuntijoiden käytössä. Kun mätsi löytyy, mahdollinen kumppani näkee nimesi, ikäsi ja esittelyvideosi. Emme koskaan myy tietojasi tai jaa niitä mainostajille.",
+      "a8": "Olemme täällä sinua varten! Ota yhteyttä sähköpostitse: info@swoony.io"
+    }
   },
   "matching": {
     "heroTitle": "Miten Swoony toimii?",
@@ -91,6 +96,10 @@
     "ctaTitle": "Aloita matkasi kohti rakkautta",
     "ctaDescription": "Liity Swoonyyn ja koe, miten asiantuntijoiden mätsäys voi muuttaa elämäsi.",
     "ctaButton": "Lataa sovellus"
+  },
+  "banner": {
+    "announcement": "🚀 Sovellus uudistuu! Lue tästä lisää",
+    "closeLabel": "Sulje ilmoitus"
   },
   "footer": {
     "newsletter": "Tilaa uutiskirje",

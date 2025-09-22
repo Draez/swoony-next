@@ -84,6 +84,10 @@
     "ctaDescription": "Gå med i Swoony och upplev hur expertmatchning kan förändra ditt liv.",
     "ctaButton": "Ladda ner appen"
   },
+  "banner": {
+    "announcement": "🚀 Nya funktioner kommer! Håll dig uppdaterad och ladda ner den senaste versionen av appen.",
+    "closeLabel": "Stäng meddelande"
+  },
   "footer": {
     "newsletter": "Prenumerera på nyhetsbrev",
     "subscribe": "Prenumerera",

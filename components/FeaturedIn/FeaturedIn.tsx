@@ -11,6 +11,11 @@ const FeaturedIn: FC = () => {
             link: "https://www.hs.fi/suomi/art-2000011034865.html",
         },
         {
+            name: "HBL",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/4/40/HBL_wordmark.svg",
+            link: "https://www.hbl.fi/2025-05-23/trotta-pa-ytliga-dejtningappar-skapade-egen/",
+        },
+        {
             name: "MTV",
             logo: "https://upload.wikimedia.org/wikipedia/commons/4/46/Mtv3_new_logo.svg",
             link: "https://www.mtvuutiset.fi/artikkeli/nettideittaajaa-vaanii-jatkuva-karkkikauppaefekti-nain-toimivat-tinderin-suomalaiset-haastajat/9186260",
@@ -21,11 +26,6 @@ const FeaturedIn: FC = () => {
             link: "https://www.satakunnankansa.fi/satakunta/art-2000010979586.html",
         },
         {
-            name: "HBL",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/4/40/HBL_wordmark.svg",
-            link: "https://www.hbl.fi/2025-05-23/trotta-pa-ytliga-dejtningappar-skapade-egen/",
-        },
-        {
             name: "Feedi",
             logo: "/feedi.png",
             link: "https://www.feedi.fi/uusi-suomalainen-deittisovellus-swoony/",
@@ -33,9 +33,9 @@ const FeaturedIn: FC = () => {
     ];
 
     return (
-        <section className="container mx-auto px-4 py-12 md:py-24">
+        <section className="container mx-auto px-4 pt-12 md:pt-24" id="media">
             <div className="text-center mb-8">
-                <h2 className="text-2xl md:text-4xl font-bold text-main-blue mb-6">
+                <h2 className="text-xl1 md:text-2xl font-bold text-black mb-0">
                     Swoony Mediassa
                 </h2>
 

@@ -13,6 +13,8 @@ module.exports = {
         "main-green": "#00E6D5",
         "main-red": "#F42C52",
         "main-red-hover": "#D30F34",
+        "gray": "#666666",
+        "gray-light": "#2B2B2B",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

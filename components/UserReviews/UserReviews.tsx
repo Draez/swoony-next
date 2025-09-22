@@ -51,10 +51,10 @@ const UserReviews: FC = () => {
             <div className="container mx-auto px-4">
                 {/* Header */}
                 <div className="text-center mb-12 md:mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-main-blue mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
                         Mitä käyttäjämme sanovat
                     </h2>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                    <p className="text-lg text-gray max-w-2xl mx-auto">
                         Kuule suoraan käyttäjiltämme, miten Swoony on muuttanut heidän deittailukokemustaan
                     </p>
                 </div>
@@ -64,7 +64,7 @@ const UserReviews: FC = () => {
                     {reviews.map((review) => (
                         <div
                             key={review.id}
-                            className="bg-gray-50 border border-gray-200 rounded-xl p-6 transition-shadow duration-300"
+                            className="bg-white border border-gray rounded-xl p-6 transition-shadow duration-300"
                         >
                             {/* Review Header */}
                             <div className="flex items-start justify-between">
@@ -74,12 +74,12 @@ const UserReviews: FC = () => {
                             </div>
 
                             {/* Review Comment */}
-                            <p className="text-gray-700 leading-relaxed mb-4 font-semibold">
+                            <p className="text-black leading-relaxed mb-4 font-semibold">
                                 {review.comment}
                             </p>
 
                             {/* Review Footer */}
-                            <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                            <div className="flex items-center justify-between pt-4">
                                 <div className="flex items-center space-x-3">
                                     <div className="w-12 h-12 bg-gradient-to-br from-main-red to-main-red-hover rounded-full flex items-center justify-center text-white font-semibold text-lg">
                                         {review.name.charAt(0)}

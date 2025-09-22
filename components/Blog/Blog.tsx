@@ -5,27 +5,28 @@ import Link from 'next/link';
 interface BlogPost {
     title: string;
     description: string;
-    date: string;
     slug: string;
 }
 
 const blogPosts: BlogPost[] = [
     {
+        title: "Sovellus uudistuu",
+        description: "Olemme kuunnelleet käyttäjiemme palautetta ja kehitämme palvelua entistä toimivammaksi ja merkityksellisemmäksi...",
+        slug: "sovellus-uudistuu"
+    },
+    {
         title: "Swoony vieraana \"Miesten mielestä\" -podcastissa 🎙️",
         description: "Meillä oli ilo ja kunnia olla vieraana \"Miesten mielestä\" -podcastissa, jossa pääsimme kertomaan tarkemmin siitä, miten Swoony toimii...",
-        date: "25.5.2025",
         slug: "swoony-miesten-mielesta-podcast"
     },
     {
         title: "Swoonyn kautta ensimmäiset mätsit ovat nyt tehty!",
         description: "Menneellä viikolla Swoonyn mätsäysprosessi aloitettiin sekä olemme löytäneet ensimmäiset mätsit...",
-        date: "24.3.2025",
         slug: "swoony-matsays-kaynnistynyt"
     },
     {
         title: "Mätsäys käynnistyy maaliskuun aikana!",
         description: "Suuren suosion ja käyttäjämäärän kasvun myötä voimme iloisena ilmoittaa...",
-        date: "23.2.2025",
         slug: "matsays-kaynnistyy-maaliskuun-aikana"
     },
 ];
@@ -34,7 +35,7 @@ export default function Blog() {
     return (
         <section id="ajankohtaista" className="container mx-auto px-4 py-12 md:py-24">
             <div className="text-center mb-12">
-                <h2 className="text-3xl text-main-blue font-bold mb-4">
+                <h2 className="text-3xl text-black font-bold mb-4">
                     Ajankohtaista
                 </h2>
 
@@ -44,16 +45,15 @@ export default function Blog() {
                     <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">
 
                         <div className="p-6">
-                            <span className="text-sm text-light-blue">{post.date}</span>
-                            <h3 className="text-xl font-bold text-main-blue mt-2 mb-3">
+                            <h3 className="text-xl font-bold text-black mt-2 mb-3">
                                 {post.title}
                             </h3>
-                            <p className="text-light-blue mb-4">
+                            <p className="text-gray mb-8">
                                 {post.description}
                             </p>
                             <Link
                                 href={`/blog/${post.slug}`}
-                                className="text-main-red font-semibold hover:text-main-red-hover"
+                                className="bg-main-green text-black px-4 py-2 rounded-full font-semibold hover:text-main-green-hover"
                             >
                                 Lue lisää →
                             </Link>

@@ -47,43 +47,43 @@ export function FAQ() {
         },
     ] : [
         {
-            question: t('faq.question1'),
-            answer: t('faq.answer1')
+            question: t('faq.questions.q1'),
+            answer: t('faq.answers.a1')
         },
         {
-            question: t('faq.question2'),
-            answer: t('faq.answer2')
+            question: t('faq.questions.q2'),
+            answer: t('faq.answers.a2')
         },
         {
-            question: t('faq.question3'),
-            answer: t('faq.answer3')
+            question: t('faq.questions.q3'),
+            answer: t('faq.answers.a3')
         },
         {
-            question: t('faq.question4'),
-            answer: t('faq.answer4')
+            question: t('faq.questions.q4'),
+            answer: t('faq.answers.a4')
         },
         {
-            question: t('faq.question5'),
-            answer: t('faq.answer5')
+            question: t('faq.questions.q5'),
+            answer: t('faq.answers.a5')
         },
         {
-            question: t('faq.question6'),
-            answer: t('faq.answer6')
+            question: t('faq.questions.q6'),
+            answer: t('faq.answers.a6')
         },
         {
-            question: t('faq.question7'),
-            answer: <Link href="/swoony_guide.pdf" target="_blank">{t('faq.answer7')}</Link>
+            question: t('faq.questions.q7'),
+            answer: <Link href="/swoony_guide.pdf" target="_blank">{t('faq.answers.a7')}</Link>
         },
         {
-            question: t('faq.question8'),
-            answer: t('faq.answer8')
+            question: t('faq.questions.q8'),
+            answer: t('faq.answers.a8')
         },
     ];
 
     return (
         <section className="container mx-auto px-4 py-12 md:py-24" id="faq">
             <div className="max-w-3xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-main-blue text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-12">
                     {t('faq.title')}
                 </h2>
                 <div className="space-y-4">

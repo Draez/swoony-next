@@ -47,6 +47,31 @@ const Process = () => {
             strokeLinejoin="round"
             strokeWidth={1.5}
             stroke="#00E6D5"
+            d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+          />
+        </svg>
+
+      ),
+      text: "Valitse mätsipaketti",
+      lowerText:
+        locale === 'sv'
+          ? "Berätta för oss om dig själv och dina önskemål så ärligt som möjligt. Genom din profil förstår våra experter och vår AI vilken typ av partner som passar just dig."
+          : "Voit valita 1, 3 tai 5 mätsin paketin. Profiilisi tulee näkyviin asiantuntijoillemme, kun sinulla on aktiivinen mätsipaketti. ",
+    },
+    {
+      icon: (
+        <svg
+          width="48"
+          height="48"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            stroke="#00E6D5"
             d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
           />
         </svg>
@@ -56,7 +81,7 @@ const Process = () => {
       lowerText:
         locale === 'sv'
           ? "Våra utbildade experter parar ihop dig med en lämplig partner med hjälp av vetenskap, psykologi och intuitiv förståelse."
-          : "Koulutetut asiantuntijamme yhdistävät sinut sopivaan kumppaniin tieteen, psykologian ja intuitiivisen ymmärryksen avulla.",
+          : "Koulutetut asiantuntijamme etsivät sinulle sopivan kumppanin tieteen, psykologian ja intuitiivisen ymmärryksen avulla.",
     },
     {
       icon: (
@@ -80,7 +105,7 @@ const Process = () => {
       lowerText:
         locale === 'sv'
           ? "När den perfekta matchen hittas kan ni lära känna varandra via appens interna chatt."
-          : "Kun mätsi löytyy, pääsette tutustumaan toisiinne sovelluksen sisäisen chatin kautta.",
+          : "Mätsi syntyy vain molempien hyväksynnällä. Tällöin pääsette aloittamaan keskustelun. Jos jompikumpi hylkää, asiantuntijamme etsivät uuden ehdokkaan.",
     },
     {
       icon: (
@@ -105,7 +130,7 @@ const Process = () => {
       lowerText:
         locale === 'sv'
           ? "När den perfekta matchen hittas kan ni lära känna varandra via appens interna chatt."
-          : "Neljä päivää mätsin jälkeen palautelaatikko aukeaa etusivulle. Palautteesi auttaa meitä löytämään entistäkin yhteensopivimpia mätsejä.",
+          : "Viikon jälkeen hyväksytystä mätsistä palautelaatikko aukeaa sovelluksen etusivulle. Palautteesi auttaa meitä tarjoamaan sinulle sopivampia mätsejä.",
     },
     {
       icon: (
@@ -130,7 +155,7 @@ const Process = () => {
       lowerText:
         locale === 'sv'
           ? "När den perfekta matchen hittas kan ni lära känna varandra via appens interna chatt."
-          : "Jos mätsi ei johtanut toivottuun lopputulokseen, aloitamme mielellämme etsinnän uudelleen – kunnes oikea löytyy.",
+          : "Jos mätsi ei johtanut toivottuun lopputulokseen, aloitamme etsinnän uudelleen – kunnes se oikea löytyy.",
     },
 
   ];
@@ -138,10 +163,10 @@ const Process = () => {
   return (
     <section className="container mx-auto p-8 pt-24" id="howMatchingWorks">
       <div className="text-center mb-12">
-        <h2 className="text-3xl text-main-blue font-bold mb-4">
+        <h2 className="text-3xl text-black font-bold mb-4">
           {t('process.title')}
         </h2>
-        <p className="text-lg text-main-blue max-w-xl mx-auto">
+        <p className="text-lg text-black max-w-xl mx-auto">
           {locale === 'sv'
             ? "Med kombinationen av våra experter och AI kommer du att hitta den rätta."
             : "Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean."}
@@ -155,8 +180,8 @@ const Process = () => {
                 {feature.icon}
               </i>
             </div>
-            <p className="text-main-blue font-bold mb-2">{feature.text}</p>
-            <p className="text-main-blue">{feature.lowerText}</p>
+            <p className="text-black font-bold mb-2">{feature.text}</p>
+            <p className="text-gray">{feature.lowerText}</p>
           </div>
         ))}
       </div>

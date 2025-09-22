@@ -9,6 +9,7 @@ import Pricing from "@/components/Pricing/Pricing";
 import { FAQ } from '@/components/FAQ/FAQ';
 import Blog from "@/components/Blog/Blog";
 import FeaturedIn from "@/components/FeaturedIn/FeaturedIn";
+import AnnouncementBanner from "@/components/Banner/AnnouncementBanner";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticProps } from 'next';
 import { useRouter } from "next/router";
@@ -27,20 +28,24 @@ import UserReviews from "@/components/UserReviews";
  */
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <Header />
-      <Process />
-      <FeaturedIn />
-      <Intro />
-      <Pricing />
-      <Experts />
-      <UserReviews />
+    <>
 
-      {useRouter().locale !== 'sv' && <Blog />}
-      <FAQ />
+      <main className="flex min-h-screen flex-col items-center justify-between">
+        <Header />
+        <AnnouncementBanner />
+        <Process />
+        <FeaturedIn />
+        <Intro />
+        <Pricing />
+        <Experts />
+        <UserReviews />
 
-      <Footer />
-    </main>
+        {useRouter().locale !== 'sv' && <Blog />}
+        <FAQ />
+
+        <Footer />
+      </main>
+    </>
   );
 }
 

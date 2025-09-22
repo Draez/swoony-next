@@ -11,24 +11,24 @@ export default function Experts() {
         <section className="container mx-auto px-4 py-12 md:py-24">
             <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                 <div className="w-full md:w-1/2 space-y-6">
-                    <h2 className="text-3xl md:text-4xl font-bold text-main-blue">
+                    <h2 className="text-3xl md:text-4xl font-bold text-black">
                         {t('experts.title')}
                     </h2>
-                    <p className="text-lg text-main-blue">
+                    <p className="text-lg text-black">
                         {locale === 'sv'
                             ? 'Swoonys experter är högt utbildade psykologi- och relationsspecialister med gedigen erfarenhet av matchmaking och relationsrådgivning.'
                             : 'Swoonyn asiantuntijat ovat korkeakoulutettuja psykologian ja ihmissuhteiden ammattilaisia, joilla on vankka kokemus matchmakingista ja parisuhdeneuvonnasta.'}
                     </p>
-                    <p className="text-lg font-semibold text-main-blue">
+                    <p className="text-lg font-semibold text-black">
                         {locale === 'sv' ? 'Vi kombinerar vetenskap och känsla:' : 'Yhdistämme tieteen ja tunteen:'}
                     </p>
-                    <ul className="list-disc list-inside space-y-2 text-main-blue">
+                    <ul className="list-disc list-inside space-y-2 text-black">
                         <li>{locale === 'sv' ? 'Djupgående människokännedom' : 'Syvällinen ihmistuntemus'}</li>
                         <li>{locale === 'sv' ? 'Psykologisk kompetens' : 'Psykologinen osaaminen'}</li>
                         <li>{locale === 'sv' ? 'Genuint omtänksamhet' : 'Aito välittäminen'}</li>
                         <li>{locale === 'sv' ? 'AI som stöd' : 'Tekoäly auttamassa'}</li>
                     </ul>
-                    <p className="text-lg text-main-blue">
+                    <p className="text-lg text-black">
                         {locale === 'sv'
                             ? 'Varje match görs med omsorg, eftersom vi tror att det krävs både professionell kompetens och intuition för att hitta den perfekta partnern.'
                             : 'Jokainen mätsi tehdään huolella, koska uskomme täydellisen kumppanin löytämisen vaativan sekä ammattitaitoa että intuitiota.'}
@@ -36,7 +36,7 @@ export default function Experts() {
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center">
                     <Image
-                        src="/love.jpg"
+                        src="/retro_2.jpg"
                         alt={locale === 'sv' ? 'Matchmaker' : 'Asiantuntija'}
                         width={400}
                         height={400}
