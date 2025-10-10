@@ -46,25 +46,21 @@
   "payment": {
     "title": "Maksuehdot",
     "paragraphs": [
-      "Käyttäjä on henkilökohtaisesti vastuussa sopimuksen mukaisten maksujen maksamisesta Swoony Oy:lle. Tämä soveltuu myös tilanteissa, jossa maksajaksi on merkitty toinen henkilö.",
-      "Uuden sopimuksen solmimisen yhteydessä asiakas maksaa voimassa olevan hinnaston mukaisen hinnan.",
-      "Maksamalla kuukausitilauksen asiakas sitoutuu sopimukseen kuukauden ajaksi. Kun sopimus solmitaan toistaiseksi voimassa olevana, maksu maksetaa kuukausittain etukäteen automaattisella korttiveloituksella.",
-      "Automaattisessa korttiveloituksessa, asiakas vastaa siitä, että maksukortti on aktivoitu ja, että sopimuksen mukaiset maksut voidaan veloittaa automaattisesti maksukortilta sopimuksen voimassaoloajan.",
-      "Maksun velotus tapahtuu automaattisesti sovittuna eräpäivän ilman erilistä ilmoitusta. Mikäli veloitus epäonnistuu, sopimusta ei jatketa seuraavalle kuukaudelle."
+     "Käyttäjä on henkilökohtaisesti vastuussa sopimuksen mukaisten maksujen maksamisesta Swoony Oy:lle. Tämä koskee myös tilanteita, joissa maksajaksi on merkitty toinen henkilö.",
+"Uuden sopimuksen solmimisen yhteydessä asiakas maksaa voimassa olevan hinnaston mukaisen kertamaksun. Maksu suoritetaan etukäteen, ja sen jälkeen asiakas saa sovitun palvelun käyttöönsä.",
+"Koska maksut ovat kertaluonteisia, ei palveluun liity automaattisia korttiveloituksia eikä jatkuvia kuukausimaksuja. Käyttäjän vastuulla on huolehtia siitä, että maksu onnistuu ja palvelu voidaan toimittaa."
     ]
   },
   "changes": {
     "title": "Muutokset ehtoihin ja palveluntarjontaan",
     "paragraphs": [
-      "Swoony Oy:lla on oikeus tehdä muutoksia sopimusten kuukausimaksuihin, muihin maksuihin ja näihin ehtoihin.",
-      "Jos kuukausimaksu tehdään asiakkaalle haitallisia muutoksia, niistä ilmoitetaan asiakkaalle sähköpostitse tai tekstiviestillä vähintään (1) kuukausi ennen muutoksen voimaantuloa."
+    "Swoony Oy:lla on oikeus tehdä muutoksia hinnastoon, maksuihin ja näihin ehtoihin. Mikäli muutokset ovat asiakkaalle olennaisesti haitallisia, niistä ilmoitetaan asiakkaalle sähköpostitse tai tekstiviestillä vähintään 1 kuukausi ennen muutosten voimaantuloa."
     ]
   },
   "cancellation": {
     "title": "Peruuttamisoikeus",
     "paragraphs": [
-      "Tilaus ja jäsenyys uusiutuvat automaattisesti, paitsi jos perut sen. Swoony-apin tai Swoony-tilin poistaminen ei peru tilausta tai jäsenyyttä.",
-      "Kun perut tilauksesi tai jäsenyytesi, voit käyttää sitä kuukauden loppuun asti, mistä olet maksanut. Tilauksen peruminen ei oikeuta jälkikäteiseen maksunpalautukseen tilauksen tai jäsenyyden maksuista, eikä aiemmin maksettuja maksuja voida palauttaa peruutuspäivän perusteella."
+     "Koska kyseessä on kertamaksuun perustuva palvelu, maksettuja maksuja ei palauteta, ellei peruutus johdu kuluttajansuojalain mukaisista perusteista. Poikkeuksena tästä asiakkaalla on oikeus maksun palautukseen, mikäli hän ei saa yhtään mätsiä kolmen (3) kuukauden kuluessa maksun suorittamisesta. Kun maksu on suoritettu, palvelu on muutoin käytettävissä sovitun ajan ja sovitussa laajuudessa."
     ]
   },
   "liability": {
