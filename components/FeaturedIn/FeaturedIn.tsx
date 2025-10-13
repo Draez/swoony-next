@@ -15,11 +15,7 @@ const FeaturedIn: FC = () => {
             logo: "https://upload.wikimedia.org/wikipedia/commons/4/40/HBL_wordmark.svg",
             link: "https://www.hbl.fi/2025-05-23/trotta-pa-ytliga-dejtningappar-skapade-egen/",
         },
-        {
-            name: "MTV",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/4/46/Mtv3_new_logo.svg",
-            link: "https://www.mtvuutiset.fi/artikkeli/nettideittaajaa-vaanii-jatkuva-karkkikauppaefekti-nain-toimivat-tinderin-suomalaiset-haastajat/9186260",
-        },
+
         {
             name: "Satakunnan Kansa",
             logo: "https://upload.wikimedia.org/wikipedia/commons/2/27/Satakunnan_Kansa_wordmark.svg",
@@ -35,9 +31,13 @@ const FeaturedIn: FC = () => {
     return (
         <section className="container mx-auto px-4 pt-12 md:pt-24" id="media">
             <div className="text-center mb-8">
-                <h2 className="text-xl1 md:text-2xl font-bold text-black mb-0">
+                <h2 className="text-xl1 md:text-2xl font-bold text-black mb-2">
                     Swoony Mediassa
                 </h2>
+                <Link href="https://www.mtvuutiset.fi/artikkeli/nettideittaajaa-vaanii-jatkuva-karkkikauppaefekti-nain-toimivat-tinderin-suomalaiset-haastajat/9186260" target="_blank" className="text-gray underline" rel="noopener noreferrer">
+                    Katso juttu Swoony-palvelusta: MTV Uutiset
+                </Link>
+
 
             </div>
 
