@@ -124,7 +124,7 @@ export default function WaitlistPage() {
                                         <p className="mx-auto md:mx-0 mt-3 max-w-md text-sm text-red-300">Please enter a valid email address.</p>
                                     ) : null}
 
-                                    <p className="mx-auto md:mx-0 mt-6 max-w-md text-xs text-white">(We'll only email you relevant information — no spam, just love.)</p>
+                                    <p className="mx-auto md:mx-0 mt-6 max-w-md text-xs text-white">We'll only email you relevant information — no spam, just love.</p>
                                 </div>
                                 <div className="w-full md:w-1/2 order-1 md:order-2 pb-6">
                                     <Image
