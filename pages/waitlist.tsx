@@ -90,7 +90,7 @@ export default function WaitlistPage() {
                                     <form onSubmit={handleSubmit}
                                         name="contact"
                                         method="POST"
-                                        action="/?success=true"
+                                        action="/waitlist/?success=true"
                                         data-netlify="true"
                                         className="mx-auto md:mx-0 mt-10 flex max-w-md flex-col sm:flex-row items-center gap-3">
                                         <input type="hidden" name="form-name" value="contact" />
