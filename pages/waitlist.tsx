@@ -7,6 +7,7 @@ interface WaitlistFormState {
     email: string;
     isSubmitting: boolean;
     hasError: boolean;
+    isSuccess: boolean;
 }
 
 function isValidEmail(email: string): boolean {
@@ -23,21 +24,40 @@ const quickSand = Quicksand({
 });
 
 export default function WaitlistPage() {
-    const [formState, setFormState] = useState<WaitlistFormState>({ email: '', isSubmitting: false, hasError: false });
+    const [formState, setFormState] = useState<WaitlistFormState>({ email: '', isSubmitting: false, hasError: false, isSuccess: false });
 
 
     function handleChange(value: string) {
-        setFormState(prev => ({ ...prev, email: value, hasError: false }));
+        setFormState(prev => ({ ...prev, email: value, hasError: false, isSuccess: false }));
     }
 
     async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+        event.preventDefault();
+
         if (!isValidEmail(formState.email)) {
-            event.preventDefault();
             setFormState(prev => ({ ...prev, hasError: true }));
             return;
         }
-        setFormState(prev => ({ ...prev, isSubmitting: true }));
-        // Let the form submit to Netlify - don't prevent default
+
+        setFormState(prev => ({ ...prev, isSubmitting: true, hasError: false }));
+
+        try {
+            const formData = new FormData(event.currentTarget);
+
+            const response = await fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData as any).toString(),
+            });
+
+            if (response.ok) {
+                setFormState(prev => ({ ...prev, email: '', isSubmitting: false, isSuccess: true }));
+            } else {
+                throw new Error('Form submission failed');
+            }
+        } catch (error) {
+            setFormState(prev => ({ ...prev, hasError: true, isSubmitting: false }));
+        }
     }
 
     return (
@@ -90,7 +110,6 @@ export default function WaitlistPage() {
                                     <form onSubmit={handleSubmit}
                                         name="contact"
                                         method="POST"
-                                        action="/waitlist?success=true"
                                         data-netlify="true"
                                         className="mx-auto md:mx-0 mt-10 flex max-w-md flex-col sm:flex-row items-center gap-3">
                                         <input type="hidden" name="form-name" value="contact" />
@@ -122,6 +141,9 @@ export default function WaitlistPage() {
 
                                     {formState.hasError ? (
                                         <p className="mx-auto md:mx-0 mt-3 max-w-md text-sm text-red-300">Please enter a valid email address.</p>
+                                    ) : null}
+                                    {formState.isSuccess ? (
+                                        <p className="mx-auto md:mx-0 mt-3 max-w-md text-sm text-[#00E6D5]">Thank you! You&apos;ve been added to the waitlist.</p>
                                     ) : null}
 
                                     <p className="mx-auto md:mx-0 mt-6 max-w-md text-xs text-white">We&apos;ll only email you relevant information — no spam, just love.</p>
