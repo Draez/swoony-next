@@ -83,8 +83,8 @@ export default function WaitlistPage() {
                                     <div className="text-center md:text-left">
                                         <p className="inline-flex items-center rounded-full bg-[#00E6D5]/20 px-3 py-1 text-sm font-medium text-[#00E6D5] ring-1 ring-inset ring-[#00E6D5]/30">Coming soon</p>
                                         <h1 className={`${quickSand.className} mt-6 text-4xl font-bold tracking-tight text-white sm:text-5xl mb-4`}>New Way of Dating</h1>
-                                        <p className="mt-2 text-base leading-7 text-white">Swoony is the first matchmaking app where human experts handpick your match</p>
-                                        <p className="mt-2 text-base leading-7 italic text-white">And the best part? One approved match starts at only $29,99</p>
+                                        <p className="mt-2 text-base leading-7 text-white">Swoony is the first matchmaking app where human experts handpick your match.</p>
+
                                     </div>
 
                                     <form onSubmit={handleSubmit}
