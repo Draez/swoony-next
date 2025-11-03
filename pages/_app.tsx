@@ -18,6 +18,8 @@ function App({ Component, pageProps }: AppProps) {
   const { locale } = router;
 
   useEffect(() => {
+    trackFbPageView(); // initial page view
+    console.log('Facebook Pixel initialized');
     router.events.on("routeChangeComplete", () => {
       trackFbPageView();
     });
