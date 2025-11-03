@@ -1,3 +1,4 @@
+import { trackLead } from '@/lib/fb';
 import { Quicksand } from 'next/font/google';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -51,6 +52,10 @@ export default function WaitlistPage() {
             });
 
             if (response.ok) {
+                trackLead({
+                    email: formState.email,
+                    name: '',
+                });
                 setFormState(prev => ({ ...prev, email: '', isSubmitting: false, isSuccess: true }));
             } else {
                 throw new Error('Form submission failed');
