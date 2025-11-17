@@ -10,7 +10,7 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
     {
-        title: "Sovellus uudistuu",
+        title: "Sovellusta on uudistettu",
         description: "Olemme kuunnelleet käyttäjiemme palautetta ja kehitämme palvelua entistä toimivammaksi ja merkityksellisemmäksi...",
         slug: "sovellus-uudistuu"
     },

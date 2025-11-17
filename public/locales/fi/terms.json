@@ -51,6 +51,13 @@
 "Koska maksut ovat kertaluonteisia, ei palveluun liity automaattisia korttiveloituksia eikä jatkuvia kuukausimaksuja. Käyttäjän vastuulla on huolehtia siitä, että maksu onnistuu ja palvelu voidaan toimittaa."
     ]
   },
+  "satisfaction_guarantee": {
+    "title": "Tyytyväisyystakuu",
+    "paragraphs": [
+      "Jos käyttäjä ei ole saanut yhtään mätsiä kuuden (6) kuukauden yhtäjaksoisen aktiivisen käyttöjakson aikana, Swoony hyvittää käyttäjälle yhden (1) mätsin arvoisen summan takaisin. Hyvitys koskee ainoastaan tilanteita, joissa käyttäjä on noudattanut palvelun käyttöehtoja ja ollut palvelussa aktiivinen (käytettävissä koko jakson ajan). Swoony pidättää oikeuden tarkistaa käyttäjän aktiivisuuden ennen hyvityksen myöntämistä.",
+      "Hyvitystä ei myönnetä automaattisesti, vaan käyttäjän tulee pyytää sitä sähköpostitse Swoonyn asiakastuesta info@swoony.io kuuden (6) kuukauden jakson päätyttyä. Swoony käsittelee pyynnön ja ilmoittaa käyttäjälle päätöksestä."
+    ]
+  },
   "changes": {
     "title": "Muutokset ehtoihin ja palveluntarjontaan",
     "paragraphs": [

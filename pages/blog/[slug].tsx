@@ -25,7 +25,7 @@ interface BlogPosts {
 // This would typically come from a CMS or API
 const blogPosts: BlogPosts = {
     "sovellus-uudistuu": {
-        title: "Sovellus uudistuu",
+        title: "Sovellus on uudistunut",
         content: `<p>Haluamme kertoa sinulle tärkeästä muutoksesta Swoonyn toimintaan. Olemme kuunnelleet käyttäjiemme palautetta ja kehitämme palvelua entistä toimivammaksi ja merkityksellisemmäksi.</p>
 
  <p>🔔 Mikä muuttuu ? </p>

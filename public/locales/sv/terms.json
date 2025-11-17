@@ -53,6 +53,12 @@
       "Betalningen debiteras automatiskt på den överenskomna förfallodagen utan separat meddelande. Om debiteringen misslyckas, kommer avtalet inte att förlängas för nästa månad."
     ]
   },
+    "satisfaction_guarantee": {
+    "title": "Ansvarsvillkor",
+    "paragraphs": [
+   "Om användaren inte har fått några matcher under en sex (6) månaders sammanhängande aktiv användningsperiod, kommer Swoony att återbetala användaren värdet av en (1) match. Återbetalningen gäller endast situationer där användaren har följt användarvillkoren och varit aktiv (tillgänglig under hela perioden) i tjänsten. Swoony förbehåller sig rätten att kontrollera användarens aktivitet innan återbetalning beviljas.",
+   "Återbetalningen beviljas inte automatiskt, och användaren måste begära den via e-post till Swoonys kundtjänst info@swoony.io sex (6) månader efter periodens slut. Swoony kommer att behandla begäran och informera användaren om beslutet"
+  ]},
   "changes": {
     "title": "Ändringar i villkor och tjänsteutbud",
     "paragraphs": [
