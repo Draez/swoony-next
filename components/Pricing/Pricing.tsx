@@ -55,14 +55,7 @@ export default function Pricing() {
                                         ? 'Möjlighet att matchas endast med Pro-användare'
                                         : 'Kattavat perustelut mätsistä'}
                                 </li>
-                                <li className="flex items-center text-main-blue">
-                                    <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    {locale === 'sv'
-                                        ? 'Möjlighet att matchas endast med Pro-användare'
-                                        : 'Mätsiltä videoesittely'}
-                                </li>
+
                             </ul>
 
                         </div>
@@ -111,14 +104,7 @@ export default function Pricing() {
                                         ? 'Möjlighet att matchas endast med Pro-användare'
                                         : 'Kattavat perustelut mätsistä'}
                                 </li>
-                                <li className="flex items-center text-main-blue">
-                                    <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    {locale === 'sv'
-                                        ? 'Möjlighet att matchas endast med Pro-användare'
-                                        : 'Mätsiltä videoesittely'}
-                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -159,14 +145,7 @@ export default function Pricing() {
                                         ? 'Möjlighet att matchas endast med Pro-användare'
                                         : 'Kattavat perustelut mätsistä'}
                                 </li>
-                                <li className="flex items-center text-main-blue">
-                                    <svg className="w-5 h-5 text-swoony-green mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    {locale === 'sv'
-                                        ? 'Möjlighet att matchas endast med Pro-användare'
-                                        : 'Mätsiltä videoesittely'}
-                                </li>
+
                             </ul>
                         </div>
                     </div>
