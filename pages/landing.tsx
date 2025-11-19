@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Landing() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -22,16 +23,6 @@ export default function Landing() {
         <title>Swoony | Bring Back Romance</title>
         <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        />
       </Head>
 
       <div className="film-grain">
@@ -116,7 +107,7 @@ export default function Landing() {
                 <span className="typewriter text-swoony-red font-bold block mb-2 text-sm uppercase tracking-wider">
                   The Problem:
                 </span>
-                Swiping is fast, superficial, and exhausting. It's a marketplace, not a meeting place.
+                Swiping is fast, superficial, and exhausting. It&apos;s a marketplace, not a meeting place.
               </p>
               <div className="hidden md:block h-12 w-px bg-gray-700"></div>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-light">
@@ -157,8 +148,10 @@ export default function Landing() {
                   <div className="absolute -top-4 -left-4 w-full h-full border border-swoony-cyan/30 z-0"></div>
                   <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center justify-center relative z-10 overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
                     {/* Using a font icon as visual placeholder for an old photo */}
-                    <img src="/retro_couple.jpg" alt="Philosophy" className="w-full h-full object-cover" />
-                    <span className="typewriter text-xs text-gray-500">Fig 1. The Lost Art of Conversation</span>
+                    <div className="relative w-full h-full">
+                      <Image src="/retro_couple.jpg" alt="Philosophy" fill className="object-cover" />
+                    </div>
+                    <span className="typewriter text-xs text-gray-500 absolute bottom-4">Fig 1. The Lost Art of Conversation</span>
                   </div>
                 </div>
               </div>
@@ -370,7 +363,7 @@ export default function Landing() {
                   </div>
                 </div>
                 <p className="font-serif italic text-lg leading-snug mb-4">
-                  "Ihmiset ei ehkä käsitä, miten arvokas palvelu käsin poimittu kumppaniehdokas on."
+                  &quot;Ihmiset ei ehkä käsitä, miten arvokas palvelu käsin poimittu kumppaniehdokas on.&quot;
                 </p>
                 <div className="flex justify-between items-end border-t border-gray-300 pt-2">
                   <span className="typewriter font-bold text-sm">Emma, 36</span>
@@ -386,7 +379,7 @@ export default function Landing() {
                   </div>
                 </div>
                 <p className="font-serif italic text-lg leading-snug mb-4">
-                  "Mainio sovellus. Omat arvot ja minä omana itsenäni otetaan vihdoin huomioon."
+                  &quot;Mainio sovellus. Omat arvot ja minä omana itsenäni otetaan vihdoin huomioon.&quot;
                 </p>
                 <div className="flex justify-between items-end border-t border-gray-300 pt-2">
                   <span className="typewriter font-bold text-sm text-swoony-red">Mikko, 28</span>
@@ -404,7 +397,7 @@ export default function Landing() {
                   </div>
                 </div>
                 <p className="font-serif italic text-lg leading-snug mb-4">
-                  "Harkittu ja perusteltu ehdotus lisää kiinnostustani tutustua. Erittäin positiivinen."
+                  &quot;Harkittu ja perusteltu ehdotus lisää kiinnostustani tutustua. Erittäin positiivinen.&quot;
                 </p>
                 <div className="flex justify-between items-end border-t border-gray-300 pt-2">
                   <span className="typewriter font-bold text-sm">Sofia, 39</span>
@@ -432,7 +425,7 @@ export default function Landing() {
                   <li className="group cursor-pointer">
                     <span className="typewriter text-xs text-gray-500 block mb-1">05.10.2023 • Podcast</span>
                     <a href="#" className="text-lg font-serif group-hover:text-swoony-red transition-colors">
-                      Swoony vieraana "Miesten mielestä" -podcastissa.
+                      Swoony vieraana &quot;Miesten mielestä&quot; -podcastissa.
                     </a>
                   </li>
                   <li className="group cursor-pointer">
@@ -541,7 +534,7 @@ export default function Landing() {
           </div>
 
           <div className="text-center mt-16 pt-8 border-t border-gray-900">
-            <p className="font-serif italic text-gray-600 text-sm">"Old school is the new cool."</p>
+            <p className="font-serif italic text-gray-600 text-sm">&quot;Old school is the new cool.&quot;</p>
           </div>
         </footer>
       </div>
