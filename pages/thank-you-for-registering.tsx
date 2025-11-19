@@ -1,15 +1,8 @@
 import React from "react";
-import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-
-const quickSand = Quicksand({
-    weight: ["700"],
-    style: ["normal"],
-    subsets: ["latin"],
-});
 
 export default function ThankYou() {
     return (

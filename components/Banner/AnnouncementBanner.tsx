@@ -1,13 +1,7 @@
 import React, { FC, useState } from "react";
 import { useTranslation } from 'next-i18next';
-import { Quicksand } from "next/font/google";
 import Link from "next/link";
-
-const quickSand = Quicksand({
-    weight: ["600", "700"],
-    style: ["normal"],
-    subsets: ["latin"],
-});
+import { quickSand } from "@/lib/fonts";
 
 interface AnnouncementBannerProps {
     onClose?: () => void;

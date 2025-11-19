@@ -1,5 +1,4 @@
 import React from "react";
-import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "@/components/Footer/Footer";
@@ -7,12 +6,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticProps } from 'next';
 import { useRouter } from "next/router";
-
-const quickSand = Quicksand({
-    weight: ["700"],
-    style: ["normal"],
-    subsets: ["latin"],
-});
+import { quickSand } from "@/lib/fonts";
 
 export default function PrivacyPolicy() {
     const { t } = useTranslation('privacy');

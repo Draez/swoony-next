@@ -1,13 +1,7 @@
 import React, { FC } from "react";
-import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-
-const quickSand = Quicksand({
-    weight: ["700"],
-    style: ["normal"],
-    subsets: ["latin"],
-});
+import { quickSand } from "@/lib/fonts";
 
 export default function Gift() {
     return <div className="p-8">

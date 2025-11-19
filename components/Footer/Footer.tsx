@@ -1,17 +1,11 @@
 import React, { FC, FormEvent } from "react";
-import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { trackLead } from "@/lib/fb";
 import Link from "next/link";
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-
-const quickSand = Quicksand({
-  weight: ["700"],
-  style: ["normal"],
-  subsets: ["latin"],
-});
+import { quickSand } from "@/lib/fonts";
 
 const Footer: FC = () => {
   const { t } = useTranslation('common');
@@ -179,7 +173,7 @@ const Footer: FC = () => {
                   priority
                 />
                 <div
-                  className={`${quickSand.className} text-xl font-semibold text-zinc-50 uppercase tracking-wide`}
+                  className={`${quickSand.className} text-xl font-semibold text-white uppercase tracking-wide`}
                 >
                   Swoony
                 </div>

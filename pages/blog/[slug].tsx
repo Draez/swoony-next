@@ -1,17 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { Quicksand } from "next/font/google";
 import Image from "next/image";
 import Footer from '@/components/Footer/Footer';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import type { GetServerSideProps } from 'next';
-
-const quickSand = Quicksand({
-    weight: ["700"],
-    style: ["normal"],
-    subsets: ["latin"],
-});
+import { quickSand } from "@/lib/fonts";
 
 interface BlogPost {
     title: string;

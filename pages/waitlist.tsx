@@ -1,8 +1,8 @@
 import { trackLead } from '@/lib/fb';
-import { Quicksand } from 'next/font/google';
 import Head from 'next/head';
 import Image from 'next/image';
 import { FormEvent, useState } from 'react';
+import { quickSand } from "@/lib/fonts";
 
 interface WaitlistFormState {
     email: string;
@@ -16,13 +16,6 @@ function isValidEmail(email: string): boolean {
     const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
     return pattern.test(email);
 }
-
-
-const quickSand = Quicksand({
-    weight: ["700"],
-    style: ["normal"],
-    subsets: ["latin"],
-});
 
 export default function WaitlistPage() {
     const [formState, setFormState] = useState<WaitlistFormState>({ email: '', isSubmitting: false, hasError: false, isSuccess: false });

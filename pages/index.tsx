@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Plus_Jakarta_Sans, Quicksand } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Intro from "@/components/Intro/Intro";
 import Footer from "@/components/Footer/Footer";
