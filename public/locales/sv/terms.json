@@ -56,8 +56,16 @@
     "satisfaction_guarantee": {
     "title": "Ansvarsvillkor",
     "paragraphs": [
-   "Om användaren inte har fått några matcher under en sex (6) månaders sammanhängande aktiv användningsperiod, kommer Swoony att återbetala användaren värdet av en (1) match. Återbetalningen gäller endast situationer där användaren har följt användarvillkoren och varit aktiv (tillgänglig under hela perioden) i tjänsten. Swoony förbehåller sig rätten att kontrollera användarens aktivitet innan återbetalning beviljas.",
-   "Återbetalningen beviljas inte automatiskt, och användaren måste begära den via e-post till Swoonys kundtjänst info@swoony.io sex (6) månader efter periodens slut. Swoony kommer att behandla begäran och informera användaren om beslutet"
+   "Servicelöfte Swoony förbinder sig att göra sitt bästa för att hitta lämpliga partners åt användaren. Om vi inte lyckas med denna uppgift inom rimlig tid, tar vi ansvar för det.",
+   "Villkor för 6 månaders garanti Om användaren har köpt en betaltjänst (såsom ett Startpaket), men Swoony inte har kunnat presentera ett enda matchningsförslag som uppfyller användarens kriterier och Swoonys kvalitetsstandarder inom sex (6) månader från inköpsdatumet, betraktar vi detta som ett leveransfel i tjänsten.",
+   "I sådana fall är användaren berättigad till kompensation, som utgörs av antingen:",
+   "Full återbetalning av det aktuella köpet (Obs: Delåterbetalningar kan inte genomföras på grund av tekniska begränsningar i betalningssystemen), ELLER",
+   "Kompensation i Swoony-krediter (t.ex. gratis extrakrediter eller prioritering av profilen vid fortsatt sökning).",
+   "Förutsättningar Kompensationen gäller endast i situationer där användaren har varit aktiv och följt tjänstens användarvillkor. Garantin upphör att gälla om:",
+   "Användaren har raderat sitt konto eller inte varit nåbar under perioden.",
+   "Användaren har angett etiskt olämpliga, diskriminerande eller – i förhållande till tjänstens natur – helt orealistiska kriterier som förhindrar matcharens arbete.",
+   "Användaren har underlåtit att reagera på matcharens kontaktförsök eller profilförslag.",
+   "Instruktioner Kompensation beviljas inte automatiskt av systemet. Användaren måste kontakta Swoonys kundtjänst (info@swoony.io) efter att tidsfristen på sex (6) månader har löpt ut. Kundtjänsten kontrollerar användarens aktivitetshistorik och ger instruktioner för att antingen ansöka om återbetalning via appbutiken eller lägger till krediterna direkt på användarens konto."
   ]},
   "changes": {
     "title": "Ändringar i villkor och tjänsteutbud",

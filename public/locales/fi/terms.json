@@ -54,8 +54,16 @@
   "satisfaction_guarantee": {
     "title": "Tyytyväisyystakuu",
     "paragraphs": [
-      "Jos käyttäjä ei ole saanut yhtään mätsiä kuuden (6) kuukauden yhtäjaksoisen aktiivisen käyttöjakson aikana, Swoony hyvittää käyttäjälle yhden (1) mätsin arvoisen summan takaisin. Hyvitys koskee ainoastaan tilanteita, joissa käyttäjä on noudattanut palvelun käyttöehtoja ja ollut palvelussa aktiivinen (käytettävissä koko jakson ajan). Swoony pidättää oikeuden tarkistaa käyttäjän aktiivisuuden ennen hyvityksen myöntämistä.",
-      "Hyvitystä ei myönnetä automaattisesti, vaan käyttäjän tulee pyytää sitä sähköpostitse Swoonyn asiakastuesta info@swoony.io kuuden (6) kuukauden jakson päätyttyä. Swoony käsittelee pyynnön ja ilmoittaa käyttäjälle päätöksestä."
+      "Palvelulupaus Swoony sitoutuu tekemään parhaansa löytääkseen käyttäjälle sopivia kumppaneita. Mikäli emme onnistu tässä tehtävässä kohtuullisessa ajassa, kannamme siitä vastuun.",
+      "6 kuukauden takuuehdot Mikäli käyttäjä on ostanut maksullisen palvelun (kuten 1/3/5 mätsin paketin), mutta Swoony ei ole pystynyt esittelemään yhtäkään käyttäjän kriteereihin ja Swoonyn laatustandardeihin sopivaa mätsi-ehdotusta kuuden (6) kuukauden kuluessa ostopäivästä, katsomme sen palvelun toimitusvirheeksi.",
+      "Tällöin käyttäjä on oikeutettu hyvitykseen, joka on joko:",
+      "Täysi rahallinen palautus kyseisestä ostotapahtumasta (Huom: Osittaisia rahanpalautuksia ei voida suorittaa maksujärjestelmien teknisistä syistä johtuen), TAI",
+      "Hyvitys Swoony-krediitteinä (esim. ilmaiset lisäkrediitit tai profiilin nosto prioriteettijonoon).",
+      "Edellytykset Hyvitys koskee ainoastaan tilanteita, joissa käyttäjä on toiminut aktiivisesti ja noudattanut palvelun käyttöehtoja. Takuu raukeaa, mikäli:",
+      "Käyttäjä on poistanut tilinsä tai ollut tavoittamattomissa jakson aikana.",
+      "Käyttäjä on asettanut eettisesti sopimattomia, syrjiviä tai palvelun luonteeseen nähden täysin epärealistisia kriteerejä, jotka estävät mätsääjän työn.",
+      "Käyttäjä on jättänyt reagoimatta mätsääjän yhteydenottoihin tai profiiliehdotuksiin.",
+      "Toimintaohje Hyvitystä ei myönnetä automaattisesti järjestelmästä. Käyttäjän tulee olla yhteydessä Swoonyn asiakastukeen (info@swoony.io) kuuden (6) kuukauden määräajan täytyttyä. Asiakaspalvelu tarkistaa käyttäjän aktiivisuushistorian ja antaa ohjeet joko rahanpalautuksen hakemiseen sovelluskaupan kautta tai lisää krediitit suoraan käyttäjän tilille."
     ]
   },
   "changes": {
