@@ -74,8 +74,8 @@ export default function Pricing() {
                                 <h3 className="text-xl font-regular text-gray">3 mätsiä</h3>
                             </div>
                             <div className="text-center mb-8">
-                                <h3 className="text-4xl font-bold text-black mb-2">129,99€</h3>
-                                <p className="text-sm text-gray font-semibold">Säästä 20€</p>
+                                <h3 className="text-4xl font-bold text-black mb-2">119,99€</h3>
+                                <p className="text-sm text-gray font-semibold">Säästä 30€</p>
                             </div>
 
 
@@ -116,8 +116,8 @@ export default function Pricing() {
                                 <h3 className="text-xl font-regular text-gray">5 mätsiä</h3>
                             </div>
                             <div className="text-center mb-8">
-                                <h3 className="text-4xl font-bold text-black mb-2">169,99€</h3>
-                                <p className="text-sm text-gray font-semibold">Säästä 80€</p>
+                                <h3 className="text-4xl font-bold text-black mb-2">179,99€</h3>
+                                <p className="text-sm text-gray font-semibold">Säästä 70€</p>
                             </div>
 
                             <ul className="space-y-4 mb-8">
