@@ -72,12 +72,6 @@
     "Swoony Oy:lla on oikeus tehdä muutoksia hinnastoon, maksuihin ja näihin ehtoihin. Mikäli muutokset ovat asiakkaalle olennaisesti haitallisia, niistä ilmoitetaan asiakkaalle sähköpostitse tai tekstiviestillä vähintään 1 kuukausi ennen muutosten voimaantuloa."
     ]
   },
-  "cancellation": {
-    "title": "Peruuttamisoikeus",
-    "paragraphs": [
-     "Koska kyseessä on kertamaksuun perustuva palvelu, maksettuja maksuja ei palauteta, ellei peruutus johdu kuluttajansuojalain mukaisista perusteista. Poikkeuksena tästä asiakkaalla on oikeus maksun palautukseen, mikäli hän ei saa yhtään mätsiä kolmen (3) kuukauden kuluessa maksun suorittamisesta. Kun maksu on suoritettu, palvelu on muutoin käytettävissä sovitun ajan ja sovitussa laajuudessa."
-    ]
-  },
   "liability": {
     "title": "Vastuuehdot",
     "paragraphs": [

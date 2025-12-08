@@ -74,13 +74,6 @@
       "Om skadliga ändringar görs i månadsavgiften kommer kunden att meddelas via e-post eller textmeddelande minst en (1) månad före ändringen träder i kraft."
     ]
   },
-  "cancellation": {
-    "title": "Avbokningsrätt",
-    "paragraphs": [
-      "Prenumerationen och medlemskapet förnyas automatiskt om du inte avbokar det. Att ta bort Swoony-appen eller Swoony-kontot avbokar inte prenumerationen eller medlemskapet.",
-      "När du avbokar din prenumeration eller ditt medlemskap kan du använda det till slutet av månaden som du har betalat för. Avbokning av prenumerationen berättigar inte till retroaktiv återbetalning av prenumerations- eller medlemsavgifter, och tidigare betalda avgifter kan inte återbetalas baserat på avbokningsdatumet."
-    ]
-  },
   "liability": {
     "title": "Ansvarsvillkor",
     "paragraphs": [

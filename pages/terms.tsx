@@ -127,15 +127,6 @@ export default function Terms() {
                     </section>
 
                     <section className="mb-8">
-                        <h2 className="text-2xl font-semibold mb-4">{t('cancellation.title')}</h2>
-                        <div className="space-y-4">
-                            {getTranslationArray('cancellation.paragraphs').map((paragraph, index) => (
-                                <p key={index}>{paragraph}</p>
-                            ))}
-                        </div>
-                    </section>
-
-                    <section className="mb-8">
                         <h2 className="text-2xl font-semibold mb-4">{t('liability.title')}</h2>
                         <div className="space-y-4">
                             {getTranslationArray('liability.paragraphs').map((paragraph, index) => (
