@@ -42,7 +42,7 @@ const blogPosts: BlogPosts = {
 
     <p>💡 Mitä tämä tarkoittaa käytännössä ?</p>
 
-    <p>Jos sinulla on aktiivinen kuukausitilaus, muista perua se. Et kuitenkaan menetä arvoa: kaikille käyttäjille, joilla on päivityksen jälkeen käyttämätöntä aikaa jäljellä, tarjoamme hyvityksenä kaksi mätsiä veloituksetta (arvo 40 €).</p>
+    <p>Jos sinulla on aktiivinen kuukausitilaus, muista perua se. Et kuitenkaan menetä arvoa: kaikille käyttäjille, joilla on päivityksen jälkeen käyttämätöntä aikaa jäljellä, tarjoamme hyvityksenä kaksi mätsiä veloituksetta (arvo 100 €).</p>
 
     <p>Haluamme, että tunnet olosi hyväksi ja luottavaiseksi muutoksen keskellä. Mikäli jokin mietityttää, voit olla yhteydessä asiakaspalveluumme sähköpostitse: info @swoony.io</p>
 

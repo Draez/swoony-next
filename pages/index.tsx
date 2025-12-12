@@ -9,7 +9,6 @@ import Pricing from "@/components/Pricing/Pricing";
 import { FAQ } from '@/components/FAQ/FAQ';
 import Blog from "@/components/Blog/Blog";
 import FeaturedIn from "@/components/FeaturedIn/FeaturedIn";
-import AnnouncementBanner from "@/components/Banner/AnnouncementBanner";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticProps } from 'next';
 import { useRouter } from "next/router";
@@ -32,7 +31,6 @@ export default function Home() {
 
       <main className="flex min-h-screen flex-col items-center justify-between">
         <Header />
-        <AnnouncementBanner />
         <Process />
         <FeaturedIn />
         <Intro />
