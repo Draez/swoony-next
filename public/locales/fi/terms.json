@@ -44,26 +44,28 @@
     ]
   },
   "payment": {
-    "title": "Maksuehdot",
+    "title": "Maksuehdot ja ostotapahtumat",
     "paragraphs": [
-     "Käyttäjä on henkilökohtaisesti vastuussa sopimuksen mukaisten maksujen maksamisesta Swoony Oy:lle. Tämä koskee myös tilanteita, joissa maksajaksi on merkitty toinen henkilö.",
-"Uuden sopimuksen solmimisen yhteydessä asiakas maksaa voimassa olevan hinnaston mukaisen kertamaksun. Maksu suoritetaan etukäteen, ja sen jälkeen asiakas saa sovitun palvelun käyttöönsä.",
-"Koska maksut ovat kertaluonteisia, ei palveluun liity automaattisia korttiveloituksia eikä jatkuvia kuukausimaksuja. Käyttäjän vastuulla on huolehtia siitä, että maksu onnistuu ja palvelu voidaan toimittaa."
+      "Sovelluskauppojen käyttö: Swoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Kaikki maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja. Sitoudut noudattamaan valitsemasi sovelluskaupan omia maksu- ja käyttöehtoja.",
+      "Maksuvastuu ja hinnoittelu: Käyttäjä on henkilökohtaisesti vastuussa sovelluskaupan kautta tehtyjen ostosten maksamisesta. Tämä koskee myös tilanteita, joissa maksajaksi on merkitty toinen henkilö tai tili on yhteiskäytössä.",
+      "Palvelun hinnat on esitetty sovelluksessa ostohetkellä. Mätsipaketit ovat kertaluonteisia ostoja, jotka veloitetaan etukäteen. Näihin paketteihin ei liity automaattisia korttiveloituksia eikä jatkuvia kuukausimaksuja ostohetken jälkeen.",
+      "Peruutusoikeus: Koska kyseessä on digitaalinen palvelu, jonka toimitus (asiantuntijatyö ja analyysi) aloitetaan välittömästi oston jälkeen, palvelulla ei pääsääntöisesti ole kuluttajansuojalain mukaista 14 vuorokauden peruutusoikeutta. Kaikki peruutukset ja välittömät reklamaatiot tulee osoittaa suoraan Applelle tai Googlelle heidän ehtojensa mukaisesti."
     ]
   },
   "satisfaction_guarantee": {
-    "title": "Tyytyväisyystakuu",
+    "title": "Tyytyväisyystakuu (6kk)",
     "paragraphs": [
-      "Palvelulupaus Swoony sitoutuu tekemään parhaansa löytääkseen käyttäjälle sopivia kumppaneita. Mikäli emme onnistu tässä tehtävässä kohtuullisessa ajassa, kannamme siitä vastuun.",
-      "6 kuukauden takuuehdot Mikäli käyttäjä on ostanut maksullisen palvelun (kuten 1/3/5 mätsin paketin), mutta Swoony ei ole pystynyt esittelemään yhtäkään käyttäjän kriteereihin ja Swoonyn laatustandardeihin sopivaa mätsi-ehdotusta kuuden (6) kuukauden kuluessa ostopäivästä, katsomme sen palvelun toimitusvirheeksi.",
-      "Tällöin käyttäjä on oikeutettu hyvitykseen, joka on joko:",
-      "Täysi rahallinen palautus kyseisestä ostotapahtumasta (Huom: Osittaisia rahanpalautuksia ei voida suorittaa maksujärjestelmien teknisistä syistä johtuen), TAI",
-      "Hyvitys Swoony-krediitteinä (esim. ilmaiset lisäkrediitit tai profiilin nosto prioriteettijonoon).",
-      "Edellytykset Hyvitys koskee ainoastaan tilanteita, joissa käyttäjä on toiminut aktiivisesti ja noudattanut palvelun käyttöehtoja. Takuu raukeaa, mikäli:",
+      "Palvelulupaus: Swoony sitoutuu tekemään parhaansa löytääkseen käyttäjälle sopivia kumppaneita. Mikäli emme onnistu tässä tehtävässä kohtuullisessa ajassa, kannamme siitä vastuun.",
+      "Takuun sisältö: Mikäli käyttäjä on ostanut maksullisen mätsipaketin, mutta Swoony ei ole pystynyt esittelemään yhtäkään käyttäjän kriteereihin ja Swoonyn laatustandardeihin sopivaa mätsi-ehdotusta kuuden (6) kuukauden kuluessa ostopäivästä, katsomme sen palvelun toimitusvirheeksi.",
+      "Tällöin käyttäjä on oikeutettu hyvitykseen. Koska maksuliikenne kulkee kolmannen osapuolen kautta, hyvitys toteutetaan jommallakummalla tavalla:",
+      "Ensisijainen hyvitys Swoony-krediitteinä: Palautamme ostamasi paketin arvon (tai korotetun arvon) Swoony-krediitteinä, joilla voit jatkaa palvelun käyttöä tai nostaa profiilisi prioriteettijonoon.",
+      "Rahallinen palautus (Sovelluskaupan kautta): Swoony antaa käyttäjälle ohjeet ja puoltavan lausunnon rahanpalautuksen hakemiseksi Applen tai Googlen kautta.",
+      "Huomio: Lopullisen päätöksen rahanpalautuksesta tekee aina sovelluskauppa (Apple/Google). Mikäli sovelluskauppa kieltäytyy palautuksesta (esimerkiksi aikarajojen vuoksi), Swoony hyvittää summan täysimääräisesti kohdan 1 mukaisesti krediitteinä.",
+      "Takuun edellytykset: Hyvitys koskee ainoastaan tilanteita, joissa käyttäjä on toiminut aktiivisesti ja noudattanut palvelun käyttöehtoja. Takuu raukeaa, mikäli:",
       "Käyttäjä on poistanut tilinsä tai ollut tavoittamattomissa jakson aikana.",
-      "Käyttäjä on asettanut eettisesti sopimattomia, syrjiviä tai palvelun luonteeseen nähden täysin epärealistisia kriteerejä, jotka estävät mätsääjän työn.",
+      "Käyttäjä on asettanut eettisesti sopimattomia, syrjiviä tai palvelun luonteeseen nähden täysin epärealistisia kriteerejä, jotka estävät mätsääjän työn (esim. vaatimukset, jotka rajaavat 100% tietokannasta pois).",
       "Käyttäjä on jättänyt reagoimatta mätsääjän yhteydenottoihin tai profiiliehdotuksiin.",
-      "Toimintaohje Hyvitystä ei myönnetä automaattisesti järjestelmästä. Käyttäjän tulee olla yhteydessä Swoonyn asiakastukeen (info@swoony.io) kuuden (6) kuukauden määräajan täytyttyä. Asiakaspalvelu tarkistaa käyttäjän aktiivisuushistorian ja antaa ohjeet joko rahanpalautuksen hakemiseen sovelluskaupan kautta tai lisää krediitit suoraan käyttäjän tilille."
+      "Toimintaohje: Hyvitystä ei myönnetä automaattisesti. Käyttäjän tulee olla yhteydessä Swoonyn asiakastukeen (info@swoony.io) kuuden (6) kuukauden määräajan täytyttyä. Asiakaspalvelu tarkistaa käyttäjän aktiivisuushistorian ja antaa ohjeet hyvitykseen."
     ]
   },
   "changes": {

@@ -44,29 +44,30 @@
     ]
   },
   "payment": {
-    "title": "Betalningsvillkor",
+    "title": "Betalningsvillkor och köptransaktioner",
     "paragraphs": [
-      "Användaren är personligen ansvarig för att betala avgifterna enligt avtalet till Swoony Oy. Detta gäller även i situationer där en annan person anges som betalare.",
-      "När ett nytt avtal ingås betalar kunden priset enligt den gällande prislistan.",
-      "Genom att betala för en månadsprenumeration förbinder sig kunden till avtalet för en period av en månad. När avtalet ingås tills vidare, betalas avgiften månadsvis i förskott genom automatisk kortdebitering.",
-      "Vid automatisk kortdebitering ansvarar kunden för att betalkortet är aktiverat och att avtalsbetalningar automatiskt kan debiteras från betalkortet under avtalets giltighetstid.",
-      "Betalningen debiteras automatiskt på den överenskomna förfallodagen utan separat meddelande. Om debiteringen misslyckas, kommer avtalet inte att förlängas för nästa månad."
+      "Användning av appbutiker: Swoony-tjänsten fungerar på plattformarna Apple App Store och Google Play. Alla betalningstransaktioner hanteras via dessa appbutiker. Swoony Oy behandlar eller lagrar inte kunders betalkortsuppgifter. Du förbinder dig att följa betalnings- och användarvillkoren för den valda appbutiken.",
+      "Betalningsansvar och prissättning: Användaren är personligen ansvarig för betalning av köp som görs via appbutiken. Detta gäller även situationer där en annan person är angiven som betalare eller om kontot används gemensamt.",
+      "Tjänstens priser presenteras i appen vid köptillfället. Matchningspaket är engångsköp som debiteras i förskott. Dessa paket är inte kopplade till automatiska kortdebiteringar eller löpande månadsavgifter efter köptillfället.",
+      "Ångerrätt: Eftersom det rör sig om en digital tjänst vars leverans (expertarbete och analys) påbörjas omedelbart efter köpet, omfattas tjänsten i regel inte av den 14 dagars ångerrätt som föreskrivs i konsumentskyddslagen. Alla avbokningar och omedelbara reklamationer ska riktas direkt till Apple eller Google i enlighet med deras villkor."
     ]
   },
-    "satisfaction_guarantee": {
-    "title": "Ansvarsvillkor",
+  "satisfaction_guarantee": {
+    "title": "Nöjdhetsgaranti (6 mån)",
     "paragraphs": [
-   "Servicelöfte Swoony förbinder sig att göra sitt bästa för att hitta lämpliga partners åt användaren. Om vi inte lyckas med denna uppgift inom rimlig tid, tar vi ansvar för det.",
-   "Villkor för 6 månaders garanti Om användaren har köpt en betaltjänst (såsom ett Startpaket), men Swoony inte har kunnat presentera ett enda matchningsförslag som uppfyller användarens kriterier och Swoonys kvalitetsstandarder inom sex (6) månader från inköpsdatumet, betraktar vi detta som ett leveransfel i tjänsten.",
-   "I sådana fall är användaren berättigad till kompensation, som utgörs av antingen:",
-   "Full återbetalning av det aktuella köpet (Obs: Delåterbetalningar kan inte genomföras på grund av tekniska begränsningar i betalningssystemen), ELLER",
-   "Kompensation i Swoony-krediter (t.ex. gratis extrakrediter eller prioritering av profilen vid fortsatt sökning).",
-   "Förutsättningar Kompensationen gäller endast i situationer där användaren har varit aktiv och följt tjänstens användarvillkor. Garantin upphör att gälla om:",
-   "Användaren har raderat sitt konto eller inte varit nåbar under perioden.",
-   "Användaren har angett etiskt olämpliga, diskriminerande eller – i förhållande till tjänstens natur – helt orealistiska kriterier som förhindrar matcharens arbete.",
-   "Användaren har underlåtit att reagera på matcharens kontaktförsök eller profilförslag.",
-   "Instruktioner Kompensation beviljas inte automatiskt av systemet. Användaren måste kontakta Swoonys kundtjänst (info@swoony.io) efter att tidsfristen på sex (6) månader har löpt ut. Kundtjänsten kontrollerar användarens aktivitetshistorik och ger instruktioner för att antingen ansöka om återbetalning via appbutiken eller lägger till krediterna direkt på användarens konto."
-  ]},
+      "Tjänstelöfte: Swoony förbinder sig att göra sitt bästa för att hitta lämpliga partners åt användaren. Om vi inte lyckas med denna uppgift inom rimlig tid, bär vi ansvaret för det.",
+      "Garantins innehåll: Om användaren har köpt ett avgiftsbelagt matchningspaket, men Swoony inte har kunnat presentera ett enda matchningsförslag som uppfyller användarens kriterier och Swoonys kvalitetsstandarder inom sex (6) månader från inköpsdatumet, betraktar vi det som ett fel i tjänsteleveransen.",
+      "I sådana fall har användaren rätt till ersättning. Eftersom betalningstrafiken går via tredje part, genomförs ersättningen på ett av två sätt:",
+      "Primär ersättning som Swoony-krediter: Vi återbetalar värdet på det paket du köpt (eller ett förhöjt värde) i form av Swoony-krediter, som du kan använda för att fortsätta använda tjänsten eller för att lyfta din profil till prioritetskön.",
+      "Ekonomisk återbetalning (via appbutiken): Swoony ger användaren instruktioner och ett förordande utlåtande för att ansöka om återbetalning via Apple eller Google.",
+      "Obs: Det slutgiltiga beslutet om återbetalning fattas alltid av appbutiken (Apple/Google). Om appbutiken nekar återbetalning (t.ex. på grund av tidsgränser), ersätter Swoony beloppet till fullo i enlighet med punkt 1 som krediter.",
+      "Garantins villkor: Ersättning gäller endast situationer där användaren har agerat aktivt och följt tjänstens användarvillkor. Garantin upphör att gälla om:",
+      "Användaren har tagit bort sitt konto eller varit onåbar under perioden.",
+      "Användaren har ställt etiskt olämpliga, diskriminerande eller med hänsyn till tjänstens karaktär helt orealistiska kriterier som förhindrar matcharens arbete (t.ex. krav som utesluter 100 % av databasen).",
+      "Användaren har underlåtit att reagera på matcharens kontakter eller profilförslag.",
+      "Anvisningar: Ersättning beviljas inte automatiskt. Användaren måste kontakta Swoonys kundtjänst (info@swoony.io) när tidsfristen på sex (6) månader har löpt ut. Kundtjänsten kontrollerar användarens aktivitetshistorik och ger instruktioner för ersättning."
+    ]
+  },
   "changes": {
     "title": "Ändringar i villkor och tjänsteutbud",
     "paragraphs": [
