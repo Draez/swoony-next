@@ -44,34 +44,29 @@
     ]
   },
   "payment": {
-    "title": "Maksuehdot ja ostotapahtumat",
+    "title": "Maksuehdot ja Takuukäytännöt",
     "paragraphs": [
-      "Sovelluskauppojen käyttö: Swoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Kaikki maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja. Sitoudut noudattamaan valitsemasi sovelluskaupan omia maksu- ja käyttöehtoja.",
-      "Maksuvastuu ja hinnoittelu: Käyttäjä on henkilökohtaisesti vastuussa sovelluskaupan kautta tehtyjen ostosten maksamisesta. Tämä koskee myös tilanteita, joissa maksajaksi on merkitty toinen henkilö tai tili on yhteiskäytössä.",
-      "Palvelun hinnat on esitetty sovelluksessa ostohetkellä. Mätsipaketit ovat kertaluonteisia ostoja, jotka veloitetaan etukäteen. Näihin paketteihin ei liity automaattisia korttiveloituksia eikä jatkuvia kuukausimaksuja ostohetken jälkeen.",
-      "Peruutusoikeus: Koska kyseessä on digitaalinen palvelu, jonka toimitus (asiantuntijatyö ja analyysi) aloitetaan välittömästi oston jälkeen, palvelulla ei pääsääntöisesti ole kuluttajansuojalain mukaista 14 vuorokauden peruutusoikeutta. Kaikki peruutukset ja välittömät reklamaatiot tulee osoittaa suoraan Applelle tai Googlelle heidän ehtojensa mukaisesti."
+      "1. Sovelluskauppojen käyttö ja maksuvastuu\n\nSwoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Kaikki maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja. Sitoudut noudattamaan valitsemasi sovelluskaupan omia maksu- ja käyttöehtoja.\n\nMaksuvastuu: Käyttäjä on henkilökohtaisesti vastuussa sovelluskaupan kautta tehtyjen ostosten maksamisesta. Tämä koskee myös tilanteita, joissa maksajaksi on merkitty toinen henkilö tai tili on yhteiskäytössä.\n\nHinnoittelu: Palvelun hinnat on esitetty sovelluksessa ostohetkellä. Mätsipaketit ovat kertaluonteisia palveluostoja, jotka veloitetaan etukäteen. Näihin paketteihin ei liity automaattisia korttiveloituksia eikä jatkuvia kuukausimaksuja ostohetken jälkeen, ellei kyseessä ole erikseen merkitty toistuva jäsenyys (Subscription).",
+      "2. Peruutusoikeus (Digitaalinen palvelu)\n\nKoska kyseessä on digitaalinen asiantuntijapalvelu, jonka toimitus (profilointi, analyysi ja haku) aloitetaan välittömästi oston jälkeen, palvelulla ei pääsääntöisesti ole kuluttajansuojalain mukaista 14 vuorokauden peruutusoikeutta. Ostamalla palvelun käyttäjä hyväksyy, että palvelun suorittaminen alkaa heti, ja peruutusoikeus raukeaa."
     ]
   },
   "satisfaction_guarantee": {
-    "title": "Tyytyväisyystakuu (6kk)",
+    "title": "3. Takuukäytännöt (Muutos voimassa 5.1.2026 alkaen)",
     "paragraphs": [
-      "Palvelulupaus: Swoony sitoutuu tekemään parhaansa löytääkseen käyttäjälle sopivia kumppaneita. Mikäli emme onnistu tässä tehtävässä kohtuullisessa ajassa, kannamme siitä vastuun.",
-      "Takuun sisältö: Mikäli käyttäjä on ostanut maksullisen mätsipaketin, mutta Swoony ei ole pystynyt esittelemään yhtäkään käyttäjän kriteereihin ja Swoonyn laatustandardeihin sopivaa mätsi-ehdotusta kuuden (6) kuukauden kuluessa ostopäivästä, katsomme sen palvelun toimitusvirheeksi.",
-      "Tällöin käyttäjä on oikeutettu hyvitykseen. Koska maksuliikenne kulkee kolmannen osapuolen kautta, hyvitys toteutetaan jommallakummalla tavalla:",
-      "Ensisijainen hyvitys Swoony-krediitteinä: Palautamme ostamasi paketin arvon (tai korotetun arvon) Swoony-krediitteinä, joilla voit jatkaa palvelun käyttöä tai nostaa profiilisi prioriteettijonoon.",
-      "Rahallinen palautus (Sovelluskaupan kautta): Swoony antaa käyttäjälle ohjeet ja puoltavan lausunnon rahanpalautuksen hakemiseksi Applen tai Googlen kautta.",
-      "Huomio: Lopullisen päätöksen rahanpalautuksesta tekee aina sovelluskauppa (Apple/Google). Mikäli sovelluskauppa kieltäytyy palautuksesta (esimerkiksi aikarajojen vuoksi), Swoony hyvittää summan täysimääräisesti kohdan 1 mukaisesti krediitteinä.",
-      "Takuun edellytykset: Hyvitys koskee ainoastaan tilanteita, joissa käyttäjä on toiminut aktiivisesti ja noudattanut palvelun käyttöehtoja. Takuu raukeaa, mikäli:",
-      "Käyttäjä on poistanut tilinsä tai ollut tavoittamattomissa jakson aikana.",
-      "Käyttäjä on asettanut eettisesti sopimattomia, syrjiviä tai palvelun luonteeseen nähden täysin epärealistisia kriteerejä, jotka estävät mätsääjän työn (esim. vaatimukset, jotka rajaavat 100% tietokannasta pois).",
-      "Käyttäjä on jättänyt reagoimatta mätsääjän yhteydenottoihin tai profiiliehdotuksiin.",
-      "Toimintaohje: Hyvitystä ei myönnetä automaattisesti. Käyttäjän tulee olla yhteydessä Swoonyn asiakastukeen (info@swoony.io) kuuden (6) kuukauden määräajan täytyttyä. Asiakaspalvelu tarkistaa käyttäjän aktiivisuushistorian ja antaa ohjeet hyvitykseen."
+      "Takuuehdot määräytyvät ostopäivämäärän mukaan. Tarkista alta, kumpi ehto koskee tilaustasi.",
+      "A. Ostokset, jotka on tehty ENNEN 5.1.2026 (6kk Tyytyväisyystakuu)\n\nTämä ehto koskee vain ennen 5.1.2026 ostettuja paketteja.\n\nPalvelulupaus: Swoony sitoutuu tekemään parhaansa löytääkseen käyttäjälle sopivia kumppaneita. Takuun sisältö: Mikäli Swoony ei ole pystynyt esittelemään yhtäkään käyttäjän kriteereihin ja Swoonyn laatustandardeihin sopivaa mätsi-ehdotusta kuuden (6) kuukauden kuluessa ostopäivästä, katsomme sen palvelun toimitusvirheeksi. Hyvitys: Tällöin käyttäjä on oikeutettu hyvitykseen:\n\nSwoony-krediitit: Palautamme paketin arvon krediitteinä palveluun.\n\nRahallinen palautus: Annamme puoltavan lausunnon rahanpalautuksen hakemiseksi sovelluskaupalta. Lopullisen päätöksen tekee Apple/Google. Osittain käytettyjä mätsipaketteja ei palauteta esim käytetty 1 mätsi kolmesta. Takuun edellytykset: Koskee vain tilanteita, joissa käyttäjä on ollut aktiivinen, ei ole asettanut epärealistisia kriteerejä (jotka rajaavat 100% tietokannasta pois) eikä ole poistanut tiliään. Reklamaatio on tehtävä osoitteeseen info@swoony.io määräajan täytyttyä.",
+      "B. Ostokset, jotka on tehty 5.1.2026 TAI SEN JÄLKEEN (Keskustelutakuu / Rematch)\n\nTämä ehto koskee kaikkia uusia palveluostoja (mätsipaketit) 5.1.2026 alkaen.",
+      "1. Palvelun luonne ja rahanpalautus\n\nSwoony-mätsipaketit ovat asiantuntijapalveluita, joissa veloitus kattaa matchmakerin tekemän profilointityön, ehdokkaiden etsinnän (headhunting) ja manuaalisen varmistustyön. Koska tämä työ tehdään ja resurssit sidotaan heti oston jälkeen, maksua ei palauteta rahana, vaikka lopputulos (kemia) ei vastaisi odotuksia. Emme myy lopputulosta, vaan ammattimaista hakuprosessia.",
+      "2. Conversation Guarantee (Keskustelutakuu)\n\nSitoudumme siihen, että löytämämme match on laadukas ja aito. Mikäli asiantuntijamme valitsema ja molempien hyväksymä match ei johda aitoon keskusteluun, tarjoamme sinulle uuden haun veloituksetta (Rematch).",
+      "3. Milloin olet oikeutettu Rematchiin? Saat uuden haun ilmaiseksi, jos:\n\nVastapuoli ei vastaa ensimmäiseen viestiisi 48 tunnin kuluessa.\n\nTAI keskustelu päättyy (\"ghosting\") ennen kuin yhteensä kuusi (6) viestiä on vaihdettu (3 viestiä per osapuoli).",
+      "4. Takuun rajoitukset\n\nTakuu kattaa enintään kolme (3) peräkkäistä uusintahakua yhtä maksettua pakettia kohden.\n\nTakuu ei ole voimassa, mikäli keskustelun katkeaminen johtuu käyttäjän omasta epäasiallisesta käytöksestä, yhteisösääntöjen rikkomisesta tai passiivisuudesta.\n\nTakuu ei oikeuta rahalliseen hyvitykseen, ainoastaan uuteen palvelusuoritukseen.",
+      "Toimintaohje: Jos match hiljenee heti, ilmoita siitä sovelluksen palautetoiminnolla tai asiakaspalveluun (info@swoony.io), niin asiantuntijamme aktivoi uuden haun tilillesi."
     ]
   },
   "changes": {
     "title": "Muutokset ehtoihin ja palveluntarjontaan",
     "paragraphs": [
-    "Swoony Oy:lla on oikeus tehdä muutoksia hinnastoon, maksuihin ja näihin ehtoihin. Mikäli muutokset ovat asiakkaalle olennaisesti haitallisia, niistä ilmoitetaan asiakkaalle sähköpostitse tai tekstiviestillä vähintään 1 kuukausi ennen muutosten voimaantuloa."
+      "Swoony Oy:lla on oikeus tehdä muutoksia hinnastoon, maksuihin ja näihin ehtoihin. Mikäli muutokset ovat asiakkaalle olennaisesti haitallisia, niistä ilmoitetaan asiakkaalle sähköpostitse tai tekstiviestillä vähintään 1 kuukausi ennen muutosten voimaantuloa."
     ]
   },
   "liability": {
@@ -107,4 +102,4 @@
     "phone": "Puhelin: 045 229 6866",
     "hours": "Aukioloajat: Ma-Pe 10:00 - 17:00"
   }
-} 
+}

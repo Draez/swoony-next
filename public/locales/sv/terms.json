@@ -44,28 +44,23 @@
     ]
   },
   "payment": {
-    "title": "Betalningsvillkor och köptransaktioner",
+    "title": "Betalningsvillkor och Garantipolicyer",
     "paragraphs": [
-      "Användning av appbutiker: Swoony-tjänsten fungerar på plattformarna Apple App Store och Google Play. Alla betalningstransaktioner hanteras via dessa appbutiker. Swoony Oy behandlar eller lagrar inte kunders betalkortsuppgifter. Du förbinder dig att följa betalnings- och användarvillkoren för den valda appbutiken.",
-      "Betalningsansvar och prissättning: Användaren är personligen ansvarig för betalning av köp som görs via appbutiken. Detta gäller även situationer där en annan person är angiven som betalare eller om kontot används gemensamt.",
-      "Tjänstens priser presenteras i appen vid köptillfället. Matchningspaket är engångsköp som debiteras i förskott. Dessa paket är inte kopplade till automatiska kortdebiteringar eller löpande månadsavgifter efter köptillfället.",
-      "Ångerrätt: Eftersom det rör sig om en digital tjänst vars leverans (expertarbete och analys) påbörjas omedelbart efter köpet, omfattas tjänsten i regel inte av den 14 dagars ångerrätt som föreskrivs i konsumentskyddslagen. Alla avbokningar och omedelbara reklamationer ska riktas direkt till Apple eller Google i enlighet med deras villkor."
+      "1. Användning av appbutiker och betalningsansvar\n\nSwoony-tjänsten fungerar på plattformarna Apple App Store och Google Play. Alla betalningstransaktioner hanteras via dessa appbutiker. Swoony Oy behandlar eller lagrar inte kunders betalkortsuppgifter. Du förbinder dig att följa betalnings- och användarvillkoren för den valda appbutiken.\n\nBetalningsansvar: Användaren är personligen ansvarig för betalning av köp som görs via appbutiken. Detta gäller även situationer där en annan person är angiven som betalare eller om kontot används gemensamt.\n\nPrissättning: Tjänstens priser presenteras i appen vid köptillfället. Matchningspaket är engångsköp av tjänster som debiteras i förskott. Dessa paket är inte kopplade till automatiska kortdebiteringar eller löpande månadsavgifter efter köptillfället, om det inte rör sig om ett separat markerat återkommande medlemskap (Subscription).",
+      "2. Ångerrätt (Digital tjänst)\n\nEftersom det rör sig om en digital experttjänst vars leverans (profilering, analys och sökning) påbörjas omedelbart efter köpet, omfattas tjänsten i regel inte av den 14 dagars ångerrätt som föreskrivs i konsumentskyddslagen. Genom att köpa tjänsten godkänner användaren att utförandet av tjänsten påbörjas omedelbart, och ångerrätten upphör att gälla."
     ]
   },
   "satisfaction_guarantee": {
-    "title": "Nöjdhetsgaranti (6 mån)",
+    "title": "3. Garantipolicyer (Ändring i kraft från 5.1.2026)",
     "paragraphs": [
-      "Tjänstelöfte: Swoony förbinder sig att göra sitt bästa för att hitta lämpliga partners åt användaren. Om vi inte lyckas med denna uppgift inom rimlig tid, bär vi ansvaret för det.",
-      "Garantins innehåll: Om användaren har köpt ett avgiftsbelagt matchningspaket, men Swoony inte har kunnat presentera ett enda matchningsförslag som uppfyller användarens kriterier och Swoonys kvalitetsstandarder inom sex (6) månader från inköpsdatumet, betraktar vi det som ett fel i tjänsteleveransen.",
-      "I sådana fall har användaren rätt till ersättning. Eftersom betalningstrafiken går via tredje part, genomförs ersättningen på ett av två sätt:",
-      "Primär ersättning som Swoony-krediter: Vi återbetalar värdet på det paket du köpt (eller ett förhöjt värde) i form av Swoony-krediter, som du kan använda för att fortsätta använda tjänsten eller för att lyfta din profil till prioritetskön.",
-      "Ekonomisk återbetalning (via appbutiken): Swoony ger användaren instruktioner och ett förordande utlåtande för att ansöka om återbetalning via Apple eller Google.",
-      "Obs: Det slutgiltiga beslutet om återbetalning fattas alltid av appbutiken (Apple/Google). Om appbutiken nekar återbetalning (t.ex. på grund av tidsgränser), ersätter Swoony beloppet till fullo i enlighet med punkt 1 som krediter.",
-      "Garantins villkor: Ersättning gäller endast situationer där användaren har agerat aktivt och följt tjänstens användarvillkor. Garantin upphör att gälla om:",
-      "Användaren har tagit bort sitt konto eller varit onåbar under perioden.",
-      "Användaren har ställt etiskt olämpliga, diskriminerande eller med hänsyn till tjänstens karaktär helt orealistiska kriterier som förhindrar matcharens arbete (t.ex. krav som utesluter 100 % av databasen).",
-      "Användaren har underlåtit att reagera på matcharens kontakter eller profilförslag.",
-      "Anvisningar: Ersättning beviljas inte automatiskt. Användaren måste kontakta Swoonys kundtjänst (info@swoony.io) när tidsfristen på sex (6) månader har löpt ut. Kundtjänsten kontrollerar användarens aktivitetshistorik och ger instruktioner för ersättning."
+      "Garantivillkoren bestäms utifrån inköpsdatumet. Kontrollera nedan vilket villkor som gäller för din beställning.",
+      "A. Köp gjorda FÖRE 5.1.2026 (6 mån Nöjdhetsgaranti)\n\nDetta villkor gäller endast paket köpta före 5.1.2026.\n\nTjänstelöfte: Swoony förbinder sig att göra sitt bästa för att hitta lämpliga partners åt användaren. Garantins innehåll: Om Swoony inte har kunnat presentera ett enda matchningsförslag som uppfyller användarens kriterier och Swoonys kvalitetsstandarder inom sex (6) månader från inköpsdatumet, betraktar vi det som ett fel i tjänsteleveransen. Ersättning: I sådana fall har användaren rätt till ersättning:\n\nSwoony-krediter: Vi återbetalar paketets värde som krediter i tjänsten.\n\nEkonomisk återbetalning: Vi ger ett förordande utlåtande för att ansöka om återbetalning från appbutiken. Det slutgiltiga beslutet fattas av Apple/Google. Garantins förutsättningar: Gäller endast situationer där användaren har varit aktiv, inte har ställt orealistiska kriterier (som utesluter 100 % av databasen) och inte har tagit bort sitt konto. Reklamation ska göras till adressen info@swoony.io när tidsfristen löpt ut.\n\nObservera: Delvis använda matchningspaket återbetalas inte. Om du t.ex. har använt 1 match av ett 3-matcherspaket ger garantin inte rätt till återbetalning för det redan använda paketet.",
+      "B. Köp gjorda 5.1.2026 ELLER SENARE (Konversationsgaranti / Rematch)\n\nDetta villkor gäller alla nya tjänsteköp från och med 5.1.2026.",
+      "1. Tjänstens karaktär och återbetalning\n\nSwoony-matchningspaket är experttjänster där debiteringen täcker matchmakerns profileringsarbete, sökning av kandidater (headhunting) och manuellt verifieringsarbete. Eftersom detta arbete utförs och resurser binds omedelbart efter köpet, återbetalas inte betalningen i pengar, även om slutresultatet (kemi) inte motsvarar förväntningarna. Vi säljer inte ett slutresultat, utan en professionell sökprocess.",
+      "2. Conversation Guarantee (Konversationsgaranti)\n\nVi förbinder oss att den match vi hittar är av hög kvalitet och äkta. Om en match som valts av vår expert och godkänts av båda parter inte leder till en äkta konversation, erbjuder vi dig en ny sökning utan kostnad (Rematch).",
+      "3. När är du berättigad till en Rematch? Du får en ny sökning gratis om:\n\nMotparten inte svarar på ditt första meddelande inom 48 timmar.\n\nELLER konversationen avslutas (\"ghosting\") innan totalt sex (6) meddelanden har utbytts (3 meddelanden per part).",
+      "4. Garantins begränsningar\n\nGarantin täcker högst tre (3) på varandra följande nya sökningar per betalt paket.\n\nGarantin gäller inte om konversationen avbryts på grund av användarens eget olämpliga beteende, brott mot gemenskapsregler eller passivitet.\n\nGarantin berättigar inte till ekonomisk återbetalning, endast till en ny tjänsteprestation.",
+      "Anvisning: Om en match tystnar direkt, meddela detta via appens responsfunktion eller till kundtjänst (info@swoony.io), så aktiverar vår expert en ny sökning på ditt konto."
     ]
   },
   "changes": {
@@ -108,4 +103,4 @@
     "phone": "Telefon: 045 229 6866",
     "hours": "Öppettider: Mån-Fre 10:00 - 17:00"
   }
-} 
+}

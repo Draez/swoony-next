@@ -1,6 +1,6 @@
 {
   "header": {
-    "pricing": "Mätsipaketit",
+    "pricing": "Valitse sopivin polku",
     "media": "Swoony mediassa",
     "howMatchingWorks": "Miten Swoony toimii?",
     "news": "Ajankohtaista",
@@ -34,6 +34,23 @@
     "month": "kuukausi",
     "signup": "Rekisteröidy",
     "subscribe": "Tilaa"
+  },
+  "selection": {
+    "updateMembership": "Päivitä jäseneksi",
+    "chooseHowToProceed": "Valitse kuinka etenet",
+    "matchPackages": "MÄTSIPAKETIT",
+    "membership": "JÄSENYYS",
+    "findTheOne": "Löydä se oikea",
+    "matchPackagesDescription": "Aktiivinen etsintä, jossa asiantuntijamme etsivät sinulle sopivan kumppanin.",
+    "startSearch": "ALOITA ETSINTÄ",
+    "getDiscovered": "Tule löydetyksi",
+    "membershipDescription": "Voit tulla mätsätyksi, kun mätsipaketin ostaneen käyttäjän etsintä osuu kohdallesi",
+    "joinAsMember": "LIITY JÄSENEKSI",
+    "features": {
+        "accessToPlatform": "Pääsy mätsäysalustalle",
+        "abilityToBeMatched": "Mahdollisuus tulla mätsätyksi",
+        "satisfactionGuarantee": "Vain tositarkoituksella olevia käyttäjiä"
+    }
   },
   "experts": {
     "title": "Asiantuntijamme ymmärtävät rakkautta",

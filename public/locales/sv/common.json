@@ -34,6 +34,23 @@
     "signup": "Registrera dig",
     "subscribe": "Prenumerera"
   },
+  "selection": {
+    "updateMembership": "Päivitä jäseneksi",
+    "chooseHowToProceed": "Valitse kuinka etenet",
+    "matchPackages": "MÄTSIPAKETIT",
+    "membership": "JÄSENYYS",
+    "findTheOne": "Löydä se oikea",
+    "matchPackagesDescription": "Aktiivinen etsintä, jossa asiantuntijamme etsivät sinulle sopivan kumppanin.",
+    "startSearch": "ALOITA ETSINTÄ",
+    "getDiscovered": "Tule löydetyksi",
+    "membershipDescription": "Voit tulla mätsätyksi, kun mätsipaketin ostaneen käyttäjän etsintä osuu kohdallesi",
+    "joinAsMember": "LIITY JÄSENEKSI",
+ "features": {
+        "accessToPlatform": "Pääsy mätsäysalustalle",
+        "abilityToBeMatched": "Mahdollisuus tulla mätsätyksi",
+        "satisfactionGuarantee": "Vain tositarkoituksella olevia käyttäjiä."
+    }
+  },
   "experts": {
     "title": "Våra experter står till ditt förfogande",
     "description": "Swoony kombinerar matchmakers och AI för att hitta en lämplig partner åt dig."
