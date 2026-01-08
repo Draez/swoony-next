@@ -154,6 +154,17 @@ export default function Pricing() {
                                 </ul>
                             </div>
 
+                        </div>
+                    </div>
+
+                    {/* Right side pricing card */}
+                    <div className="w-full max-w-md">
+                        <div className="shadow-lg rounded-2xl border border-[#D4AF37] overflow-hidden relative">
+                            <div className="absolute right-0 p-4">
+                                <span className="bg-[#D4AF37] text-white uppercase px-4 py-1 rounded-full text-xs font-semibold">
+                                    {locale === 'sv' ? 'Populärast' : 'Suosituin'}
+                                </span>
+                            </div>
                             <div className="p-8">
                                 <div className="text-center">
                                     <h3 className="text-xl font-regular text-gray">5 mätsiä</h3>
@@ -200,6 +211,7 @@ export default function Pricing() {
 
                                 </ul>
                             </div>
+
                         </div>
                     </div>
 
