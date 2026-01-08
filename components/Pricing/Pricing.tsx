@@ -57,7 +57,7 @@ export default function Pricing() {
 
                                 </div>
                                 <div className="text-center mb-8">
-                                    <h3 className="text-4xl font-bold text-black mb-2">99,99€</h3>
+                                    <h3 className="text-4xl font-bold text-black mb-2">79,99€</h3>
                                 </div>
 
                                 <ul className="space-y-4 mb-8">
@@ -112,8 +112,55 @@ export default function Pricing() {
                                     <h3 className="text-xl font-regular text-gray">3 mätsiä</h3>
                                 </div>
                                 <div className="text-center mb-8">
-                                    <h3 className="text-4xl font-bold text-black mb-2">249,99€</h3>
-                                    <p className="text-sm text-gray font-semibold">Säästä 50€</p>
+                                    <h3 className="text-4xl font-bold text-black mb-2">179,99€</h3>
+                                    <p className="text-sm text-gray font-semibold">Säästä 60€</p>
+                                </div>
+
+
+                                <ul className="space-y-4 mb-8">
+                                    <li className="flex items-center text-main-blue">
+                                        <svg className="w-5 h-5 text-[#D4AF37] mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        {locale === 'sv'
+                                            ? 'Potentiell match vald av expert'
+                                            : 'Asiantuntijan valitsema mätsi'}
+                                    </li>
+                                    <li className="flex items-center text-main-blue">
+                                        <svg className="w-5 h-5 text-[#D4AF37] mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        {locale === 'sv'
+                                            ? 'Möjlighet att matchas endast med Pro-användare'
+                                            : 'Kuluu vasta kun molemmat hyväksyvät mätsin'}
+                                    </li>
+                                    <li className="flex items-center text-main-blue">
+                                        <svg className="w-5 h-5 text-[#D4AF37] mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        {locale === 'sv'
+                                            ? 'Möjlighet att matchas endast med Pro-användare'
+                                            : 'Kattavat perustelut mätsistä'}
+                                    </li>
+                                    <li className="flex items-center text-main-blue">
+                                        <svg className="w-5 h-5 text-[#D4AF37] mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        {locale === 'sv'
+                                            ? 'Möjlighet att matchas endast med Pro-användare'
+                                            : 'Keskustelutakuu (uusi mätsi, mikäli keskustelua ei aloiteta)'}
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div className="p-8">
+                                <div className="text-center">
+                                    <h3 className="text-xl font-regular text-gray">5 mätsiä</h3>
+                                </div>
+                                <div className="text-center mb-8">
+                                    <h3 className="text-4xl font-bold text-black mb-2">299,99€</h3>
+                                    <p className="text-sm text-gray font-semibold">Säästä 100€</p>
                                 </div>
 
 
