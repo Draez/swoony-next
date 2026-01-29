@@ -52,7 +52,7 @@ export default function Home() {
                 <Image src="/swoony.svg" alt="Swoony" width={20} height={15} priority />
               </div>
             </div>
-            <span className="font-playfair text-xl font-bold text-white group-hover:text-[#F42C52] transition-colors">
+            <span className="font-quicksand uppercase text-xl font-bold text-white group-hover:text-[#F42C52] transition-colors">
               Swoony
             </span>
           </Link>
@@ -75,10 +75,10 @@ export default function Home() {
 
           {/* CTA + Language */}
           <div className="hidden lg:flex items-center gap-4">
-            <button className="font-quicksand flex items-center gap-1.5 text-sm text-white/60 hover:text-white transition-colors">
+            {/* <button className="font-quicksand flex items-center gap-1.5 text-sm text-white/60 hover:text-white transition-colors">
               {locale?.toUpperCase() || 'FI'}
               <ChevronDown className="w-4 h-4" />
-            </button>
+            </button> */}
             <Link
               href="https://apps.apple.com/app/swoony/id6499217523"
               target="_blank"
