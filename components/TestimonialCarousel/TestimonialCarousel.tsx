@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import { Quote } from 'lucide-react';
+import Image from 'next/image';
 
 interface Testimonial {
   quote: string;
@@ -126,13 +127,15 @@ export function TestimonialCarousel() {
       </div>
 
       <p className="text-white/70 text-base leading-relaxed mb-8 pr-12">
-        "{highlightText(testimonial.quote, testimonial.highlightWords)}"
+        &ldquo;{highlightText(testimonial.quote, testimonial.highlightWords)}&rdquo;
       </p>
 
       <div className="flex items-center gap-4">
-        <img
+        <Image
           src={testimonial.avatar}
           alt={testimonial.name}
+          width={48}
+          height={48}
           className="w-12 h-12 rounded-full object-cover ring-2 ring-white/10"
         />
         <div>
