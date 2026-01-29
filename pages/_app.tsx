@@ -1,7 +1,7 @@
 import { trackFbPageView } from "@/lib/fb";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans, Playfair_Display, Quicksand } from "next/font/google";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
@@ -11,6 +11,21 @@ const jakartaSans = Plus_Jakarta_Sans({
   weight: ["400", "600", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
+  variable: "--font-jakarta",
+});
+
+const playfair = Playfair_Display({
+  weight: ["400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
+
+const quicksand = Quicksand({
+  weight: ["400", "500", "600", "700"],
+  style: ["normal"],
+  subsets: ["latin"],
+  variable: "--font-quicksand",
 });
 
 function App({ Component, pageProps }: AppProps) {
@@ -73,7 +88,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="facebook-domain-verification" content="jtzhxaou62g5muxg5h4d8uj1lfrx54" />
       </Head>
 
-      <main className={jakartaSans.className}>
+      <main className={`${jakartaSans.variable} ${playfair.variable} ${quicksand.variable} font-sans`}>
         <Component {...pageProps} />
       </main>
     </>

@@ -1,172 +1,145 @@
 {
-  "title": "Swoony Oy dataskyddspolicy",
+  "title": "Integritetspolicy",
   "backButton": "Tillbaka",
   "intro": {
     "title": "Inledning",
-    "paragraph1": "Dataskydd betyder att rättigheterna för den person vars uppgifter behandlas förverkligas vid behandlingen av personuppgifter. Syftet med dataskydd är att visa när och under vilka förutsättningar personuppgifter kan behandlas. Med personuppgifter avses information som hänför sig till en identifierad eller identifierbar fysisk person.",
-    "paragraph2": "Det är nödvändigt för Swoonys verksamhet att behandla personuppgifter. Vi följer rutiner och processer som skyddar personuppgifter i enlighet med kraven i dataskyddslagstiftningen.",
-    "paragraph3": "Swoony Oy fungerar som personuppgiftsansvarig."
+    "paragraph1": "Din integritet är viktig för oss. Denna policy beskriver hur vi behandlar dina personuppgifter i Swoony-tjänsten.",
+    "paragraph2": "Swoony Oy fungerar som personuppgiftsansvarig (info@swoony.io)."
   },
   "why": {
-    "title": "Varför behandlar vi personuppgifter och på vilken grund?",
-    "purposeTitle": "Syften med behandlingen av personuppgifter",
+    "title": "Varför behandlar vi personuppgifter?",
     "purposeIntro": "Vi samlar in och behandlar personuppgifter för att:",
     "purposes": [
-      "kunna marknadsföra och kommunicera om våra eller utvalda tredje parters tjänster till potentiella och nuvarande kunder",
-      "kunna fullgöra våra avtalsenliga förpliktelser",
-      "kunna utveckla våra tjänster och förbättra användarupplevelsen av våra tjänster",
-      "kunna administrera våra tjänster",
-      "kunna förebygga och utreda eventuella missbruk"
-    ],
-    "legalBasisTitle": "Rättslig grund för behandling av personuppgifter",
-    "legalBasis1": "I vissa situationer ber vi om ditt samtycke till behandling av dina personuppgifter. Dessa situationer inkluderar till exempel samtycke till elektronisk direktmarknadsföring eller behandling av vissa uppgifter som tillhör särskilda kategorier.",
-    "legalBasis2": "När vi marknadsför våra tjänster eller produkter till personer som tillhör marknadsföringsmålgrupper, behandlar vi personuppgifter på grundval av berättigat intresse.",
-    "legalBasis3": "Vi har också ett berättigat intresse av att utveckla våra produkter och tjänster.",
-    "legalBasis4": "När vi fullgör våra avtalsenliga förpliktelser behandlar vi personuppgifter på grundval av avtal, såsom service-, arbets- eller uppdragsavtal. Vi behandlar också personuppgifter för att uppfylla våra skyldigheter enligt lag."
+      "tillhandahålla matchmaking-tjänsten och skapa matchförslag",
+      "fullgöra våra avtalsenliga förpliktelser",
+      "utveckla våra tjänster och förbättra användarupplevelsen",
+      "förebygga och utreda eventuella missbruk"
+    ]
+  },
+  "legalBasis": {
+    "title": "Rättslig grund för behandling",
+    "points": [
+      "Avtal: Tillhandahållande av tjänsten och skapande av matcher",
+      "Samtycke: Elektronisk direktmarknadsföring och behandling av särskilda uppgifter",
+      "Berättigat intresse: Utveckling av tjänsten och marknadsföring",
+      "Rättslig förpliktelse: Bokföring och myndighetskrav"
+    ]
   },
   "whatData": {
     "title": "Vilken information samlar vi in?",
-    "intro": "Vi samlar in information som är nödvändig för de syften som anges i denna dataskyddspolicy:",
-    "points": [
-      "A: Information du ger oss: På våra webbplatser och i vår tjänst frågar vi exempelvis efter dina kontaktuppgifter när du prenumererar på nyhetsbrevet, anmäler dig till ett evenemang, lämnar feedback eller en kontaktförfrågan.",
-      "B: Information vi får från andra: Vi kan få information om dig från våra partners, som information om framgången för vår reklamkampanj.",
-      "C: Teknisk information som observerats och härletts från användningen av tjänster: Vi använder olika teknologier (inklusive cookies) för att samla in och lagra information.",
-      "D: Information insamlad från andra källor: Vi samlar in personuppgifter från offentligt tillgängliga källor."
+    "categories": [
+      {
+        "name": "Information du ger oss",
+        "description": "Kontaktuppgifter, profilinformation, bilder, video, svar på frågeformulär och partnerpreferenser."
+      },
+      {
+        "name": "Användningsinformation",
+        "description": "Inloggningar, matcher, godkännanden, avslag och chattkonversationer."
+      },
+      {
+        "name": "Teknisk information",
+        "description": "IP-adress, webbläsar- och enhetsinformation, cookies."
+      }
     ]
   },
   "retention": {
-    "title": "Hur länge sparas användarnas uppgifter?",
-    "content": "Vi behåller användarnas personuppgifter endast så länge som det är nödvändigt för att tillhandahålla tjänsten eller den maximala tid som tillåts enligt lag."
+    "title": "Hur länge sparas uppgifterna?",
+    "content": "Vi behåller personuppgifter så länge som det är nödvändigt för att tillhandahålla tjänsten eller den maximala tid som tillåts enligt lag. Efter kontoborttagning raderas uppgifterna inom 30 dagar."
   },
   "sharing": {
     "title": "Vem kan vi dela din information med?",
-    "points": [
-      "Andra användare: När du är användare av vår tjänst, delar du information med andra användare.",
-      "Tjänsteleverantörer: Vi överför personuppgifter endast i den utsträckning som tredje parter behöver tillgång till de personuppgifter vi behandlar.",
-      "Av juridiska skäl: Dina personuppgifter kan lämnas ut i enlighet med krav från behörig myndighet och på laglig grund."
+    "intro": "Vi säljer aldrig dina personuppgifter.",
+    "categories": [
+      {
+        "name": "Andra användare",
+        "description": "Din profilinformation visas i matchförslag. Chatten öppnas först när båda godkänner."
+      },
+      {
+        "name": "Tjänsteleverantörer",
+        "description": "Vi använder tredje parter för att tillhandahålla tjänsten (databas, betalningar, AI-analys). Vi överför endast nödvändig information."
+      },
+      {
+        "name": "Myndigheter",
+        "description": "Vi lämnar ut information när lagen kräver det."
+      }
     ]
   },
-  "automated": {
-    "title": "Automatiserat beslutsfattande och profilering",
-    "paragraph1": "Med automatiserat beslutsfattande avses ett beslut som grundar sig på automatisk behandling och som har rättsliga följder för en person eller som i betydande grad påverkar honom eller henne.",
-    "paragraph2": "Med profilering avses automatisk behandling av personuppgifter som innefattar till exempel bedömning eller förutsägelse av en persons intressen eller beteende."
-  },
   "aiUsage": {
-    "title": "AI-användning och dataskydd på Swoony",
-    "intro": "På Swoony kombinerar vi mänskligt omdöme och teknikens effektivitet på ett ansvarsfullt sätt. Ditt dataskydd är av största vikt för oss, och vi vill öppet berätta hur AI används i vår tjänst.",
+    "title": "AI-användning i Swoony",
+    "intro": "Swoony använder AI för att skapa matchförslag. Vi vill öppet berätta hur det fungerar.",
     "whatAiUsedFor": {
       "title": "Vad används AI till?",
-      "intro": "AI används för att stödja våra experter i följande områden:",
       "points": [
-        "Preliminär strukturering och analys av formulärsvar – AI hjälper till att organisera och kategorisera de svar du ger",
-        "Identifiering av kompatibilitet – Vi identifierar potentiella kopplingar baserat på vissa personlighets- eller livsstilsfaktorer",
-        "Filtrering av möjliga träffar – AI gör en preliminär screening innan en expert manuellt går igenom informationen"
-      ],
-      "important": "Viktigt: AI fungerar som ett hjälpmedel, inte som en självständig beslutsfattare — de slutliga matchningarna görs alltid av en människa."
+        "Analys av profilinformation och svar",
+        "Identifiering av kompatibilitet",
+        "Automatiskt skapande av matchförslag"
+      ]
     },
     "whatDataAiProcesses": {
       "title": "Vilken information behandlar AI?",
-      "intro": "Endast anonym eller pseudonymiserad information matas in i AI:",
-      "example": "Exempel på behandlad information: \"Anna, 34-årig kvinna, söker en seriös relation, nämner att hon ägnar sig åt naturaktiviteter och längtar efter familjeliv\"",
-      "notIncluded": "Vad AI INTE får veta:",
-      "notIncludedPoints": [
+      "intro": "Endast anonymiserad information matas in i AI:",
+      "included": [
+        "Förnamn, ålder, kön",
+        "Partnerpreferenser",
+        "Livsstils- och värdeinformation"
+      ],
+      "notIncludedTitle": "Vad AI INTE får veta:",
+      "notIncluded": [
         "Ditt efternamn",
         "Din e-post",
         "Ditt telefonnummer",
-        "Din IP-adress",
-        "Något annat som skulle kunna identifiera dig"
+        "Din IP-adress"
       ]
     },
-    "dataSharing": {
-      "title": "Kan min information hamna någon annanstans?",
-      "answer": "Nej. Vi delar aldrig din information med tredje parter utan ditt uttryckliga tillstånd.",
-      "howWeUseAi": "Hur vi använder AI:",
-      "aiUsagePoints": [
-        "Vi använder ChatGPT 4.0 mini-modellen via OpenRouter-tjänsten för profilanalys",
-        "Vi skickar endast anonymiserad information till modellen (förnamn + demografiska data)",
-        "Vi sparar inte konversationer med AI-modellen",
-        "AI:n lär sig inte eller sparar din information för framtida användning"
-      ],
-      "whatWeDontDo": "Vad vi inte gör:",
-      "dontDoPoints": [
-        "Vi använder inte din information för automatisk profilering",
+    "howWeUse": {
+      "title": "Hur vi använder AI:",
+      "points": [
+        "Vi använder AI-modeller via OpenRouter-tjänsten",
+        "Vi skickar endast anonymiserad information",
+        "Vi sparar inte konversationer med AI-modellen"
+      ]
+    },
+    "whatWeDontDo": {
+      "title": "Vad vi inte gör:",
+      "points": [
         "Vi använder inte din information för marknadsföring",
-        "Vi matar inte in din information i externa AI-modeller utan lämpliga skyddsåtgärder"
-      ]
-    },
-    "security": {
-      "title": "Datasäkerhet:",
-      "content": "All data lagras säkert i enlighet med EU:s dataskyddslagstiftning (GDPR) och servrarna finns inom EU-området eller i annat GDPR-godkänt land."
-    },
-    "dataRights": {
-      "title": "Kan jag kontrollera eller ta bort min information?",
-      "answer": "Ja. Du kan när som helst:",
-      "rights": [
-        "✅ Begära att se din lagrade information",
-        "✅ Begära korrigering eller radering av information",
-        "✅ Förbjuda behandling av din information (t.ex. dra dig ur tjänsten)"
+        "Vi matar inte in identifierbar information i externa modeller"
       ]
     }
   },
   "international": {
     "title": "Internationella dataöverföringar",
-    "paragraph1": "Vi strävar efter att implementera tjänster och behandla personuppgifter med hjälp av aktörer och tjänster belägna inom EU- eller EES-området.",
-    "paragraph2": "Tjänster kan dock i vissa fall också implementeras med hjälp av aktörer belägna på andra platser."
+    "content": "Vi strävar efter att behandla data inom EU/EES-området. När data överförs utanför EU säkerställer vi adekvat skydd genom EU:s standardavtalsklausuler."
   },
   "security": {
     "title": "Dataskydd",
-    "content": "Datasäkerhet säkerställs genom lämpliga administrativa, tekniska och fysiska skyddsåtgärder."
+    "content": "Datasäkerhet säkerställs genom lämpliga tekniska och administrativa skyddsåtgärder. Datatrafiken är krypterad och åtkomst till data är begränsad."
   },
   "minors": {
     "title": "Minderåriga",
-    "content": "Vår tjänst är inte riktad till minderåriga och vi samlar inte in personuppgifter från minderåriga."
-  },
-  "thirdParty": {
-    "title": "Tredje parts tjänster",
-    "content": "Denna dataskyddspolicy gäller endast för vår tjänst och vi är inte ansvariga för andra tjänsters dataskyddspraxis."
-  },
-  "changes": {
-    "title": "Ändringar i dataskyddspolicyn",
-    "content": "Vi kan ändra denna dataskyddspolicy. Om det görs ändringar i dataskyddspolicyn, kommer vi alltid att meddela om dessa ändringar i denna dataskyddspolicy."
+    "content": "Swoony är avsedd för personer som är minst 18 år. Vi samlar inte in personuppgifter från minderåriga."
   },
   "rights": {
     "title": "Dina rättigheter",
-    "access": {
-      "title": "Rätt till tillgång",
-      "content": "Du har rätt att kontrollera vilken information om dig som har lagrats i kontaktuppgiftsregistret."
-    },
-    "correction": {
-      "title": "Rätt att kräva korrigering av uppgifter",
-      "content": "Du har rätt att kräva korrigering eller komplettering av felaktig, inexakt, ofullständig, föråldrad eller onödig information."
-    },
-    "deletion": {
-      "title": "Rätt att kräva radering av uppgifter",
-      "content": "Du kan be oss att radera dina personuppgifter från våra system. Vi utför åtgärder enligt din begäran, om vi inte har en berättigad anledning att inte radera informationen."
-    },
-    "restriction": {
-      "title": "Rätt att begränsa behandlingen av uppgifter",
-      "content": "Du kan be oss att begränsa behandlingen av vissa av dina personuppgifter. En begäran om att begränsa behandlingen av uppgifter kan leda till mer begränsade möjligheter att använda våra webbsidor och tjänster."
-    },
-    "objection": {
-      "title": "Rätt att invända mot behandling av uppgifter",
-      "content": "Du kan också begära begränsningar för behandlingen av dina personuppgifter om dina uppgifter behandlas för andra ändamål än för att utföra vår tjänst eller för att fullgöra en skyldighet enligt lag."
-    },
-    "portability": {
-      "title": "Rätt att överföra uppgifter från ett system till ett annat",
-      "content": "Du har rätt att få dina personuppgifter från oss i ett strukturerat och allmänt använt format, så att du kan överföra uppgifterna till en annan personuppgiftsansvarig."
-    },
-    "consent": {
-      "title": "Rätt att återkalla samtycke",
-      "content": "Om behandlingen av dina uppgifter är baserad på samtycke, har du rätt att återkalla ditt samtycke när som helst."
-    },
-    "exercising": {
-      "title": "Utövande av dina rättigheter",
-      "paragraph1": "Du kan utöva dina rättigheter genom att kontakta kundtjänst. Vi kan begära ytterligare information som är nödvändig för att verifiera din identitet.",
-      "paragraph2": "Om du upplever att behandlingen av dina personuppgifter strider mot gällande lagstiftning, kan du lämna ett klagomål till den lokala dataskyddsmyndigheten."
-    }
+    "intro": "Du har rätt att:",
+    "list": [
+      "Kontrollera vilken information som lagrats om dig",
+      "Korrigera felaktig eller ofullständig information",
+      "Radera din information från våra system",
+      "Begränsa behandlingen av din information",
+      "Invända mot behandling i vissa situationer",
+      "Överföra din information till en annan tjänsteleverantör",
+      "Återkalla samtycke när som helst"
+    ],
+    "exercising": "Utöva dina rättigheter genom att skicka en förfrågan till info@swoony.io. Vi svarar inom 30 dagar."
+  },
+  "changes": {
+    "title": "Ändringar i integritetspolicyn",
+    "content": "Vi kan uppdatera denna policy. Vi meddelar om väsentliga ändringar i appen eller via e-post."
   },
   "contact": {
-    "title": "Vem kan jag kontakta?",
-    "content": "Du kan kontakta vår kundtjänst i dataskyddsfrågor"
+    "title": "Kontaktuppgifter",
+    "content": "Kontakta oss i dataskyddsfrågor:",
+    "email": "info@swoony.io"
   }
-} 
+}
