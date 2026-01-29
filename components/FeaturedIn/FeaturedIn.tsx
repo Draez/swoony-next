@@ -15,11 +15,15 @@ const FeaturedIn: FC = () => {
             logo: "https://upload.wikimedia.org/wikipedia/commons/4/40/HBL_wordmark.svg",
             link: "https://www.hbl.fi/2025-05-23/trotta-pa-ytliga-dejtningappar-skapade-egen/",
         },
-
         {
             name: "Satakunnan Kansa",
             logo: "https://upload.wikimedia.org/wikipedia/commons/2/27/Satakunnan_Kansa_wordmark.svg",
             link: "https://www.satakunnankansa.fi/satakunta/art-2000010979586.html",
+        },
+        {
+            name: "Ilta-Sanomat",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ilta-Sanomat_logo.svg",
+            link: "https://www.is.fi/menaiset/ihmiset-ja-suhteet/art-2000011654619.html",
         },
         {
             name: "Feedi",

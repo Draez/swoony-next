@@ -273,7 +273,7 @@ export default function Home() {
             {[...Array(3)].map((_, setIndex) => (
               <div key={setIndex} className="flex items-center gap-16 md:gap-24 shrink-0 px-8">
                 {/* HS - Helsingin Sanomat */}
-                <div className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-default">
+                <Link href="https://www.hs.fi/suomi/art-2000011034865.html" target="_blank" className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-pointer">
                   <Image
                     src="/hs_white.png"
                     alt="Helsingin Sanomat"
@@ -281,47 +281,58 @@ export default function Home() {
                     height={40}
                     className="h-8 w-auto opacity-30 group-hover:opacity-60 transition-all duration-300"
                   />
-                </div>
+                </Link>
 
                 {/* IS - Ilta-Sanomat */}
-                <div className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-default">
-                  <span className="font-playfair text-3xl font-black text-white/30 group-hover:text-white/60 transition-all duration-300 tracking-tighter italic">
-                    IS
-                  </span>
-                </div>
-
-                {/* SK - Seiska */}
-                <div className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-default">
+                <Link href="https://www.is.fi/menaiset/ihmiset-ja-suhteet/art-2000011654619.html" target="_blank" className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-pointer">
                   <Image
-                    src="/SK.png"
-                    alt="Seiska"
-                    width={80}
+                    src="/menaiset.png"
+                    alt="Me naiset"
+                    width={100}
                     height={40}
                     className="h-8 w-auto opacity-30 group-hover:opacity-60 transition-all duration-300 brightness-0 invert"
                   />
-                </div>
+                </Link>
+
+                {/* SK - Satakunnan Kansa */}
+                <Link href="https://www.satakunnankansa.fi/satakunta/art-2000010979586.html" target="_blank" className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-pointer">
+                  <Image
+                    src="https://upload.wikimedia.org/wikipedia/commons/2/27/Satakunnan_Kansa_wordmark.svg"
+                    alt="Satakunnan Kansa"
+                    width={120}
+                    height={40}
+                    className="h-8 w-auto opacity-30 group-hover:opacity-60 transition-all duration-300 brightness-0 invert"
+                  />
+                </Link>
 
                 {/* MTV */}
-                <div className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-default">
-                  <Image
-                    src="/mtv3.png"
-                    alt="MTV3"
-                    width={100}
-                    height={40}
-                    className="h-10 w-auto opacity-30 group-hover:opacity-60 transition-all duration-300 brightness-0 invert"
-                  />
-                </div>
+                <Link href="https://www.mtvuutiset.fi/artikkeli/nettideittaajaa-vaanii-jatkuva-karkkikauppaefekti-nain-toimivat-tinderin-suomalaiset-haastajat/9186260" target="_blank" className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-pointer">
+                  <span className="font-bold text-2xl text-white opacity-30 group-hover:opacity-60 transition-all duration-300 tracking-tight select-none" style={{ fontFamily: 'sans-serif' }}>
+                    MTV
+                  </span>
+                </Link>
 
                 {/* Huvudstadsbladet */}
-                <div className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-default">
+                <Link href="https://www.hbl.fi/2025-05-23/trotta-pa-ytliga-dejtningappar-skapade-egen/" target="_blank" className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-pointer">
                   <Image
-                    src="/hbl_logo.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/40/HBL_wordmark.svg"
                     alt="Huvudstadsbladet"
                     width={140}
                     height={40}
                     className="h-8 w-auto opacity-30 group-hover:opacity-60 transition-all duration-300 brightness-0 invert"
                   />
-                </div>
+                </Link>
+
+                {/* FEEDI */}
+                <Link href="https://www.feedi.fi/uusi-suomalainen-deittisovellus-swoony/" target="_blank" className="flex-shrink-0 flex items-center justify-center h-12 px-6 group cursor-pointer">
+                  <Image
+                    src="/feedi.png"
+                    alt="Feedi"
+                    width={167}
+                    height={37}
+                    className="h-8 w-auto opacity-30 group-hover:opacity-60 transition-all duration-300 brightness-0 invert"
+                  />
+                </Link>
               </div>
             ))}
           </div>
@@ -561,7 +572,7 @@ export default function Home() {
             <p className="text-lg text-white/50 max-w-2xl mx-auto">
               {locale === 'sv'
                 ? 'AI Matchmaker analyserar och hittar dina matchningar automatiskt.'
-                : 'Tekoäly Matchmaker analysoi ja löytää mätsisi automaattisesti.'}
+                : 'Tekoälymme analysoi ja löytää mätsisi automaattisesti.'}
             </p>
           </div>
 
@@ -576,11 +587,9 @@ export default function Home() {
                   <span className="text-white/40">/{locale === 'sv' ? 'mån' : 'kk'}</span>
                 </div>
               </div>
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-4 mb-4">
                 {[
-                  `1 ${locale === 'sv' ? 'AI-match/månad' : 'tekoälymätsi/kk'}`,
-                  locale === 'sv' ? 'Visuell AI + Personlighet' : 'Visuaalinen AI + Persoonallisuus',
-                  locale === 'sv' ? 'Grundprofil' : 'Perusprofiili',
+                  '1 mätsihaku per kk',
                 ].map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-white/60">
                     <Check className="w-5 h-5 text-[#00E6D5]" />
@@ -588,7 +597,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-
+              <p className="italic text-white/50">Voit saada myös mätsejä plus/pro käyttäjien kanssa (max 4 per kk)</p>
             </div>
 
             {/* Swoony+ - Highlighted */}
@@ -608,10 +617,9 @@ export default function Home() {
                 </div>
                 <ul className="space-y-4 mb-8">
                   {[
-                    `4 ${locale === 'sv' ? 'AI-matchningar/månad' : 'tekoälymätsiä/kk'}`,
-                    locale === 'sv' ? 'AI prioritetskö' : 'Tekoäly prioriteettijono',
-                    locale === 'sv' ? 'Premium support' : 'Premium-tuki',
-                    locale === 'sv' ? 'Se vem som gillar dig' : 'Näe kuka tykkää sinusta',
+                    'Mätsiehdotukset joka perjantai',
+                    'Mahdollisuus saada 4+ mätsiä per kk',
+                    'Prioriteetti Swoony AI:n mätsäysjonossa'
                   ].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3 text-white/80">
                       <Check className="w-5 h-5 text-[#F42C52]" />
@@ -634,10 +642,9 @@ export default function Home() {
               </div>
               <ul className="space-y-4 mb-8">
                 {[
-                  `8 ${locale === 'sv' ? 'AI-matchningar/månad' : 'tekoälymätsiä/kk'}`,
-                  `VIP ${locale === 'sv' ? 'AI prioritet' : 'tekoäly prioriteetti'}`,
-                  locale === 'sv' ? 'Profilfeedback från AI' : 'Profiilipalaute tekoälyltä',
-                  locale === 'sv' ? 'Avancerad matchanalys' : 'Edistynyt mätsianalyysi',
+                  'Mätsiehdotukset joka perjantai & tiistai',
+                  'Mahdollisuus saada 8+ mätsiä per kk',
+                  'VIP prioriteetti Swoony AI:n mätsäysjonossa'
                 ].map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-white/60">
                     <Check className="w-5 h-5 text-[#00E6D5]" />
