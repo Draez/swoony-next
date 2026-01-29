@@ -228,7 +228,7 @@ const Header: FC = () => {
                   className="h-auto w-full object-contain max-h-[300px] sm:max-h-[500px] md:max-h-[624px] rounded-xl mx-auto md:ml-auto"
                   width="1080"
                   height="1080"
-                  src="/mock_trans.svg"
+                  src="/mock_trans.png"
                   alt={t('header.appAlt')}
                   priority
                 />

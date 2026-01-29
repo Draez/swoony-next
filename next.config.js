@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   i18n,
   images: {
-    domains: ['images.unsplash.com', 'plus.unsplash.com'],
+    domains: ['images.unsplash.com', 'plus.unsplash.com', 'upload.wikimedia.org'],
   },
 }
 
