@@ -1,108 +1,293 @@
 {
-  "title": "Swoony Oy käyttöehdot",
+  "title": "Käyttöehdot",
   "backButton": "Takaisin",
-  "commitment": {
-    "title": "Asiakkaana sitoutuminen",
-    "intro": "Sinulla ei ole oikeutta luoda tiliä tai käyttää palveluita, elleivät kaikki seuraavat seikat pidä paikkaansa kohdallasi, ja käyttämällä palveluitamme vakuutat ja takaat, että:",
-    "points": [
-      "Olet vähintään 18-vuotias yksityishenkilö (eli et ole oikeushenkilö, kumppanuus- tai muu liiketoimintayksikkö)",
-      "Et ole tehnyt syytteeseen asetettavaa rikosta (tai vastaavan vakavaa rikosta), seksuaalirikosta tai mitään väkivaltaa tai väkivallan uhkaa sisältävää rikosta",
-      "Vakuutat kaikki antamasi tiedot oikeiksi, etkä jätä kertomatta olennaisia asioita",
-      "Lupaat vastata kaikkiin kyselylomakkeen kysymyksiin rehellisesti ja vilpittömästi",
-      "Sinulla ei ole enempää kuin yksi tili palveluissamme",
-      "Me emme ole aiemmin poistaneet sinua palveluistamme",
-      "Et ole parisuhteessa asiakkuuden alkamisajankohtana",
-      "Profiilikuvasi ovat aitoja"
-    ]
+  "intro": "Nämä ehdot koskevat Swoony-palvelun käyttöä.",
+  "lastUpdated": "Päivitetty viimeksi: Helmikuu 2026",
+  "newTermsLabel": "Uudet ehdot (6.2.2026 alkaen, AI-matchmaking)",
+  "oldTermsLabel": "Vanhat ehdot (ennen 6.2.2026 ostetut paketit)",
+  "newTerms": {
+    "commitment": {
+      "title": "Asiakkaana sitoutuminen",
+      "intro": "Sinulla ei ole oikeutta luoda tiliä tai käyttää palveluita, elleivät kaikki seuraavat seikat pidä paikkaansa kohdallasi, ja käyttämällä palveluitamme vakuutat ja takaat, että:",
+      "points": [
+        "Olet vähintään 18-vuotias yksityishenkilö (eli et ole oikeushenkilö, kumppanuus- tai muu liiketoimintayksikkö)",
+        "Et ole tehnyt syytteeseen asetettavaa rikosta (tai vastaavan vakavaa rikosta), seksuaalirikosta tai mitään väkivaltaa tai väkivallan uhkaa sisältävää rikosta",
+        "Vakuutat kaikki antamasi tiedot oikeiksi, etkä jätä kertomatta olennaisia asioita",
+        "Lupaat vastata kaikkiin kyselylomakkeen kysymyksiin rehellisesti ja vilpittömästi",
+        "Sinulla ei ole enempää kuin yksi tili palveluissamme",
+        "Me emme ole aiemmin poistaneet sinua palveluistamme",
+        "Et ole parisuhteessa asiakkuuden alkamisajankohtana",
+        "Profiilikuvasi ovat aitoja"
+      ]
+    },
+    "consents": {
+      "title": "Suostumukset",
+      "intro": "Suostut:",
+      "points": [
+        "Noudattamaan näitä ehtoja ja tarkistamaan tämän sivun aika ajoin varmistaaksesi, että olet tietoinen muutoksista",
+        "Noudattamaan kaikkia sovellettavia lakeja, mukaan lukien rajoituksetta tietosuojalait, immateriaalioikeuslait, roskapostin vastaiset lait ja sääntelyvaatimukset",
+        "Ryhtymään kohtuullisiin toimenpiteisiin kirjautumistietojesi suojaamiseksi"
+      ]
+    },
+    "restrictions": {
+      "title": "Rajoitukset",
+      "intro": "Suostut siihen, että et:",
+      "points": [
+        "Anna väärää tietoa henkilöllisyydestäsi, iästäsi tai yhteyksistäsi johonkin tiettyyn henkilöön tai yhteisöön",
+        "Käytä palveluita tavalla, joka vahingoittaa palveluita tai estää muita käyttäjiä käyttämästä niitä",
+        "Käytä palveluitamme tavalla, joka häiritsee tai vaikuttaa negatiivisesti alustaan, palvelimiin tai palveluidemme verkkoihin",
+        "Käytä palveluitamme mihinkään haitalliseen, laittomaan tai rikolliseen tarkoitukseen",
+        "Häiritse, kiusaa, vainoa, pelottele, pahoinpitele, halvenna, vahingoita tai muuten käyttäydy väärin",
+        "Kalastele salasanoja tai kerää henkilötietoja muilta käyttäjiltä",
+        "Pyydä rahaa tai muuta arvokasta toiselta käyttäjältä",
+        "Käytä toisen käyttäjän tiliä",
+        "Käytä palveluitamme petokseen tai pyramidihuijaukseen",
+        "Lähetä viruksia tai muuta haitallista koodia",
+        "Käytä tai kehitä kolmannen osapuolen sovelluksia ilman lupaa",
+        "Luo uutta tiliä sen jälkeen, kun olemme keskeyttäneet tilisi",
+        "Lähetä valheellisia ilmoituksia muista käyttäjistä"
+      ]
+    },
+    "serviceDescription": {
+      "title": "Palvelun kuvaus ja AI-matchmaking",
+      "swoonyService": {
+        "title": "Swoony-palvelu",
+        "content": "Swoony on matchmaking-palvelu, jossa tekoäly (AI) analysoi käyttäjien yhteensopivuutta ja luo mätsiehdotuksia automaattisesti. Palvelu perustuu käyttäjien antamiin profiilitietoihin ja kyselylomakkeen vastauksiin."
+      },
+      "aiMatchmaker": {
+        "title": "AI-matchmakerin toiminta",
+        "points": [
+          "AI analysoi profiilisi ja kyselylomakkeen vastauksesi",
+          "AI vertaa yhteensopivuuttasi muiden käyttäjien kanssa satojen tekijöiden perusteella",
+          "AI luo mätsiehdotuksen perusteluineen",
+          "Mätsiehdotus esitetään ensin naiselle, sitten miehelle (jos nainen hyväksyy)",
+          "Jos molemmat hyväksyvät, chat avautuu"
+        ]
+      },
+      "responding": {
+        "title": "Mätsiehdotuksiin reagoiminen",
+        "content": "Sinun tulee reagoida mätsiehdotukseen (hyväksyä tai hylätä) seitsemän (7) päivän kuluessa. Jos et reagoi määräajassa:",
+        "consequences": [
+          "Mätsiehdotus hylätään automaattisesti",
+          "Profiilisi piilotetaan palvelusta",
+          "Voit aktivoida profiilisi milloin tahansa uudelleen sovelluksen asetuksista"
+        ]
+      },
+      "upcoming": {
+        "title": "Tulossa: Swoony VIP",
+        "content": "Swoony VIP on tulossa oleva premium-palvelu, jossa ihmis-matchmaker etsii sinulle kumppaneita henkilökohtaisesti."
+      }
+    },
+    "payment": {
+      "title": "Maksuehdot ja tilausvaihtoehdot",
+      "appStores": {
+        "title": "Sovelluskauppojen käyttö",
+        "content": "Swoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Kaikki maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja.",
+        "note": "Sitoudut noudattamaan valitsemasi sovelluskaupan omia maksu- ja käyttöehtoja."
+      },
+      "subscriptions": {
+        "title": "Jäsenyydet (Subscription)",
+        "points": [
+          "Jäsenyydet ovat automaattisesti uusiutuvia kuukausimaksuja",
+          "Mätsiehdotukset luo AI-matchmaker automaattisesti",
+          "Käyttämättömät mätsit eivät siirry seuraavalle kuukaudelle"
+        ]
+      },
+
+      "cancellation": {
+        "title": "Jäsenyyden peruuttaminen",
+        "points": [
+          "Jäsenyys uusiutuu automaattisesti, kunnes peruutat sen",
+          "Peruutus tehdään sovelluskaupan (Apple/Google) kautta, ei Swoonyn kautta",
+          "Peruutus astuu voimaan kuluvan laskutuskauden päättyessä",
+          "Jo maksettuja jäsenmaksuja ei palauteta"
+        ]
+      },
+      "withdrawalRight": {
+        "title": "Peruutusoikeus",
+        "content": "Koska kyseessä on digitaalinen palvelu, jonka toimitus aloitetaan välittömästi, palvelulla ei pääsääntöisesti ole kuluttajansuojalain mukaista 14 vuorokauden peruutusoikeutta.",
+        "note": "Ostamalla palvelun hyväksyt, että palvelun suorittaminen alkaa heti."
+      }
+    },
+    "guarantees": {
+      "title": "Takuukäytännöt",
+      "legacy": {
+        "title": "A. Ennen 6.2.2026 ostetut mätsipaketit (Legacy)",
+        "content": "Asiakkaat, jotka ostivat mätsipaketin ennen AI-siirtymää (6.2.2026), saavat:",
+        "points": [
+          "Alkuperäisen palvelulupauksen: Ihmis-matchmaker toimittaa kaikki luvatut mätsit",
+          "AI-mätsiehdotukset bonuksena: Lisäksi AI-matchmakerin ehdotuksia"
+        ],
+        "note": "6 kuukauden tyytyväisyystakuu pysyy voimassa näille ostoksille alkuperäisten ehtojen mukaisesti."
+      },
+      "aiMatchmaking": {
+        "title": "B. 6.2.2026 alkaen ostetut jäsenyydet (AI-matchmaking)",
+        "nature": {
+          "title": "Palvelun luonne",
+          "content": "AI-matchmaking on automaattinen palvelu, jossa tekoäly luo mätsiehdotuksia profiilitietojesi perusteella. Emme takaa mätsin syntymistä tai keskustelun laatua, koska kemia kahden ihmisen välillä on ennakoimatonta."
+        },
+        "weGuarantee": {
+          "title": "Mitä takaamme",
+          "points": [
+            "AI analysoi profiilisi ja etsii yhteensopivia ehdokkaita",
+            "Saat tilauslupauksesi mukaiset mätsiehdotukset (jos sopivia ehdokkaita löytyy)"
+          ]
+        },
+        "weDontGuarantee": {
+          "title": "Mitä emme takaa",
+          "points": [
+            "Että mätsi syntyy (molemmat hyväksyvät)",
+            "Että keskustelu etenee tai johtaa tapaamiseen",
+            "Että löydät kumppanin palvelun kautta"
+          ]
+        },
+        "noMatches": {
+          "title": "Ei mätsiehdotuksia?",
+          "content": "Jos AI ei löydä sinulle yhtään sopivaa ehdokasta kuukauden aikana, tämä voi johtua esimerkiksi:",
+          "reasons": [
+            "Kriteerisi rajaavat kaikki ehdokkaat pois",
+            "Alueellasi ei ole tarpeeksi käyttäjiä",
+            "Profiilisi on piilotettu tai keskeneräinen"
+          ]
+        }
+      }
+    },
+    "changes": {
+      "title": "Muutokset ehtoihin ja palveluntarjontaan",
+      "content": "Swoony Oy:lla on oikeus tehdä muutoksia hinnastoon, maksuihin ja näihin ehtoihin. Mikäli muutokset ovat asiakkaalle olennaisesti haitallisia, niistä ilmoitetaan asiakkaalle sähköpostitse tai sovelluksessa vähintään 1 kuukausi ennen muutosten voimaantuloa."
+    },
+    "liability": {
+      "title": "Vastuuehdot",
+      "intro": "Asiakas on itse vastuussa Swoony-treffikokemuksestaan. Swoony ei ole vastuussa mistään vahingoista tai haitoista, jotka saattavat ilmetä treffien aikana tai niiden jälkeen.",
+      "aiLimitations": {
+        "title": "AI-matchmakingin rajoitukset:",
+        "points": [
+          "AI tekee ehdotuksia profiilitietojen perusteella, mutta ei voi taata yhteensopivuutta tai kemiaa",
+          "AI:n analyysi perustuu käyttäjien antamiin tietoihin – virheelliset tiedot johtavat huonompiin ehdotuksiin",
+          "Swoony ei vastaa AI:n tekemien ehdotusten laadusta tai soveltuvuudesta"
+        ]
+      },
+      "report": "Ilmoita meille välittömästi, jos treffikumppanisi käyttäytyy epäasiallisesti."
+    },
+    "communication": {
+      "title": "Asiakasviestintä ja markkinointiviestit",
+      "intro": "Asiakassuhteen ylläpitämiseksi viestimme sinulle palveluun liittyvistä asioista, kuten:",
+      "examples": [
+        "Mätsiehdotuksista ja mätseistä",
+        "Muistutuksista reagoimattomiin ehdotuksiin",
+        "Hintojen ja palvelusisältöjen muutoksista",
+        "Palvelun toimintaan liittyvistä tiedotteista"
+      ],
+      "note": "Nämä asiakasviestit eivät ole markkinointia. Sähköistä suoramarkkinointia lähetämme vain, jos olet antanut siihen luvan."
+    },
+    "safety": {
+      "title": "Yleiset turvallisuusmuistutukset",
+      "points": [
+        "Älä anna mätsisi painostaa sinua mihinkään, mikä sinusta tuntuu epämukavalta",
+        "Älä koskaan anna kenellekään arkaluontoisia tietoja (pankkitiedot, henkilötunnus)",
+        "Älä koskaan lähetä rahaa toiselle käyttäjälle",
+        "Jos käyttäjä pyytää rahaa, ilmoita siitä meille välittömästi",
+        "Tapaa ensimmäisellä kerralla julkisella paikalla",
+        "Kerro jollekulle minne olet menossa"
+      ]
+    },
+    "contact": {
+      "title": "Yhteystiedot",
+      "company": "Swoony Oy",
+      "email": "info@swoony.io"
+    }
   },
-  "consents": {
-    "title": "Suostumukset",
-    "intro": "Suostut:",
-    "points": [
-      "Noudattamaan näitä ehtoja ja tarkistamaan tämän sivun aika ajoin varmistaaksesi, että olet tietoinen muutoksista",
-      "Noudattamaan kaikkia sovellettavia lakeja, mukaan lukien rajoituksetta tietosuojalait, immateriaalioikeuslait, roskapostin vastaiset lait ja sääntelyvaatimukset",
-      "Ryhtymään kohtuullisiin toimenpiteisiin kirjautumistietojesi suojaamiseksi"
-    ]
-  },
-  "restrictions": {
-    "title": "Rajoitukset",
-    "intro": "Suostut siihen, että et:",
-    "points": [
-      "Anna väärää tietoa henkilöllisyydestäsi, iästäsi tai yhteyksistäsi johonkin tiettyyn henkilöön tai yhteisöön",
-      "Käytä palveluita tavalla, joka vahingoittaa palveluita tai estää muita käyttäjiä käyttämästä niitä",
-      "Käytä palveluitamme tavalla, joka häiritsee tai vaikuttaa negatiivisesti alustaan, palvelimiin tai palveluidemme verkkoihin",
-      "Käytä palveluitamme mihinkään haitalliseen, laittomaan tai rikolliseen tarkoitukseen",
-      "Häiritse, kiusaa, vainoa, pelottele, pahoinpitele, halvenna, vahingoita tai muuten käyttäydy väärin",
-      "Kalastele salasanoja tai kerää henkilötietoja muilta käyttäjiltä",
-      "Pyydä rahaa tai muuta arvokasta toiselta käyttäjältä",
-      "Käytä toisen käyttäjän tiliä",
-      "Käytä palveluitamme petokseen tai pyramidihuijaukseen",
-      "Lähetä viruksia tai muuta haitallista koodia",
-      "Käytä tai kehitä kolmannen osapuolen sovelluksia ilman lupaa",
-      "Luo uutta tiliä sen jälkeen, kun olemme keskeyttäneet tilisi",
-      "Lähetä valheellisia ilmoituksia muista käyttäjistä"
-    ]
-  },
-  "payment": {
-    "title": "Maksuehdot ja Takuukäytännöt",
-    "paragraphs": [
-      "6.1 Sovelluskauppojen käyttö\n\nSwoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Kaikki maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja.\n\nSitoudut noudattamaan valitsemasi sovelluskaupan omia maksu- ja käyttöehtoja.",
-      "6.2 Maksuvastuu\n\nKäyttäjä on henkilökohtaisesti vastuussa sovelluskaupan kautta tehtyjen ostosten maksamisesta. Tämä koskee myös tilanteita, joissa maksajaksi on merkitty toinen henkilö tai tili on yhteiskäytössä.",
-      "6.3 Hinnoittelu\n\nPalvelun hinnat on esitetty sovelluksessa ostohetkellä.\n\nMätsipaketit: Kertaluonteisia palveluostoja, jotka veloitetaan etukäteen. Ei automaattisia jatkoveloituksia.\n\nJäsenyydet (Subscription): Automaattisesti uusiutuvia kuukausimaksuja. Peruutus tapahtuu sovelluskaupan kautta.",
-      "6.4 Jäsenyyden peruuttaminen\n\nJäsenyys uusiutuu automaattisesti, kunnes peruutat sen.\n\nPeruutus tehdään sovelluskaupan (Apple/Google) kautta, ei Swoonyn kautta.\n\nPeruutus astuu voimaan kuluvan laskutuskauden päättyessä.\n\nJo maksettuja jäsenmaksuja ei palauteta.",
-      "6.5 Peruutusoikeus\n\nDigitaalisen palvelun erityispiirre: Koska kyseessä on digitaalinen asiantuntijapalvelu, jonka toimitus (profilointi, analyysi ja haku) aloitetaan välittömästi oston jälkeen, palvelulla ei pääsääntöisesti ole kuluttajansuojalain mukaista 14 vuorokauden peruutusoikeutta.\n\nOstamalla palvelun hyväksyt, että palvelun suorittaminen alkaa heti ja peruutusoikeus raukeaa.\n\nPoikkeus: Palvelua ei ole aloitettu. Mikäli et ole vielä täyttänyt profiiliasi ja matchmaking-työtä ei ole aloitettu, voit pyytää peruutusta 14 vuorokauden sisällä ostosta ottamalla yhteyttä asiakaspalveluun."
-    ]
-  },
-  "satisfaction_guarantee": {
-    "title": "3. Takuukäytännöt (Muutos voimassa 5.1.2026 alkaen)",
-    "paragraphs": [
-      "Takuuehdot määräytyvät ostopäivämäärän mukaan. Tarkista alta, kumpi ehto koskee tilaustasi.",
-      "A. Ostokset, jotka on tehty ENNEN 5.1.2026 (6kk Tyytyväisyystakuu)\n\nTämä ehto koskee vain ennen 5.1.2026 ostettuja paketteja.\n\nPalvelulupaus: Swoony sitoutuu tekemään parhaansa löytääkseen käyttäjälle sopivia kumppaneita. Takuun sisältö: Mikäli Swoony ei ole pystynyt esittelemään yhtäkään käyttäjän kriteereihin ja Swoonyn laatustandardeihin sopivaa mätsi-ehdotusta kuuden (6) kuukauden kuluessa ostopäivästä, katsomme sen palvelun toimitusvirheeksi. Hyvitys: Tällöin käyttäjä on oikeutettu hyvitykseen:\n\nSwoony-krediitit: Palautamme paketin arvon krediitteinä palveluun.\n\nRahallinen palautus: Annamme puoltavan lausunnon rahanpalautuksen hakemiseksi sovelluskaupalta. Lopullisen päätöksen tekee Apple/Google. Osittain käytettyjä mätsipaketteja ei palauteta esim käytetty 1 mätsi kolmesta. Takuun edellytykset: Koskee vain tilanteita, joissa käyttäjä on ollut aktiivinen, ei ole asettanut epärealistisia kriteerejä (jotka rajaavat 100% tietokannasta pois) eikä ole poistanut tiliään. Reklamaatio on tehtävä osoitteeseen info@swoony.io määräajan täytyttyä.",
-      "B. Ostokset, jotka on tehty 5.1.2026 TAI SEN JÄLKEEN (Keskustelutakuu / Rematch)\n\nTämä ehto koskee kaikkia uusia palveluostoja (mätsipaketit) 5.1.2026 alkaen.",
-      "1. Palvelun luonne ja rahanpalautus\n\nSwoony-mätsipaketit ovat asiantuntijapalveluita, joissa veloitus kattaa matchmakerin tekemän profilointityön, ehdokkaiden etsinnän (headhunting) ja manuaalisen varmistustyön. Koska tämä työ tehdään ja resurssit sidotaan heti oston jälkeen, maksua ei palauteta rahana, vaikka lopputulos (kemia) ei vastaisi odotuksia. Emme myy lopputulosta, vaan ammattimaista hakuprosessia.",
-      "2. Conversation Guarantee (Keskustelutakuu)\n\nSitoudumme siihen, että löytämämme match on laadukas ja aito. Mikäli asiantuntijamme valitsema ja molempien hyväksymä match ei johda aitoon keskusteluun, tarjoamme sinulle uuden haun veloituksetta (Rematch).",
-      "3. Milloin olet oikeutettu Rematchiin? Saat uuden haun ilmaiseksi, jos:\n\nVastapuoli ei vastaa ensimmäiseen viestiisi 48 tunnin kuluessa.\n\nTAI keskustelu päättyy (\"ghosting\") ennen kuin yhteensä kuusi (6) viestiä on vaihdettu (3 viestiä per osapuoli).",
-      "4. Takuun rajoitukset\n\nTakuu kattaa enintään kolme (3) peräkkäistä uusintahakua yhtä maksettua pakettia kohden.\n\nTakuu ei ole voimassa, mikäli keskustelun katkeaminen johtuu käyttäjän omasta epäasiallisesta käytöksestä, yhteisösääntöjen rikkomisesta tai passiivisuudesta.\n\nTakuu ei oikeuta rahalliseen hyvitykseen, ainoastaan uuteen palvelusuoritukseen.",
-      "Toimintaohje: Jos match hiljenee heti, ilmoita siitä sovelluksen palautetoiminnolla tai asiakaspalveluun (info@swoony.io), niin asiantuntijamme aktivoi uuden haun tilillesi."
-    ]
-  },
-  "changes": {
-    "title": "Muutokset ehtoihin ja palveluntarjontaan",
-    "paragraphs": [
-      "Swoony Oy:lla on oikeus tehdä muutoksia hinnastoon, maksuihin ja näihin ehtoihin. Mikäli muutokset ovat asiakkaalle olennaisesti haitallisia, niistä ilmoitetaan asiakkaalle sähköpostitse tai tekstiviestillä vähintään 1 kuukausi ennen muutosten voimaantuloa."
-    ]
-  },
-  "liability": {
-    "title": "Vastuuehdot",
-    "paragraphs": [
-      "Asiakas on itse vastuussa Swoony-treffikokemuksestaan, ja Swoony ei ole vastuussa mistään vahingoista tai haitoista, jotka saattavat ilmetä treffien aikana tai niiden jälkeen.",
-      "Ilmoita meille välittömästi, jos treffikumppanisi käyttäytyy epäasiallisesti treffeillä niin ryhdymme toimenpiteisiin."
-    ]
-  },
-  "communication": {
-    "title": "Asiakasviestintä ja markkinointiviestit",
-    "paragraphs": [
-      "Asiakassuhteen ylläpitämiseksi viestimme sinulle asioista, jotka liittyvät kiinteästi niihin tuotteisiin tai palveluihin, jotka olet meiltä tilannut. Tällaisia viestejä ovat esimerkiksi tiedotteet hintojen ja palvelusisältöjen muutoksesta, sekä sellaiset viestit, jotka liittyvät palvelun toimittamiseen ja toimintaan. Asiakasviestit voidaan lähettää sähköisesti tai kirjeitse, eivätkä ne sisällä markkinointia.",
-      "Näiden asiakasviestien lisäksi voimme lähettää markkinointia sisältäviä viestejä sähköisesti. Markkinointiviesteistä saat kattavammin tietoa Swoonyn palveluista ja eduista.",
-      "Swoonyn asiakaseduista kerrotaan pääsääntöisesti sähköisten kanavien kautta.",
-      "Sähköistä suoramarkkinointia voidaan lähettää, mikäli olet antanut siihen luvan (markkinointilupa). Voit saada meiltä myös sähköistä suoramarkkinointia tilauksen aktivointiin tai profiilin täyttämiseen liittyen myös ilman erillistä markkinointilupaa. Mikäli kiellät sähköisen markkinoinnin, emme lähetä sinulle minkäänlaista markkinointia sisältäviä sähköisiä viestejä. Voit asettaa sähköisen markkinointikiellon itsepalvelussa tai asiakaspalvelumme kautta."
-    ]
-  },
-  "safety": {
-    "title": "Yleiset turvallisuusmuistutukset",
-    "paragraphs": [
-      "Tiedät huumeiden ja alkoholin käytön rajasi paremmin kuin kukaan muu. Älä anna mätsisi painostaa sinua mihinkään, mikä sinusta tuntuu epämukavalta. Jos mätsisi yrittää painostaa sinua käyttämään huumeita tai juomaan enemmän kuin haluat, lopeta treffit.",
-      "Älä koskaan anna kenellekään arkaluontoisia henkilökohtaisia tietoja, kuten sosiaaliturvatunnusta, luottokortin numeroa tai pankkitietoja, riippumatta siitä, miksi treffikumppani sanoo tarvitsevansa sitä.",
-      "Älä koskaan lähetä rahaa tai henkilötietoja verkossa. Jos toinen Swoony-käyttäjä pyytää sinulta rahaa, ilmoita siitä meille välittömästi.",
-      "On järkevää ja oikeutesi mukaista keskustella rehellisesti deittisi kanssa seksuaalisesta kontaktista ennen sen aloittamista, mukaan lukien kysyminen, milloin joku on viimeksi testattu sukupuolitautitestin varalta.",
-      "Oikein ja johdonmukaisesti käytettynä kondomit ja muut suojat voivat vähentää sukupuolitautien, kuten HIV:n, tartunnan tai leviämisen riskiä. On kuitenkin mahdollista saada tietyt sukupuolitaudit joutuessaan kosketuksiin kumppanisi ihon kanssa, vaikka käytät suojaa.",
-      "Kaiken seksuaalisen toiminnan on aloitettava suostumuksella. Suullinen viestintä voi auttaa sinua ja kumppaniasi varmistamaan, että kunnioitatte toistenne rajoja. Muista, että suostumus voidaan peruuttaa milloin tahansa. Älä koskaan jatka, jos kumppanisi on epävarma tai jos hän ei pysty suostumaan alkoholin tai huumeiden takia."
-    ]
-  },
-  "contact": {
-    "title": "Yhteystiedot",
-    "email": "Asiakaspalvelu: info@swoony.io",
-    "phone": "Puhelin: 045 229 6866",
-    "hours": "Aukioloajat: Ma-Pe 10:00 - 17:00"
+  "oldTerms": {
+    "commitment": {
+      "title": "Asiakkaana sitoutuminen",
+      "intro": "Sinulla ei ole oikeutta luoda tiliä tai käyttää palveluita, elleivät kaikki seuraavat seikat pidä paikkaansa kohdallasi, ja käyttämällä palveluitamme vakuutat ja takaat, että:",
+      "points": [
+        "Olet vähintään 18-vuotias yksityishenkilö (eli et ole oikeushenkilö, kumppanuus- tai muu liiketoimintayksikkö)",
+        "Et ole tehnyt syytteeseen asetettavaa rikosta (tai vastaavan vakavaa rikosta), seksuaalirikosta tai mitään väkivaltaa tai väkivallan uhkaa sisältävää rikosta",
+        "Vakuutat kaikki antamasi tiedot oikeiksi, etkä jätä kertomatta olennaisia asioita",
+        "Lupaat vastata kaikkiin kyselylomakkeen kysymyksiin rehellisesti ja vilpittömästi",
+        "Sinulla ei ole enempää kuin yksi tili palveluissamme",
+        "Me emme ole aiemmin poistaneet sinua palveluistamme",
+        "Et ole parisuhteessa asiakkuuden alkamisajankohtana",
+        "Profiilikuvasi ovat aitoja"
+      ]
+    },
+    "consents": {
+      "title": "Suostumukset",
+      "intro": "Suostut:",
+      "points": [
+        "Noudattamaan näitä ehtoja ja tarkistamaan tämän sivun aika ajoin varmistaaksesi, että olet tietoinen muutoksista",
+        "Noudattamaan kaikkia sovellettavia lakeja, mukaan lukien rajoituksetta tietosuojalait, immateriaalioikeuslait, roskapostin vastaiset lait ja sääntelyvaatimukset",
+        "Ryhtymään kohtuullisiin toimenpiteisiin kirjautumistietojesi suojaamiseksi"
+      ]
+    },
+    "restrictions": {
+      "title": "Rajoitukset",
+      "intro": "Suostut siihen, että et:",
+      "points": [
+        "Anna väärää tietoa henkilöllisyydestäsi, iästäsi tai yhteyksistäsi johonkin tiettyyn henkilöön tai yhteisöön",
+        "Käytä palveluita tavalla, joka vahingoittaa palveluita tai estää muita käyttäjiä käyttämästä niitä",
+        "Käytä palveluitamme tavalla, joka häiritsee tai vaikuttaa negatiivisesti alustaan, palvelimiin tai palveluidemme verkkoihin",
+        "Käytä palveluitamme mihinkään haitalliseen, laittomaan tai rikolliseen tarkoitukseen",
+        "Häiritse, kiusaa, vainoa, pelottele, pahoinpitele, halvenna, vahingoita tai muuten käyttäydy väärin",
+        "Kalastele salasanoja tai kerää henkilötietoja muilta käyttäjiltä",
+        "Pyydä rahaa tai muuta arvokasta toiselta käyttäjältä",
+        "Käytä toisen käyttäjän tiliä",
+        "Käytä palveluitamme petokseen tai pyramidihuijaukseen",
+        "Lähetä viruksia tai muuta haitallista koodia",
+        "Käytä tai kehitä kolmannen osapuolen sovelluksia ilman lupaa",
+        "Luo uutta tiliä sen jälkeen, kun olemme keskeyttäneet tilisi",
+        "Lähetä valheellisia ilmoituksia muista käyttäjistä"
+      ]
+    },
+    "payment": {
+      "title": "Maksuehdot ja Takuukäytännöt",
+      "paragraphs": [
+        "Sovelluskauppojen käyttö: Swoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Kaikki maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja.",
+        "Maksuvastuu: Käyttäjä on henkilökohtaisesti vastuussa sovelluskaupan kautta tehtyjen ostosten maksamisesta.",
+        "Hinnoittelu: Palvelun hinnat on esitetty sovelluksessa ostohetkellä. Mätsipaketit ovat kertaluonteisia palveluostoja, jotka veloitetaan etukäteen.",
+        "Peruutusoikeus: Koska kyseessä on digitaalinen asiantuntijapalvelu, jonka toimitus aloitetaan välittömästi oston jälkeen, palvelulla ei pääsääntöisesti ole kuluttajansuojalain mukaista 14 vuorokauden peruutusoikeutta."
+      ]
+    },
+    "satisfaction_guarantee": {
+      "title": "6 kuukauden tyytyväisyystakuu",
+      "paragraphs": [
+        "Tämä takuu koskee ennen 6.2.2026 ostettuja mätsipaketteja.",
+        "Palvelulupaus: Swoony sitoutuu tekemään parhaansa löytääkseen käyttäjälle sopivia kumppaneita.",
+        "Takuun sisältö: Mikäli Swoony ei ole pystynyt esittelemään yhtäkään käyttäjän kriteereihin ja Swoonyn laatustandardeihin sopivaa mätsi-ehdotusta kuuden (6) kuukauden kuluessa ostopäivästä, katsomme sen palvelun toimitusvirheeksi.",
+        "Hyvitys: Käyttäjä on oikeutettu Swoony-krediitteihin tai puoltavaan lausuntoon rahanpalautuksen hakemiseksi sovelluskaupalta.",
+        "Takuun edellytykset: Koskee vain tilanteita, joissa käyttäjä on ollut aktiivinen, ei ole asettanut epärealistisia kriteerejä eikä ole poistanut tiliään."
+      ]
+    },
+    "rematch": {
+      "title": "Keskustelutakuu (Rematch)",
+      "paragraphs": [
+        "Sitoudumme siihen, että löytämämme match on laadukas ja aito. Mikäli asiantuntijamme valitsema ja molempien hyväksymä match ei johda aitoon keskusteluun, tarjoamme sinulle uuden haun veloituksetta (Rematch).",
+        "Milloin olet oikeutettu Rematchiin: Vastapuoli ei vastaa ensimmäiseen viestiisi 48 tunnin kuluessa, TAI keskustelu päättyy ennen kuin yhteensä kuusi (6) viestiä on vaihdettu.",
+        "Rajoitukset: Takuu kattaa enintään kolme (3) peräkkäistä uusintahakua yhtä maksettua pakettia kohden. Takuu ei ole voimassa, mikäli keskustelun katkeaminen johtuu käyttäjän omasta epäasiallisesta käytöksestä."
+      ]
+    },
+    "changes": {
+      "title": "Muutokset ehtoihin",
+      "content": "Swoony Oy:lla on oikeus tehdä muutoksia hinnastoon, maksuihin ja näihin ehtoihin."
+    },
+    "liability": {
+      "title": "Vastuuehdot",
+      "content": "Asiakas on itse vastuussa Swoony-treffikokemuksestaan, ja Swoony ei ole vastuussa mistään vahingoista tai haitoista, jotka saattavat ilmetä treffien aikana tai niiden jälkeen."
+    },
+    "safety": {
+      "title": "Yleiset turvallisuusmuistutukset",
+      "points": [
+        "Älä anna mätsisi painostaa sinua mihinkään, mikä sinusta tuntuu epämukavalta",
+        "Älä koskaan anna kenellekään arkaluontoisia henkilökohtaisia tietoja",
+        "Älä koskaan lähetä rahaa toiselle käyttäjälle",
+        "Tapaa ensimmäisellä kerralla julkisella paikalla"
+      ]
+    },
+    "contact": {
+      "title": "Yhteystiedot",
+      "email": "Asiakaspalvelu: info@swoony.io",
+      "phone": "Puhelin: 045 229 6866"
+    }
   }
 }

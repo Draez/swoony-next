@@ -65,25 +65,46 @@
   },
   "faq": {
     "title": "Usein kysytyt kysymykset",
+    "categories": {
+      "gettingStarted": "Swoony & AI",
+      "accountFeatures": "Jäsenyydet",
+      "supportHelp": "Tuki & apu"
+    },
     "questions": {
-      "q1": "Mikä erottaa Swoonyn muista deittisovelluksista?",
-      "q2": "Miten Swoony toimii?",
-      "q3": "Kuinka kauan mätsäämisessä kestää?",
-      "q4": "Kenelle Swoony sopii?",
-      "q5": "Kuinka paljon Swoony maksaa?",
-      "q6": "Onko olemassa ilmaista versiota?",
-      "q7": "Miten tietojani käsitellään ja kuka näkee ne?",
-      "q8": "Asiakaspalvelu"
+      "q1": "Mikä on Swoony?",
+      "q2": "Miten Swoonyn AI-mätsäys toimii?",
+      "q3": "Mikä on Swoony Friday?",
+      "q4": "Mitä jäsenyysvaihtoehtoja on?",
+      "q5": "Miten yhteensopivuusprosentti lasketaan?",
+      "q6": "Mitä tarvitsen profiilin täydentämiseen?",
+      "q7": "Mihin kyselylomaketta käytetään?",
+      "q8": "Miten mätsäysprosessi etenee?",
+      "q9": "Voinko hylätä mätsin?",
+      "q10": "Miksi en saa mätsejä?",
+      "q11": "Voinko piilottaa profiilini?",
+      "q12": "Miten muutan asetuksiani?",
+      "q13": "Miten peruutan tilaukseni?",
+      "q14": "Miten poistan tilini?",
+      "q15": "Miten saan apua?",
+      "q16": "Miksi profiilini meni piilotetuksi?"
     },
     "answers": {
-      "a1": "Swoony yhdistää asiantuntijoiden osaamisen ja tekoälyn, jotta löydät aidosti sopivan kumppanin. Jokainen mätsi analysoidaan arvojen, elämäntyylin ja tavoitteiden perusteella. Meille laatu on tärkeämpää kuin määrä – sinun ei tarvitse itse selailla profiileja, sillä asiantuntijamme hoitavat työn puolestasi.",
-      "a2": "- Luo profiili ja kuvaa itsestäsi lyhyt esittelyvideo.\n- Osta haluamasi määrä mätsejä.\n- Asiantuntijamme etsivät sinulle sopivan ehdokkaan.\n- Kun mätsi löytyy, saat asiantuntijan laatiman kuvauksen siitä, miksi voisitte sopia yhteen.\n- Voit hyväksyä tai hylätä ehdotuksen. Hylkäystilanteessa kerro meille syy, jotta voimme parantaa seuraavaa hakua (toinen osapuoli ei näe tätä palautetta).\n- Kun molemmat hyväksyvät mätsin, voitte aloittaa keskustelun.",
-      "a3": "Koska etsimme sinulle aidosti yhteensopivia kumppaneita, voi sopivan mätsin löytyminen kestää hetken. Haluamme kuitenkin varmistaa, ettet jää odottamaan turhaan – siksi tarjoamme tyytyväisyystakuun (lisätiedot palvelun ehdoissa).",
-      "a4": "Swoony on suunnattu kaikille, jotka etsivät vakavaa ja merkityksellistä suhdetta sekä arvostavat asiantuntijoiden apua kumppanin löytämisessä.",
-      "a5": "Voit ostaa 1, 3 tai 5 mätsin paketin. Vain mätsin hyväksyntä kuluttaa ostamiasi mätsejä. Huomioithan, että profiilisi näkyy asiantuntijoillemme vain, kun sinulla on aktiivinen mätsipaketti.",
-      "a6": "Ei ole. Haluamme varmistaa, että kaikki käyttäjämme ovat sitoutuneita ja tosissaan liikkeellä. Siksi tarjoamme vain maksullisen version, joka tukee laadukkaita ja merkityksellisiä kohtaamisia.",
-      "a7": "Tietosi ovat vain Swoonyn asiantuntijoiden käytössä. Kun mätsi löytyy, mahdollinen kumppani näkee nimesi, ikäsi ja esittelyvideosi. Emme koskaan myy tietojasi tai jaa niitä mainostajille.",
-      "a8": "Olemme täällä sinua varten! Ota yhteyttä sähköpostitse: info@swoony.io"
+      "a1": "Swoony on tekoälypohjainen deittisovellus, joka etsii sinulle sopivan kumppanin automaattisesti. Toisin kuin perinteisissä sovelluksissa, sinun ei tarvitse selata profiileja – Swoonyn AI analysoi profiilisi ja löytää sinulle yhteensopivat ehdokkaat.",
+      "a2": "AI analysoi profiilisi ja kyselylomakkeen vastauksesi, vertaa niitä kaikkiin käyttäjiin ja laskee yhteensopivuusprosentin. Kun yhteensopivuus ylittää 70%, saat mätsiehdotuksen.\n\nMätsäysjärjestys: Pro → Plus → Free.\n\nVoit myös tulla mätsätyksi asiantuntijamme toimesta VIP-asiakkaille.",
+      "a3": "Swoony Friday on viikoittainen mätsäyspäivä, jolloin AI etsii sinulle uuden mätsiehdotuksen:\n\n• Free: Kuukauden 1. perjantaina\n• Plus: Joka perjantai\n• Pro: Perjantaisin ja tiistaisin\n\nSaat ilmoituksen, kun uusi mätsi on valmis.",
+      "a4": "Swoony tarjoaa kolme jäsenyystasoa:\n\n• Free: Mätsiehdotus kuukauden 1. perjantaina\n• Plus: Mätsiehdotus joka perjantai\n• Pro: Mätsiehdotus perjantaisin ja tiistaisin, prioriteetti mätsäyksessä\n\nAI etsii mätsejä prioriteettijärjestyksessä: Pro → Plus → Free. Kaikissa tasoissa saat mätsin vain jos yhteensopivuus on yli 70%.",
+      "a5": "AI analysoi molempien käyttäjien:\n• Kyselylomakkeen vastaukset\n• Arvot ja elämäntyylin\n• Preferenssit (ikä, etäisyys)\n• Kiinnostuksen kohteet\n\nProsentti kertoo kuinka hyvin profiilienne sopivat yhteen. Mätsiehdotus lähetetään vain jos yhteensopivuus on yli 70%.",
+      "a6": "Profiilin täydentämiseen tarvitset:\n• Omat tiedot (nimi, syntymäaika, kaupunki, pituus)\n• Vähintään 2 kuvaa\n• Kyselylomakkeen vastaukset\n• Asetukset (ikäpreferenssi, etäisyys)\n\nVapaaehtoinen: 10 sekunnin esittelyvideo.",
+      "a7": "Kyselylomakkeen on suunnitellut psykoterapian maisteri, ja se on AI:n tärkein työkalu yhteensopivuuden laskemisessa. Vastaukset auttavat AI:ta ymmärtämään arvojasi, persoonallisuuttasi ja mitä etsit kumppanilta. Mitä tarkemmin vastaat, sitä parempia mätsejä saat.",
+      "a8": "1. AI analysoi profiilisi Swoony Fridayna\n2. Jos yli 70% yhteensopivuus löytyy, saat mätsiehdotuksen\n3. Nainen näkee ehdotuksen ensin\n4. Jos nainen hyväksyy, mies saa ilmoituksen\n5. Kun molemmat hyväksyvät, chat avautuu\n6. Palautteen jälkeen prosessi alkaa alusta",
+      "a9": "Kyllä, voit hylätä mätsin. Sinua pyydetään antamaan palautetta, mikä auttaa AI:ta parantamaan tulevia ehdotuksia. Toinen osapuoli ei näe hylkäyssyytäsi.",
+      "a10": "Mätsin löytyminen edellyttää yli 70% yhteensopivuutta. Voit kokeilla:\n• Säätää ikäpreferenssiä tai etäisyysasetuksia\n• Täydentää kyselylomakkeen vastauksia\n• Varmistaa, että profiilisi on valmis\n\nJos yhteensopivaa mätsiä ei löydy, AI jatkaa etsintää seuraavana mätsäyspäivänä.",
+      "a11": "Kyllä! Voit vaihtaa profiilisi näkyvyyttä Profiili-sivulta. Kun profiili on piilotettu, AI ei sisällytä sinua mätsäykseen. Voit aktivoida profiilin milloin tahansa.",
+      "a12": "Siirry Asetuksiin profiilisivultasi. Voit säätää:\n• Kumppanin sukupuolipreferenssiä\n• Ikähaarukkaa (18-100)\n• Enimmäisetäisyyttä (20-300 km)\n\nMuutokset tulevat voimaan heti.",
+      "a13": "Kaikki tilaukset hallinnoidaan App Storen (iOS) tai Google Playn (Android) kautta.\n\niOS: Asetukset → [Nimesi] → Tilaukset → Swoony → Peru tilaus\n\nAndroid: Google Play → Valikko → Tilaukset → Swoony → Peru tilaus\n\nTilaus pysyy voimassa laskutuskauden loppuun asti.",
+      "a14": "Siirry kohtaan Profiili > Asetukset > Poista tili. Tämä toiminto on pysyvä. Kaikki tietosi poistetaan.",
+      "a15": "Pyrimme vastaamaan mahdollisimman nopeasti. Kirjoita meille: info@swoony.io",
+      "a16": "Profiili menee piilotetuksi, jos et reagoi mätsiehdotukseen viikon sisällä. Tällä varmistamme, ettei palvelussa ole epäaktiivisia profiileja. Voit aktivoida profiilisi milloin tahansa etusivulta tai Profiili-sivulta."
     }
   },
   "matching": {

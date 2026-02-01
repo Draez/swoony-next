@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(frontend)",
+      "Skill(finnish-copywriter)",
+      "Bash(node -e:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}
