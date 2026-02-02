@@ -500,7 +500,7 @@ export default function Home() {
                 {locale === 'sv' ? 'Målgrupp' : 'Kohderyhmä'}
               </p>
               <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-white">{locale === 'sv' ? 'Passar ' : 'Sopiiko'}</span>
+                <span className="text-white">{locale === 'sv' ? 'Passar ' : 'Sopiiko '}</span>
                 <span className="text-[#D4AF37]">Swoony</span>
                 <span className="text-white">{locale === 'sv' ? ' dig?' : ' sinulle?'}</span>
               </h2>
