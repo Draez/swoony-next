@@ -500,7 +500,7 @@ export default function Home() {
                 {locale === 'sv' ? 'Målgrupp' : 'Kohderyhmä'}
               </p>
               <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-white">{locale === 'sv' ? 'Passar ' : 'Sopii '}</span>
+                <span className="text-white">{locale === 'sv' ? 'Passar ' : 'Sopiiko'}</span>
                 <span className="text-[#D4AF37]">Swoony</span>
                 <span className="text-white">{locale === 'sv' ? ' dig?' : ' sinulle?'}</span>
               </h2>
@@ -722,13 +722,13 @@ export default function Home() {
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="text-white">{locale === 'sv' ? 'Låt AI hitta ' : 'Anna tekoälyn löytää '}</span>
-            <span className="text-[#F42C52]">{locale === 'sv' ? 'kärleken' : 'rakkaus'}</span>
+            <span className="text-white">{locale === 'sv' ? 'Låt AI hitta ' : 'Löydä rakkaus tekoälyn '}</span>
+            <span className="text-[#F42C52]">{locale === 'sv' ? 'kärleken' : 'avulla'}</span>
           </h2>
           <p className="text-xl text-white/50 mb-12 max-w-2xl mx-auto">
             {locale === 'sv'
               ? 'Ladda ner Swoony idag och låt vår AI Matchmaker hitta din perfekta match. Sluta swipa, börja dejta.'
-              : 'Lataa Swoony tänään ja anna tekoäly Matchmakerimme löytää täydellinen mätsisi. Lopeta swippaaminen, aloita deittailu.'}
+              : 'Lataa Swoony tänään ja anna tekoäly Matchmakerimme löytää sinulle mätsi. Lopeta swaippaaminen, aloita deittailu.'}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
