@@ -555,6 +555,52 @@ export default function Home() {
       {/* Testimonials */}
       {/* <TestimonialCarousel /> */}
 
+      {/* Swoony Häät */}
+      <section className="relative py-24 md:py-32 px-6 bg-[#0a0a0a] overflow-hidden">
+        <div className="gradient-orb gradient-orb-red w-[400px] h-[400px] -top-20 left-0 opacity-10" />
+
+        <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+          {/* Left — Polaroid */}
+          <div className="flex justify-center md:justify-end">
+            <div className="relative -rotate-2 hover:rotate-0 transition-transform duration-500 ease-out group">
+              <div className="absolute -inset-8 bg-[#F42C52]/10 rounded-3xl blur-3xl group-hover:bg-[#F42C52]/15 transition-colors duration-500" />
+              <div className="relative bg-white p-3 pb-14 md:p-4 md:pb-16 rounded-sm shadow-2xl shadow-black/50">
+                <div className="relative w-[260px] h-[300px] sm:w-[300px] sm:h-[360px] md:w-[360px] md:h-[420px] overflow-hidden">
+                  <Image
+                    src="/swoony_haat.jpg"
+                    alt="Krista & Henrik - Swoony häät"
+                    fill
+                    className="object-cover object-top"
+                    quality={90}
+                  />
+                </div>
+                <p className="absolute bottom-3 md:bottom-4 left-0 right-0 text-center font-playfair italic text-gray-700 text-sm md:text-base">
+                  Krista & Henrik ♥
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right — Text */}
+          <div className="text-center md:text-left">
+            <p className="font-quicksand text-xs font-semibold text-[#F42C52] uppercase tracking-[0.3em] mb-6">
+              Swoony Häät
+            </p>
+            <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+              Krista & Henrik löysivät toisensa Swoonysta
+            </h2>
+            <p className="font-quicksand text-white/50 text-base md:text-lg leading-relaxed mb-8">
+              Swoony teki sen mitä muut lupasivat. Yksi mätsi riitti.
+            </p>
+            <div className="flex items-center justify-center md:justify-start gap-3">
+              <div className="w-8 h-[1px] bg-[#F42C52]/40" />
+              <Heart className="w-4 h-4 text-[#F42C52]" />
+              <div className="w-8 h-[1px] bg-[#F42C52]/40" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing */}
       <section id="pricing" className="py-32 px-6 bg-[#0f0f0f] relative">
         <div className="gradient-orb gradient-orb-red w-[600px] h-[600px] -bottom-40 left-1/4 opacity-20" />

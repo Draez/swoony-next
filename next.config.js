@@ -5,6 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   i18n,
   images: {
+    unoptimized: true,
     domains: ['images.unsplash.com', 'plus.unsplash.com', 'upload.wikimedia.org'],
   },
 }

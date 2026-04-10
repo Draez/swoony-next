@@ -4,7 +4,10 @@
       "Skill(frontend)",
       "Skill(finnish-copywriter)",
       "Bash(node -e:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(npx next:*)",
+      "Bash(npm install:*)",
+      "Bash(node scripts/optimize-images.js)"
     ]
   }
 }
