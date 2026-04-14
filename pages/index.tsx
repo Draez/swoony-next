@@ -395,18 +395,18 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Card 3 - Women First */}
+            {/* Card 3 - Mutual Approval */}
             <div className="glass-card rounded-3xl p-8 lg:p-10 relative overflow-hidden group">
               <div className="step-number">03</div>
               <div className="relative z-10">
                 <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#D4AF37]/20 to-[#D4AF37]/5 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Shield className="w-7 h-7 text-[#D4AF37]" />
                 </div>
-                <h3 className="font-playfair text-xl font-semibold mb-4">{locale === 'sv' ? 'Kvinnor först' : 'Naiset ensin'}</h3>
+                <h3 className="font-playfair text-xl font-semibold mb-4">{locale === 'sv' ? 'Ömsesidigt godkännande' : 'Molemminpuolinen hyväksyntä'}</h3>
                 <p className="text-white/50 leading-relaxed">
                   {locale === 'sv'
-                    ? 'Vår unika säkerhetsmodell låter kvinnor se och godkänna matchningar först. Ingen spam.'
-                    : 'Ainutlaatuinen mallimme antaa naisten nähdä ja hyväksyä mätsit ensin.'}
+                    ? 'Båda ser matchförslaget samtidigt. Godkänn eller avböj i din egen takt – chatten öppnas först när båda säger ja.'
+                    : 'Molemmat näkevät mätsiehdotuksen samaan aikaan. Hyväksy tai hylkää omassa rauhassa – chat avautuu vasta kun molemmat sanovat kyllä.'}
                 </p>
               </div>
             </div>

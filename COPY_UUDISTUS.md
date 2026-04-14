@@ -145,19 +145,10 @@ Teksti: "70 kysymystä arvoista, elämäntyylistä ja parisuhdetoiveista. Tekoä
 
 ---
 
-### Nykyinen kortti 3 - Naiset ensin:
+### Nykyinen kortti 3 - Molemminpuolinen hyväksyntä:
 ```
-Otsikko: "Naiset ensin"
-Teksti: "Ainutlaatuinen turvallisuusmallimme antaa naisten nähdä ja hyväksyä mätsit ensin. Ei spämmäystä."
-```
-
-### Ongelmat:
-- "Ainutlaatuinen" on klisee
-
-### UUSI EHDOTUS:
-```
-Otsikko: "Turvallinen naisille"
-Teksti: "Nainen näkee ehdotuksen ensin. Mies näkee vain jos nainen hyväksyy. Ei roskapostia, ei häirintää."
+Otsikko: "Molemminpuolinen hyväksyntä"
+Teksti: "Molemmat näkevät mätsiehdotuksen samaan aikaan. Hyväksy tai hylkää omassa rauhassa – chat avautuu vasta kun molemmat sanovat kyllä."
 ```
 
 ---

@@ -26,7 +26,7 @@ Swoony is a premium matchmaking application that positions itself as "Headhunter
 
 - **How it works:** AI Matchmaker analyzes all candidates and delivers matches automatically
 - **Credit deduction:** Only after BOTH users accept the match
-- **Women-first model:** Woman sees suggestion first, man only sees if she accepts
+- **Mutual approval model:** Both users see the match suggestion simultaneously, chat opens when both accept
 
 ### Swoony VIP - Human Matchmaker (€499 one-time)
 
@@ -110,9 +110,9 @@ Filters based on:
 2. Matcher chooses which candidate to match
 3. Compares answers side-by-side
 4. Writes match description explaining compatibility
-5. Creates match with initial status: `pending_woman`
+5. Creates match with initial status: `pending` (both users)
 6. Records in `matcher_matches` table
-7. Sends push notification to female user
+7. Sends push notification to both users
 
 ### User Notifications Flow
 1. **Mätsiehdotus** - Match suggestion notification sent
@@ -123,34 +123,32 @@ Filters based on:
 
 ### Status Flow
 ```
-pending_woman → pending_man → approved
-               ↓              ↓
-          declined_woman  declined_man
+pending → approved (both accept)
+    ↓
+ declined (either user declines)
 ```
 
 **Status Definitions:**
-- `pending_woman` - Female user needs to approve/decline
-- `pending_man` - Male user needs to approve/decline
+- `pending` - Both users need to approve/decline simultaneously
 - `approved` - Both approved, in-app chat opens
-- `declined_woman` - Female user declined
-- `declined_man` - Male user declined
+- `declined` - Either user declined
 
 ### Match Credit Rules
 - **Credit deducted:** Only after BOTH users accept
 - **If both have match packages:** Credit deducted from both
 - **If only one has package:** Credit deducted only from package holder
-- **Woman declines:** No credit impact
-- **Man declines (after woman accepted):** No credit impact
+- **Either user declines:** No credit impact
 - **Pending expiration:** If no accept/decline within 1 week, match expires
 
-### "Women First" Safety Model
-1. Match presented to female user first
-2. Only if she approves, shown to male user
-3. Both must approve before chat opens
+### Mutual Approval Model
+1. Match suggestion presented to both users simultaneously
+2. Both must approve before chat opens
+3. Neither user knows the other's decision until both have responded
 
 **Benefits:**
-- Women feel safe (no spam)
-- Men experience less rejection (only see interested women)
+- Equal experience for both users
+- No pressure from knowing the other person already accepted
+- Chat opens only when genuine mutual interest exists
 
 ### After Match Approval
 - In-app chat becomes available immediately
@@ -294,7 +292,7 @@ pending_woman → pending_man → approved
 
 1. **Validated Business Model:** Two-tier system solves chicken-egg problem
 2. **High LTV:** $63 vs industry $15-20
-3. **Quality Focus:** Complete profiles, human review, women-first model
+3. **Quality Focus:** Complete profiles, human review, mutual approval model
 4. **AI Integration:** Smart filtering while maintaining human touch
 5. **Geographic Focus:** City-by-city dominance, not broad coverage
 
