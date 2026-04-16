@@ -12,6 +12,7 @@ import {
   Apple,
   Play,
   Check,
+  X,
   ArrowRight,
   Heart,
   Users,
@@ -635,15 +636,20 @@ export default function Home() {
               </div>
               <ul className="space-y-4 mb-4">
                 {[
-                  '1 mätsihaku per kk',
+                  { text: locale === 'sv' ? 'Du kan ta emot matchningar' : 'Voit vastaanottaa mätsejä', included: true },
+                  { text: locale === 'sv' ? 'Max 3 godkända matcher' : 'Maks. 3 hyväksyttyä mätsiä', included: true },
+                  { text: locale === 'sv' ? 'Ingen egen matchsökning' : 'Ei omaa mätsihakua', included: false },
                 ].map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-white/60">
-                    <Check className="w-5 h-5 text-[#00E6D5]" />
-                    <span>{feature}</span>
+                    {feature.included ? (
+                      <Check className="w-5 h-5 text-[#00E6D5]" />
+                    ) : (
+                      <X className="w-5 h-5 text-white/30" />
+                    )}
+                    <span>{feature.text}</span>
                   </li>
                 ))}
               </ul>
-              <p className="italic text-white/50">Voit saada myös mätsejä plus/pro käyttäjien kanssa (max 4 per kk)</p>
             </div>
 
             {/* Swoony+ - Highlighted */}
@@ -663,9 +669,9 @@ export default function Home() {
                 </div>
                 <ul className="space-y-4 mb-8">
                   {[
-                    'Mätsiehdotukset joka perjantai',
-                    'Mahdollisuus saada 4+ mätsiä per kk',
-                    'Prioriteetti Swoony AI:n mätsäysjonossa'
+                    locale === 'sv' ? 'Matchsökning varje fredag' : 'Mätsihaku joka perjantai',
+                    locale === 'sv' ? 'Upp till 3 matchförslag åt gången' : 'Jopa 3 mätsiehdotusta kerralla',
+                    locale === 'sv' ? 'Prioritet - du söks direkt efter Pro-användarna' : 'Prioriteetti - sinulle etsitään heti Pro -käyttäjien jälkeen'
                   ].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3 text-white/80">
                       <Check className="w-5 h-5 text-[#F42C52]" />
@@ -688,9 +694,9 @@ export default function Home() {
               </div>
               <ul className="space-y-4 mb-8">
                 {[
-                  'Mätsiehdotukset joka perjantai & tiistai',
-                  'Mahdollisuus saada 8+ mätsiä per kk',
-                  'VIP prioriteetti Swoony AI:n mätsäysjonossa'
+                  locale === 'sv' ? 'Matchsökning varje dag' : 'Mätsihaku joka päivä',
+                  locale === 'sv' ? 'Maximera dina möjligheter' : 'Maksimoi mahdollisuutesi',
+                  locale === 'sv' ? 'VIP-prioritet - du söks som första' : 'VIP prioriteetti - sinulle etsitään ensimmäisenä'
                 ].map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-white/60">
                     <Check className="w-5 h-5 text-[#00E6D5]" />

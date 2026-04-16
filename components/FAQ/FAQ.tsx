@@ -18,11 +18,11 @@ export function FAQ() {
         },
         {
             question: "Hur fungerar Swoonys AI-matchning?",
-            answer: "AI analyserar din profil och dina svar på frågeformuläret, jämför dem med alla användare och beräknar en kompatibilitetsprocent. När kompatibiliteten överstiger 70% får du ett matchförslag.\n\nMatchningsordning: Pro → Plus → Free.\n\nDu kan också bli matchad av våra experter för VIP-kunder."
+            answer: "AI analyserar din profil och dina svar på frågeformuläret, jämför dem med alla användare och beräknar en kompatibilitetsprocent. När kompatibiliteten överstiger 70% får du ett matchförslag.\n\nMatchningsordning: Pro → Plus → Free."
         },
         {
-            question: "Vad är Swoony Friday?",
-            answer: "Swoony Friday är den veckovisa matchningsdagen då AI söker ett nytt matchförslag åt dig:\n\n• Free: Första fredagen i månaden\n• Plus: Varje fredag\n• Pro: Fredagar och tisdagar\n\nDu får en notifikation när en ny match är klar."
+            question: "När får jag matchförslag?",
+            answer: "AI söker matchförslag åt dig enligt din prenumerationsnivå:\n\n• Free: Du kan ta emot matchningar (max 3 godkända)\n• Plus: Matchsökning varje fredag\n• Pro: Matchsökning varje dag\n\nDu får en notifikation när en match har hittats."
         },
         {
             question: "Hur beräknas kompatibilitetsprocenten?",
@@ -32,7 +32,7 @@ export function FAQ() {
         {
             category: 'Medlemskap',
             question: "Vilka medlemskapsalternativ finns?",
-            answer: "Swoony erbjuder tre medlemskapsnivåer:\n\n• Free: Matchförslag första fredagen i månaden\n• Plus: Matchförslag varje fredag\n• Pro: Matchförslag fredagar och tisdagar, prioritet i matchningen\n\nAI söker matcher i prioritetsordning: Pro → Plus → Free. I alla nivåer får du en match endast om kompatibiliteten är över 70%."
+            answer: "Swoony erbjuder tre medlemskapsnivåer:\n\n• Free (0 €): Du kan ta emot matchningar, max 3 godkända matcher\n• Plus (19,99 €/mån): Matchsökning varje fredag\n• Pro (39,99 €/mån): Matchsökning varje dag, VIP-prioritet\n\nAI söker matcher i prioritetsordning: Pro → Plus → Free. I alla nivåer får du en match endast om kompatibiliteten är över 70%."
         },
         {
             question: "Vad behöver jag för att slutföra min profil?",
@@ -44,7 +44,7 @@ export function FAQ() {
         },
         {
             question: "Hur fortskrider matchningsprocessen?",
-            answer: "1. AI analyserar din profil på Swoony Friday\n2. Om över 70% kompatibilitet hittas får du ett matchförslag\n3. Kvinnan ser förslaget först\n4. Om kvinnan accepterar får mannen en notifikation\n5. När båda accepterar öppnas chatten\n6. Efter feedback börjar processen om"
+            answer: "1. AI analyserar din profil på matchdagen (Pro: dagligen, Plus: fredagar)\n2. Om över 70% kompatibilitet hittas får du ett matchförslag\n3. Båda parterna ser förslaget samtidigt\n4. Var och en kan acceptera eller avvisa självständigt\n5. När båda accepterar öppnas chatten\n6. Efter feedback börjar processen om"
         },
         {
             question: "Kan jag avvisa en match?",
@@ -54,7 +54,7 @@ export function FAQ() {
         {
             category: 'Support & hjälp',
             question: "Varför får jag inga matcher?",
-            answer: "Att hitta en match kräver över 70% kompatibilitet. Du kan prova att:\n• Justera ålderspreferens eller avståndsinställningar\n• Fylla i frågeformulärets svar\n• Se till att din profil är klar\n\nOm ingen kompatibel match hittas fortsätter AI att söka nästa matchningsdag."
+            answer: "Att hitta en match kräver över 70% kompatibilitet. Du kan prova att:\n• Justera ålderspreferens eller avståndsinställningar\n• Fylla i frågeformulärets svar\n• Se till att din profil är klar\n\nOm ingen kompatibel match hittas fortsätter AI att söka nästa matchdag."
         },
         {
             question: "Kan jag dölja min profil?",
