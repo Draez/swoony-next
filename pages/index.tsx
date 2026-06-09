@@ -81,7 +81,7 @@ export default function Home() {
               <ChevronDown className="w-4 h-4" />
             </button> */}
             <Link
-              href="https://apps.apple.com/app/swoony/id6499217523"
+              href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
               target="_blank"
               className="font-quicksand px-5 py-2.5 rounded-full bg-[#F42C52] text-white text-sm font-semibold hover:bg-[#d91e42] transition-all duration-300 hover:shadow-lg hover:shadow-[#F42C52]/20"
             >
@@ -117,7 +117,7 @@ export default function Home() {
               FAQ
             </button>
             <Link
-              href="https://apps.apple.com/app/swoony/id6499217523"
+              href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
               target="_blank"
               className="mt-4 px-6 py-4 rounded-full bg-[#F42C52] text-white text-center font-semibold"
             >
@@ -165,7 +165,7 @@ export default function Home() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12 font-quicksand">
                 <Link
-                  href="https://apps.apple.com/app/swoony/id6499217523"
+                  href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
                   target="_blank"
                   className="group inline-flex items-center justify-center gap-3 bg-white text-[#0a0a0a] font-semibold rounded-full px-8 py-4 transition-all duration-300 hover:bg-white/90 hover:shadow-xl hover:shadow-white/10"
                 >
@@ -186,7 +186,7 @@ export default function Home() {
               {/* Stats Row */}
               <div className="flex flex-wrap gap-8 justify-center lg:justify-start font-quicksand">
                 <div className="text-center lg:text-left">
-                  <div className="text-3xl font-bold text-white">4000+</div>
+                  <div className="text-3xl font-bold text-white">6000+</div>
                   <div className="text-sm font-medium text-white/40">{locale === 'sv' ? 'Nöjda användare' : 'rekisteröitynyttä käyttäjää'}</div>
                 </div>
                 <div className="text-center lg:text-left">
@@ -210,14 +210,21 @@ export default function Home() {
 
               {/* App Mockup */}
               <div className="relative z-10">
-                <Image
-                  src="/mock_app.png"
-                  alt="Swoony App - AI-powered matchmaking"
-                  width={497}
-                  height={1000}
-                  className="w-auto h-auto max-h-[680px] drop-shadow-2xl"
-                  priority
-                />
+                {/* iPhone Frame */}
+                <div className="relative rounded-[3rem] bg-gradient-to-b from-[#1f1f1f] to-[#0a0a0a] p-[10px] shadow-2xl ring-1 ring-white/10 drop-shadow-2xl">
+                  <div className="relative overflow-hidden rounded-[2.5rem] bg-black">
+                    <Image
+                      src="/1.png"
+                      alt="Swoony App - AI-powered matchmaking"
+                      width={497}
+                      height={1000}
+                      className="block w-auto h-auto max-h-[660px]"
+                      priority
+                    />
+                    {/* Dynamic Island */}
+                    <div className="absolute top-2.5 left-1/2 -translate-x-1/2 h-6 w-24 rounded-full bg-black z-10" />
+                  </div>
+                </div>
 
                 {/* Floating Card - AI Match Quality */}
                 <div className="absolute -bottom-4 -left-8 glass-card rounded-2xl p-4 font-quicksand shadow-xl">
@@ -624,7 +631,7 @@ export default function Home() {
           </div>
 
           {/* Pricing Grid */}
-          <div className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-3xl mx-auto">
             {/* Free */}
             <div className="glass-card rounded-3xl p-8 hover-lift">
               <div className="mb-8">
@@ -636,9 +643,9 @@ export default function Home() {
               </div>
               <ul className="space-y-4 mb-4">
                 {[
-                  { text: locale === 'sv' ? 'Du kan ta emot matchningar' : 'Voit vastaanottaa mätsejä', included: true },
-                  { text: locale === 'sv' ? 'Max 3 godkända matcher' : 'Maks. 3 hyväksyttyä mätsiä', included: true },
-                  { text: locale === 'sv' ? 'Ingen egen matchsökning' : 'Ei omaa mätsihakua', included: false },
+                  { text: locale === 'sv' ? 'AI-matchning' : 'AI-mätsäys', included: true },
+                  { text: locale === 'sv' ? 'Begränsat antal matchningar' : 'Rajoitettu määrä mätsejä', included: true },
+                  { text: locale === 'sv' ? 'Begränsad synlighet' : 'Rajoitettu näkyvyys', included: false },
                 ].map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-white/60">
                     {feature.included ? (
@@ -652,7 +659,7 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Swoony+ - Highlighted */}
+            {/* Pro - Highlighted */}
             <div className="pricing-highlight rounded-3xl">
               <div className="bg-[#0f0f0f] rounded-3xl p-8 h-full relative">
                 {/* Badge */}
@@ -661,17 +668,17 @@ export default function Home() {
                 </div>
 
                 <div className="mb-8 pt-2">
-                  <h3 className="font-playfair text-xl font-semibold mb-2">Swoony+</h3>
+                  <h3 className="font-playfair text-xl font-semibold mb-2">Swoony Pro</h3>
                   <div className="flex items-baseline gap-1">
-                    <span className="text-5xl font-bold">€19.99</span>
+                    <span className="text-5xl font-bold">€29.99</span>
                     <span className="text-white/40">/{locale === 'sv' ? 'mån' : 'kk'}</span>
                   </div>
                 </div>
                 <ul className="space-y-4 mb-8">
                   {[
-                    locale === 'sv' ? 'Matchsökning varje fredag' : 'Mätsihaku joka perjantai',
-                    locale === 'sv' ? 'Upp till 3 matchförslag åt gången' : 'Jopa 3 mätsiehdotusta kerralla',
-                    locale === 'sv' ? 'Prioritet - du söks direkt efter Pro-användarna' : 'Prioriteetti - sinulle etsitään heti Pro -käyttäjien jälkeen'
+                    locale === 'sv' ? 'Se direkt alla som gillat dig' : 'Näe heti kaikki jotka tykkäsivät sinusta',
+                    locale === 'sv' ? 'Nya matchningar varje dag – ingen gräns på en' : 'Uudet mätsit joka päivä – ei yhden rajaa',
+                    locale === 'sv' ? 'Din profil visas oftare' : 'Profiilisi näytetään useammin',
                   ].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3 text-white/80">
                       <Check className="w-5 h-5 text-[#F42C52]" />
@@ -680,79 +687,6 @@ export default function Home() {
                   ))}
                 </ul>
 
-              </div>
-            </div>
-
-            {/* Pro */}
-            <div className="glass-card rounded-3xl p-8 hover-lift">
-              <div className="mb-8">
-                <h3 className="font-playfair text-xl font-semibold mb-2">Swoony Pro</h3>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-5xl font-bold">€39.99</span>
-                  <span className="text-white/40">/{locale === 'sv' ? 'mån' : 'kk'}</span>
-                </div>
-              </div>
-              <ul className="space-y-4 mb-8">
-                {[
-                  locale === 'sv' ? 'Matchsökning varje dag' : 'Mätsihaku joka päivä',
-                  locale === 'sv' ? 'Maximera dina möjligheter' : 'Maksimoi mahdollisuutesi',
-                  locale === 'sv' ? 'VIP-prioritet - du söks som första' : 'VIP prioriteetti - sinulle etsitään ensimmäisenä'
-                ].map((feature, i) => (
-                  <li key={i} className="flex items-center gap-3 text-white/60">
-                    <Check className="w-5 h-5 text-[#00E6D5]" />
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-            </div>
-          </div>
-
-          {/* VIP Human Matchmaker Section */}
-          <div className="mt-16 max-w-5xl mx-auto">
-            <div className="relative rounded-3xl overflow-hidden">
-              {/* Gradient border */}
-              <div className="absolute inset-0 bg-gradient-to-r from-[#D4AF37] via-[#F42C52] to-[#00E6D5] opacity-20" />
-              <div className="absolute inset-[1px] bg-[#0f0f0f] rounded-3xl" />
-
-              <div className="relative p-8 md:p-12">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
-                  <div className="flex items-start gap-6">
-                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#D4AF37] to-[#8B6914] flex items-center justify-center flex-shrink-0">
-                      <Users className="w-8 h-8 text-white" />
-                    </div>
-                    <div>
-                      <div className="font-quicksand text-xs text-[#D4AF37] font-bold tracking-widest mb-2">
-                        {locale === 'sv' ? 'MÄNSKLIG MATCHMAKER' : 'IHMIS-MATCHMAKER'}
-                      </div>
-                      <h3 className="font-playfair text-2xl font-bold mb-2">
-                        {locale === 'sv' ? 'Swoony VIP' : 'Swoony VIP'}
-                      </h3>
-                      <p className="text-white/50 max-w-xl">
-                        {locale === 'sv'
-                          ? 'Vill du ha personlig touch? Vår mänskliga matchmaker intervjuar dig, granskar din profil och handplockar 5 matchningar som AI skulle missa.'
-                          : 'Haluatko henkilökohtaista palvelua? Asiantuntijamme haastattelee sinut, arvioi profiilisi ja valitsee käsin sinulle sopivia mätsejä.'}
-                      </p>
-                      {/* <div className="mt-4 flex flex-wrap gap-3">
-                        <span className="inline-flex items-center gap-1.5 text-xs text-white/60 bg-white/5 px-3 py-1.5 rounded-full">
-                          <Check className="w-3 h-3 text-[#D4AF37]" />
-                          {locale === 'sv' ? '30 min intervju' : '30 min haastattelu'}
-                        </span>
-                        <span className="inline-flex items-center gap-1.5 text-xs text-white/60 bg-white/5 px-3 py-1.5 rounded-full">
-                          <Check className="w-3 h-3 text-[#D4AF37]" />
-                          {locale === 'sv' ? '5 handplockade matcher' : '5 käsinvalittua mätsiä'}
-                        </span>
-                        <span className="inline-flex items-center gap-1.5 text-xs text-white/60 bg-white/5 px-3 py-1.5 rounded-full">
-                          <Check className="w-3 h-3 text-[#D4AF37]" />
-                          {locale === 'sv' ? 'Garanti: 2 samtal' : 'Takuu: 2 keskustelua'}
-                        </span>
-                      </div> */}
-                    </div>
-                  </div>
-                  <div className="flex flex-col items-start md:items-end gap-4">
-                    <div className="text-4xl font-bold text-[#D4AF37]">Tulossa pian</div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -785,7 +719,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="https://apps.apple.com/app/swoony/id6499217523"
+              href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
               target="_blank"
               className="group inline-flex items-center justify-center gap-3 bg-white text-[#0a0a0a] font-semibold rounded-full px-10 py-5 transition-all duration-300 hover:bg-white/90 hover:shadow-xl hover:shadow-white/10"
             >

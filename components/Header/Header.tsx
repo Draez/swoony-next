@@ -206,7 +206,7 @@ const Header: FC = () => {
                 <div className="flex flex-row gap-2">
 
                   <Link
-                    href="https://apps.apple.com/app/swoony/id6499217523"
+                    href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
                     target="_blank"
                   >
                     <Image src="/applestore.svg" alt="Apple" width={180} height={180} />

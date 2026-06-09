@@ -64,7 +64,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>
           {locale === 'sv'
             ? 'Swoony: Finlands bästa Matchmaking-app - Ladda ner nu!'
-            : 'Swoony: Suomen paras Matchmaking -sovellus - Lataa nyt!'}
+            : 'Swoony: AI-pohjainen deittisovellus - Ei enää swaippailua!'}
         </title>
         <meta
           name="description"
@@ -77,7 +77,7 @@ function App({ Component, pageProps }: AppProps) {
           property="og:title"
           content={locale === 'sv'
             ? 'Swoony: Finlands bästa Matchmaking-app - Ladda ner nu!'
-            : 'Swoony: Suomen paras Matchmaking -sovellus - Lataa nyt!'}
+            : 'Swoony: AI-pohjainen deittisovellus - Ei enää swaippailua!'}
         />
         <meta
           property="og:description"

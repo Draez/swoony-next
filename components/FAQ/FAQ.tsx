@@ -18,11 +18,11 @@ export function FAQ() {
         },
         {
             question: "Hur fungerar Swoonys AI-matchning?",
-            answer: "AI analyserar din profil och dina svar på frågeformuläret, jämför dem med alla användare och beräknar en kompatibilitetsprocent. När kompatibiliteten överstiger 70% får du ett matchförslag.\n\nMatchningsordning: Pro → Plus → Free."
+            answer: "AI analyserar din profil och dina svar på frågeformuläret, jämför dem med alla användare och beräknar en kompatibilitetsprocent. När kompatibiliteten överstiger 70% får du ett matchförslag.\n\nPro-medlemmar får prioritet i matchsökningen."
         },
         {
             question: "När får jag matchförslag?",
-            answer: "AI söker matchförslag åt dig enligt din prenumerationsnivå:\n\n• Free: Du kan ta emot matchningar (max 3 godkända)\n• Plus: Matchsökning varje fredag\n• Pro: Matchsökning varje dag\n\nDu får en notifikation när en match har hittats."
+            answer: "AI söker matchförslag åt dig dagligen:\n\n• Free: AI-matchning\n• Pro: Tillgång till alla förslag, fler förslag\n\nDu får en notifikation så snart en kompatibel match har hittats. Om ingen tillräckligt kompatibel partner hittas fortsätter AI att söka nästa dag."
         },
         {
             question: "Hur beräknas kompatibilitetsprocenten?",
@@ -32,7 +32,7 @@ export function FAQ() {
         {
             category: 'Medlemskap',
             question: "Vilka medlemskapsalternativ finns?",
-            answer: "Swoony erbjuder tre medlemskapsnivåer:\n\n• Free (0 €): Du kan ta emot matchningar, max 3 godkända matcher\n• Plus (19,99 €/mån): Matchsökning varje fredag\n• Pro (39,99 €/mån): Matchsökning varje dag, VIP-prioritet\n\nAI söker matcher i prioritetsordning: Pro → Plus → Free. I alla nivåer får du en match endast om kompatibiliteten är över 70%."
+            answer: "Swoony erbjuder två medlemskapsnivåer:\n\n• Free: AI-matchning\n• Pro: Tillgång till alla förslag, fler förslag, VIP-prioritet i matchsökningen\n\nI båda nivåerna får du en match endast om kompatibiliteten är över 70%."
         },
         {
             question: "Vad behöver jag för att slutföra min profil?",
@@ -44,7 +44,7 @@ export function FAQ() {
         },
         {
             question: "Hur fortskrider matchningsprocessen?",
-            answer: "1. AI analyserar din profil på matchdagen (Pro: dagligen, Plus: fredagar)\n2. Om över 70% kompatibilitet hittas får du ett matchförslag\n3. Båda parterna ser förslaget samtidigt\n4. Var och en kan acceptera eller avvisa självständigt\n5. När båda accepterar öppnas chatten\n6. Efter feedback börjar processen om"
+            answer: "1. AI analyserar din profil dagligen och söker kompatibla kandidater\n2. Om över 70% kompatibilitet hittas får du ett matchförslag\n3. Båda parterna ser förslaget samtidigt\n4. Var och en kan acceptera eller avvisa självständigt\n5. När båda accepterar öppnas chatten\n6. Efter feedback börjar processen om"
         },
         {
             question: "Kan jag avvisa en match?",
@@ -54,7 +54,7 @@ export function FAQ() {
         {
             category: 'Support & hjälp',
             question: "Varför får jag inga matcher?",
-            answer: "Att hitta en match kräver över 70% kompatibilitet. Du kan prova att:\n• Justera ålderspreferens eller avståndsinställningar\n• Fylla i frågeformulärets svar\n• Se till att din profil är klar\n\nOm ingen kompatibel match hittas fortsätter AI att söka nästa matchdag."
+            answer: "Att hitta en match kräver över 70% kompatibilitet. Du kan prova att:\n• Justera ålderspreferens eller avståndsinställningar\n• Fylla i frågeformulärets svar\n• Se till att din profil är klar\n\nOm ingen kompatibel match hittas fortsätter AI att söka nästa dag."
         },
         {
             question: "Kan jag dölja min profil?",
@@ -75,10 +75,6 @@ export function FAQ() {
         {
             question: "Hur får jag hjälp?",
             answer: "Vi strävar efter att svara så snabbt som möjligt. Skriv till oss: info@swoony.io"
-        },
-        {
-            question: "Varför blev min profil dold?",
-            answer: "Profilen blir dold om du inte reagerar på ett matchförslag inom en vecka. Detta säkerställer att det inte finns inaktiva profiler i tjänsten. Du kan aktivera din profil när som helst från startsidan eller Profilsidan."
         },
     ] : [
         // Swoony & AI
@@ -146,10 +142,6 @@ export function FAQ() {
         {
             question: t('faq.questions.q15'),
             answer: t('faq.answers.a15')
-        },
-        {
-            question: t('faq.questions.q16'),
-            answer: t('faq.answers.a16')
         },
     ];
 

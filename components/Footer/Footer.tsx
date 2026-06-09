@@ -128,7 +128,7 @@ const Footer: FC = () => {
             {/* App Store Buttons */}
             <div className="flex flex-col gap-3 mt-8">
               <Link
-                href="https://apps.apple.com/app/swoony/id6499217523"
+                href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
                 target="_blank"
                 className="opacity-70 hover:opacity-100 transition-opacity"
               >
