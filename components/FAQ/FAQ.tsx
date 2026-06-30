@@ -14,67 +14,67 @@ export function FAQ() {
         {
             category: 'Swoony & AI',
             question: "Vad är Swoony?",
-            answer: "Swoony är en AI-baserad dejtingapp som automatiskt hittar en lämplig partner åt dig. Till skillnad från traditionella appar behöver du inte bläddra igenom profiler – Swoonys AI analyserar din profil och hittar kompatibla kandidater åt dig."
+            answer: "Swoony är en AI-baserad dejtingapp som automatiskt hittar en lämplig partner åt dig. Till skillnad från traditionella appar behöver du inte bläddra bland profiler – Swoonys AI analyserar din profil och hittar kompatibla kandidater."
         },
         {
             question: "Hur fungerar Swoonys AI-matchning?",
-            answer: "AI analyserar din profil och dina svar på frågeformuläret, jämför dem med alla användare och beräknar en kompatibilitetsprocent. När kompatibiliteten överstiger 70% får du ett matchförslag.\n\nPro-medlemmar får prioritet i matchsökningen."
+            answer: "AI analyserar din profil och frågeformulärssvar, jämför med alla användare och beräknar kompatibilitetsprocent. När kompatibiliteten överstiger 70% får du ett matchförslag.\n\nPro-medlemmar får företräde i matchsökningen."
         },
         {
             question: "När får jag matchförslag?",
-            answer: "AI söker matchförslag åt dig dagligen:\n\n• Free: AI-matchning\n• Pro: Tillgång till alla förslag, fler förslag\n\nDu får en notifikation så snart en kompatibel match har hittats. Om ingen tillräckligt kompatibel partner hittas fortsätter AI att söka nästa dag."
+            answer: "AI söker matchningar på fasta matchdagar:\n\n• Free: varannan fredag\n• Pro: varje tisdag och fredag\n\nDu får en notifikation så snart en kompatibel match hittas. Om ingen tillräckligt kompatibel match hittas fortsätter AI söka nästa matchdag."
         },
         {
             question: "Hur beräknas kompatibilitetsprocenten?",
-            answer: "AI analyserar båda användarnas:\n• Svar på frågeformuläret\n• Värderingar och livsstil\n• Preferenser (ålder, avstånd)\n• Intressen\n\nProcenten visar hur väl era profiler passar ihop. Matchförslag skickas endast om kompatibiliteten är över 70%."
+            answer: "AI analyserar båda användarnas:\n• Frågeformulärssvar\n• Värderingar och livsstil\n• Preferenser (ålder, avstånd)\n• Intressen\n\nProcenten visar hur väl era profiler passar ihop. Matchförslag skickas endast om kompatibiliteten är över 70%."
         },
         // Medlemskap
         {
             category: 'Medlemskap',
             question: "Vilka medlemskapsalternativ finns?",
-            answer: "Swoony erbjuder två medlemskapsnivåer:\n\n• Free: AI-matchning\n• Pro: Tillgång till alla förslag, fler förslag, VIP-prioritet i matchsökningen\n\nI båda nivåerna får du en match endast om kompatibiliteten är över 70%."
+            answer: "Swoony erbjuder två medlemskapsnivåer:\n\n• Free: AI-matchning, matchdag varannan fredag\n• Pro: matchdagar varje tisdag och fredag, tillgång till alla förslag, VIP-prioritet och feedback på profilen\n\nPå båda nivåerna får du en match endast om kompatibiliteten är över 70%."
         },
         {
             question: "Vad behöver jag för att slutföra min profil?",
-            answer: "För att slutföra din profil behöver du:\n• Personuppgifter (namn, födelsedatum, stad, längd)\n• Minst 2 bilder\n• Svar på frågeformuläret\n• Inställningar (ålderspreferens, avstånd)\n\nValfritt: 10 sekunders presentationsvideo."
+            answer: "För att slutföra din profil behöver du:\n• Personlig information (namn, födelsedatum, stad, längd)\n• Minst 2 bilder\n• Frågeformulärssvar\n• Inställningar (åldersintervall, avstånd)\n\nValfritt: 30 sekunders presentationsvideo."
         },
         {
             question: "Vad används frågeformuläret till?",
-            answer: "Frågeformuläret är utformat av en magister i psykoterapi och är AI:s viktigaste verktyg för att beräkna kompatibilitet. Svaren hjälper AI att förstå dina värderingar, personlighet och vad du söker hos en partner. Ju mer noggrant du svarar, desto bättre matcher får du."
+            answer: "Frågeformuläret har utformats av en magister i psykoterapi och är AI:s viktigaste verktyg för att beräkna kompatibilitet. Svaren hjälper AI att förstå dina värderingar, personlighet och vad du söker hos en partner. Ju mer noggrant du svarar, desto bättre matcher får du."
         },
         {
-            question: "Hur fortskrider matchningsprocessen?",
-            answer: "1. AI analyserar din profil dagligen och söker kompatibla kandidater\n2. Om över 70% kompatibilitet hittas får du ett matchförslag\n3. Båda parterna ser förslaget samtidigt\n4. Var och en kan acceptera eller avvisa självständigt\n5. När båda accepterar öppnas chatten\n6. Efter feedback börjar processen om"
+            question: "Hur fungerar matchningsprocessen?",
+            answer: "1. AI analyserar din profil på matchdagar och söker kompatibla kandidater\n2. Om över 70% kompatibilitet hittas får du ett matchförslag\n3. Båda parter ser förslaget samtidigt\n4. Var och en kan acceptera eller avslå självständigt\n5. När båda accepterar öppnas chatten\n6. Efter feedback startar processen om"
         },
         {
-            question: "Kan jag avvisa en match?",
-            answer: "Ja, du kan avvisa en match. Du ombeds ge feedback, vilket hjälper AI att förbättra framtida förslag. Den andra parten ser inte din avvisningsorsak."
+            question: "Kan jag avslå en match?",
+            answer: "Ja, du kan avslå en match. Du blir ombedd att ge feedback, vilket hjälper AI att förbättra framtida förslag. Den andra personen ser inte din avslagsorsak."
         },
         // Support & hjälp
         {
             category: 'Support & hjälp',
             question: "Varför får jag inga matcher?",
-            answer: "Att hitta en match kräver över 70% kompatibilitet. Du kan prova att:\n• Justera ålderspreferens eller avståndsinställningar\n• Fylla i frågeformulärets svar\n• Se till att din profil är klar\n\nOm ingen kompatibel match hittas fortsätter AI att söka nästa dag."
+            answer: "Att hitta en match kräver över 70% kompatibilitet. Du kan prova:\n• Justera åldersintervall eller avståndsinställningar\n• Komplettera frågeformulärssvar\n• Se till att din profil är komplett\n\nOm ingen kompatibel match hittas fortsätter AI söka nästa matchdag."
         },
         {
             question: "Kan jag dölja min profil?",
-            answer: "Ja! Du kan ändra din profils synlighet från Profilsidan. När profilen är dold inkluderar AI dig inte i matchningen. Du kan aktivera profilen när som helst."
+            answer: "Ja! Du kan växla din profils synlighet från Profil-sidan. När profilen är dold inkluderar AI dig inte i matchningen. Du kan aktivera profilen när som helst."
         },
         {
             question: "Hur ändrar jag mina inställningar?",
-            answer: "Gå till Inställningar från din profilsida. Du kan justera:\n• Partnerns könspreferens\n• Åldersintervall (18-100)\n• Maximalt avstånd (20-300 km)\n\nÄndringar träder i kraft omedelbart."
+            answer: "Gå till Inställningar från din Profil. Du kan justera:\n• Partnerns könspreferens\n• Åldersintervall (18-100)\n• Maximalt avstånd (20-300 km)\n\nÄndringar träder i kraft direkt."
         },
         {
-            question: "Hur avbryter jag min prenumeration?",
-            answer: "Alla prenumerationer hanteras via App Store (iOS) eller Google Play (Android).\n\niOS: Inställningar → [Ditt namn] → Prenumerationer → Swoony → Avbryt prenumeration\n\nAndroid: Google Play → Meny → Prenumerationer → Swoony → Avbryt prenumeration\n\nPrenumerationen förblir aktiv till slutet av faktureringsperioden."
+            question: "Hur avslutar jag min prenumeration?",
+            answer: "Alla prenumerationer hanteras via App Store (iOS) eller Google Play (Android).\n\niOS: Inställningar → [Ditt namn] → Prenumerationer → Swoony → Avsluta prenumeration\n\nAndroid: Google Play → Meny → Prenumerationer → Swoony → Avsluta prenumeration\n\nPrenumerationen förblir aktiv till slutet av faktureringsperioden."
         },
         {
             question: "Hur tar jag bort mitt konto?",
-            answer: "Gå till Profil > Inställningar > Ta bort konto. Denna åtgärd är permanent. All din data kommer att raderas."
+            answer: "Gå till Profil > Inställningar > Radera konto. Denna åtgärd är permanent. All din data kommer att tas bort."
         },
         {
             question: "Hur får jag hjälp?",
-            answer: "Vi strävar efter att svara så snabbt som möjligt. Skriv till oss: info@swoony.io"
+            answer: "Vi svarar vanligtvis inom 24 timmar. Skriv till oss: info@swoony.io"
         },
     ] : [
         // Swoony & AI

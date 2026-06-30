@@ -644,8 +644,8 @@ export default function Home() {
               <ul className="space-y-4 mb-4">
                 {[
                   { text: locale === 'sv' ? 'AI-matchning' : 'AI-mätsäys', included: true },
-                  { text: locale === 'sv' ? 'Begränsat antal matchningar' : 'Rajoitettu määrä mätsejä', included: true },
-                  { text: locale === 'sv' ? 'Begränsad synlighet' : 'Rajoitettu näkyvyys', included: false },
+                  { text: locale === 'sv' ? 'Matchdag varannan fredag' : 'Mätsipäivä joka toinen perjantai', included: true },
+                  { text: locale === 'sv' ? 'VIP-prioritet i matchsökningen' : 'VIP-prioriteetti mätsäyksessä', included: false },
                 ].map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-white/60">
                     {feature.included ? (
@@ -676,9 +676,9 @@ export default function Home() {
                 </div>
                 <ul className="space-y-4 mb-8">
                   {[
-                    locale === 'sv' ? 'Se direkt alla som gillat dig' : 'Näe heti kaikki jotka tykkäsivät sinusta',
-                    locale === 'sv' ? 'Nya matchningar varje dag – ingen gräns på en' : 'Uudet mätsit joka päivä – ei yhden rajaa',
-                    locale === 'sv' ? 'Din profil visas oftare' : 'Profiilisi näytetään useammin',
+                    locale === 'sv' ? 'Matchdagar varje tisdag och fredag' : 'Mätsipäivät tiistaisin ja perjantaisin',
+                    locale === 'sv' ? 'Företräde i matchsökningen' : 'Etusija mätsäyksessä',
+                    locale === 'sv' ? 'Tillgång till alla förslag' : 'Avaa kaikki ehdotukset',
                   ].map((feature, i) => (
                     <li key={i} className="flex items-center gap-3 text-white/80">
                       <Check className="w-5 h-5 text-[#F42C52]" />
