@@ -11,7 +11,8 @@
       "Read(//c/Program Files/Google/Chrome/Application/**)",
       "Read(//c/Program Files \\(x86\\)/Microsoft/Edge/Application/**)",
       "Bash(awk '/faq:/{f=1} f{print NR\": \"$0} /onboarding:/{if\\(f\\)exit}' \"C:/Users/Draez/Desktop/dev/swoony-react-native/translations/sv.ts\")",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "mcp__ide__getDiagnostics"
     ]
   }
 }

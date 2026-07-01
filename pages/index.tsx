@@ -9,8 +9,6 @@ import Footer from "@/components/Footer/Footer";
 import { FAQ } from '@/components/FAQ/FAQ';
 import {
   ChevronDown,
-  Apple,
-  Play,
   Check,
   X,
   ArrowRight,
@@ -27,6 +25,9 @@ import {
   MessageCircle
 } from 'lucide-react';
 import { TestimonialCarousel } from '@/components/TestimonialCarousel/TestimonialCarousel';
+
+// Web app for browser-based login / signup (low-friction onboarding)
+const WEB_APP_URL = "https://web-swoony.netlify.app/";
 
 export default function Home() {
   const { t } = useTranslation('common');
@@ -81,11 +82,11 @@ export default function Home() {
               <ChevronDown className="w-4 h-4" />
             </button> */}
             <Link
-              href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
+              href={WEB_APP_URL}
               target="_blank"
               className="font-quicksand px-5 py-2.5 rounded-full bg-[#F42C52] text-white text-sm font-semibold hover:bg-[#d91e42] transition-all duration-300 hover:shadow-lg hover:shadow-[#F42C52]/20"
             >
-              {locale === 'sv' ? 'Ladda ner' : 'Lataa sovellus'}
+              {locale === 'sv' ? 'Logga in' : 'Kirjaudu'}
             </Link>
           </div>
 
@@ -117,11 +118,11 @@ export default function Home() {
               FAQ
             </button>
             <Link
-              href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
+              href={WEB_APP_URL}
               target="_blank"
               className="mt-4 px-6 py-4 rounded-full bg-[#F42C52] text-white text-center font-semibold"
             >
-              {locale === 'sv' ? 'Ladda ner appen' : 'Lataa sovellus'}
+              {locale === 'sv' ? 'Logga in' : 'Kirjaudu'}
             </Link>
           </div>
         </div>
@@ -165,21 +166,12 @@ export default function Home() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12 font-quicksand">
                 <Link
-                  href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
+                  href={WEB_APP_URL}
                   target="_blank"
-                  className="group inline-flex items-center justify-center gap-3 bg-white text-[#0a0a0a] font-semibold rounded-full px-8 py-4 transition-all duration-300 hover:bg-white/90 hover:shadow-xl hover:shadow-white/10"
+                  className="group inline-flex items-center justify-center gap-3 bg-[#F42C52] text-white font-semibold rounded-full px-8 py-4 transition-all duration-300 hover:bg-[#d91e42] hover:shadow-xl hover:shadow-[#F42C52]/20"
                 >
-                  <Apple className="w-5 h-5" />
-                  <span>{locale === 'sv' ? 'Ladda ner för iOS' : 'Lataa iOS:lle'}</span>
+                  <span>{locale === 'sv' ? 'Börja i webbläsaren' : 'Aloita selaimessa'}</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
-                <Link
-                  href="https://play.google.com/store/apps/details?id=fi.swoonymatchmaking.app"
-                  target="_blank"
-                  className="inline-flex items-center justify-center gap-3 bg-white/5 border border-white/10 hover:border-white/20 rounded-full px-8 py-4 transition-all duration-300 hover:bg-white/10 font-medium"
-                >
-                  <Play className="w-5 h-5 fill-current" />
-                  <span>{locale === 'sv' ? 'Ladda ner för Android' : 'Lataa Androidille'}</span>
                 </Link>
               </div>
 
@@ -719,21 +711,12 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
+              href={WEB_APP_URL}
               target="_blank"
-              className="group inline-flex items-center justify-center gap-3 bg-white text-[#0a0a0a] font-semibold rounded-full px-10 py-5 transition-all duration-300 hover:bg-white/90 hover:shadow-xl hover:shadow-white/10"
+              className="group inline-flex items-center justify-center gap-3 bg-[#F42C52] text-white font-semibold rounded-full px-10 py-5 transition-all duration-300 hover:bg-[#d91e42] hover:shadow-xl hover:shadow-[#F42C52]/20"
             >
-              <Apple className="w-6 h-6" />
-              <span className="text-lg">{locale === 'sv' ? 'Ladda ner för iOS' : 'Lataa iOS:lle'}</span>
+              <span className="text-lg">{locale === 'sv' ? 'Börja i webbläsaren' : 'Aloita selaimessa'}</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <Link
-              href="https://play.google.com/store/apps/details?id=fi.swoonymatchmaking.app"
-              target="_blank"
-              className="inline-flex items-center justify-center gap-3 bg-white/5 border border-white/10 hover:border-white/20 rounded-full px-10 py-5 transition-all duration-300 hover:bg-white/10"
-            >
-              <Play className="w-6 h-6 fill-current" />
-              <span className="text-lg">{locale === 'sv' ? 'Ladda ner för Android' : 'Lataa Androidille'}</span>
             </Link>
           </div>
         </div>

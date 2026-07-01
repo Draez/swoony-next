@@ -209,14 +209,14 @@ const Header: FC = () => {
                     href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
                     target="_blank"
                   >
-                    <Image src="/applestore.svg" alt="Apple" width={180} height={180} />
+                    <Image src="/applestore.svg" alt="Apple" width={180} height={54} />
                   </Link>
 
                   <Link
                     href="https://play.google.com/store/apps/details?id=fi.swoonymatchmaking.app"
                     target="_blank"
                   >
-                    <Image src="/google-play.svg" alt="Google" width={180} height={180} />
+                    <Image src="/google-play.svg" alt="Google" width={180} height={54} />
                   </Link>
 
                 </div>
