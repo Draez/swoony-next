@@ -82,8 +82,19 @@
       "title": "Betalningsvillkor och prenumerationsalternativ",
       "appStores": {
         "title": "Användning av appbutiker",
-        "content": "Swoony-tjänsten fungerar på plattformarna Apple App Store och Google Play. Alla betalningstransaktioner hanteras via dessa appbutiker. Swoony Oy behandlar eller lagrar inte kunders betalkortsuppgifter.",
+        "content": "Swoony-tjänsten fungerar på plattformarna Apple App Store och Google Play. Betalningstransaktioner som görs via appen hanteras via dessa appbutiker. Köp som görs via webbplatsen betalas via betaltjänsten Paytrail. Swoony Oy behandlar eller lagrar inte kunders betalkortsuppgifter.",
         "note": "Du förbinder dig att följa betalnings- och användarvillkoren för den valda appbutiken."
+      },
+      "paymentProvider": {
+        "title": "Betalningsförmedlare (köp via webbplatsen)",
+        "content": "Betalningsförmedlingstjänsten utförs och levereras av Paytrail Oyj (2122839-7) i samarbete med banker och kreditinstitut. Paytrail Oyj syns som mottagare på bankkontot eller korträkningen och förmedlar betalningen till köpmannen. Paytrail Oyj har verksamhetstillstånd för betalningsinstitut beviljat av Finansinspektionen. Vid reklamation eller klagomål ber vi er i första hand vara i kontakt med tjänsteleverantören.",
+        "companyInfo": [
+          "Paytrail Oyj, FO-nummer: 2122839-7",
+          "Innova 2",
+          "Lutakonaukio 7",
+          "40100 Jyväskylä",
+          "paytrail.com/kuluttaja/information-om-betalning"
+        ]
       },
       "subscriptions": {
         "title": "Prenumerationer (Subscription)",

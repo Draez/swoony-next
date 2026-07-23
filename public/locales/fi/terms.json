@@ -82,8 +82,19 @@
       "title": "Maksuehdot ja tilausvaihtoehdot",
       "appStores": {
         "title": "Sovelluskauppojen käyttö",
-        "content": "Swoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Kaikki maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja.",
+        "content": "Swoony-palvelu toimii Applen App Storen ja Google Play -kaupan alustoilla. Sovelluksen kautta tehdyt maksutapahtumat käsitellään kyseisten sovelluskauppojen kautta. Verkkosivujen kautta tehdyt ostot maksetaan Paytrail-maksupalvelun kautta. Swoony Oy ei käsittele tai tallenna asiakkaiden maksukorttitietoja.",
         "note": "Sitoudut noudattamaan valitsemasi sovelluskaupan omia maksu- ja käyttöehtoja."
+      },
+      "paymentProvider": {
+        "title": "Maksupalveluntarjoaja (verkkosivujen ostot)",
+        "content": "Maksunvälityspalvelun toteuttajana ja maksupalveluntarjoajana toimii Paytrail Oyj (2122839-7) yhteistyössä suomalaisten pankkien ja luottolaitosten kanssa. Paytrail Oyj näkyy maksun saajana tiliotteella tai korttilaskulla ja välittää maksun kauppiaalle. Paytrail Oyj:llä on maksulaitoksen toimilupa. Reklamaatiotapauksissa pyydämme ottamaan ensisijaisesti yhteyttä tuotteen toimittajaan.",
+        "companyInfo": [
+          "Paytrail Oyj, y-tunnus: 2122839-7",
+          "Innova 2",
+          "Lutakonaukio 7",
+          "40100 Jyväskylä",
+          "www.paytrail.com"
+        ]
       },
       "subscriptions": {
         "title": "Jäsenyydet (Subscription)",

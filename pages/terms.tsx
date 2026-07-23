@@ -288,6 +288,17 @@ export default function Terms() {
                                         <p className="text-white/50 text-sm italic">{t('newTerms.payment.appStores.note')}</p>
                                     </div>
 
+                                    {/* Payment Provider (Paytrail) */}
+                                    <div className="mb-8 p-6 rounded-2xl bg-white/5 border border-white/10">
+                                        <h4 className="font-quicksand font-bold text-white mb-3">{t('newTerms.payment.paymentProvider.title')}</h4>
+                                        <p className="text-white/60 leading-relaxed mb-4">{t('newTerms.payment.paymentProvider.content')}</p>
+                                        <div className="space-y-1">
+                                            {getTranslationArray('newTerms.payment.paymentProvider.companyInfo').map((line, index) => (
+                                                <p key={index} className="text-white/50 text-sm">{line}</p>
+                                            ))}
+                                        </div>
+                                    </div>
+
                                     {/* Subscriptions */}
                                     <div className="mb-8">
                                         <h4 className="font-quicksand font-bold text-white mb-3">{t('newTerms.payment.subscriptions.title')}</h4>

@@ -12,7 +12,14 @@
       "Read(//c/Program Files \\(x86\\)/Microsoft/Edge/Application/**)",
       "Bash(awk '/faq:/{f=1} f{print NR\": \"$0} /onboarding:/{if\\(f\\)exit}' \"C:/Users/Draez/Desktop/dev/swoony-react-native/translations/sv.ts\")",
       "Bash(npx tsc *)",
-      "mcp__ide__getDiagnostics"
+      "mcp__ide__getDiagnostics",
+      "Bash(sort -k5 -n -r)",
+      "WebFetch(domain:www.paytrail.com)",
+      "WebSearch",
+      "WebFetch(domain:support.paytrail.com)",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/126.0 Safari/537.36\" \"https://support.paytrail.com/hc/fi/articles/4413115350673-Paytrailin-toimitusehtoteksti-verkkokauppaan\")",
+      "Bash(perl -0pe 's/<script.*?<\\\\/script>//gs; s/<style.*?<\\\\/style>//gs; s/<[^>]+>/ /g; s/\\\\s+/ /g')",
+      "PowerShell(try { Get-Content \"public\\\\locales\\\\fi\\\\terms.json\" -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null; \"fi OK\" } catch { \"fi VIRHE: $_\" }; try { Get-Content \"public\\\\locales\\\\sv\\\\terms.json\" -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null; \"sv OK\" } catch { \"sv VIRHE: $_\" })"
     ]
   }
 }
