@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const WEB_APP_URL = "https://web-swoony.netlify.app/";
+const WEB_APP_URL = "https://app.swoony.io/";
 
 export default function BlogHeader() {
     return (

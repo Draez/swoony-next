@@ -9,7 +9,7 @@ import { blogPosts, getPost, type BlogPost as BlogPostData } from "@/lib/blogPos
 import BlogHeader from "@/components/Blog/BlogHeader";
 
 const BASE_URL = 'https://swoony.io';
-const WEB_APP_URL = "https://web-swoony.netlify.app/";
+const WEB_APP_URL = "https://app.swoony.io/";
 
 interface Props {
     post: BlogPostData;

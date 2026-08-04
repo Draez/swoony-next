@@ -29,7 +29,7 @@ import Blog from '@/components/Blog/Blog';
 import { getAllPostSummaries, type BlogPostSummary } from '@/lib/blogPosts';
 
 // Web app for browser-based login / signup (low-friction onboarding)
-const WEB_APP_URL = "https://web-swoony.netlify.app/";
+const WEB_APP_URL = "https://app.swoony.io/";
 
 export default function Home({ latestPosts }: { latestPosts: BlogPostSummary[] }) {
   const { t } = useTranslation('common');
