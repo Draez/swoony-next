@@ -197,8 +197,9 @@ body.landing-page-retro ::-webkit-scrollbar-thumb:hover {
   padding-top: 80px; /* Match header height */
 }
 
+/* Blog article typography (dark theme, matches landing page design) */
 .article-content h2 {
-  @apply text-2xl font-bold text-main-blue mt-8 mb-4;
+  @apply font-playfair text-2xl md:text-3xl font-semibold text-white mt-12 mb-5;
 }
 
 .article-content p {
@@ -206,7 +207,11 @@ body.landing-page-retro ::-webkit-scrollbar-thumb:hover {
 }
 
 .article-content a {
-  @apply text-main-red hover:text-main-red-hover;
+  @apply text-main-red hover:text-main-red-hover underline;
+}
+
+.article-content strong {
+  @apply text-white/90;
 }
 
 /* Award-winning Landing Page Styles */

@@ -19,7 +19,13 @@
       "WebFetch(domain:support.paytrail.com)",
       "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/126.0 Safari/537.36\" \"https://support.paytrail.com/hc/fi/articles/4413115350673-Paytrailin-toimitusehtoteksti-verkkokauppaan\")",
       "Bash(perl -0pe 's/<script.*?<\\\\/script>//gs; s/<style.*?<\\\\/style>//gs; s/<[^>]+>/ /g; s/\\\\s+/ /g')",
-      "PowerShell(try { Get-Content \"public\\\\locales\\\\fi\\\\terms.json\" -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null; \"fi OK\" } catch { \"fi VIRHE: $_\" }; try { Get-Content \"public\\\\locales\\\\sv\\\\terms.json\" -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null; \"sv OK\" } catch { \"sv VIRHE: $_\" })"
+      "PowerShell(try { Get-Content \"public\\\\locales\\\\fi\\\\terms.json\" -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null; \"fi OK\" } catch { \"fi VIRHE: $_\" }; try { Get-Content \"public\\\\locales\\\\sv\\\\terms.json\" -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null; \"sv OK\" } catch { \"sv VIRHE: $_\" })",
+      "PowerShell(npx tsc --noEmit)",
+      "PowerShell(git *)",
+      "PowerShell(npm run *)",
+      "PowerShell($deadline = \\(Get-Date\\).AddSeconds\\(60\\); do { try { $r = Invoke-WebRequest -Uri \"http://localhost:3000/sitemap.xml\" -UseBasicParsing -TimeoutSec 5; break } catch { Start-Sleep -Seconds 2 } } while \\(\\(Get-Date\\) -lt $deadline\\); if \\($r\\) { $r.Headers[\"Content-Type\"]; $r.Content } else { \"no response\" })",
+      "PowerShell(try { $b = Invoke-WebRequest -Uri \"http://localhost:3000/blog/kuinka-loytaa-rakkaus-deittisovelluksesta-2026\" -UseBasicParsing -TimeoutSec 15; \"blog: $\\($b.StatusCode\\)\"; if \\($b.Content -match 'meta name=\"description\"'\\) { \"meta description: present\" } else { \"meta description: MISSING\" } } catch { \"blog failed: $_\" }; try { $g = Invoke-WebRequest -Uri \"http://localhost:3000/gift\" -UseBasicParsing -TimeoutSec 15; \"gift: $\\($g.StatusCode\\)\" } catch { \"gift: $\\($_.Exception.Response.StatusCode.value__\\)\" })",
+      "PowerShell($hp = Invoke-WebRequest -Uri \"http://localhost:3000/\" -UseBasicParsing; \"home: $\\($hp.StatusCode\\)\"; if \\($hp.Content -match 'Kaikki artikkelit'\\) { \"home blog section: YES\" } else { \"home blog section: NO\" }; if \\($hp.Content -match 'missa-tavata-tuleva-kumppani'\\) { \"home links posts: YES\" }; $sv = Invoke-WebRequest -Uri \"http://localhost:3000/sv\" -UseBasicParsing; \"sv home: $\\($sv.StatusCode\\)\"; if \\($sv.Content -match '<html lang=\"sv\"'\\) { \"sv lang: yes\" })"
     ]
   }
 }

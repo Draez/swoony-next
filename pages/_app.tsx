@@ -78,12 +78,14 @@ function App({ Component, pageProps }: AppProps) {
           content={locale === 'sv'
             ? 'Swoony: Finlands bästa Matchmaking-app - Ladda ner nu!'
             : 'Swoony: AI-pohjainen deittisovellus - Ei enää swaippailua!'}
+          key="og:title"
         />
         <meta
           property="og:description"
           content={locale === 'sv'
             ? 'Är du trött på dagens ytliga dejtingkultur? Med kombinationen av våra experter och AI kommer du att hitta den rätta.'
             : 'Oletko kyllästynyt nykyajan pinnalliseen deittailukulttuuriin? Asiantuntijoidemme ja tekoälyn yhdistelmällä löydät sen oikean.'}
+          key="og:desc"
         />
         <meta name="facebook-domain-verification" content="jtzhxaou62g5muxg5h4d8uj1lfrx54" />
       </Head>

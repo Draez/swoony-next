@@ -25,11 +25,13 @@ import {
   MessageCircle
 } from 'lucide-react';
 import { TestimonialCarousel } from '@/components/TestimonialCarousel/TestimonialCarousel';
+import Blog from '@/components/Blog/Blog';
+import { getAllPostSummaries, type BlogPostSummary } from '@/lib/blogPosts';
 
 // Web app for browser-based login / signup (low-friction onboarding)
 const WEB_APP_URL = "https://web-swoony.netlify.app/";
 
-export default function Home() {
+export default function Home({ latestPosts }: { latestPosts: BlogPostSummary[] }) {
   const { t } = useTranslation('common');
   const router = useRouter();
   const { locale } = router;
@@ -73,6 +75,11 @@ export default function Home() {
             <button onClick={() => scrollToSection('faq')} className="text-white/60 hover:text-white transition-colors duration-300">
               FAQ
             </button>
+            {locale !== 'sv' && (
+              <Link href="/blog" className="text-white/60 hover:text-white transition-colors duration-300">
+                Blogi
+              </Link>
+            )}
           </div>
 
           {/* CTA + Language */}
@@ -117,6 +124,11 @@ export default function Home() {
             <button onClick={() => scrollToSection('faq')} className="text-left text-lg text-white/70 hover:text-white py-2">
               FAQ
             </button>
+            {locale !== 'sv' && (
+              <Link href="/blog" onClick={closeMenu} className="text-left text-lg text-white/70 hover:text-white py-2">
+                Blogi
+              </Link>
+            )}
             <Link
               href={WEB_APP_URL}
               target="_blank"
@@ -686,6 +698,9 @@ export default function Home() {
       </section>
 
 
+      {/* Blog */}
+      {locale !== 'sv' && <Blog posts={latestPosts} />}
+
       {/* FAQ */}
       <section id="faq" className="py-32 bg-[#0a0a0a]">
         <FAQ />
@@ -731,6 +746,7 @@ export default function Home() {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   return {
     props: {
+      latestPosts: getAllPostSummaries().slice(0, 3),
       ...(await serverSideTranslations(locale || 'fi', ['common'])),
     },
   };

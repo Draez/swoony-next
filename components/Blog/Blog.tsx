@@ -1,66 +1,43 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
+import type { BlogPostSummary } from '@/lib/blogPosts';
+import BlogPostCard from './BlogPostCard';
 
-interface BlogPost {
-    title: string;
-    description: string;
-    slug: string;
+interface Props {
+    posts: BlogPostSummary[];
 }
 
-const blogPosts: BlogPost[] = [
-    {
-        title: "Sovellusta on uudistettu",
-        description: "Olemme kuunnelleet käyttäjiemme palautetta ja kehitämme palvelua entistä toimivammaksi ja merkityksellisemmäksi...",
-        slug: "sovellus-uudistuu"
-    },
-    {
-        title: "Swoony vieraana \"Miesten mielestä\" -podcastissa 🎙️",
-        description: "Meillä oli ilo ja kunnia olla vieraana \"Miesten mielestä\" -podcastissa, jossa pääsimme kertomaan tarkemmin siitä, miten Swoony toimii...",
-        slug: "swoony-miesten-mielesta-podcast"
-    },
-    {
-        title: "Swoonyn kautta ensimmäiset mätsit ovat nyt tehty!",
-        description: "Menneellä viikolla Swoonyn mätsäysprosessi aloitettiin sekä olemme löytäneet ensimmäiset mätsit...",
-        slug: "swoony-matsays-kaynnistynyt"
-    },
-    {
-        title: "Mätsäys käynnistyy maaliskuun aikana!",
-        description: "Suuren suosion ja käyttäjämäärän kasvun myötä voimme iloisena ilmoittaa...",
-        slug: "matsays-kaynnistyy-maaliskuun-aikana"
-    },
-];
-
-export default function Blog() {
+export default function Blog({ posts }: Props) {
     return (
-        <section id="ajankohtaista" className="container mx-auto px-4 py-12 md:py-24">
-            <div className="text-center mb-12">
-                <h2 className="text-3xl text-black font-bold mb-4">
-                    Ajankohtaista
-                </h2>
+        <section id="ajankohtaista" className="py-32 px-6 bg-[#0f0f0f] relative">
+            <div className="max-w-7xl mx-auto relative z-10">
+                <div className="text-center mb-20">
+                    <p className="font-quicksand text-xs font-semibold text-main-green uppercase tracking-[0.3em] mb-4">
+                        Blogi
+                    </p>
+                    <h2 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold">
+                        <span className="text-white">Vinkit </span>
+                        <span className="text-main-green">deittailuun</span>
+                    </h2>
+                </div>
 
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-xxl mx-auto">
-                {blogPosts.map((post, index) => (
-                    <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+                    {posts.map((post) => (
+                        <BlogPostCard key={post.slug} post={post} />
+                    ))}
+                </div>
 
-                        <div className="p-6">
-                            <h3 className="text-xl font-bold text-black mt-2 mb-3">
-                                {post.title}
-                            </h3>
-                            <p className="text-gray mb-8">
-                                {post.description}
-                            </p>
-                            <Link
-                                href={`/blog/${post.slug}`}
-                                className="bg-main-green text-black px-4 py-2 rounded-full font-semibold hover:text-main-green-hover"
-                            >
-                                Lue lisää →
-                            </Link>
-                        </div>
-                    </div>
-                ))}
+                <div className="text-center mt-16">
+                    <Link
+                        href="/blog"
+                        className="font-quicksand inline-flex items-center gap-2 text-white/60 hover:text-white font-semibold transition-colors"
+                    >
+                        Kaikki artikkelit
+                        <ArrowRight className="w-4 h-4" />
+                    </Link>
+                </div>
             </div>
         </section>
     );
-} 
+}
