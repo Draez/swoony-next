@@ -33,6 +33,149 @@ export function getPost(slug: string): BlogPost | null {
 
 // This would typically come from a CMS or API
 export const blogPosts: BlogPosts = {
+    "vinkit-deittiprofiiliin": {
+        title: "Vinkit deittiprofiiliin: näin erotut ja saat parempia mätsejä",
+        description: "Hyvä deittiprofiili on tärkein työkalusi kumppanin löytämiseen. Konkreettiset vinkit kuviin, esittelytekstiin ja kysymyksiin vastaamiseen – sekä yleisimmät virheet, jotka karkottavat mätsit.",
+        date: "2026-08-07",
+        content: `
+            <p>Deittiprofiilisi on ensivaikutelmasi – ja usein ainoa mahdollisuutesi. Silti moni täyttää sen viidessä minuutissa ja ihmettelee, miksi mätsejä ei tule tai ne eivät johda mihinkään. Hyvä uutinen: profiilin parantaminen on helpoin yksittäinen tapa saada parempia kohtaamisia, ja se on kokonaan omissa käsissäsi. Tässä konkreettiset vinkit.</p>
+
+            <h2>1. Kuvat ratkaisevat enemmän kuin uskot</h2>
+
+            <p>Kuvat ovat profiilisi tärkein osa – mutta eivät siksi, että ulkonäkö ratkaisisi kaiken. Huonot kuvat viestivät välinpitämättömyyttä: jos et jaksanut panostaa profiiliisi, miksi jaksaisit suhteeseen?</p>
+
+            <p>– <strong>Tuoreet kuvat.</strong> Korkeintaan vuoden vanhat. Viiden vuoden takainen lomakuva kostautuu viimeistään ensitreffeillä.<br/>
+            – <strong>Kasvot näkyviin.</strong> Ensimmäisessä kuvassa selkeä, hymyilevä kasvokuva ilman aurinkolaseja.<br/>
+            – <strong>Monipuolisuutta.</strong> Kasvokuva, kokovartalokuva ja kuva harrastuksesi parissa kertovat enemmän kuin kolme samanlaista peilikuvaa.<br/>
+            – <strong>Vältä pelkkiä ryhmäkuvia.</strong> Kukaan ei jaksa arvailla, kuka kuvan viidestä ihmisestä olet sinä.</p>
+
+            <h2>2. Konkretia voittaa adjektiivit</h2>
+
+            <p>"Olen rento, huumorintajuinen ja tykkään matkustelusta" – tämä lause on lähes jokaisessa profiilissa, eikä se kerro sinusta mitään. Adjektiivit väittävät; konkretia näyttää.</p>
+
+            <p>Vertaa: "Tykkään ruoanlaitosta" vastaan "Sunnuntaisin teen pastaa alusta asti ja epäonnistun joka kerta eri tavalla." Jälkimmäinen jää mieleen, kertoo huumorintajusta näyttämättä sanaa huumorintaja – ja antaa toiselle helpon tavan aloittaa keskustelu.</p>
+
+            <h2>3. Rehellisyys on tehokkain suodatin</h2>
+
+            <p>Moni kaunistelee profiiliaan pelätessään karsivansa kiinnostuneita. Se on nurinkurista: karsiminen on juuri profiilin tehtävä. Jos haluat lapsia, sano se. Jos et halua, sano sekin. Jokainen kaunistelu tuottaa mätsejä väärien ihmisten kanssa – ja vääriin ihmisiin kulutettu aika on pois oikean etsimisestä.</p>
+
+            <p>Kuten kirjoitimme <a href="/blog/kuinka-loytaa-rakkaus-deittisovelluksesta-2026">rakkauden löytämisestä deittisovelluksessa</a>: rehellisyys karsii vääriä ihmisiä ja vetää oikeita puoleensa.</p>
+
+            <h2>4. Kerro mitä haluat – älä mitä et halua</h2>
+
+            <p>"Ei ongelmallisia", "ei pelailijoita", "ei yhden illan juttuja" – kieltolistat viestivät katkeruutta, vaikka tarkoitus olisi hyvä. Käännä sama asia positiiviseksi: "Etsin vakaata suhdetta ja ihmistä, joka tietää mitä haluaa." Sama suodatin, täysin eri tunnelma.</p>
+
+            <h2>5. Vastaa kysymyksiin huolella – tekoäly kiittää</h2>
+
+            <p>Tekoälypohjaisessa matchmakingissa profiilisi on kirjaimellisesti se data, jolla mätsisi löydetään. Swoonyssa vastaat 70+ kysymykseen arvoista, elämäntavoista ja perhetoiveista – ja jokainen huolella mietitty vastaus tarkentaa sitä, kenet tekoäly Matchmaker sinulle ehdottaa. Hutaistu vastaus tuottaa hutaistuja mätsejä; rehellinen ja tarkka vastaus tuottaa ehdotuksia, jotka oikeasti osuvat.</p>
+
+            <h2>6. Esittelyvideo – pelottavin ja paras osa</h2>
+
+            <p>Video jännittää lähes kaikkia, ja juuri siksi se toimii: ääni, hymy ja tapa puhua kertovat sinusta enemmän kuin sata kuvaa. Videon ei tarvitse olla täydellinen – pieni jännitys on inhimillistä ja samaistuttavaa. Kerro lyhyesti, kuka olet ja mikä sinut saa innostumaan. Riittää hyvin.</p>
+
+            <h2>Yleisimmät virheet tiivistettynä</h2>
+
+            <p>– Vanhat tai epätarkat kuvat<br/>
+            – Tyhjä tai adjektiivilistaksi jäävä esittelyteksti<br/>
+            – Kieltolistat ja katkera sävy<br/>
+            – Kysymyksiin vastaaminen hutaisten<br/>
+            – Epärehellisyys asioissa, jotka paljastuvat kuitenkin</p>
+
+            <h2>Hyvä profiili on sijoitus, joka maksaa itsensä takaisin</h2>
+
+            <p>Tunti profiilin parantamiseen tuottaa enemmän kuin sata tuntia selailua. Ja kun profiili on kunnossa, loppu on helpompaa: <a href="/blog/suomalaiset-deittisovellukset-vertailussa">valitse oikea palvelu</a>, anna mätsäyksen tapahtua ja suuntaa <a href="/blog/helsinki-parhaat-paikat-ensitreffeille">ensitreffeille</a>.</p>
+
+            <p>Swoonyssa täydellinen profiili ei ole vain suositus vaan edellytys – juuri siksi mätsimme ovat harkittuja eivätkä sattumaa. Täytä profiilisi kerran kunnolla, ja tekoäly Matchmaker tekee loput. ❤️</p>`
+    },
+    "suomalaiset-deittisovellukset-vertailussa": {
+        title: "Suomalaiset deittisovellukset vertailussa 2026 – mikä sopii sinulle?",
+        description: "E-kontakti, Deitti.net, Tinder, Bumble vai Swoony? Rehellinen vertailu Suomessa käytetyistä deittisovelluksista ja -palveluista: kenelle mikäkin sopii ja mitä kannattaa odottaa.",
+        date: "2026-08-07",
+        content: `
+            <p>Mitä deittisovelluksia Suomessa oikeasti käytetään – ja mikä niistä sopii juuri sinulle? Kokosimme rehellisen vertailun suosituimmista vaihtoehdoista. Ja kyllä: tämä vertailu on Swoonyn blogista, joten kerromme avoimesti myös kilpailijoiden vahvuudet. Väärä sovellus väärälle ihmiselle ei hyödytä ketään.</p>
+
+            <h2>Millä perusteilla deittisovellus kannattaa valita?</h2>
+
+            <p>Kolme kysymystä ratkaisee valinnan:</p>
+
+            <p>– <strong>Mitä etsit?</strong> Vakavaa suhdetta etsivän ja kevyttä seuraa hakevan kannattaa olla eri palveluissa.<br/>
+            – <strong>Miten haluat kohdata?</strong> Selaatko itse tuhansia profiileja vai haluatko, että joku – ihminen tai tekoäly – tekee esikarsinnan puolestasi?<br/>
+            – <strong>Missä asut ja minkä ikäinen olet?</strong> Sovellus on juuri niin hyvä kuin sen käyttäjäkunta omalla alueellasi ja omassa ikäryhmässäsi.</p>
+
+            <h2>E-kontakti – suomalainen klassikko vakavaan seuranhakuun</h2>
+
+            <p>E-kontakti on pitkään toiminut kotimainen deittipalvelu, joka on profiloitunut vakavaan seuranhakuun. Vahvuudet: suomalainen käyttäjäkunta, painottuu aikuisempaan ikäryhmään ja tosissaan liikkeellä oleviin. Heikkoudet: palvelu perustuu edelleen itse selaamiseen ja viestittelyyn – kohtaamiset pitää kaivaa esiin omalla työllä, ja käyttökokemus on perinteisempi kuin uusimmissa sovelluksissa.</p>
+
+            <h2>Deitti.net – pitkän linjan suomalainen deittipalvelu</h2>
+
+            <p>Deitti.net on palvellut suomalaisia sinkkuja jo pitkään, ja seuranhaku perustuu siellä ilmoituksiin. Vahvuudet: matala kynnys, suomalaisuus ja suoruus – ilmoituksesta näkee heti, mitä toinen hakee. Heikkoudet: ei varsinaista mätsäyslogiikkaa, joten laadun seulonta jää kokonaan itselle.</p>
+
+            <h2>Tinder – suurin käyttäjämäärä, kevyin maine</h2>
+
+            <p>Tinder on Suomen käytetyin deittisovellus, ja suuri käyttäjämäärä on sen kiistaton vahvuus – erityisesti nuorille ja suurissa kaupungeissa. Heikkoudet tunnetaan yhtä hyvin: swaippaukseen perustuva malli palkitsee ulkonäön ja nopeuden, keskustelut jäävät usein lyhyiksi ja moni käyttäjä kertoo <a href="/blog/kuinka-loytaa-rakkaus-deittisovelluksesta-2026">deittiväsymyksestä</a>. Vakavaa suhdetta etsivälle Tinder toimii, mutta seula on käytävä läpi itse.</p>
+
+            <h2>Bumble ja Happn – kansainväliset haastajat</h2>
+
+            <p>Bumble tunnetaan siitä, että naiset tekevät aloitteen – mikä karsii osan turhista avauksista. Happn taas näyttää ihmisiä, joiden kanssa polkusi ovat oikeasti risteytyneet. Molemmat ovat laadukkaita sovelluksia, mutta niiden käyttäjämäärät Suomessa ovat selvästi Tinderiä pienemmät, ja perusmekaniikka on silti sama: selaa, swaippaa, toivo parasta.</p>
+
+            <h2>Swoony – suomalainen tekoälymatchmaker</h2>
+
+            <p>Swoony toimii eri logiikalla kuin muut tämän listan palvelut: profiileja ei selata eikä swaipata lainkaan. Täytät kattavan profiilin (70+ kysymystä, kuvat ja esittelyvideo), ja tekoäly Matchmaker analysoi ehdokkaat puolestasi – arvot, elämäntilanteen, perhetoiveet ja elämäntavat. Saat valmiiksi harkitun mätsiehdotuksen, ja keskustelu aukeaa vain, jos molemmat hyväksyvät.</p>
+
+            <p>Vahvuudet: ei swaippausta eikä loputonta viestittelyä, molemminpuolinen hyväksyntä vähentää ghostailua, ja käyttäjäkunta koostuu vakavasti seuraa hakevista – profiilin täyttäminen karsii huvikseen kokeilijat. Perusversio on ilmainen.</p>
+
+            <p>Heikkoudet rehellisesti: käyttäjämäärä on Tinderiä pienempi, ja palvelu on vahvimmillaan pääkaupunkiseudulla, jonne käyttäjäkuntaa kasvatetaan ensin. Mätsejä tulee harvemmin mutta harkitummin – kärsimättömälle selailijalle tämä voi tuntua hitaalta.</p>
+
+            <h2>Yhteenveto: mikä sopii kenelle?</h2>
+
+            <p>– <strong>Haluat suurimman valikoiman ja jaksat seuloa itse:</strong> Tinder.<br/>
+            – <strong>Olet 40+ ja arvostat perinteistä suomalaista palvelua:</strong> E-kontakti tai Deitti.net.<br/>
+            – <strong>Haluat naisten tekevän aloitteen:</strong> Bumble.<br/>
+            – <strong>Etsit vakavaa suhdetta etkä jaksa enää swaipata:</strong> Swoony – tekoäly tekee raskaan työn, sinä keskityt kohtaamisiin.</p>
+
+            <p>Ja kun mätsi löytyy, meillä on valmiina vinkit myös <a href="/blog/helsinki-parhaat-paikat-ensitreffeille">ensitreffeille Helsingissä</a> ja <a href="/blog/tampere-parhaat-paikat-ensitreffeille">Tampereella</a>. ❤️</p>`
+    },
+    "tampere-parhaat-paikat-ensitreffeille": {
+        title: "Tampere: Parhaat paikat ensitreffeille",
+        description: "Mihin ensitreffeille Tampereella? Parhaat treffipaikat Pyynikin munkkikahvilasta Tammerkosken rantaan ja Rajaportin saunaan – sekä vinkit onnistuneisiin ensitreffeihin.",
+        date: "2026-08-07",
+        content: `
+            <p>Tampere on ensitreffikaupunkina aliarvostettu: kaksi järveä, koski keskellä kaupunkia, harjumaisemat ja Suomen parhaat munkit. Kokosimme parhaat paikat ensitreffeille Tampereella – oli tyylisi sitten kahvit, kävely tai rohkeampi saunakokeilu.</p>
+
+            <p>Jos kaipaat ensin yleiset periaatteet hyvän treffipaikan valintaan, ne löytyvät <a href="/blog/helsinki-parhaat-paikat-ensitreffeille">Helsinki-artikkelistamme</a> – lyhyesti: valitse paikka, jossa voi puhua, pidä ensitreffit kevyinä ja varmista helppo lähteminen.</p>
+
+            <h2>Pyynikin munkkikahvila – Tampereen klassikko</h2>
+
+            <p>Jos yksi treffipaikka pitää valita, se on tämä. Pyynikin näkötornin kahvilan munkit ovat legendaariset, ja näkötornista avautuvat maisemat Pyhäjärvelle ja Näsijärvelle antavat valmiin puheenaiheen. Harjun poluille pääsee jatkamaan kävelylle suoraan kahvilta – täydellinen kahdet treffit yhdessä.</p>
+
+            <h2>Tammerkosken ranta ja keskustan kävelyt</h2>
+
+            <p>Tammerkosken rantareitti on Tampereen vastaus merenrantakävelylle: koski, vanhat tehdasmiljööt ja siltoja ylitettäväksi. Kävelytreffit toimivat, koska keskustelu kulkee luonnostaan eikä katsekontaktin paine pääse kasvamaan. Reitin varrelta löytyy kahviloita, joihin poiketa jos juttu luistaa – ja Laukontorin satamasta kesäisin jäätelöä ja laivoja.</p>
+
+            <h2>Kauppahalli – rennot herkkutreffit</h2>
+
+            <p>Tampereen kauppahalli on tunnelmallinen valinta, jossa treffeille saa luontevan rakenteen: kierrellään, maistellaan ja jutellaan. Matala kynnys, lyhyt kesto ja aina jotain katseltavaa – juuri sitä, mitä ensitreffeiltä kannattaa hakea. Ja kyllä, mustamakkaraa saa ehdottaa – toisen reaktio kertoo huumorintajusta enemmän kuin kymmenen viestiä.</p>
+
+            <h2>Tekemistreffit: Vapriikki, Muumimuseo ja Särkänniemi</h2>
+
+            <p>Museokeskus Vapriikissa on useita näyttelyitä saman katon alla, joten puheenaiheet eivät lopu kesken. Muumimuseo on hurmaava ja epätavallinen valinta, joka rikkoo jään takuulla. Kesällä Särkänniemi ja Näsinneulan maisemat sopivat treffeille, joille uskaltaa jo varata koko iltapäivän – vuoristorata paljastaa nopeasti, osaako toinen heittäytyä.</p>
+
+            <h2>Rohkeille: Rajaportin sauna</h2>
+
+            <p>Pispalan Rajaportti on Suomen vanhin yleinen sauna, ja saunatreffit ovat tamperelaisin mahdollinen tapa tutustua. Sauna riisuu esittämisen ja tasoittaa jännityksen – mutta vaatii jo hieman rohkeutta molemmilta. Sopii parhaiten pareille, joiden keskustelu on kulkenut vaivatta jo ennen tapaamista. Talvella Kaupinojan avantosauna on vielä astetta kovempi luottamusharjoitus.</p>
+
+            <h2>Talvitreffit Tampereella</h2>
+
+            <p>Marraskuussakin Tampere toimii: luistelukentät, museot, kahvilat ja saunat kantavat läpi talven. Pimeän kauden etu on tunnelma – kynttiläkahvila Tammerkosken varrella tuntuu intiimimmältä kuin yksikään kesäterassi.</p>
+
+            <h2>Illallinen? Vasta toisilla treffeillä</h2>
+
+            <p>Sama neuvo kuin Helsingissä: säästä illallinen jatkoon. Kevyet ensitreffit jättävät nälän – ja kun toinen tapaaminen sovitaan, Tampereen ravintolat ovat oikea seuraava askel.</p>
+
+            <h2>Tärkein valinta tehdään ennen treffejä</h2>
+
+            <p>Paras treffipaikka ei pelasta väärää seuraa. Siksi ratkaisevin päätös on se, <a href="/blog/missa-tavata-tuleva-kumppani">missä ja miten tapaat tulevan kumppanisi</a>. Swoonyn tekoäly Matchmaker etsii sinulle aidosti yhteensopivan ihmisen – ja kun molemmat hyväksyvät mätsin, sovitte vain, viekö ensimmäinen kävely Pyynikille vai kauppahalliin. ❤️</p>`
+    },
     "helsinki-parhaat-paikat-ensitreffeille": {
         title: "Helsinki: Parhaat paikat ensitreffeille",
         description: "Mihin ensitreffeille Helsingissä? Kokosimme parhaat treffipaikat kahviloista merenrantakävelyihin ja tekemistreffeihin – sekä vinkit, millainen paikka toimii ensitapaamisella.",
