@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import Footer from '@/components/Footer/Footer';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import type { GetStaticPaths, GetStaticProps } from 'next';
@@ -107,6 +108,24 @@ export default function BlogPost({ post, slug }: Props) {
                         <span>Aloita selaimessa</span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </Link>
+
+                    <p className="font-quicksand text-sm text-white/40 mt-6 mb-4">tai lataa sovellus</p>
+                    <div className="flex flex-row justify-center gap-3">
+                        <Link
+                            href="https://apps.apple.com/fi/app/swoony-ai-deittisovellus/id6499217523"
+                            target="_blank"
+                            className="opacity-80 hover:opacity-100 transition-opacity"
+                        >
+                            <Image src="/applestore.svg" alt="Lataa App Storesta" width={150} height={45} />
+                        </Link>
+                        <Link
+                            href="https://play.google.com/store/apps/details?id=fi.swoonymatchmaking.app"
+                            target="_blank"
+                            className="opacity-80 hover:opacity-100 transition-opacity"
+                        >
+                            <Image src="/google-play.svg" alt="Lataa Google Playsta" width={150} height={45} />
+                        </Link>
+                    </div>
                 </div>
             </section>
 

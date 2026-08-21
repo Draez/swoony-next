@@ -33,6 +33,263 @@ export function getPost(slug: string): BlogPost | null {
 
 // This would typically come from a CMS or API
 export const blogPosts: BlogPosts = {
+    "deittivasymys-mita-se-on-ja-miten-siita-paasee": {
+        title: "Deittiväsymys: mitä se on ja miten siitä pääsee eroon?",
+        description: "Tuntuuko deittailu työltä? Deittiväsymys on todellinen ilmiö, joka koskettaa yhä useampaa suomalaista sinkkua. Kerromme, mistä se johtuu, miten tunnistat oireet ja millä konkreettisilla keinoilla saat deittailun taas tuntumaan hyvältä.",
+        date: "2026-08-21",
+        content: `
+            <p>Avaat sovelluksen, swaippaat kymmenen profiilia, suljet sovelluksen – ja tunnet olosi tyhjemmäksi kuin ennen. Jos tämä kuulostaa tutulta, et ole yksin: deittiväsymys eli dating fatigue on yksi puhutuimmista ilmiöistä modernissa seuranhaussa. Tässä artikkelissa käymme läpi, mistä deittiväsymys johtuu, miten tunnistat sen itsessäsi ja mitä voit tehdä asialle.</p>
+
+            <h2>Mitä deittiväsymys tarkoittaa?</h2>
+
+            <p>Deittiväsymys on uupumusta, joka syntyy jatkuvasta selailusta, tuloksettomista keskusteluista ja toistuvista pettymyksistä seuranhaussa. Se muistuttaa työuupumusta: asia, jonka pitäisi tuottaa iloa ja toivoa, alkaakin tuntua velvollisuudelta, joka kuluttaa energiaa antamatta mitään takaisin.</p>
+
+            <p>Ilmiö ei ole heikkoutta eikä merkki siitä, että olisit "liian vaativa". Se on looginen seuraus tavasta, jolla useimmat deittisovellukset on rakennettu.</p>
+
+            <h2>Mistä deittiväsymys johtuu?</h2>
+
+            <p>– <strong>Valinnan paradoksi.</strong> Kun vaihtoehtoja on tuhansia, yhden valitseminen tuntuu mahdottomalta – ja jokainen valinta jättää epäilyksen, olisiko seuraava ollut parempi.<br/>
+            – <strong>Pelillistäminen.</strong> Swaippaus on suunniteltu koukuttavaksi kuin peliautomaatti. Aivosi saavat pieniä palkintoja mätseistä, mutta oikeat kohtaamiset jäävät harvinaisiksi.<br/>
+            – <strong>Ghostailu ja kesken jäävät keskustelut.</strong> Jokainen vastaamatta jäänyt viesti on pieni torjunta. Kymmenien pikkupettymysten summa on iso kolhu itsetunnolle.<br/>
+            – <strong>Esittämisen taakka.</strong> Jatkuva itsensä markkinointi ja small talkin pyörittäminen vieraiden kanssa väsyttää – erityisesti introvertteja.</p>
+
+            <h2>Tunnista oireet</h2>
+
+            <p>Deittiväsymys hiipii huomaamatta. Tarkista, kuinka moni näistä osuu:</p>
+
+            <p>– Avaat sovelluksen tottumuksesta, et innostuksesta<br/>
+            – Keskustelut tuntuvat työhaastatteluilta, joissa toistat samat vastaukset<br/>
+            – Suhtaudut uusiin mätseihin kyynisesti jo ennen ensimmäistä viestiä<br/>
+            – Treffeille lähteminen tuntuu velvollisuudelta<br/>
+            – Olet poistanut ja ladannut sovelluksen uudelleen useammin kuin kerran</p>
+
+            <p>Jos tunnistit itsesi kolmesta tai useammasta kohdasta, deittailutapasi kaipaa muutosta – ei välttämättä taukoa koko seuranhausta.</p>
+
+            <h2>1. Pidä tietoinen tauko – mutta älä luovuta</h2>
+
+            <p>Lyhyt, tietoisesti päätetty tauko selailusta palauttaa energiaa. Tärkeää on erottaa tauko luovuttamisesta: kyse ei ole siitä, että lopetat kumppanin etsimisen, vaan siitä, että lopetat tavan, joka ei toimi.</p>
+
+            <h2>2. Vaihda määrä laatuun</h2>
+
+            <p>Kolme rinnakkaista keskustelua tuottaa enemmän kuin viisitoista. Kun keskityt yhteen tai kahteen ihmiseen kerrallaan, jaksat oikeasti tutustua – ja toinen huomaa sen. Kuten kirjoitimme <a href="/blog/kuinka-loytaa-rakkaus-deittisovelluksesta-2026">rakkauden löytämisestä deittisovelluksesta</a>: sata mätsiä ilman keskustelua ei ole tulos, yksi hyvä kohtaaminen on.</p>
+
+            <h2>3. Siirry treffeille nopeammin</h2>
+
+            <p>Viikkojen viestittely ennen tapaamista kuluttaa energiaa ja rakentaa odotuksia, jotka harvoin kestävät todellisuutta. Kun keskustelu kulkee, ehdota kahveja tai <a href="/blog/helsinki-parhaat-paikat-ensitreffeille">kävelyä</a>. Lyhyet, kevyet ensitreffit kuluttavat vähemmän kuin loputon chatti.</p>
+
+            <h2>4. Lopeta sovellukset, jotka hyötyvät väsymyksestäsi</h2>
+
+            <p>Kova totuus: swaippisovelluksen liiketoiminta perustuu siihen, että pysyt sovelluksessa. Jokainen sovelluksessa vietetty tunti on sille voitto – riippumatta siitä, löydätkö kumppanin. Siksi tärkein yksittäinen teko deittiväsymystä vastaan on valita palvelu, jonka kannustimet ovat samat kuin sinun: löytää kumppani mahdollisimman tehokkaasti.</p>
+
+            <h2>5. Anna jonkun muun tehdä esikarsinta</h2>
+
+            <p>Deittiväsymyksen ydin on se, että joudut tekemään matchmakerin työn itse: selaamaan, arvioimaan ja karsimaan satoja ihmisiä. Matchmaking-palvelussa tämä raskain vaihe tehdään puolestasi. Sinun tehtäväksesi jää se mukavin osa – tutustuminen ihmiseen, joka on jo valmiiksi arvioitu sinulle sopivaksi.</p>
+
+            <h2>Swoony rakennettiin deittiväsymystä vastaan</h2>
+
+            <p>Swoony on olemassa juuri tämän ongelman takia. Meillä ei swaipata: täytät profiilisi kerran huolella, ja tekoäly Matchmaker analysoi ehdokkaat puolestasi – arvot, elämäntilanteen ja perhetoiveet. Saat harkittuja mätsiehdotuksia, ja keskustelu aukeaa vain, kun molemmat hyväksyvät. Ei selailua, ei ghostailua, ei esittämistä.</p>
+
+            <p>Deittiväsymys ei tarkoita, että sinussa olisi vikaa. Se tarkoittaa, että olet käyttänyt työkalua, joka ei ole sinun puolellasi. Lataa Swoony ilmaiseksi App Storesta tai Google Playsta – ja anna deittailun tuntua taas siltä, miltä sen kuuluukin. ❤️</p>`
+    },
+    "deittailu-eron-jalkeen": {
+        title: "Deittailu eron jälkeen – milloin olet valmis ja miten aloittaa?",
+        description: "Milloin eron jälkeen voi aloittaa deittailun? Konkreettiset merkit siitä, että olet valmis, ja vinkit seuranhakuun aikuisena – myös silloin, kun edellisestä deittailusta on vuosia tai vuosikymmeniä.",
+        date: "2026-08-21",
+        content: `
+            <p>Ero – tai pitkän suhteen päättyminen muusta syystä – jättää monelle kysymyksen, johon kukaan ei anna suoraa vastausta: milloin on oikea aika aloittaa deittailu uudelleen? Ja kun aika koittaa, miten seuranhaku edes toimii nykyään, jos edellisestä kerrasta on kymmenen tai kaksikymmentä vuotta? Tässä artikkelissa vastaamme molempiin.</p>
+
+            <h2>Milloin olet valmis? Unohda kalenteri, kuuntele merkkejä</h2>
+
+            <p>Mikään sääntö ei kerro oikeaa odotusaikaa – "puolet suhteen kestosta" ja muut nyrkkisäännöt ovat kansanperinnettä. Kalenterin sijaan kannattaa kuunnella itseään. Olet todennäköisesti valmis, kun:</p>
+
+            <p>– Ajattelet ex-kumppaniasi ilman voimakasta tunnereaktiota – ei katkeruutta eikä kaipuuta<br/>
+            – Et etsi uutta suhdetta täyttämään tyhjyyttä, vaan rikastuttamaan elämää, joka on jo itsessään hyvä<br/>
+            – Pystyt kertomaan erosta puhumatta pahaa entisestä<br/>
+            – Uteliaisuus uusia ihmisiä kohtaan on suurempi kuin pelko</p>
+
+            <p>Jos taas huomaat vertaavasi jokaista uutta ihmistä exään tai toivovasi, että uusi suhde "näyttäisi" jotain entiselle – anna itsellesi vielä aikaa. Väärin motiivein aloitettu deittailu johtaa harvoin hyvään.</p>
+
+            <h2>Deittailu on muuttunut – ja se on sekä hyvä että huono uutinen</h2>
+
+            <p>Jos edellinen suhteesi alkoi ennen sovellusaikaa, seuranhaun maisema näyttää vieraalta. Huono uutinen: swaippisovellusten maailma voi tuntua pinnalliselta ja raadolliselta, ja moni aikuinen palaaja kokee <a href="/blog/deittivasymys-mita-se-on-ja-miten-siita-paasee">deittiväsymyksen</a> jo ensimmäisten viikkojen aikana.</p>
+
+            <p>Hyvä uutinen: verkosta on tullut yleisin paikka tavata kumppani, ja siellä on enemmän 40+, 50+ ja 60+ sinkkuja kuin koskaan – ihmisiä täsmälleen samassa elämäntilanteessa kuin sinä. Ja sovellusten rinnalle on syntynyt matchmaking-palveluita, jotka sopivat aikuiseen seuranhakuun huomattavasti swaippausta paremmin.</p>
+
+            <h2>Vahvuutesi aikuisena deittaajana</h2>
+
+            <p>Moni eron jälkeen deittaileva aliarvioi asemansa. Todellisuudessa sinulla on etuja, joita parikymppisillä ei ole:</p>
+
+            <p>– <strong>Tiedät mitä haluat</strong> – ja mikä tärkeämpää, mitä et halua. Eletty suhde on opettanut, mikä toimii ja mikä ei.<br/>
+            – <strong>Et pelaa pelejä.</strong> Aikuisella ei ole aikaa eikä halua taktikointiin, ja se tekee tutustumisesta suoraviivaisempaa.<br/>
+            – <strong>Elämäsi on jo rakennettu.</strong> Et etsi ihmistä täydentämään puolikasta, vaan jakamaan kokonaista.</p>
+
+            <h2>Entä lapset?</h2>
+
+            <p>Jos sinulla on lapsia, he ovat osa yhtälöä – eivät este. Kaksi periaatetta kantavat pitkälle: kerro lapsista rehellisesti heti profiilissasi (se karsii ne, joille asia on ongelma – juuri niin kuin pitääkin), ja pidä lapset erossa deittailusta, kunnes suhde on vakiintunut. Uusi kumppani esitellään lapsille vasta, kun tiedät hänen jäävän.</p>
+
+            <h2>Aloita profiilista – älä kiirehdi treffeille</h2>
+
+            <p>Huolella tehty profiili on aikuisen deittaajan paras työkalu. Tuoreet kuvat, konkreettinen esittelyteksti ja rehelliset vastaukset kysymyksiin tuottavat kohtaamisia oikeiden ihmisten kanssa. Kokosimme <a href="/blog/vinkit-deittiprofiiliin">parhaat profiilivinkit omaan artikkeliinsa</a> – lue se ennen kuin julkaiset profiilisi.</p>
+
+            <p>Ja kun ensimmäiset treffit koittavat: pidä ne kevyinä. Kahvit tai kävely riittävät. Ensitreffien tehtävä ei ole löytää puolisoa vaan selvittää, haluatko tavata toisen uudelleen. <a href="/blog/mita-puhua-ensitreffeilla">Keskustelunaiheet ensitreffeille</a> löydät niin ikään blogistamme.</p>
+
+            <h2>Miksi matchmaking sopii erityisen hyvin eron jälkeen?</h2>
+
+            <p>Eron jälkeen harvalla on energiaa selata satoja profiileja ja käydä kymmeniä keskusteluja, jotka eivät johda mihinkään. Matchmaking kääntää asetelman: kerrot kerran, kuka olet ja mitä etsit – ja saat vastineeksi harkittuja ehdotuksia ihmisistä, jotka etsivät samaa.</p>
+
+            <p>Swoonyssa tekoäly Matchmaker analysoi puolestasi arvot, elämäntilanteen, perhetilanteen ja elämäntavat. Käyttäjämme etsivät vakavaa suhdetta – profiilin huolellinen täyttäminen karsii huvikseen kokeilijat. Ja molemminpuolinen hyväksyntä tarkoittaa, ettei kukaan jää roikkumaan vastaamattomien viestien varaan.</p>
+
+            <p>Uusi alku ei vaadi swaippaamista. Lataa Swoony ilmaiseksi App Storesta tai Google Playsta, täytä profiilisi rauhassa – ja anna seuraavan luvun alkaa, kun olet valmis. ❤️</p>`
+    },
+    "turvallinen-nettideittailu": {
+        title: "Turvallinen nettideittailu: tunnista huijarit ja deittaile huoletta",
+        description: "Miten deittailla verkossa turvallisesti? Näin tunnistat romanssihuijarit ja valeprofiilit, suojaat yksityisyytesi ja menet ensitreffeille turvallisin mielin. Konkreettinen turvallisuusopas nettideittailuun.",
+        date: "2026-08-21",
+        content: `
+            <p>Nettideittailu on tänä päivänä yleisin tapa tavata kumppani – ja valtaosa kohtaamisista on täysin ongelmattomia. Mutta siellä missä on toiveikkaita ihmisiä, on valitettavasti myös hyväksikäyttäjiä. Hyvä uutinen: lähes kaikki riskit voi välttää muutamalla yksinkertaisella periaatteella. Tässä konkreettinen turvallisuusopas verkossa deittailevalle.</p>
+
+            <h2>Romanssihuijaus – tunnista kaava</h2>
+
+            <p>Romanssihuijaukset vievät suomalaisilta miljoonia euroja joka vuosi, ja uhreja on kaikissa ikäryhmissä. Huijaus etenee lähes aina samalla kaavalla:</p>
+
+            <p>1. Profiili on päälleliimatun täydellinen: komea tai kaunis, menestyvä, usein ulkomailla työskentelevä<br/>
+            2. Tunteet etenevät epäilyttävän nopeasti – "rakastan sinua" kuuluu jo viikon päästä<br/>
+            3. Tapaaminen ei koskaan onnistu: aina tulee este, videopuhelu katkeaa tai laatu on "huono"<br/>
+            4. Ja lopulta se ainoa asia, johon kaikki tähtäsi: rahapyyntö. Hätätilanne, tullimaksu, lentolippu, sijoitusmahdollisuus</p>
+
+            <p>Sääntö on yksinkertainen ja ehdoton: <strong>älä koskaan lähetä rahaa ihmiselle, jota et ole tavannut kasvokkain.</strong> Ei lainaa, ei lahjakortteja, ei kryptovaluuttaa – ei kertaakaan, ei mistään syystä. Aito ihminen, joka on kiinnostunut sinusta, ei pyydä sinulta rahaa.</p>
+
+            <h2>Näin tunnistat valeprofiilin</h2>
+
+            <p>– <strong>Liian täydelliset kuvat.</strong> Mallimaiset, studiotasoiset kuvat ilman yhtään arkista otosta ovat varoitusmerkki. Käänteinen kuvahaku (esim. Google Lens) paljastaa, esiintyykö kuva muualla verkossa.<br/>
+            – <strong>Kiire pois palvelusta.</strong> Huijari haluaa siirtää keskustelun heti WhatsAppiin tai muualle, missä palvelun valvonta ei näe viestejä.<br/>
+            – <strong>Epämääräisyys ja ristiriidat.</strong> Vastaukset kysymyksiin ovat ympäripyöreitä, ja tarinan yksityiskohdat muuttuvat matkan varrella.<br/>
+            – <strong>Videopuhelu ei onnistu koskaan.</strong> Aidolla ihmisellä ei ole loputtomasti syitä vältellä kasvojen näyttämistä.</p>
+
+            <h2>Suojaa yksityisyytesi alusta asti</h2>
+
+            <p>– Älä jaa kotiosoitettasi, työpaikkasi tarkkoja tietoja tai talousasioitasi tutustumisvaiheessa<br/>
+            – Pidä keskustelu palvelun sisällä, kunnes luottamus on rakentunut<br/>
+            – Älä lähetä kuvia tai videoita, joiden päätymistä vääriin käsiin et voi hyväksyä<br/>
+            – Googlaa itsesi ajoittain – tiedät, mitä sinusta löytyy</p>
+
+            <h2>Ensitreffit turvallisesti</h2>
+
+            <p>Kun tapaaminen sovitaan, muutama periaate riittää:</p>
+
+            <p>– <strong>Tapaa julkisella paikalla.</strong> Kahvila tai <a href="/blog/helsinki-parhaat-paikat-ensitreffeille">vilkas kävelyreitti</a> on täydellinen ensitreffipaikka myös turvallisuuden näkökulmasta.<br/>
+            – <strong>Kerro läheiselle</strong>, minne menet, kenet tapaat ja milloin arvioit palaavasi.<br/>
+            – <strong>Huolehdi omista kyydeistäsi.</strong> Tule ja lähde omin voimin – älä nouse vieraan ihmisen kyytiin ensitreffeillä.<br/>
+            – <strong>Pysy selvänä.</strong> Pidä juomasi näkyvilläsi ja pää kirkkaana.<br/>
+            – <strong>Luota vaistoosi.</strong> Jos jokin tuntuu väärältä, se todennäköisesti on. Sinulla on aina oikeus lähteä – selittelemättä.</p>
+
+            <h2>Punaiset liput, jotka eivät ole huijausta mutta silti varoittavat</h2>
+
+            <p>Kaikki varoitusmerkit eivät liity rikollisuuteen. Painostaminen nopeaan tapaamiseen kahden kesken, rajojesi testaaminen, ristiriitaiset kertomukset elämäntilanteesta tai haluttomuus kertoa perusasioita itsestään ovat merkkejä, jotka kannattaa ottaa vakavasti – vaikka toinen olisi täysin aito ihminen.</p>
+
+            <h2>Palvelun valinta on turvallisuusvalinta</h2>
+
+            <p>Suurin yksittäinen turvallisuusteko tehdään jo ennen ensimmäistä viestiä: valitsemalla palvelu, jossa valeprofiilien tekeminen on vaikeaa. Ilmaisessa swaippisovelluksessa profiilin luo minuutissa kuka tahansa – myös huijari, joka luo niitä kymmeniä päivässä.</p>
+
+            <p>Swoonyssa asetelma on toinen. Jokainen käyttäjä täyttää 70+ kysymyksen profiilin kuvineen ja esittelyvideoineen, ja profiilit tarkistetaan ennen kuin ne pääsevät mätsättäviksi – huijarille tämä on liikaa työtä, kun kilpailevassa sovelluksessa pääsee helpommalla. Esittelyvideo tarkoittaa, että näet ja kuulet oikean ihmisen jo ennen ensimmäistä viestiä. Ja koska keskustelu aukeaa vain molempien hyväksyttyä mätsin, kukaan ei voi pommittaa sinua viesteillä, joita et ole pyytänyt.</p>
+
+            <p>Turvallinen deittailu ei vaadi pelkäämistä – vain hyvät tavat ja oikean palvelun. Lataa Swoony ilmaiseksi App Storesta tai Google Playsta ja keskity olennaiseen: ihmisiin, jotka ovat juuri sitä mitä sanovatkin. ❤️</p>`
+    },
+    "turku-parhaat-paikat-ensitreffeille": {
+        title: "Turku: Parhaat paikat ensitreffeille",
+        description: "Mihin ensitreffeille Turussa? Parhaat treffipaikat Aurajoen rannasta kauppahalliin, Förin kannelle ja Ruissaloon – sekä vinkit onnistuneisiin ensitreffeihin Suomen vanhimmassa kaupungissa.",
+        date: "2026-08-21",
+        content: `
+            <p>Turku saattaa olla Suomen paras ensitreffikaupunki: joki keskellä kaupunkia, jokirannan kävelyreitit, kahvilat, Föri ja meri puolen tunnin päässä. Kokosimme parhaat paikat ensitreffeille Turussa – samaan sarjaan <a href="/blog/helsinki-parhaat-paikat-ensitreffeille">Helsingin</a> ja <a href="/blog/tampere-parhaat-paikat-ensitreffeille">Tampereen</a> treffioppaidemme kanssa.</p>
+
+            <p>Periaatteet ovat samat kuin muissakin kaupungeissa: valitse paikka, jossa voi puhua, pidä ensitreffit lyhyinä ja kevyinä, ja varmista helppo tuleminen ja lähteminen.</p>
+
+            <h2>Aurajoen ranta – Turun treffiklassikko</h2>
+
+            <p>Jos Turussa valitsee yhden treffipaikan, se on jokiranta. Kävely Tuomiokirkolta Martinsillalle ja takaisin kestää juuri sopivan tovin, maisema vaihtuu koko matkan ja keskustelu kulkee kävellessä luonnostaan. Matkan varrella on kymmeniä kahviloita ja jokilaivoja, joihin poiketa, jos juttu luistaa – ja kesäisin jokiranta on kaupungin olohuone, jossa treffitunnelma syntyy itsestään.</p>
+
+            <h2>Föri – Suomen viehättävin ilmainen treffihetki</h2>
+
+            <p>Pikkuinen keltainen kaupunkilautta on kuljettanut turkulaisia Aurajoen yli 1900-luvun alusta asti, ja ylitys kestää pari minuuttia. Se on täydellinen pieni elämys kävelytreffien keskelle: ilmainen, hurmaava ja takuulla puheenaihetta herättävä. Förin toiselta puolelta jatketaan kävelyä tai hypätään takaisin kyytiin – jo pelkkä edestakainen matka naurattaa.</p>
+
+            <h2>Turun kauppahalli – herkkutreffit matalalla kynnyksellä</h2>
+
+            <p>Vuonna 1896 avattu kauppahalli on tunnelmallisimpia paikkoja kaupungissa. Treffeille halli antaa valmiin rakenteen: kierrellään tiskiltä toiselle, maistellaan ja jutellaan. Lyhyt kesto, aina jotain katseltavaa eikä hetkeäkään kiusallista hiljaisuutta – juuri sitä, mitä ensitreffeiltä kannattaa hakea.</p>
+
+            <h2>Kahvilatreffit joen varrella</h2>
+
+            <p>Turun kahvilakulttuuri on maan parhaita. Jokirannan kahvilat tarjoavat sen tärkeimmän: paikan, jossa voi puhua rauhassa ja josta pääsee luontevasti jatkamaan kävelylle. Vinkki pätee Turussakin: varaa kahvitreffit iltapäivään – aamukahvi tuntuu kiireiseltä ja iltakahvi venyy helposti illalliseksi.</p>
+
+            <h2>Tekemistreffit: Turun linna, Forum Marinum ja museot</h2>
+
+            <p>Jos small talk jännittää, yhteinen tekeminen rikkoo jään puolestasi. Turun linna on 700-vuotias jäänmurtaja: kierroksella riittää ihmeteltävää eikä puheenaiheista tule pulaa. Forum Marinumin laivat ja merihistoria toimivat samoin, ja Aboa Vetus & Ars Novassa kävellään keskiaikaisen Turun raunioissa – epätavallinen ja mieleenpainuva valinta.</p>
+
+            <h2>Kesätreffit: Ruissalo ja saaristo</h2>
+
+            <p>Kesällä Turun valttikortti on meri. Ruissalon rantareitit ja tammimetsät sopivat treffeille, joille toivoo pidempää kestoa, ja saaristolautalla pääsee halutessaan koko päivän retkelle. Nämä kannattaa kuitenkin säästää toisille tai kolmansille treffeille – ensitreffien pitää olla helposti katkaistavissa, jos kipinää ei synny.</p>
+
+            <h2>Talvitreffit Turussa</h2>
+
+            <p>Turku toimii marraskuussakin: museot, kahvilat ja jokirannan valot kantavat läpi pimeän kauden. Talven etu on tunnelma – kynttiläkahvila joen varrella tuntuu intiimimmältä kuin yksikään kesäterassi.</p>
+
+            <h2>Illallinen? Toisilla treffeillä</h2>
+
+            <p>Sama neuvo kuin Helsingissä ja Tampereella: säästä illallinen jatkoon. Turun ravintolat ovat maan kärkeä, ja ne ovat juuri oikea palkinto siitä, että ensitreffit menivät hyvin ja toinen tapaaminen sovittiin.</p>
+
+            <h2>Tärkein valinta tehdään ennen treffejä</h2>
+
+            <p>Paras treffipaikka ei pelasta väärää seuraa. Ratkaisevin päätös on se, <a href="/blog/missa-tavata-tuleva-kumppani">kenet ylipäätään tapaat</a>. Swoonyn tekoäly Matchmaker etsii sinulle aidosti yhteensopivan ihmisen arvojen, elämäntilanteen ja tavoitteiden perusteella – ja kun molemmat hyväksyvät mätsin, jäljelle jää vain mukavin päätös: Föri vai kauppahalli? ❤️</p>`
+    },
+    "mita-puhua-ensitreffeilla": {
+        title: "Mitä puhua ensitreffeillä? Keskustelunaiheet, jotka toimivat",
+        description: "Jännittääkö hiljaisuus ensitreffeillä? Parhaat keskustelunaiheet ja kysymykset ensitreffeille, pahimmat sudenkuopat – ja miksi kuunteleminen ratkaisee enemmän kuin yksikään valmis repliikki.",
+        date: "2026-08-21",
+        content: `
+            <p>Treffit on sovittu ja paikkakin valittu – ja sitten iskee se klassinen huoli: mitä jos meillä ei ole mitään puhuttavaa? Rauhoittava totuus ensin: hyvä keskustelu ei synny nokkelista repliikeistä vaan kiinnostuksesta toista kohtaan. Tässä silti konkreettiset aiheet, kysymykset ja sudenkuopat, joiden avulla ensitreffien keskustelu kulkee.</p>
+
+            <h2>Unohda haastattelu – tavoite on löytää yhteinen rytmi</h2>
+
+            <p>Yleisin ensitreffivirhe on muuttaa tapaaminen työhaastatteluksi: kysymys, vastaus, kysymys, vastaus. Hyvä keskustelu on pallottelua – kun toinen kertoo jotain, tartu siihen ja jaa oma kokemuksesi, äläkä siirry mekaanisesti seuraavaan kysymykseen. Kysymyslista kannattaa siis pitää takataskussa, ei kädessä.</p>
+
+            <h2>Aiheet, jotka toimivat aina</h2>
+
+            <p>– <strong>Intohimot ja harrastukset.</strong> "Mikä on parasta, mitä olet tehnyt viime aikoina?" toimii paremmin kuin "mitä harrastat" – se antaa toisen valita, mistä hän innostuu kertomaan.<br/>
+            – <strong>Matkat ja haaveet.</strong> Menneet reissut ja tulevat unelmat kertovat arvoista kevyellä tavalla. "Minne lähtisit huomenna, jos mikään ei rajoittaisi?"<br/>
+            – <strong>Ruoka.</strong> Universaali, turvallinen ja loputon aihe. Paras ateria ikinä, pahin kokkausmoka, lapsuuden ruokamuistot.<br/>
+            – <strong>Lapsuus ja juuret.</strong> "Millainen olit lapsena?" tuottaa lähes aina hymyn ja tarinan – ja viestii, että olet kiinnostunut ihmisestä, et vain CV:stä.<br/>
+            – <strong>Se, mikä on juuri nyt edessä.</strong> Treffipaikka itsessään on puheenaihe: kahvilan tunnelma, ohi kulkeva koira, <a href="/blog/turku-parhaat-paikat-ensitreffeille">jokimaisema</a>. Ympäristön kommentointi on luonnollisin tapa täyttää hiljaiset hetket.</p>
+
+            <h2>Kysymyksiä, jotka avaavat oikeaa keskustelua</h2>
+
+            <p>– Mikä saa sinut nauramaan niin, ettei nauru meinaa loppua?<br/>
+            – Mistä olet viimeksi innostunut niin, että unohdit ajankulun?<br/>
+            – Mikä on paras neuvo, jonka olet koskaan saanut?<br/>
+            – Millainen on täydellinen vapaapäiväsi?<br/>
+            – Mitä ihmiset eivät yleensä arvaa sinusta?</p>
+
+            <p>Huomaa, mikä näitä yhdistää: yksikään ei ole kyllä/ei-kysymys, ja jokainen antaa toisen kertoa tarinan.</p>
+
+            <h2>Mitä kannattaa välttää ensitreffeillä?</h2>
+
+            <p>– <strong>Ex-kumppanit.</strong> Yksittäinen neutraali maininta on ok, mutta erotarinan vatvominen – tai pahan puhuminen – on ensitreffien varmin tunnelmantappaja.<br/>
+            – <strong>Rahahuolet ja terveysmurheet.</strong> Ne kuuluvat suhteeseen aikanaan, eivät ensivaikutelmaan.<br/>
+            – <strong>Kuulustelu tulevaisuudesta.</strong> "Montako lasta haluat ja millä aikataululla?" on tärkeä kysymys – mutta ensitreffeillä se painostaa. (Hyvässä matchmaking-palvelussa nämä on muuten jo selvitetty puolestasi ennen kuin edes tapaatte.)<br/>
+            – <strong>Oma monologi.</strong> Jos huomaat puhuneesi viisi minuuttia putkeen, heitä pallo takaisin. Paras keino: "Mutta kerro sinä – ...".</p>
+
+            <h2>Hiljaisuus ei ole katastrofi</h2>
+
+            <p>Jokaisessa keskustelussa on taukoja, ja niiden sietäminen on itsevarmuuden merkki. Jos hiljaisuus venyy, sano se ääneen hymyn kera – "no niin, ensimmäinen kiusallinen hiljaisuus, se piti saada alta pois" – ja jännite laukeaa naurahdukseen. Ja siksi kävely- tai tekemistreffit ovat kultaa: kun ympärillä tapahtuu, hiljaisuus täyttyy maisemalla eikä paineella.</p>
+
+            <h2>Tärkein taito ei ole puhuminen vaan kuunteleminen</h2>
+
+            <p>Tutkimuksissa toistuu sama havainto: ihmiset pitävät eniten keskusteluista, joissa he saivat itse puhua – ja pitävät kuuntelijaa kiinnostavana. Muista yksityiskohdat, palaa niihin ("odota, sanoit äsken, että..."), kysy jatkokysymyksiä. Aito kiinnostus on ainoa keskustelutekniikka, jota ei voi teeskennellä – eikä tarvitse.</p>
+
+            <h2>Paras keskusteluetu: oikea ihminen vastapäätä</h2>
+
+            <p>Kova totuus lopuksi: mikään kysymyslista ei pelasta treffejä, jos vastapäätä istuu ihminen, jonka kanssa ei ole mitään yhteistä. Sujuvin keskustelu syntyy, kun arvot, elämäntilanne ja huumorintaju kohtaavat jo valmiiksi – ja juuri siksi <a href="/blog/missa-tavata-tuleva-kumppani">tärkein valinta tehdään ennen treffejä</a>.</p>
+
+            <p>Swoonyn tekoäly Matchmaker analysoi yhteensopivuutenne yli 70 kysymyksen pohjalta ennen kuin edes näette toisenne. Kun molemmat hyväksyvät mätsin, tiedätte jo etsivänne samaa – ja ensitreffeillä voitte keskittyä siihen mukavimpaan: tutustumiseen. Lataa Swoony ilmaiseksi App Storesta tai Google Playsta. ❤️</p>`
+    },
     "vinkit-deittiprofiiliin": {
         title: "Vinkit deittiprofiiliin: näin erotut ja saat parempia mätsejä",
         description: "Hyvä deittiprofiili on tärkein työkalusi kumppanin löytämiseen. Konkreettiset vinkit kuviin, esittelytekstiin ja kysymyksiin vastaamiseen – sekä yleisimmät virheet, jotka karkottavat mätsit.",
@@ -53,7 +310,7 @@ export const blogPosts: BlogPosts = {
 
             <p>"Olen rento, huumorintajuinen ja tykkään matkustelusta" – tämä lause on lähes jokaisessa profiilissa, eikä se kerro sinusta mitään. Adjektiivit väittävät; konkretia näyttää.</p>
 
-            <p>Vertaa: "Tykkään ruoanlaitosta" vastaan "Sunnuntaisin teen pastaa alusta asti ja epäonnistun joka kerta eri tavalla." Jälkimmäinen jää mieleen, kertoo huumorintajusta näyttämättä sanaa huumorintaja – ja antaa toiselle helpon tavan aloittaa keskustelu.</p>
+            <p>Vertaa: "Tykkään ruoanlaitosta" vastaan "Sunnuntaisin teen pastaa alusta asti ja epäonnistun joka kerta eri tavalla." Jälkimmäinen jää mieleen, kertoo huumorintajusta mainitsematta sanaa huumorintaja – ja antaa toiselle helpon tavan aloittaa keskustelu.</p>
 
             <h2>3. Rehellisyys on tehokkain suodatin</h2>
 
@@ -193,7 +450,7 @@ export const blogPosts: BlogPosts = {
 
             <h2>Kahvilatreffit – klassikko syystä</h2>
 
-            <p>Kahvi on ensitreffien kuningaslaji: edullinen, rento ja juuri sopivan mittainen. Helsingissä valinnanvaraa riittää. Café Regatta Töölönlahden kupeessa on tunnelmallinen punainen mökki, jonka terassilta näkee merelle – ja korvapuustit ovat legendaariset. Keskustan kahviloissa taas pääsee helposti jatkamaan kävelylle, jos juttu luistaa.</p>
+            <p>Kahvi on ensitreffien kuningaslaji: edullinen, rento ja juuri sopivan mittainen. Helsingissä valinnanvaraa riittää. Café Regatta Töölön merenrannassa on tunnelmallinen punainen mökki, jonka terassilta näkee merelle – ja korvapuustit ovat legendaariset. Keskustan kahviloissa taas pääsee helposti jatkamaan kävelylle, jos juttu luistaa.</p>
 
             <p>Vinkki: varaa treffit iltapäivään. Aamukahvi tuntuu kiireiseltä ja iltakahvi venyy helposti illalliseksi.</p>
 
@@ -289,7 +546,7 @@ export const blogPosts: BlogPosts = {
 
             <p>Perinteiset deittisovellukset on rakennettu pitämään sinut sovelluksessa – ei löytämään sinulle kumppania. Loputon selailu, pinnalliset profiilit ja pelillistetyt ominaisuudet palkitsevat määrää, eivät laatua.</p>
 
-            <p>Tulos? Keskiverto käyttäjä swaippaa satoja profiileja, saa kourallisen mätsejä ja käy ehkä yhden treffin – joka ei johda mihinkään. Tätä kutsutaan deittiväsymykseksi, ja se on yksi suurimmista syistä, miksi ihmiset luovuttavat seuranhaun kanssa kokonaan.</p>
+            <p>Tulos? Keskivertokäyttäjä swaippaa satoja profiileja, saa kourallisen mätsejä ja käy ehkä yhden treffin – joka ei johda mihinkään. Tätä kutsutaan deittiväsymykseksi, ja se on yksi suurimmista syistä, miksi ihmiset luovuttavat seuranhaun kanssa kokonaan.</p>
 
             <p>Ongelma ei ole sinussa. Ongelma on tavassa, jolla useimmat sovellukset toimivat.</p>
 
@@ -319,7 +576,7 @@ export const blogPosts: BlogPosts = {
 
             <p>Loputon viestittely on yleisin paikka, jossa lupaava mätsi kuihtuu. Kun keskustelu kulkee ja tunnet olosi turvalliseksi, ehdota tapaamista – kahvit tai kävely riittävät mainiosti. Kemia selviää kasvokkain, ei chatissa.</p>
 
-            <p>Muista kuitenkin turvallisuus: tapaa julkisella paikalla ja kerro läheiselle, minne olet menossa. Laadukkaat palvelut varmistavat käyttäjänsä, mikä vähentää valeprofiilien riskiä merkittävästi.</p>
+            <p>Muista kuitenkin turvallisuus: tapaa julkisella paikalla ja kerro läheiselle, minne olet menossa. Laadukkaat palvelut varmentavat käyttäjänsä, mikä vähentää valeprofiilien riskiä merkittävästi.</p>
 
             <h2>5. Anna tekoälyn tehdä raskas työ puolestasi</h2>
 
