@@ -6,6 +6,7 @@ const BASE_URL = 'https://swoony.io';
 const staticPages = [
     { path: '/', priority: '1.00' },
     { path: '/blog', priority: '0.80' },
+    { path: '/deittisovellus-joka-johti-haihin', priority: '0.80' },
     { path: '/terms', priority: '0.50' },
     { path: '/privacy_policy', priority: '0.50' },
 ];

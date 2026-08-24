@@ -574,7 +574,7 @@ export default function Home({ latestPosts }: { latestPosts: BlogPostSummary[] }
         <div className="max-w-6xl mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Left — Polaroid */}
           <div className="flex justify-center md:justify-end">
-            <div className="relative -rotate-2 hover:rotate-0 transition-transform duration-500 ease-out group">
+            <Link href="/deittisovellus-joka-johti-haihin" className="relative block -rotate-2 hover:rotate-0 transition-transform duration-500 ease-out group">
               <div className="absolute -inset-8 bg-[#F42C52]/10 rounded-3xl blur-3xl group-hover:bg-[#F42C52]/15 transition-colors duration-500" />
               <div className="relative bg-white p-3 pb-14 md:p-4 md:pb-16 rounded-sm shadow-2xl shadow-black/50">
                 <div className="relative w-[260px] h-[300px] sm:w-[300px] sm:h-[360px] md:w-[360px] md:h-[420px] overflow-hidden">
@@ -590,7 +590,7 @@ export default function Home({ latestPosts }: { latestPosts: BlogPostSummary[] }
                   Krista & Henrik ♥
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
 
           {/* Right — Text */}
@@ -604,6 +604,13 @@ export default function Home({ latestPosts }: { latestPosts: BlogPostSummary[] }
             <p className="font-quicksand text-white/50 text-base md:text-lg leading-relaxed mb-8">
               Swoony teki sen mitä muut lupasivat. Yksi mätsi riitti.
             </p>
+            <Link
+              href="/deittisovellus-joka-johti-haihin"
+              className="font-quicksand group inline-flex items-center justify-center md:justify-start gap-2 text-[#F42C52] font-semibold mb-8 hover:gap-3 transition-all"
+            >
+              <span>Lue heidän tarinansa</span>
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </Link>
             <div className="flex items-center justify-center md:justify-start gap-3">
               <div className="w-8 h-[1px] bg-[#F42C52]/40" />
               <Heart className="w-4 h-4 text-[#F42C52]" />

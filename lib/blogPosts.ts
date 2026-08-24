@@ -379,7 +379,7 @@ export const blogPosts: BlogPosts = {
 
             <p>Swoony toimii eri logiikalla kuin muut tämän listan palvelut: profiileja ei selata eikä swaipata lainkaan. Täytät kattavan profiilin (70+ kysymystä, kuvat ja esittelyvideo), ja tekoäly Matchmaker analysoi ehdokkaat puolestasi – arvot, elämäntilanteen, perhetoiveet ja elämäntavat. Saat valmiiksi harkitun mätsiehdotuksen, ja keskustelu aukeaa vain, jos molemmat hyväksyvät.</p>
 
-            <p>Vahvuudet: ei swaippausta eikä loputonta viestittelyä, molemminpuolinen hyväksyntä vähentää ghostailua, ja käyttäjäkunta koostuu vakavasti seuraa hakevista – profiilin täyttäminen karsii huvikseen kokeilijat. Perusversio on ilmainen.</p>
+            <p>Vahvuudet: ei swaippausta eikä loputonta viestittelyä, molemminpuolinen hyväksyntä vähentää ghostailua, ja käyttäjäkunta koostuu vakavasti seuraa hakevista – profiilin täyttäminen karsii huvikseen kokeilijat. Perusversio on ilmainen. Ja tuloksia syntyy: lue vaikka, miten <a href="/deittisovellus-joka-johti-haihin">Swoony-mätsi johti häihin</a>.</p>
 
             <p>Heikkoudet rehellisesti: käyttäjämäärä on Tinderiä pienempi, ja palvelu on vahvimmillaan pääkaupunkiseudulla, jonne käyttäjäkuntaa kasvatetaan ensin. Mätsejä tulee harvemmin mutta harkitummin – kärsimättömälle selailijalle tämä voi tuntua hitaalta.</p>
 
